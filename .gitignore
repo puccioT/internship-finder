@@ -1,0 +1,6 @@
+venv/
+.env
+__pycache__/
+
+# Base SQLite : regeneree automatiquement depuis le CSV au lancement
+data/*.db
