@@ -1,107 +1,102 @@
-import streamlit as st
-import pandas as pd
-import altair as alt
-import sys
 import os
+import sys
+
+import altair as alt
+import pandas as pd
+import streamlit as st
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-from src.database import get_internships_sql
+from src.matching import SKILLS_CATALOG, classify_role, skill_in_text
+from src.store import get_active_offers
 from src.style import inject_css, render_kpi_card
 
 st.set_page_config(page_title="Market Analytics", layout="wide")
 inject_css()
 
-df = get_internships_sql()
+BLUE, GREY = "#2F5BFF", "#9CA3AF"
 
-st.markdown('<div class="hero-title">Market Analytics</div>', unsafe_allow_html=True)
-st.markdown('<div class="hero-subtitle">Macro overview of the European tech internship market.</div>', unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
-col1.markdown(render_kpi_card("Tracked Offers", len(df)), unsafe_allow_html=True)
-col2.markdown(render_kpi_card("Top Hiring City", df['location'].mode()[0]), unsafe_allow_html=True)
-col3.markdown(render_kpi_card("Top Domain", df['domain'].mode()[0]), unsafe_allow_html=True)
+@st.cache_data(ttl=600)
+def load_data():
+    df = get_active_offers()
+    if df.empty:
+        return df, pd.DataFrame()
+    df["role_family"] = df.apply(lambda r: classify_role(r["title"], r["department"]), axis=1)
+    # Pour chaque outil du catalogue : dans quelle part des offres est-il cité ?
+    texts = (df["title"] + "\n" + df["description"].fillna("")).tolist()
+    rows = []
+    for skill in SKILLS_CATALOG:
+        count = sum(skill_in_text(skill, t) for t in texts)
+        if count:
+            rows.append({"Skill": skill, "Offers": count, "Share": count / len(df)})
+    skills = pd.DataFrame(rows).sort_values("Offers", ascending=False).head(12)
+    return df, skills
 
-st.write("")
-st.write("")
 
-# Configure Altair strictly for SaaS minimalism
-def get_chart_theme():
-    return {
-        "config": {
-            "view": {"stroke": "transparent"},
-            "axis": {
-                "domainColor": "#E7E5E0",
-                "gridColor": "#F3F4F6",
-                "gridDash": [2, 2],
-                "labelColor": "#6B7280",
-                "labelFont": "Inter",
-                "titleFont": "Inter",
-                "titleColor": "#14171F",
-                "titleFontSize": 12,
-                "titleFontWeight": 600,
-            }
-        }
-    }
-alt.themes.register("saas_theme", get_chart_theme)
-alt.themes.enable("saas_theme")
-
-col_chart1, col_chart2 = st.columns(2)
-
-with col_chart1:
-    with st.container(border=True):
-        st.markdown('<div style="font-size: 16px; font-weight: 600; margin-bottom: 16px;">Offers by Location</div>', unsafe_allow_html=True)
-        loc_df = df['location'].value_counts().reset_index()
-        loc_df.columns = ['Location', 'Count']
-        
-        loc_chart = alt.Chart(loc_df).mark_bar(cornerRadiusEnd=4, color="#2F5BFF").encode(
-            x=alt.X('Count:Q', title="Number of Offers", axis=alt.Axis(grid=True)),
-            y=alt.Y('Location:N', sort='-x', title=None, axis=alt.Axis(grid=False)),
-            tooltip=['Location', 'Count']
-        ).properties(height=300)
-        
-        st.altair_chart(loc_chart, width="stretch")
-        st.markdown('<div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px;">Distribution of available roles across European tech hubs.</div>', unsafe_allow_html=True)
-
-with col_chart2:
-    with st.container(border=True):
-        st.markdown('<div style="font-size: 16px; font-weight: 600; margin-bottom: 16px;">Offers by Domain</div>', unsafe_allow_html=True)
-        dom_df = df['domain'].value_counts().reset_index()
-        dom_df.columns = ['Domain', 'Count']
-        
-        dom_chart = alt.Chart(dom_df).mark_bar(cornerRadiusEnd=4, color="#2F5BFF").encode(
-            x=alt.X('Count:Q', title="Number of Offers", axis=alt.Axis(grid=True)),
-            y=alt.Y('Domain:N', sort='-x', title=None, axis=alt.Axis(grid=False)),
-            tooltip=['Domain', 'Count']
-        ).properties(height=300)
-        
-        st.altair_chart(dom_chart, width="stretch")
-        st.markdown('<div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px;">Breakdown of roles by primary business function.</div>', unsafe_allow_html=True)
-
-st.write("")
-with st.container(border=True):
-    st.markdown('<div style="font-size: 16px; font-weight: 600; margin-bottom: 16px;">Top 10 Most Demanded Skills</div>', unsafe_allow_html=True)
-    all_skills = []
-    for skills_str in df['skills'].dropna():
-        skills_list = [s.strip() for s in skills_str.split(';')]
-        all_skills.extend(skills_list)
-    
-    top_skills = pd.Series(all_skills).value_counts().head(10).reset_index()
-    top_skills.columns = ['Skill', 'Frequency']
-
-    # Highlights top bar in primary blue, rest in muted grey
-    top_skill_name = top_skills['Skill'].iloc[0]
-    color_condition = alt.condition(
-        alt.datum.Skill == top_skill_name,
-        alt.value("#2F5BFF"),
-        alt.value("#9CA3AF")
+def bar_chart(data, y, x, x_title, height=300, highlight_top=False):
+    """Bar chart horizontal au style minimaliste de l'app."""
+    color = (
+        alt.condition(alt.datum[y] == data[y].iloc[0], alt.value(BLUE), alt.value(GREY))
+        if highlight_top else alt.value(BLUE)
+    )
+    return (
+        alt.Chart(data)
+        .mark_bar(cornerRadiusEnd=4)
+        .encode(
+            x=alt.X(f"{x}:Q", title=x_title, axis=alt.Axis(grid=True, tickMinStep=1)),
+            y=alt.Y(f"{y}:N", sort="-x", title=None, axis=alt.Axis(grid=False)),
+            color=color,
+            tooltip=list(data.columns),
+        )
+        .properties(height=height)
+        .configure_view(stroke=None)
+        .configure_axis(domainColor="#E7E5E0", gridColor="#F3F4F6", gridDash=[2, 2],
+                        labelColor="#6B7280", titleColor="#14171F", titleFontSize=12)
     )
 
-    skill_chart = alt.Chart(top_skills).mark_bar(cornerRadiusEnd=4).encode(
-        x=alt.X('Frequency:Q', title="Appearance in job descriptions", axis=alt.Axis(grid=True)),
-        y=alt.Y('Skill:N', sort='-x', title=None, axis=alt.Axis(grid=False)),
-        color=color_condition,
-        tooltip=['Skill', 'Frequency']
-    ).properties(height=350)
-    
-    st.altair_chart(skill_chart, width="stretch")
-    st.markdown('<div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px;">Macro tech stack trends across all collected internship offers.</div>', unsafe_allow_html=True)
+
+def section(title, chart, caption):
+    with st.container(border=True):
+        st.markdown(f'<div style="font-size: 16px; font-weight: 600; margin-bottom: 16px;">{title}</div>', unsafe_allow_html=True)
+        st.altair_chart(chart, width="stretch")
+        st.markdown(f'<div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px;">{caption}</div>', unsafe_allow_html=True)
+
+
+df, skills = load_data()
+
+st.markdown('<div class="hero-title">Market Analytics</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-subtitle">What French tech companies are actually looking for in interns, based on live offers.</div>', unsafe_allow_html=True)
+
+if df.empty:
+    st.warning("Aucune offre en base. Lance d'abord `python -m src.collect` dans le terminal.")
+    st.stop()
+
+col1, col2, col3 = st.columns(3)
+col1.markdown(render_kpi_card("Live Offers", len(df)), unsafe_allow_html=True)
+col2.markdown(render_kpi_card("Companies Hiring", df["company"].nunique()), unsafe_allow_html=True)
+paris_share = (df["city"] == "Paris").mean()
+col3.markdown(render_kpi_card("Based in Paris", f"{paris_share:.0%}"), unsafe_allow_html=True)
+
+st.write("")
+st.write("")
+
+c1, c2 = st.columns(2)
+with c1:
+    by_company = df["company"].value_counts().head(10).rename_axis("Company").reset_index(name="Offers")
+    section("Top Hiring Companies", bar_chart(by_company, "Company", "Offers", "Number of offers"),
+            "Companies with the most open internship & work-study offers.")
+with c2:
+    by_role = df["role_family"].value_counts().rename_axis("Role").reset_index(name="Offers")
+    section("Offers by Role", bar_chart(by_role, "Role", "Offers", "Number of offers"),
+            "Role families detected from offer titles (keyword rules — refined by AI in a next version).")
+
+st.write("")
+c3, c4 = st.columns(2)
+with c3:
+    by_city = df["city"].value_counts().head(10).rename_axis("City").reset_index(name="Offers")
+    section("Offers by City", bar_chart(by_city, "City", "Offers", "Number of offers"),
+            "Where the offers are located.")
+with c4:
+    if not skills.empty:
+        section("Most Cited Tools & Skills", bar_chart(skills, "Skill", "Offers", "Offers mentioning it", height=350, highlight_top=True),
+                "Share of live offers whose description mentions each tool (whole-word match).")

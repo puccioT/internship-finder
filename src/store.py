@@ -1,0 +1,86 @@
+"""
+STOCKAGE DES OFFRES (SQLite)
+----------------------------
+Une ligne par offre, identifiée par `source_id` (ex : "ashby:doctolib:abc123").
+
+À chaque collecte :
+- une offre jamais vue est INSÉRÉE (first_seen = maintenant)
+- une offre déjà connue est MISE À JOUR (last_seen = maintenant)
+- une offre qui a disparu du site est marquée is_active = 0 (on garde l'historique :
+  utile plus tard pour mesurer combien de temps une offre reste en ligne)
+"""
+import sqlite3
+from datetime import datetime, timezone
+
+import pandas as pd
+
+DB_PATH = "data/offers.db"
+
+SCHEMA = """
+CREATE TABLE IF NOT EXISTS offers (
+    source_id     TEXT PRIMARY KEY,
+    ats           TEXT,
+    company       TEXT,
+    title         TEXT,
+    location      TEXT,
+    city          TEXT,
+    contract_type TEXT,
+    department    TEXT,
+    url           TEXT,
+    description   TEXT,
+    posted_at     TEXT,
+    first_seen    TEXT,
+    last_seen     TEXT,
+    is_active     INTEGER DEFAULT 1
+);
+"""
+
+UPSERT = """
+INSERT INTO offers (source_id, ats, company, title, location, city, contract_type,
+                    department, url, description, posted_at, first_seen, last_seen, is_active)
+VALUES (:source_id, :ats, :company, :title, :location, :city, :contract_type,
+        :department, :url, :description, :posted_at, :now, :now, 1)
+ON CONFLICT(source_id) DO UPDATE SET
+    title = excluded.title, location = excluded.location, city = excluded.city,
+    contract_type = excluded.contract_type, department = excluded.department,
+    url = excluded.url, description = excluded.description,
+    last_seen = excluded.last_seen, is_active = 1;
+"""
+
+
+def now_iso():
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def connect():
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute(SCHEMA)
+    return conn
+
+
+def save_company_offers(conn, company, offers, run_time):
+    """
+    Enregistre les offres d'UNE entreprise et désactive celles qui ont disparu.
+    Renvoie le nombre de nouvelles offres.
+    On ne désactive que pour les entreprises collectées avec succès : si le site
+    d'une boîte est en panne, on ne veut pas croire que toutes ses offres ont disparu.
+    """
+    existing = {row[0] for row in conn.execute(
+        "SELECT source_id FROM offers WHERE company = ?", (company,))}
+    new_count = sum(1 for o in offers if o["source_id"] not in existing)
+
+    conn.executemany(UPSERT, [{**o, "now": run_time} for o in offers])
+    conn.execute(
+        "UPDATE offers SET is_active = 0 WHERE company = ? AND last_seen < ? AND is_active = 1",
+        (company, run_time),
+    )
+    conn.commit()
+    return new_count
+
+
+def get_active_offers():
+    """Toutes les offres encore en ligne, les plus récentes d'abord."""
+    with connect() as conn:
+        return pd.read_sql_query(
+            "SELECT * FROM offers WHERE is_active = 1 ORDER BY first_seen DESC, posted_at DESC", conn
+        )

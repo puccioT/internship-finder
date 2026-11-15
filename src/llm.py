@@ -4,7 +4,8 @@ import traceback
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from dotenv import load_dotenv
 from google import genai
-from google.genai import errors
+from google.genai import errors, types
+import httpx
 
 load_dotenv()
 
@@ -14,6 +15,21 @@ load_dotenv()
 # Le premier modèle peut être changé dans le .env (GEMINI_MODEL=...) sans toucher au code.
 MODELS = [os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite"), "gemini-3.6-flash"]
 MODELS = list(dict.fromkeys(MODELS))  # retire un éventuel doublon
+
+# Réglages réseau du client Gemini :
+# - attempts=1 : on désactive les réessais automatiques du SDK. Sinon, sur une erreur 503,
+#   il réessaie plusieurs fois en attendant de plus en plus longtemps (d'où les 86 s),
+#   et notre modèle de secours n'a jamais le temps de prendre le relais.
+# - timeout : chaque modèle a 10 s max pour répondre avant qu'on passe au suivant.
+#   10 s est le MINIMUM accepté par Google (en dessous : erreur 400 INVALID_ARGUMENT).
+PER_MODEL_TIMEOUT_MS = 10_000
+# Budget total : 2 modèles x 10 s + une marge.
+TOTAL_TIMEOUT_S = 22
+
+HTTP_OPTIONS = types.HttpOptions(
+    timeout=PER_MODEL_TIMEOUT_MS,
+    retry_options=types.HttpRetryOptions(attempts=1),
+)
 
 # Un seul "pool" de threads pour toute l'app, créé une fois.
 # Avant, un pool était créé dans un `with` à chaque appel : en sortant du `with`,
@@ -28,17 +44,23 @@ def _log(msg):
 
 def _call_gemini(api_key, prompt):
     """Interroge Gemini en essayant chaque modèle de MODELS jusqu'à ce qu'un réponde."""
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(api_key=api_key, http_options=HTTP_OPTIONS)
     for i, model in enumerate(MODELS):
         start = time.time()
         try:
             response = client.models.generate_content(model=model, contents=prompt)
             _log(f"OK en {time.time() - start:.1f}s (modèle : {model})")
             return response.text
-        except errors.APIError as e:
-            overloaded = e.code in (429, 503)  # 503 = surchargé, 429 = quota dépassé
-            if overloaded and i < len(MODELS) - 1:
-                _log(f"{model} indisponible ({e.code}), on essaie {MODELS[i + 1]}")
+        except (errors.APIError, httpx.TimeoutException) as e:
+            # 503 = surchargé, 429 = quota dépassé, TimeoutException = trop lent (> 6 s)
+            if isinstance(e, httpx.TimeoutException):
+                reason = f"pas de réponse en {PER_MODEL_TIMEOUT_MS // 1000}s"
+                retryable = True
+            else:
+                reason = str(e.code)
+                retryable = e.code in (429, 503)
+            if retryable and i < len(MODELS) - 1:
+                _log(f"{model} indisponible ({reason}), on essaie {MODELS[i + 1]}")
                 continue
             raise  # autre erreur (clé, requête...) ou plus de modèle à essayer
 
@@ -79,7 +101,7 @@ def get_match_explanation(user_domain, user_skills, job_title, job_company, job_
     missing_tip = (
         f"To stand out during interviews, prepare a concrete example showing how you can quickly ramp up on **{missing[0]}**."
         if missing else
-        "You cover 100% of the required technical stack—focus on highlighting your past project impact."
+        "Read the full offer and prepare one concrete example of a past project that matches its main mission."
     )
 
     smart_fallback = (
@@ -99,11 +121,11 @@ def get_match_explanation(user_domain, user_skills, job_title, job_company, job_
 
     Internship Offer:
     - Role: {job_title} at {job_company}
-    - Required Skills: {job_skills}
+    - Candidate skills found in the offer: {job_skills}
     - Role Description: {job_description}
     """
 
-    ai_text, error = _ask_gemini(prompt, timeout=10)
+    ai_text, error = _ask_gemini(prompt, timeout=TOTAL_TIMEOUT_S)
     if error:
         return smart_fallback
     return f"**AI Career Advisor:** {ai_text}"
@@ -127,7 +149,7 @@ def generate_outreach_message(user_domain, user_skills, job_title, job_company, 
     - Do not use placeholders like [Your Name]. Just write the body of the message.
     """
 
-    ai_text, error = _ask_gemini(prompt, timeout=15)
+    ai_text, error = _ask_gemini(prompt, timeout=TOTAL_TIMEOUT_S)
     if error:
         # Le message d'erreur s'affiche dans la zone de texte : on sait ce qui ne va pas.
         return f"⚠️ {error}"
