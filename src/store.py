@@ -9,6 +9,7 @@ Une ligne par offre, identifiée par `source_id` (ex : "ashby:doctolib:abc123").
 - une offre qui a disparu du site est marquée is_active = 0 (on garde l'historique :
   utile plus tard pour mesurer combien de temps une offre reste en ligne)
 """
+import json
 import sqlite3
 from datetime import datetime, timezone
 
@@ -52,10 +53,49 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
+# Colonnes remplies par le LLM (phase 3). Ajoutées à la volée si la base est ancienne.
+EXTRACTED_COLUMNS = {
+    "ai_role_family":    "TEXT",
+    "ai_skills":         "TEXT",     # liste JSON, ex. ["SQL", "Excel", "Stakeholder management"]
+    "ai_summary":        "TEXT",
+    "ai_start_date":     "TEXT",
+    "ai_duration_months": "INTEGER",
+    "ai_languages":      "TEXT",     # liste JSON, ex. ["French (fluent)", "English (professional)"]
+    "ai_remote":         "TEXT",     # On-site / Hybrid / Full remote / Unknown
+    "extracted_at":      "TEXT",
+}
+
+
 def connect():
     conn = sqlite3.connect(DB_PATH)
     conn.execute(SCHEMA)
+    # "Migration" simple : si une colonne n'existe pas encore, on l'ajoute.
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(offers)")}
+    for col, col_type in EXTRACTED_COLUMNS.items():
+        if col not in existing:
+            conn.execute(f"ALTER TABLE offers ADD COLUMN {col} {col_type}")
+    conn.commit()
     return conn
+
+
+def get_offers_to_extract(conn):
+    """Offres actives que le LLM n'a pas encore lues."""
+    return conn.execute(
+        "SELECT source_id, title, company, description FROM offers "
+        "WHERE is_active = 1 AND extracted_at IS NULL ORDER BY first_seen DESC"
+    ).fetchall()
+
+
+def save_extraction(conn, source_id, info):
+    conn.execute(
+        """UPDATE offers SET ai_role_family = ?, ai_skills = ?, ai_summary = ?, ai_start_date = ?,
+           ai_duration_months = ?, ai_languages = ?, ai_remote = ?, extracted_at = ?
+           WHERE source_id = ?""",
+        (info["role_family"], json.dumps(info["skills"], ensure_ascii=False), info["summary"],
+         info["start_date"], info["duration_months"], json.dumps(info["languages"], ensure_ascii=False),
+         info["remote"], now_iso(), source_id),
+    )
+    conn.commit()
 
 
 def save_company_offers(conn, company, offers, run_time):

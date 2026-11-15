@@ -269,7 +269,7 @@ def get_avatar_color(company_name):
     return colors[len(company_name) % len(colors)]
 
 def render_offer_block(row, matched_skills, missing_skills, explanation):
-    score_class = "score-green" if row['score'] >= 70 else ("score-amber" if row['score'] >= 50 else "score-grey")
+    score_class = "score-green" if row['score'] >= 75 else ("score-amber" if row['score'] >= 50 else "score-grey")
     avatar_bg = get_avatar_color(row['company'])
     initial = row['company'][0].upper()
     
@@ -295,7 +295,7 @@ def render_offer_block(row, matched_skills, missing_skills, explanation):
                 </div>
             </div>
         </div>
-        <div class="score-badge {score_class}">{row['score']} pts</div>
+        <div class="score-badge {score_class}">{row['score']}/100</div>
     </div>
     
     <div style="font-size: 14px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5;">

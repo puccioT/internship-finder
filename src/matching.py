@@ -1,12 +1,10 @@
 """
-MOTEUR DE MATCHING (version "vraies offres")
---------------------------------------------
-Les vraies offres n'ont pas de champ "domaine" ni de liste de compétences structurée :
-juste un titre, un département et une description en texte libre.
-
-En attendant la phase 3 (extraction par LLM), on utilise des règles simples :
-- la FAMILLE de poste est déduite du titre (puis du département) par mots-clés
-- les COMPÉTENCES sont cherchées comme mots entiers dans le titre + la description
+MOTEUR DE MATCHING
+------------------
+Source principale : la fiche extraite par le LLM (src/extract.py) -> vraie famille de poste
+et compétences demandées.
+Secours, pour les offres pas encore analysées : règles par mots-clés sur le titre et
+recherche des compétences dans la description.
 """
 import re
 
@@ -56,7 +54,36 @@ def classify_role(title, department=""):
     return "Other"
 
 
-def calculate_score(df, target_family, target_location, contract_type, user_skills):
+def skills_match(user_skill, required_skill):
+    """'Python' correspond à 'Python (pandas)', et 'data analysis' à 'Data analysis'."""
+    return skill_in_text(user_skill, required_skill) or skill_in_text(required_skill, user_skill)
+
+
+def score_offer(row, target_family, user_skills):
+    """
+    Score sur 100 :
+    - 50 pts si la famille de poste correspond à la cible
+    - jusqu'à 50 pts selon la PART des compétences demandées que l'utilisateur possède
+    Si l'offre n'a pas encore été analysée par le LLM, on retombe sur l'ancienne méthode
+    (compétences cherchées dans le texte, +10 chacune, plafonné à 50).
+    Renvoie (score, compétences possédées, compétences manquantes).
+    """
+    score = 50 if row["role_family"] == target_family else 0
+    required = row["required_skills"]
+
+    if required:
+        matched = [r for r in required if any(skills_match(u, r) for u in user_skills)]
+        missing = [r for r in required if r not in matched]
+        score += round(50 * len(matched) / len(required))
+    else:
+        text = f"{row['title']}\n{row['description']}"
+        matched = [u for u in user_skills if skill_in_text(u, text)]
+        missing = []
+        score += min(len(matched) * 10, 50)
+    return score, matched, missing
+
+
+def calculate_score(df, target_family, target_location, contract_type, remote, user_skills):
     df_match = df.copy()
 
     # --- 1. FILTRES STRICTS ---
@@ -64,24 +91,19 @@ def calculate_score(df, target_family, target_location, contract_type, user_skil
         df_match = df_match[df_match["city"] == target_location]
     if contract_type != "Any":
         df_match = df_match[df_match["contract_type"] == contract_type]
+    if remote != "Any":
+        df_match = df_match[df_match["remote"] == remote]
 
     if df_match.empty:
-        df_match["score"] = []
-        df_match["matched_skills"] = []
+        for col in ("score", "matched_skills", "missing_skills"):
+            df_match[col] = []
         return df_match
 
     # --- 2. SCORE ---
-    # +50 si la famille de poste correspond
-    df_match["score"] = (df_match["role_family"] == target_family) * 50
-
-    # +10 par compétence de l'utilisateur trouvée dans le titre ou la description
     skills = [s.strip() for s in user_skills if s.strip()]
-
-    def find_skills(row):
-        text = f"{row['title']}\n{row['description']}"
-        return [s for s in skills if skill_in_text(s, text)]
-
-    df_match["matched_skills"] = df_match.apply(find_skills, axis=1)
-    df_match["score"] += df_match["matched_skills"].apply(len) * 10
+    results = df_match.apply(lambda row: score_offer(row, target_family, skills), axis=1)
+    df_match["score"] = [r[0] for r in results]
+    df_match["matched_skills"] = [r[1] for r in results]
+    df_match["missing_skills"] = [r[2] for r in results]
 
     return df_match.sort_values(by=["score", "first_seen"], ascending=[False, False])

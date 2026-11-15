@@ -1,3 +1,4 @@
+import json
 import os
 import time
 import traceback
@@ -6,6 +7,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import errors, types
 import httpx
+from pydantic import BaseModel
 
 load_dotenv()
 
@@ -42,17 +44,17 @@ def _log(msg):
     print(f"[Gemini] {msg}", flush=True)
 
 
-def _call_gemini(api_key, prompt):
+def _call_gemini(api_key, prompt, config=None, http_options=HTTP_OPTIONS):
     """Interroge Gemini en essayant chaque modèle de MODELS jusqu'à ce qu'un réponde."""
-    client = genai.Client(api_key=api_key, http_options=HTTP_OPTIONS)
+    client = genai.Client(api_key=api_key, http_options=http_options)
     for i, model in enumerate(MODELS):
         start = time.time()
         try:
-            response = client.models.generate_content(model=model, contents=prompt)
+            response = client.models.generate_content(model=model, contents=prompt, config=config)
             _log(f"OK en {time.time() - start:.1f}s (modèle : {model})")
-            return response.text
+            return response if config else response.text
         except (errors.APIError, httpx.TimeoutException) as e:
-            # 503 = surchargé, 429 = quota dépassé, TimeoutException = trop lent (> 6 s)
+            # 503 = surchargé, 429 = quota dépassé, TimeoutException = trop lent
             if isinstance(e, httpx.TimeoutException):
                 reason = f"pas de réponse en {PER_MODEL_TIMEOUT_MS // 1000}s"
                 retryable = True
@@ -89,68 +91,141 @@ def _ask_gemini(prompt, timeout):
         return None, f"Gemini error ({type(e).__name__}): {e}"
 
 
-def get_match_explanation(user_domain, user_skills, job_title, job_company, job_skills, job_description):
-    """Génère l'explication de l'IA sur le matching des compétences."""
-    req_skills = [s.strip() for s in str(job_skills).split(';') if s.strip()]
-    user_skills_lower = [s.lower() for s in user_skills]
+# =====================================================================
+# 1. EXTRACTION : le LLM lit une offre et en fait une fiche structurée
+# =====================================================================
 
-    matched = [s for s in req_skills if s.lower() in user_skills_lower]
-    missing = [s for s in req_skills if s.lower() not in user_skills_lower]
+ROLE_FAMILIES = ["Product", "Data", "Strategy & Ops", "Marketing & Growth", "Sales & Business Dev",
+                 "Finance & Legal", "Engineering", "Design", "People & HR", "Other"]
+REMOTE_VALUES = ["On-site", "Hybrid", "Full remote", "Unknown"]
 
-    matched_text = ", ".join(matched) if matched else "your analytical and business background"
-    missing_tip = (
-        f"To stand out during interviews, prepare a concrete example showing how you can quickly ramp up on **{missing[0]}**."
-        if missing else
-        "Read the full offer and prepare one concrete example of a past project that matches its main mission."
+
+class OfferInfo(BaseModel):
+    """Le "formulaire" que Gemini doit remplir. Le SDK l'impose en sortie (JSON garanti)."""
+    role_family: str
+    skills: list[str]
+    summary: str
+    start_date: str
+    duration_months: int | None
+    languages: list[str]
+    remote: str
+
+
+EXTRACTION_PROMPT = """You analyse internship and work-study job offers for business-school students.
+Read the offer below and fill every field. Base everything ONLY on the offer text; never invent.
+
+Fields:
+- role_family: the job's REAL function, one of {families}.
+  Judge the actual missions, not keywords: "Legal Intern - Product & Compliance" is "Finance & Legal";
+  "Product Manager Intern" or "Product Owner apprentice" is "Product"; "Product Content Manager" is
+  "Marketing & Growth" unless it is clearly product management.
+- skills: the 4 to 8 most important skills or tools REQUIRED or strongly expected, short canonical
+  English names (e.g. "SQL", "Excel", "Figma", "Data analysis", "Stakeholder management", "Copywriting").
+- summary: 2 sentences in English describing what the intern will concretely DO (missions),
+  no company marketing.
+- start_date: start date as written in the offer (e.g. "January 2027", "ASAP"), or "Unknown".
+- duration_months: internship duration in months as an integer, or null if not stated.
+- languages: required languages with level, e.g. ["French (fluent)", "English (professional)"]; [] if not stated.
+- remote: one of {remote}.
+
+OFFER
+Title: {title}
+Company: {company}
+Description:
+{description}
+"""
+
+# L'extraction tourne dans le terminal (pas dans l'app) : on peut attendre plus longtemps.
+EXTRACTION_HTTP_OPTIONS = types.HttpOptions(timeout=40_000, retry_options=types.HttpRetryOptions(attempts=1))
+
+
+def extract_offer_info(title, company, description):
+    """Renvoie un dict validé. Lève une exception si Gemini échoue (gérée par src/extract.py)."""
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY not found in .env file.")
+
+    prompt = EXTRACTION_PROMPT.format(
+        families=", ".join(ROLE_FAMILIES), remote=", ".join(REMOTE_VALUES),
+        title=title, company=company, description=(description or "")[:6000],
+    )
+    config = types.GenerateContentConfig(
+        response_mime_type="application/json",   # Gemini doit répondre en JSON...
+        response_schema=OfferInfo,               # ...qui respecte exactement ce schéma
+        temperature=0,                           # réponses stables et factuelles
+    )
+    response = _call_gemini(api_key, prompt, config=config, http_options=EXTRACTION_HTTP_OPTIONS)
+    info = response.parsed or OfferInfo(**json.loads(response.text))
+    data = info.model_dump()
+
+    # On ne fait pas confiance aveuglément au LLM : on vérifie les valeurs fermées.
+    if data["role_family"] not in ROLE_FAMILIES:
+        data["role_family"] = "Other"
+    if data["remote"] not in REMOTE_VALUES:
+        data["remote"] = "Unknown"
+    data["skills"] = [s.strip() for s in data["skills"] if s.strip()][:8]
+    return data
+
+
+# =====================================================================
+# 2. AI INSIGHT : verdict honnête sur le match
+# =====================================================================
+
+def get_match_explanation(target_role, user_skills, title, company, role_family, summary, required, matched, missing):
+    """Verdict honnête : Strong / Partial / Weak match + raison + 1 conseil."""
+    # Verdict de secours (si Gemini ne répond pas), calculé avec des règles simples
+    if role_family != target_role:
+        verdict = "Weak match"
+    elif required and len(matched) >= len(required) / 2:
+        verdict = "Strong match"
+    else:
+        verdict = "Partial match"
+    fallback = (
+        f"**{verdict}.** This {title} role at {company} is classified as {role_family}. "
+        + (f"You already cover {', '.join(matched)}. " if matched else "None of your listed skills appear in the requirements. ")
+        + (f"Main gap to work on: {missing[0]}." if missing else "")
     )
 
-    smart_fallback = (
-        f"**AI Career Advisor:** This **{job_title}** role at **{job_company}** is a strong fit for your "
-        f"target in {user_domain}, directly leveraging your skills in **{matched_text}**. "
-        f"{missing_tip}"
-    )
-
-    skills_str = ", ".join(user_skills)
     prompt = f"""
-    You are an expert tech career advisor.
-    Write a concise, 2-sentence explanation of why this internship matches the candidate's profile based on the role description, and give 1 concrete tip on how to position themselves or bridge any missing skill. Address the candidate directly as "you".
+    You are a blunt, honest career advisor for a business-school student. Do NOT flatter.
+    Start with exactly one verdict in bold: **Strong match**, **Partial match** or **Weak match**.
+    Then ONE sentence explaining why, based on the role's real function and the skills gap.
+    Then ONE concrete tip (how to bridge the main gap, or why to skip this offer).
+    Maximum 3 sentences in total. Address the candidate as "you".
+    Only mention skills from the lists below; never claim the candidate has other skills.
 
-    Candidate Profile:
-    - Target Domain: {user_domain}
-    - Current Skills: {skills_str}
+    Candidate: targets {target_role} roles. Skills: {", ".join(user_skills) or "none listed"}.
 
-    Internship Offer:
-    - Role: {job_title} at {job_company}
-    - Candidate skills found in the offer: {job_skills}
-    - Role Description: {job_description}
+    Offer: {title} at {company}
+    Real function: {role_family}
+    Missions: {summary}
+    Required skills: {", ".join(required) or "not specified"}
+    Required skills the candidate has: {", ".join(matched) or "none"}
+    Required skills the candidate lacks: {", ".join(missing) or "none"}
     """
-
     ai_text, error = _ask_gemini(prompt, timeout=TOTAL_TIMEOUT_S)
-    if error:
-        return smart_fallback
-    return f"**AI Career Advisor:** {ai_text}"
+    return fallback if error else ai_text.strip()
 
 
-def generate_outreach_message(user_domain, user_skills, job_title, job_company, job_description):
+# =====================================================================
+# 3. PITCH LINKEDIN
+# =====================================================================
+
+def generate_outreach_message(target_role, user_skills, title, company, summary):
     """Génère un message d'approche LinkedIn sur-mesure."""
-    skills_str = ", ".join(user_skills)
-
     prompt = f"""
-    You are an expert career coach. Write a short, highly engaging LinkedIn connection request message (under 600 characters) for a student looking for an internship.
+    You are an expert career coach. Write a short, engaging LinkedIn connection request message
+    (under 600 characters) for a student applying to an internship.
 
-    Student Profile: Targets {user_domain}, skilled in {skills_str}.
-    Target Role: {job_title} at {job_company}.
-    Role Context: {job_description}.
+    Student: targets {target_role} roles, skilled in {", ".join(user_skills)}.
+    Target role: {title} at {company}.
+    Missions: {summary}
 
     Rules:
-    - Keep it professional, energetic, and concise.
-    - Highlight one specific overlap between the student's skills and the role.
+    - Professional, energetic, concise.
+    - Highlight one specific overlap between the student's skills and the missions. Never invent skills.
     - End with a polite call to action for a quick chat.
-    - Do not use placeholders like [Your Name]. Just write the body of the message.
+    - No placeholders like [Your Name]. Just the body of the message.
     """
-
     ai_text, error = _ask_gemini(prompt, timeout=TOTAL_TIMEOUT_S)
-    if error:
-        # Le message d'erreur s'affiche dans la zone de texte : on sait ce qui ne va pas.
-        return f"⚠️ {error}"
-    return ai_text
+    return f"⚠️ {error}" if error else ai_text
