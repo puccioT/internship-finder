@@ -63,6 +63,7 @@ EXTRACTED_COLUMNS = {
     "ai_duration_months": "INTEGER",
     "ai_languages":      "TEXT",     # liste JSON, ex. ["French (fluent)", "English (professional)"]
     "ai_remote":         "TEXT",     # On-site / Hybrid / Full remote / Unknown
+    "ai_country":        "TEXT",
     "extracted_at":      "TEXT",
 }
 
@@ -83,7 +84,7 @@ def get_offers_to_extract(conn, redo_all=False):
     """Offres actives que le LLM n'a pas encore lues (ou toutes, si redo_all=True)."""
     condition = "" if redo_all else "AND extracted_at IS NULL"
     return conn.execute(
-        "SELECT source_id, title, company, description FROM offers "
+        "SELECT source_id, title, company, description, location FROM offers "
         f"WHERE is_active = 1 {condition} ORDER BY first_seen DESC"
     ).fetchall()
 
@@ -91,11 +92,11 @@ def get_offers_to_extract(conn, redo_all=False):
 def save_extraction(conn, source_id, info):
     conn.execute(
         """UPDATE offers SET ai_role_family = ?, ai_secondary_family = ?, ai_skills = ?, ai_summary = ?, ai_start_date = ?,
-           ai_duration_months = ?, ai_languages = ?, ai_remote = ?, extracted_at = ?
+           ai_duration_months = ?, ai_languages = ?, ai_remote = ?, ai_country = ?, extracted_at = ?
            WHERE source_id = ?""",
         (info["role_family"], info["secondary_family"], json.dumps(info["skills"], ensure_ascii=False), info["summary"],
          info["start_date"], info["duration_months"], json.dumps(info["languages"], ensure_ascii=False),
-         info["remote"], now_iso(), source_id),
+         info["remote"], info.get("country", "Unknown"), now_iso(), source_id),
     )
     conn.commit()
 

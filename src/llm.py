@@ -110,6 +110,7 @@ class OfferInfo(BaseModel):
     duration_months: int | None
     languages: list[str]
     remote: str
+    country: str
 
 
 EXTRACTION_PROMPT = """You analyse internship and work-study job offers for business-school students.
@@ -146,10 +147,14 @@ Fields:
 - duration_months: internship duration in months as an integer, or null if not stated.
 - languages: required languages with level, e.g. ["French (fluent)", "English (professional)"]; [] if not stated.
 - remote: one of {remote}.
+- country: the country of the job location in English (e.g. "France", "United Kingdom", "Germany",
+  "United States"). Use the "Location" field first, then the description; if several, the first one;
+  "Unknown" only if neither gives any hint.
 
 OFFER
 Title: {title}
 Company: {company}
+Location (from the job board): {location}
 Description:
 {description}
 """
@@ -158,7 +163,7 @@ Description:
 EXTRACTION_HTTP_OPTIONS = types.HttpOptions(timeout=40_000, retry_options=types.HttpRetryOptions(attempts=1))
 
 
-def extract_offer_info(title, company, description):
+def extract_offer_info(title, company, description, location=""):
     """Renvoie un dict validé. Lève une exception si Gemini échoue (gérée par src/extract.py)."""
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
@@ -166,7 +171,8 @@ def extract_offer_info(title, company, description):
 
     prompt = EXTRACTION_PROMPT.format(
         families=", ".join(ROLE_FAMILIES), remote=", ".join(REMOTE_VALUES),
-        title=title, company=company, description=(description or "")[:6000],
+        title=title, company=company, location=location or "not specified",
+        description=(description or "")[:6000],
     )
     config = types.GenerateContentConfig(
         response_mime_type="application/json",   # Gemini doit répondre en JSON...
@@ -185,6 +191,7 @@ def extract_offer_info(title, company, description):
     if data["remote"] not in REMOTE_VALUES:
         data["remote"] = "Unknown"
     data["skills"] = [s.strip() for s in data["skills"] if s.strip()][:6]
+    data["country"] = (data.get("country") or "Unknown").strip() or "Unknown"
     return data
 
 

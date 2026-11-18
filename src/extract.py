@@ -42,14 +42,14 @@ def main():
     print(f"Analyse de {len(todo)} offres par Gemini (~{len(todo) * PAUSE_S // 60 + 1} min)...\n")
     done, failed = 0, []
 
-    for i, (source_id, title, company, description) in enumerate(todo, 1):
+    for i, (source_id, title, company, description, location) in enumerate(todo, 1):
         for attempt in range(1, MAX_ATTEMPTS + 1):
             try:
-                info = extract_offer_info(title, company, description)
+                info = extract_offer_info(title, company, description, location)
                 save_extraction(conn, source_id, info)
                 done += 1
                 print(f"[{i}/{len(todo)}] {company} · {title[:50]:<50} -> {info['role_family']}{' + ' + info['secondary_family'] if info['secondary_family'] else ''}, "
-                      f"{len(info['skills'])} skills, {info['duration_months'] or '?'} mois, {info['remote']}")
+                      f"{len(info['skills'])} skills, {info['duration_months'] or '?'} mois, {info['remote']}, {info['country']}")
                 break
             except errors.APIError as e:
                 if e.code in WAIT_S and attempt < MAX_ATTEMPTS:

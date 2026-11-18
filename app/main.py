@@ -40,6 +40,7 @@ def load_offers():
     df["required_skills"] = df["ai_skills"].apply(parse_list)
     df["languages"] = df["ai_languages"].apply(parse_list)
     df["remote"] = df["ai_remote"].fillna("Unknown")
+    df["country"] = df["ai_country"].fillna("Unknown")
     df["summary"] = df["ai_summary"].fillna("")
     return df
 
@@ -94,9 +95,13 @@ selected_families = st.sidebar.multiselect("Target Roles", ROLE_FAMILY_NAMES, de
 entered_skills = st.sidebar.text_input("Skills (comma-separated)", "SQL, Python, Figma, Excel, Notion")
 
 st.sidebar.markdown('<div class="sidebar-section-title" style="margin-top: 24px;">Filters</div>', unsafe_allow_html=True)
-# Villes triées par nombre d'offres (Paris en premier)
-cities = df_offers["city"].value_counts().index.tolist()
-selected_location = st.sidebar.selectbox("Location", ["All Locations"] + cities)
+# Pays puis villes, triés par nombre d'offres (France / Paris en premier)
+countries = df_offers["country"].value_counts().index.tolist()
+default_country = countries.index("France") + 1 if "France" in countries else 0
+selected_country = st.sidebar.selectbox("Country", ["All Countries"] + countries, index=default_country)
+in_country = df_offers if selected_country == "All Countries" else df_offers[df_offers["country"] == selected_country]
+cities = in_country["city"].value_counts().index.tolist()
+selected_location = st.sidebar.selectbox("City", ["All Locations"] + cities)
 selected_contract = st.sidebar.selectbox("Contract Type", ["Any", "Stage", "Alternance"])
 selected_remote = st.sidebar.selectbox("Remote", ["Any", "On-site", "Hybrid", "Full remote"])
 
@@ -107,7 +112,7 @@ run_engine = st.sidebar.button("Run matching engine", type="primary", width="str
 if run_engine:
     skills_list = [c.strip() for c in entered_skills.split(',') if c.strip()]
     st.session_state.results = calculate_score(
-        df_offers, selected_families, selected_location, selected_contract, selected_remote, skills_list
+        in_country, selected_families, selected_location, selected_contract, selected_remote, skills_list
     )
     st.session_state.profile = (tuple(selected_families), skills_list)
     st.session_state.pitches = {}

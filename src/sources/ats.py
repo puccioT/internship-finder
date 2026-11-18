@@ -1,7 +1,8 @@
 """
 CONNECTEURS ATS
 ---------------
-Récupère les offres d'une entreprise sur Greenhouse, Lever ou Ashby
+Récupère les offres d'une entreprise sur Greenhouse, Lever, Ashby, Workable,
+SmartRecruiters ou Personio
 et les convertit toutes au MÊME format (un dictionnaire par offre).
 
 C'est le principe de la "normalisation" : chaque plateforme nomme ses champs
@@ -144,11 +145,96 @@ def fetch_ashby(client, slug, company):
     return offers
 
 
+def fetch_workable(client, slug, company):
+    r = client.get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}", params={"details": "true"})
+    r.raise_for_status()
+    offers = []
+    for job in r.json().get("jobs", []):
+        location = ", ".join(p for p in (job.get("city"), job.get("country")) if p)
+        offers.append(make_offer(
+            "workable", slug, company, job.get("shortcode") or job.get("id"), job["title"],
+            location,
+            job.get("url") or job.get("application_url") or job.get("shortlink"),
+            html_to_text(job.get("description")),
+            job.get("published_on") or job.get("created_at"),
+            job.get("department"),
+        ))
+    return offers
+
+
+def fetch_smartrecruiters(client, slug, company):
+    base = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings"
+    postings, offset = [], 0
+    while True:   # la liste est paginée par 100
+        r = client.get(base, params={"limit": 100, "offset": offset})
+        r.raise_for_status()
+        data = r.json()
+        postings += data.get("content", [])
+        offset += 100
+        if offset >= data.get("totalFound", 0):
+            break
+
+    offers = []
+    for job in postings:
+        loc = job.get("location") or {}
+        location = ", ".join(p for p in (loc.get("city"), (loc.get("country") or "").upper()) if p)
+        description = ""
+        # La description demande un appel par offre : on ne le fait que pour les stages
+        if INTERN_PATTERN.search(job["name"]):
+            d = client.get(f"{base}/{job['id']}")
+            if d.status_code == 200:
+                sections = ((d.json().get("jobAd") or {}).get("sections") or {})
+                description = "\n\n".join(
+                    html_to_text((sections.get(k) or {}).get("text"))
+                    for k in ("jobDescription", "qualifications", "additionalInformation")
+                ).strip()
+        offers.append(make_offer(
+            "smartrecruiters", slug, company, job["id"], job["name"],
+            location,
+            job.get("postingUrl") or f"https://jobs.smartrecruiters.com/{slug}/{job['id']}",
+            description,
+            job.get("releasedDate"),
+            (job.get("department") or {}).get("label"),
+        ))
+    return offers
+
+
+def fetch_personio(client, slug, company):
+    import xml.etree.ElementTree as ET
+    for domain in ("jobs.personio.de", "jobs.personio.com"):
+        r = client.get(f"https://{slug}.{domain}/xml")
+        if r.status_code == 200 and r.text.lstrip().startswith("<"):
+            break
+    else:
+        r.raise_for_status()
+        raise ValueError(f"Personio feed not found for {slug}")
+
+    offers = []
+    for pos in ET.fromstring(r.content).iter("position"):
+        job_id = pos.findtext("id", "")
+        parts = []
+        for jd in pos.iter("jobDescription"):
+            parts.append(jd.findtext("name", ""))
+            parts.append(html_to_text(jd.findtext("value", "")))
+        offers.append(make_offer(
+            "personio", slug, company, job_id, pos.findtext("name", ""),
+            pos.findtext("office", ""),
+            f"https://{slug}.{domain}/job/{job_id}",
+            "\n".join(p for p in parts if p).strip(),
+            pos.findtext("createdAt"),
+            pos.findtext("department"),
+        ))
+    return offers
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
     "lever-eu": fetch_lever_eu,
     "ashby": fetch_ashby,
+    "workable": fetch_workable,
+    "smartrecruiters": fetch_smartrecruiters,
+    "personio": fetch_personio,
 }
 
 

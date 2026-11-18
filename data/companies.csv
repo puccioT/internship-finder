@@ -1,30 +1,41 @@
 company,ats,slug,nb_jobs,nb_intern
-Doctolib,ashby,doctolib,160,30
-Back Market,ashby,backmarket,32,16
-Mirakl,greenhouse,mirakl,21,7
-Vestiaire Collective,lever,vestiairecollective,16,7
-Alan,ashby,alan,138,6
-Datadog,greenhouse,datadog,384,6
-Malt,lever,malt,31,3
-Pigment,lever,pigment,126,3
-Shift Technology,greenhouse,shifttechnology,11,3
-Brevo,lever,brevo,26,3
-Ledger,ashby,ledger,13,2
-Qonto,ashby,qonto,55,1
-Contentsquare,lever,contentsquare,28,1
-Dataiku,greenhouse,dataiku,14,1
-Pennylane,ashby,pennylane,202,1
-Sorare,ashby,sorare,3,1
-Lemlist,ashby,lemlist,18,1
-H Company,ashby,hcompany,25,1
-BlaBlaCar,lever,blablacar,5,0
-Swile,lever,swile,27,0
-Spendesk,ashby,spendesk,0,0
-Algolia,greenhouse,algolia,30,0
-Ankorstore,ashby,ankorstore,1,0
-Agicap,lever,agicap,20,0
-Swan,ashby,swan,3,0
+Doctolib,ashby,doctolib,156,32
+Stripe,greenhouse,stripe,785,21
+Back Market,ashby,backmarket,32,14
+Celonis,greenhouse,celonis,261,10
+Figma,greenhouse,figma,142,9
+Alan,ashby,alan,136,6
+Mirakl,greenhouse,mirakl,21,6
+Datadog,greenhouse,datadog,380,5
+Vestiaire Collective,lever,vestiairecollective,16,5
+Shift Technology,greenhouse,shifttechnology,12,4
+Pigment,lever,pigment,122,3
+Malt,lever,malt,29,3
+Ledger,ashby,ledger,17,2
+Dataiku,greenhouse,dataiku,13,1
+Qonto,ashby,qonto,50,1
+Pennylane,ashby,pennylane,213,1
+Contentsquare,lever,contentsquare,25,1
+Lemlist,ashby,lemlist,17,1
+H Company,ashby,hcompany,26,1
+Linear,ashby,linear,32,0
+Miro,ashby,miro,14,0
+Cycle,personio,cycle,13,0
+Dust,ashby,dust,34,0
+Lovable,ashby,lovable,79,0
+n8n,ashby,n8n,63,0
+Hugging Face,workable,huggingface,6,0
 Photoroom,ashby,photoroom,7,0
-Ivalua,greenhouse,ivalua,35,0
+ElevenLabs,ashby,elevenlabs,130,0
+Adyen,greenhouse,adyen,241,0
+Personio,personio,personio,2,0
+BlaBlaCar,lever,blablacar,6,0
+Swile,lever,swile,27,0
+Algolia,greenhouse,algolia,27,0
+Ankorstore,ashby,ankorstore,1,0
+Agicap,lever,agicap,24,0
+Swan,ashby,swan,4,0
+Sorare,ashby,sorare,2,0
+Ivalua,greenhouse,ivalua,34,0
 Comet,greenhouse,comet,1,0
-Dust,ashby,dust,35,0
+Brevo,lever,brevo,26,3
