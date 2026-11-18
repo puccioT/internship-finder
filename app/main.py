@@ -1,4 +1,3 @@
-import json
 import os
 import sys
 
@@ -7,8 +6,8 @@ import streamlit as st
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.llm import generate_outreach_message, get_match_explanation
-from src.matching import ROLE_FAMILY_NAMES, calculate_score, classify_role
-from src.store import get_active_offers
+from src.matching import ROLE_FAMILY_NAMES, calculate_score
+from src.offers import load_prepared_offers
 from src.style import inject_css, render_kpi_card, render_offer_block
 
 st.set_page_config(page_title="Internship Finder", layout="wide", initial_sidebar_state="expanded")
@@ -19,30 +18,10 @@ DESCRIPTION_FOR_LLM = 3000    # caractères envoyés à Gemini (les descriptions
 
 
 # --- CACHE ---
-def parse_list(value):
-    """Les listes sont stockées en JSON dans SQLite : '["SQL", "Excel"]' -> ['SQL', 'Excel']."""
-    return json.loads(value) if isinstance(value, str) and value else []
-
-
 @st.cache_data(ttl=600)
 def load_offers():
-    """
-    Lit les offres actives et prépare les colonnes utilisées par l'app.
-    Si le LLM a analysé l'offre (src/extract.py), on utilise sa fiche ;
-    sinon on retombe sur les règles par mots-clés.
-    """
-    df = get_active_offers()
-    if df.empty:
-        return df
-    keyword_family = df.apply(lambda r: classify_role(r["title"], r["department"]), axis=1)
-    df["role_family"] = df["ai_role_family"].fillna(keyword_family)
-    df["secondary_family"] = df["ai_secondary_family"]
-    df["required_skills"] = df["ai_skills"].apply(parse_list)
-    df["languages"] = df["ai_languages"].apply(parse_list)
-    df["remote"] = df["ai_remote"].fillna("Unknown")
-    df["country"] = df["ai_country"].fillna("Unknown")
-    df["summary"] = df["ai_summary"].fillna("")
-    return df
+    """Offres actives, préparées par src/offers.py (rafraîchies par collect + extract)."""
+    return load_prepared_offers()
 
 
 @st.cache_data(show_spinner=False, ttl=3600)

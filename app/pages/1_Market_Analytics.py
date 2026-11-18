@@ -6,97 +6,136 @@ import pandas as pd
 import streamlit as st
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-from src.matching import SKILLS_CATALOG, classify_role, skill_in_text
-from src.store import get_active_offers
+from src.matching import ROLE_FAMILY_NAMES, score_offer
+from src.offers import count_skills, load_prepared_offers
 from src.style import inject_css, render_kpi_card
 
 st.set_page_config(page_title="Market Analytics", layout="wide")
 inject_css()
 
-BLUE, GREY = "#2F5BFF", "#9CA3AF"
+ACCENT, NEUTRAL = "#2F5BFF", "#C9CDD6"   # 1 couleur de mise en avant + 1 gris neutre
 
 
 @st.cache_data(ttl=600)
 def load_data():
-    df = get_active_offers()
-    if df.empty:
-        return df, pd.DataFrame()
-    df["role_family"] = df.apply(lambda r: classify_role(r["title"], r["department"]), axis=1)
-    # Pour chaque outil du catalogue : dans quelle part des offres est-il cité ?
-    texts = (df["title"] + "\n" + df["description"].fillna("")).tolist()
-    rows = []
-    for skill in SKILLS_CATALOG:
-        count = sum(skill_in_text(skill, t) for t in texts)
-        if count:
-            rows.append({"Skill": skill, "Offers": count, "Share": count / len(df)})
-    skills = pd.DataFrame(rows).sort_values("Offers", ascending=False).head(12)
-    return df, skills
+    return load_prepared_offers()
 
 
-def bar_chart(data, y, x, x_title, height=300, highlight_top=False):
-    """Bar chart horizontal au style minimaliste de l'app."""
-    color = (
-        alt.condition(alt.datum[y] == data[y].iloc[0], alt.value(BLUE), alt.value(GREY))
-        if highlight_top else alt.value(BLUE)
+def bar_chart(data, label, value, value_title, highlight=None, fmt="d", height=None):
+    """
+    Bar chart horizontal minimaliste : barres fines aux bouts arrondis, grille discrète,
+    tooltip au survol. `highlight` = la barre à mettre en avant (les autres en gris).
+    """
+    color = (alt.condition(alt.datum[label] == highlight, alt.value(ACCENT), alt.value(NEUTRAL))
+             if highlight is not None else alt.value(ACCENT))
+    base = alt.Chart(data).encode(
+        y=alt.Y(f"{label}:N", sort="-x", title=None, axis=alt.Axis(labelLimit=220, labelPadding=8, ticks=False, domain=False)),
+        x=alt.X(f"{value}:Q", title=value_title, axis=alt.Axis(grid=True, tickCount=5, format=fmt, domain=False)),
+    )
+    bars = base.mark_bar(cornerRadiusEnd=4, height=14).encode(
+        color=color, tooltip=[alt.Tooltip(f"{label}:N"), alt.Tooltip(f"{value}:Q", format=fmt)]
+    )
+    # Valeur affichée au bout de chaque barre (le texte reste gris, jamais de la couleur de la barre)
+    labels = base.mark_text(align="left", dx=4, color="#6B7280", fontSize=11).encode(
+        text=alt.Text(f"{value}:Q", format=fmt)
     )
     return (
-        alt.Chart(data)
-        .mark_bar(cornerRadiusEnd=4)
-        .encode(
-            x=alt.X(f"{x}:Q", title=x_title, axis=alt.Axis(grid=True, tickMinStep=1)),
-            y=alt.Y(f"{y}:N", sort="-x", title=None, axis=alt.Axis(grid=False)),
-            color=color,
-            tooltip=list(data.columns),
-        )
-        .properties(height=height)
+        (bars + labels)
+        .properties(height=height or max(140, 26 * len(data)))
         .configure_view(stroke=None)
-        .configure_axis(domainColor="#E7E5E0", gridColor="#F3F4F6", gridDash=[2, 2],
-                        labelColor="#6B7280", titleColor="#14171F", titleFontSize=12)
+        .configure_axis(gridColor="#F1F2F4", labelColor="#6B7280", titleColor="#6B7280",
+                        titleFontSize=11, titleFontWeight="normal", labelFontSize=12)
     )
 
 
-def section(title, chart, caption):
+def section(title, caption, chart=None):
     with st.container(border=True):
-        st.markdown(f'<div style="font-size: 16px; font-weight: 600; margin-bottom: 16px;">{title}</div>', unsafe_allow_html=True)
-        st.altair_chart(chart, width="stretch")
-        st.markdown(f'<div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px;">{caption}</div>', unsafe_allow_html=True)
+        st.markdown(f'<div style="font-size: 16px; font-weight: 600;">{title}</div>', unsafe_allow_html=True)
+        st.markdown(f'<div style="font-size: 13px; color: var(--text-secondary); margin: 4px 0 12px;">{caption}</div>', unsafe_allow_html=True)
+        if chart is not None:
+            st.altair_chart(chart, width="stretch")
 
 
-df, skills = load_data()
+df_all = load_data()
 
 st.markdown('<div class="hero-title">Market Analytics</div>', unsafe_allow_html=True)
-st.markdown('<div class="hero-subtitle">What French tech companies are actually looking for in interns, based on live offers.</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-subtitle">What tech companies actually ask from interns and apprentices, based on live offers analysed by AI.</div>', unsafe_allow_html=True)
 
-if df.empty:
-    st.warning("Aucune offre en base. Lance d'abord `python -m src.collect` dans le terminal.")
+if df_all.empty:
+    st.warning("Aucune offre en base. Lance d'abord `python -m src.collect` puis `python -m src.extract`.")
     st.stop()
 
-col1, col2, col3 = st.columns(3)
-col1.markdown(render_kpi_card("Live Offers", len(df)), unsafe_allow_html=True)
-col2.markdown(render_kpi_card("Companies Hiring", df["company"].nunique()), unsafe_allow_html=True)
-paris_share = (df["city"] == "Paris").mean()
-col3.markdown(render_kpi_card("Based in Paris", f"{paris_share:.0%}"), unsafe_allow_html=True)
+# --- FILTRES (une seule ligne, au-dessus des graphiques) ---
+f1, f2, f3 = st.columns([1, 1, 2])
+countries = df_all["country"].value_counts().index.tolist()
+country = f1.selectbox("Country", ["All Countries"] + countries,
+                       index=countries.index("France") + 1 if "France" in countries else 0)
+contract = f2.selectbox("Contract", ["Any", "Stage", "Alternance"])
+families = f3.multiselect("Role families (for skills charts)", ROLE_FAMILY_NAMES,
+                          default=["Product", "Strategy & Ops", "Data"])
+
+df = df_all if country == "All Countries" else df_all[df_all["country"] == country]
+if contract != "Any":
+    df = df[df["contract_type"] == contract]
+if df.empty:
+    st.info("Aucune offre pour ces filtres.")
+    st.stop()
+
+in_families = df[df["role_family"].isin(families) | df["secondary_family"].isin(families)] if families else df
+
+# --- KPIs ---
+product_share = (df["role_family"] == "Product").mean()
+median_months = df["ai_duration_months"].dropna().median()
+k1, k2, k3, k4 = st.columns(4)
+k1.markdown(render_kpi_card("Live Offers", len(df)), unsafe_allow_html=True)
+k2.markdown(render_kpi_card("Companies Hiring", df["company"].nunique()), unsafe_allow_html=True)
+k3.markdown(render_kpi_card("Pure Product Roles", f"{product_share:.0%}"), unsafe_allow_html=True)
+k4.markdown(render_kpi_card("Typical Duration", f"{median_months:.0f} months" if pd.notna(median_months) else "n/a"), unsafe_allow_html=True)
 
 st.write("")
-st.write("")
 
+# --- 1. Familles de poste ---
 c1, c2 = st.columns(2)
 with c1:
-    by_company = df["company"].value_counts().head(10).rename_axis("Company").reset_index(name="Offers")
-    section("Top Hiring Companies", bar_chart(by_company, "Company", "Offers", "Number of offers"),
-            "Companies with the most open internship & work-study offers.")
+    by_family = df["role_family"].value_counts().rename_axis("Role").reset_index(name="Offers")
+    section("Offers by Role Family",
+            "Main function of each offer, judged by AI from the missions (not the title). Product highlighted.",
+            bar_chart(by_family, "Role", "Offers", "Number of offers", highlight="Product"))
+
+# --- 2. Compétences demandées ---
 with c2:
-    by_role = df["role_family"].value_counts().rename_axis("Role").reset_index(name="Offers")
-    section("Offers by Role", bar_chart(by_role, "Role", "Offers", "Number of offers"),
-            "Role families detected from offer titles (keyword rules — refined by AI in a next version).")
+    skills = pd.DataFrame(count_skills(in_families["required_skills"]), columns=["Skill", "Offers"])
+    if not skills.empty:
+        skills["Share"] = skills["Offers"] / len(in_families)
+        section("Most Requested Skills",
+                f"Share of the {len(in_families)} offers in {', '.join(families) or 'all families'} requiring each skill.",
+                bar_chart(skills.head(12), "Skill", "Share", "Share of offers", fmt=".0%"))
 
 st.write("")
+
+# --- 3. Tes manques prioritaires (si un profil a été saisi sur la page principale) ---
 c3, c4 = st.columns(2)
 with c3:
-    by_city = df["city"].value_counts().head(10).rename_axis("City").reset_index(name="Offers")
-    section("Offers by City", bar_chart(by_city, "City", "Offers", "Number of offers"),
-            "Where the offers are located.")
+    profile = st.session_state.get("profile")
+    if profile:
+        targets, user_skills = profile
+        targeted = df[df["role_family"].isin(targets) | df["secondary_family"].isin(targets)]
+        missing = [score_offer(row, targets, user_skills)[2] for _, row in targeted.iterrows()]
+        gaps = pd.DataFrame(count_skills(missing), columns=["Skill", "Offers"])
+        if not gaps.empty:
+            section("Your Skill Gaps",
+                    f"Skills you don't list that are most often required in the {len(targeted)} "
+                    f"{' / '.join(targets)} offers. Learn the top ones first.",
+                    bar_chart(gaps.head(8), "Skill", "Offers", "Offers requiring it", highlight=gaps["Skill"].iloc[0]))
+        else:
+            section("Your Skill Gaps", "You cover every skill requested in your target offers. 🎯")
+    else:
+        section("Your Skill Gaps",
+                "Run the matching engine on the main page first: your profile will be used here to rank "
+                "the skills you should learn next.")
+
+# --- 4. Entreprises ---
 with c4:
-    if not skills.empty:
-        section("Most Cited Tools & Skills", bar_chart(skills, "Skill", "Offers", "Offers mentioning it", height=350, highlight_top=True),
-                "Share of live offers whose description mentions each tool (whole-word match).")
+    by_company = df["company"].value_counts().head(10).rename_axis("Company").reset_index(name="Offers")
+    section("Top Hiring Companies", "Companies with the most open internship & work-study offers.",
+            bar_chart(by_company, "Company", "Offers", "Number of offers"))

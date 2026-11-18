@@ -23,7 +23,9 @@ from src.llm import extract_offer_info
 from src.store import connect, get_offers_to_extract, save_extraction
 
 PAUSE_S = 4          # pause entre deux offres : le quota gratuit limite le nombre d'appels / minute
-WAIT_S = {429: 30, 503: 15}   # attente avant de réessayer : quota dépassé (429) ou Gemini saturé (503)
+# Attente avant de réessayer : quota dépassé (429), erreur serveur (500), Gemini saturé (503),
+# serveur qui n'a pas répondu à temps (504)
+WAIT_S = {429: 30, 500: 10, 503: 15, 504: 15}
 MAX_ATTEMPTS = 3
 
 

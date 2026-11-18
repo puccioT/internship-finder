@@ -60,7 +60,7 @@ def _call_gemini(api_key, prompt, config=None, http_options=HTTP_OPTIONS):
                 retryable = True
             else:
                 reason = str(e.code)
-                retryable = e.code in (429, 503)
+                retryable = e.code in (429, 500, 503, 504)
             if retryable and i < len(MODELS) - 1:
                 _log(f"{model} indisponible ({reason}), on essaie {MODELS[i + 1]}")
                 continue
