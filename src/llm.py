@@ -103,6 +103,7 @@ REMOTE_VALUES = ["On-site", "Hybrid", "Full remote", "Unknown"]
 class OfferInfo(BaseModel):
     """Le "formulaire" que Gemini doit remplir. Le SDK l'impose en sortie (JSON garanti)."""
     role_family: str
+    secondary_family: str
     skills: list[str]
     summary: str
     start_date: str
@@ -116,11 +117,29 @@ Read the offer below and fill every field. Base everything ONLY on the offer tex
 
 Fields:
 - role_family: the job's REAL function, one of {families}.
-  Judge the actual missions, not keywords: "Legal Intern - Product & Compliance" is "Finance & Legal";
-  "Product Manager Intern" or "Product Owner apprentice" is "Product"; "Product Content Manager" is
-  "Marketing & Growth" unless it is clearly product management.
-- skills: the 4 to 8 most important skills or tools REQUIRED or strongly expected, short canonical
-  English names (e.g. "SQL", "Excel", "Figma", "Data analysis", "Stakeholder management", "Copywriting").
+  Decide from the MISSIONS, never from a word in the title. Definitions:
+  * Product: product management / product ownership. The intern helps OWN a product or feature:
+    roadmap, specs or user stories, discovery, prioritisation, working daily with engineers and designers,
+    product metrics. The word "product" alone does NOT make a role Product ("product content",
+    "product compliance", "product improvement projects" are not product management).
+  * Data: data analysis, product/business analytics, analytics engineering, data science, BI.
+  * Strategy & Ops: strategy, business operations, founder associate, project/program management,
+    process improvement, internal tools and CRM administration, operations support.
+  * Marketing & Growth: marketing, content, social media, SEO, CRM marketing, brand, PR, events, merchandising.
+  * Sales & Business Dev: sales, business development, account management, customer success, sales support.
+  * Finance & Legal: finance, accounting, FP&A, corporate development, procurement, tax, legal, compliance.
+  * Engineering: software, machine learning, QA, IT, security, research science.
+  * Design: UX/UI design, brand design, UX research.
+  * People & HR: recruiting, HR, workplace, people analytics.
+  * Other: none of the above.
+- secondary_family: ONLY if a substantial part (about a third or more) of the MISSIONS clearly belongs to
+  another family from the same list, e.g. "Product & Operations Management Apprentice" ->
+  "Strategy & Ops" + "Product"; "UX Research Apprentice" -> "Design" + "Product".
+  Otherwise "None". Most roles are NOT hybrid. A legal or support role is never secondary "Product".
+- skills: the 3 to 6 most important HARD skills, tools or domain know-how required
+  (e.g. "SQL", "Excel", "Figma", "Data analysis", "Financial modeling", "Copywriting", "User research").
+  NEVER include soft skills (problem solving, communication, teamwork, curiosity, autonomy...)
+  and NEVER include languages (they go in "languages"). Short canonical English names.
 - summary: 2 sentences in English describing what the intern will concretely DO (missions),
   no company marketing.
 - start_date: start date as written in the offer (e.g. "January 2027", "ASAP"), or "Unknown".
@@ -161,9 +180,11 @@ def extract_offer_info(title, company, description):
     # On ne fait pas confiance aveuglément au LLM : on vérifie les valeurs fermées.
     if data["role_family"] not in ROLE_FAMILIES:
         data["role_family"] = "Other"
+    if data["secondary_family"] not in ROLE_FAMILIES or data["secondary_family"] == data["role_family"]:
+        data["secondary_family"] = None
     if data["remote"] not in REMOTE_VALUES:
         data["remote"] = "Unknown"
-    data["skills"] = [s.strip() for s in data["skills"] if s.strip()][:8]
+    data["skills"] = [s.strip() for s in data["skills"] if s.strip()][:6]
     return data
 
 
@@ -171,35 +192,39 @@ def extract_offer_info(title, company, description):
 # 2. AI INSIGHT : verdict honnête sur le match
 # =====================================================================
 
-def get_match_explanation(target_role, user_skills, title, company, role_family, summary, required, matched, missing):
-    """Verdict honnête : Strong / Partial / Weak match + raison + 1 conseil."""
-    # Verdict de secours (si Gemini ne répond pas), calculé avec des règles simples
-    if role_family != target_role:
-        verdict = "Weak match"
-    elif required and len(matched) >= len(required) / 2:
-        verdict = "Strong match"
-    else:
-        verdict = "Partial match"
+def verdict_from_score(score):
+    """Le verdict découle du score : l'IA explique, elle ne décide pas (sinon incohérences)."""
+    if score >= 75:
+        return "Strong match"
+    return "Partial match" if score >= 50 else "Weak match"
+
+
+def get_match_explanation(target_roles, user_skills, title, company, role_family, summary,
+                          required, matched, missing, score):
+    """Explication honnête mais nuancée du verdict, calculé à partir du score."""
+    verdict = verdict_from_score(score)
+    target_role = " or ".join(target_roles)
     fallback = (
-        f"**{verdict}.** This {title} role at {company} is classified as {role_family}. "
-        + (f"You already cover {', '.join(matched)}. " if matched else "None of your listed skills appear in the requirements. ")
-        + (f"Main gap to work on: {missing[0]}." if missing else "")
+        f"**{verdict}.** This role is mainly {role_family}. "
+        + (f"You already cover {', '.join(matched)}. " if matched else "")
+        + (f"Main skill to build: {missing[0]}." if missing else "")
     )
 
     prompt = f"""
-    You are a blunt, honest career advisor for a business-school student. Do NOT flatter.
-    Start with exactly one verdict in bold: **Strong match**, **Partial match** or **Weak match**.
-    Then ONE sentence explaining why, based on the role's real function and the skills gap.
-    Then ONE concrete tip (how to bridge the main gap, or why to skip this offer).
-    Maximum 3 sentences in total. Address the candidate as "you".
-    Only mention skills from the lists below; never claim the candidate has other skills.
+    You are an honest, constructive career advisor for a business-school student looking for an internship.
+    The verdict has already been computed: **{verdict}** (score {score}/100). Do not change it.
+
+    Write exactly 3 sentences:
+    1. Start with "**{verdict}.**" then explain why in one sentence (role fit + skills).
+    2. One sentence on the most important gap and how to bridge it before applying
+       (e.g. a short course, a side project) — internships expect students to still be learning.
+    3. One concrete tip to stand out in the application.
+    Only advise skipping the offer if the role function does not match the target ({target_role}).
+    Never say the candidate lacks something not listed in "lacks" below. No flattery.
 
     Candidate: targets {target_role} roles. Skills: {", ".join(user_skills) or "none listed"}.
-
-    Offer: {title} at {company}
-    Real function: {role_family}
+    Offer: {title} at {company} — real function: {role_family}
     Missions: {summary}
-    Required skills: {", ".join(required) or "not specified"}
     Required skills the candidate has: {", ".join(matched) or "none"}
     Required skills the candidate lacks: {", ".join(missing) or "none"}
     """
@@ -211,8 +236,9 @@ def get_match_explanation(target_role, user_skills, title, company, role_family,
 # 3. PITCH LINKEDIN
 # =====================================================================
 
-def generate_outreach_message(target_role, user_skills, title, company, summary):
+def generate_outreach_message(target_roles, user_skills, title, company, summary):
     """Génère un message d'approche LinkedIn sur-mesure."""
+    target_role = " or ".join(target_roles)
     prompt = f"""
     You are an expert career coach. Write a short, engaging LinkedIn connection request message
     (under 600 characters) for a student applying to an internship.

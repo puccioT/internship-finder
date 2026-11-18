@@ -54,21 +54,53 @@ def classify_role(title, department=""):
     return "Other"
 
 
+# Compétences "proches" : avoir la compétence de gauche couvre celles de droite.
+# Table explicite plutôt que magie : on peut l'expliquer et la corriger facilement.
+SKILL_IMPLIES = {
+    "sql":        ["data analysis", "databases", "data extraction", "analytics", "data querying", "bigquery"],
+    "python":     ["coding", "programming", "scripting", "automation", "data analysis", "pandas", "software development"],
+    "excel":      ["spreadsheets", "google sheets", "data analysis", "reporting", "financial modeling", "kpi tracking"],
+    "google sheets": ["spreadsheets", "excel", "reporting"],
+    "figma":      ["prototyping", "wireframing", "ui design", "mockups", "design tools"],
+    "notion":     ["documentation", "knowledge management"],
+    "tableau":    ["data visualization", "dashboards", "reporting", "bi tools"],
+    "power bi":   ["data visualization", "dashboards", "reporting", "bi tools"],
+    "looker":     ["data visualization", "dashboards", "bi tools"],
+    "jira":       ["agile", "scrum", "backlog management", "project management tools"],
+    "make":       ["automation", "no-code", "workflow automation"],
+    "zapier":     ["automation", "no-code", "workflow automation"],
+    "chatgpt":    ["ai tools", "generative ai", "prompt engineering"],
+    "llm":        ["ai tools", "generative ai", "prompt engineering"],
+}
+
+
 def skills_match(user_skill, required_skill):
-    """'Python' correspond à 'Python (pandas)', et 'data analysis' à 'Data analysis'."""
-    return skill_in_text(user_skill, required_skill) or skill_in_text(required_skill, user_skill)
+    """
+    Vrai si la compétence de l'utilisateur couvre la compétence demandée :
+    - même mot ('Python' / 'Python (pandas)'), dans un sens ou dans l'autre
+    - ou compétence proche via SKILL_IMPLIES ('SQL' couvre 'Data analysis')
+    """
+    if skill_in_text(user_skill, required_skill) or skill_in_text(required_skill, user_skill):
+        return True
+    return any(skill_in_text(implied, required_skill)
+               for implied in SKILL_IMPLIES.get(user_skill.lower().strip(), []))
 
 
-def score_offer(row, target_family, user_skills):
+def score_offer(row, target_families, user_skills):
     """
     Score sur 100 :
-    - 50 pts si la famille de poste correspond à la cible
-    - jusqu'à 50 pts selon la PART des compétences demandées que l'utilisateur possède
-    Si l'offre n'a pas encore été analysée par le LLM, on retombe sur l'ancienne méthode
-    (compétences cherchées dans le texte, +10 chacune, plafonné à 50).
-    Renvoie (score, compétences possédées, compétences manquantes).
+    - 50 pts si la famille principale fait partie des cibles, 25 pts si c'est la famille secondaire
+      (postes hybrides, ex. "Product & Operations")
+    - jusqu'à 50 pts selon la PART des compétences demandées que l'utilisateur couvre
+    Si l'offre n'a pas encore été analysée par le LLM, on retombe sur l'ancienne méthode.
+    Renvoie (score, compétences couvertes, compétences manquantes).
     """
-    score = 50 if row["role_family"] == target_family else 0
+    if row["role_family"] in target_families:
+        score = 50
+    elif row.get("secondary_family") in target_families:
+        score = 25
+    else:
+        score = 0
     required = row["required_skills"]
 
     if required:
@@ -83,7 +115,7 @@ def score_offer(row, target_family, user_skills):
     return score, matched, missing
 
 
-def calculate_score(df, target_family, target_location, contract_type, remote, user_skills):
+def calculate_score(df, target_families, target_location, contract_type, remote, user_skills):
     df_match = df.copy()
 
     # --- 1. FILTRES STRICTS ---
@@ -101,7 +133,7 @@ def calculate_score(df, target_family, target_location, contract_type, remote, u
 
     # --- 2. SCORE ---
     skills = [s.strip() for s in user_skills if s.strip()]
-    results = df_match.apply(lambda row: score_offer(row, target_family, skills), axis=1)
+    results = df_match.apply(lambda row: score_offer(row, target_families, skills), axis=1)
     df_match["score"] = [r[0] for r in results]
     df_match["matched_skills"] = [r[1] for r in results]
     df_match["missing_skills"] = [r[2] for r in results]

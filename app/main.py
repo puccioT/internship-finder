@@ -36,6 +36,7 @@ def load_offers():
         return df
     keyword_family = df.apply(lambda r: classify_role(r["title"], r["department"]), axis=1)
     df["role_family"] = df["ai_role_family"].fillna(keyword_family)
+    df["secondary_family"] = df["ai_secondary_family"]
     df["required_skills"] = df["ai_skills"].apply(parse_list)
     df["languages"] = df["ai_languages"].apply(parse_list)
     df["remote"] = df["ai_remote"].fillna("Unknown")
@@ -44,9 +45,9 @@ def load_offers():
 
 
 @st.cache_data(show_spinner=False, ttl=3600)
-def cached_explanation(target, skills, title, company, family, summary, required, matched, missing):
-    return get_match_explanation(target, list(skills), title, company, family, summary,
-                                 list(required), list(matched), list(missing))
+def cached_explanation(target, skills, title, company, family, summary, required, matched, missing, score):
+    return get_match_explanation(list(target), list(skills), title, company, family, summary,
+                                 list(required), list(matched), list(missing), score)
 
 
 def offer_details(row):
@@ -88,7 +89,8 @@ st.markdown(
 
 # --- SIDEBAR ---
 st.sidebar.markdown('<div class="sidebar-section-title">Your Profile</div>', unsafe_allow_html=True)
-selected_family = st.sidebar.selectbox("Target Role", ROLE_FAMILY_NAMES)
+# Plusieurs cibles possibles : les vrais stages Product sont rares, on vise aussi les postes voisins
+selected_families = st.sidebar.multiselect("Target Roles", ROLE_FAMILY_NAMES, default=["Product", "Strategy & Ops"])
 entered_skills = st.sidebar.text_input("Skills (comma-separated)", "SQL, Python, Figma, Excel, Notion")
 
 st.sidebar.markdown('<div class="sidebar-section-title" style="margin-top: 24px;">Filters</div>', unsafe_allow_html=True)
@@ -99,14 +101,15 @@ selected_contract = st.sidebar.selectbox("Contract Type", ["Any", "Stage", "Alte
 selected_remote = st.sidebar.selectbox("Remote", ["Any", "On-site", "Hybrid", "Full remote"])
 
 st.sidebar.write("")
-run_engine = st.sidebar.button("Run matching engine", type="primary", width="stretch")
+run_engine = st.sidebar.button("Run matching engine", type="primary", width="stretch",
+                               disabled=not selected_families)
 
 if run_engine:
     skills_list = [c.strip() for c in entered_skills.split(',') if c.strip()]
     st.session_state.results = calculate_score(
-        df_offers, selected_family, selected_location, selected_contract, selected_remote, skills_list
+        df_offers, selected_families, selected_location, selected_contract, selected_remote, skills_list
     )
-    st.session_state.profile = (selected_family, skills_list)
+    st.session_state.profile = (tuple(selected_families), skills_list)
     st.session_state.pitches = {}
 
 # --- RESULTS ---
@@ -133,7 +136,8 @@ else:
 
     col1, col2, col3 = st.columns(3)
     col1.markdown(render_kpi_card("Offers Found", len(df_results)), unsafe_allow_html=True)
-    col2.markdown(render_kpi_card("In Your Target Role", f"{(df_results['role_family'] == profile_family).sum()} offers"), unsafe_allow_html=True)
+    in_role = (df_results["role_family"].isin(profile_family) | df_results["secondary_family"].isin(profile_family)).sum()
+    col2.markdown(render_kpi_card("In Your Target Role", f"{in_role} offers"), unsafe_allow_html=True)
     strong = (df_results["score"] >= 75).sum()   # bonne famille + au moins la moitié des compétences
     col3.markdown(render_kpi_card("Strong Matches (75+)", f"{strong} offers"), unsafe_allow_html=True)
 
@@ -149,6 +153,8 @@ else:
         # Carte : résumé des missions (LLM) plutôt que le début de la description
         card = row.copy()
         card["contract_type"] = offer_details(row)
+        family_label = row["role_family"] + (f" + {row['secondary_family']}" if pd.notna(row["secondary_family"]) and row["secondary_family"] else "")
+        card["contract_type"] = f"{family_label} · {card['contract_type']}"
         card["location"] = row["city"]
         if row["summary"]:
             card["description"] = row["summary"]
@@ -162,7 +168,7 @@ else:
                 explanation = cached_explanation(
                     profile_family, tuple(profile_skills), row["title"], row["company"],
                     row["role_family"], row["summary"] or desc[:DESCRIPTION_FOR_LLM],
-                    tuple(row["required_skills"]), tuple(matched), tuple(missing),
+                    tuple(row["required_skills"]), tuple(matched), tuple(missing), int(row["score"]),
                 )
             st.markdown(render_offer_block(card, matched, missing, explanation), unsafe_allow_html=True)
 
@@ -171,7 +177,7 @@ else:
             if b2.button("Generate LinkedIn Pitch", key=f"pitch_{offer_id}", type="secondary", width="stretch"):
                 with st.spinner("Drafting message..."):
                     st.session_state.pitches[offer_id] = generate_outreach_message(
-                        profile_family, profile_skills, row["title"], row["company"],
+                        list(profile_family), profile_skills, row["title"], row["company"],
                         row["summary"] or desc[:DESCRIPTION_FOR_LLM],
                     )
             if offer_id in st.session_state.pitches:
@@ -179,7 +185,7 @@ else:
 
     st.write("")
     st.markdown('<div style="font-size: 18px; font-weight: 600; margin-bottom: 16px;">All Matching Offers</div>', unsafe_allow_html=True)
-    table = df_results[["score", "title", "company", "city", "role_family", "contract_type",
+    table = df_results[["score", "title", "company", "city", "role_family", "secondary_family", "contract_type",
                         "ai_duration_months", "ai_start_date", "remote", "matched_skills", "missing_skills", "url"]].copy()
     table["matched_skills"] = table["matched_skills"].apply(", ".join)
     table["missing_skills"] = table["missing_skills"].apply(", ".join)
@@ -191,6 +197,7 @@ else:
             "score": st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%d"),
             "url": st.column_config.LinkColumn("Link", display_text="Open ↗"),
             "role_family": "Role",
+            "secondary_family": "Also",
             "contract_type": "Contract",
             "ai_duration_months": st.column_config.NumberColumn("Months", format="%d"),
             "ai_start_date": "Start",

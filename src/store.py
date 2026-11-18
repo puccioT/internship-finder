@@ -56,6 +56,7 @@ def now_iso():
 # Colonnes remplies par le LLM (phase 3). Ajoutées à la volée si la base est ancienne.
 EXTRACTED_COLUMNS = {
     "ai_role_family":    "TEXT",
+    "ai_secondary_family": "TEXT",
     "ai_skills":         "TEXT",     # liste JSON, ex. ["SQL", "Excel", "Stakeholder management"]
     "ai_summary":        "TEXT",
     "ai_start_date":     "TEXT",
@@ -78,20 +79,21 @@ def connect():
     return conn
 
 
-def get_offers_to_extract(conn):
-    """Offres actives que le LLM n'a pas encore lues."""
+def get_offers_to_extract(conn, redo_all=False):
+    """Offres actives que le LLM n'a pas encore lues (ou toutes, si redo_all=True)."""
+    condition = "" if redo_all else "AND extracted_at IS NULL"
     return conn.execute(
         "SELECT source_id, title, company, description FROM offers "
-        "WHERE is_active = 1 AND extracted_at IS NULL ORDER BY first_seen DESC"
+        f"WHERE is_active = 1 {condition} ORDER BY first_seen DESC"
     ).fetchall()
 
 
 def save_extraction(conn, source_id, info):
     conn.execute(
-        """UPDATE offers SET ai_role_family = ?, ai_skills = ?, ai_summary = ?, ai_start_date = ?,
+        """UPDATE offers SET ai_role_family = ?, ai_secondary_family = ?, ai_skills = ?, ai_summary = ?, ai_start_date = ?,
            ai_duration_months = ?, ai_languages = ?, ai_remote = ?, extracted_at = ?
            WHERE source_id = ?""",
-        (info["role_family"], json.dumps(info["skills"], ensure_ascii=False), info["summary"],
+        (info["role_family"], info["secondary_family"], json.dumps(info["skills"], ensure_ascii=False), info["summary"],
          info["start_date"], info["duration_months"], json.dumps(info["languages"], ensure_ascii=False),
          info["remote"], now_iso(), source_id),
     )
