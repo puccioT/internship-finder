@@ -1,41 +1,54 @@
 company,ats,slug,nb_jobs,nb_intern
-Doctolib,ashby,doctolib,156,32
-Stripe,greenhouse,stripe,785,21
+Doctolib,ashby,doctolib,160,32
+Stripe,greenhouse,stripe,773,21
+Withings,workable,withings,34,17
 Back Market,ashby,backmarket,32,14
-Celonis,greenhouse,celonis,261,10
-Figma,greenhouse,figma,142,9
+Celonis,greenhouse,celonis,265,10
+Figma,greenhouse,figma,146,9
 Alan,ashby,alan,136,6
-Mirakl,greenhouse,mirakl,21,6
-Datadog,greenhouse,datadog,380,5
-Vestiaire Collective,lever,vestiairecollective,16,5
-Shift Technology,greenhouse,shifttechnology,12,4
-Pigment,lever,pigment,122,3
-Malt,lever,malt,29,3
+Mirakl,greenhouse,mirakl,19,6
+Notion,ashby,notion,168,5
+Heetch,lever,heetch,26,5
+Voodoo,ashby,voodoo,106,5
+Datadog,greenhouse,datadog,382,5
+Brevo,lever,brevo,22,4
+Malt,lever,malt,30,4
+Vestiaire Collective,lever,vestiairecollective,15,4
+Shift Technology,greenhouse,shifttechnology,13,4
+Scaleway,lever,scaleway,36,4
+Pigment,lever,pigment,125,3
+Qonto,ashby,qonto,52,2
 Ledger,ashby,ledger,17,2
 Dataiku,greenhouse,dataiku,13,1
-Qonto,ashby,qonto,50,1
-Pennylane,ashby,pennylane,213,1
+Pennylane,ashby,pennylane,206,1
 Contentsquare,lever,contentsquare,25,1
 Lemlist,ashby,lemlist,17,1
-H Company,ashby,hcompany,26,1
+Sunday,ashby,sunday,29,1
+H Company,ashby,hcompany,28,1
+Platform.sh,greenhouse,platformsh,8,1
 Linear,ashby,linear,32,0
 Miro,ashby,miro,14,0
 Cycle,personio,cycle,13,0
 Dust,ashby,dust,34,0
-Lovable,ashby,lovable,79,0
-n8n,ashby,n8n,63,0
-Hugging Face,workable,huggingface,6,0
+Lovable,ashby,lovable,80,0
+n8n,ashby,n8n,68,0
+Hugging Face,workable,huggingface,10,0
 Photoroom,ashby,photoroom,7,0
-ElevenLabs,ashby,elevenlabs,130,0
-Adyen,greenhouse,adyen,241,0
+ElevenLabs,ashby,elevenlabs,125,0
+Adyen,greenhouse,adyen,244,0
 Personio,personio,personio,2,0
-BlaBlaCar,lever,blablacar,6,0
 Swile,lever,swile,27,0
-Algolia,greenhouse,algolia,27,0
-Ankorstore,ashby,ankorstore,1,0
-Agicap,lever,agicap,24,0
 Swan,ashby,swan,4,0
-Sorare,ashby,sorare,2,0
-Ivalua,greenhouse,ivalua,34,0
+Alma,ashby,alma,27,0
+Upflow,ashby,upflow,1,0
+Agicap,lever,agicap,25,0
+Algolia,greenhouse,algolia,27,0
+Ivalua,greenhouse,ivalua,32,0
 Comet,greenhouse,comet,1,0
-Brevo,lever,brevo,26,3
+BlaBlaCar,lever,blablacar,5,0
+Ankorstore,ashby,ankorstore,1,0
+Sorare,ashby,sorare,2,0
+JobTeaser,smartrecruiters,jobteaser,6,0
+Nabla,ashby,nabla,9,0
+Owkin,ashby,owkin,11,0
+Poolside,ashby,poolside,4,0

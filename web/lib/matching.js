@@ -55,19 +55,43 @@ export function verdict(score) {
 }
 
 /**
+ * Clé de regroupement des doublons multi-villes : le titre SANS les mentions de ville
+ * ni les "(x/f/m)", "(H/F)"...
+ * "AI Engineer Intern (x/f/m) - Paris" et "AI Engineer intern (x/f/m) - Berlin" -> "ai engineer intern".
+ * (Avant, on coupait au premier tiret : "Stage - Product Manager" devenait "Stage",
+ * et tous les "Stage - ..." d'une même boîte étaient fusionnés. Bug corrigé.)
+ */
+function groupKey(offer, cityNames) {
+  let t = offer.title.toLowerCase()
+    .replace(/\((?:[a-z]\/[a-z](?:\/[a-z])?|h\/f|f\/h)\)/g, " ")   // (x/f/m), (h/f)...
+    .replace(/[–—]/g, "-");
+  for (const city of cityNames) {
+    t = t.replace(new RegExp(`(^|[\\s\\-,(])${escapeRegex(city)}(?=$|[\\s\\-,)])`, "g"), " ");
+  }
+  t = t.replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  return `${offer.company}|${t}|${offer.contract}`;
+}
+
+/**
  * Score de toutes les offres + regroupement des doublons multi-villes
  * (le même stage publié à Paris, Nantes, Berlin... devient UNE ligne avec 3 villes).
  */
 export function rankOffers(offers, profile, skillImplies) {
+  const cityNames = [...new Set(offers.map((o) => (o.city || "").toLowerCase()).filter((c) => c.length > 2))];
   const groups = new Map();
   for (const offer of offers) {
     if (profile.country !== "Toutes" && offer.country !== profile.country) continue;
     if (profile.contract !== "Tous" && offer.contract !== profile.contract) continue;
-    const key = `${offer.company}|${offer.title.replace(/\s*[-–(].*$/, "").trim().toLowerCase()}|${offer.contract}`;
+    const key = groupKey(offer, cityNames);
     const result = { ...offer, ...scoreOffer(offer, profile, skillImplies) };
     const existing = groups.get(key);
-    if (!existing) groups.set(key, { ...result, cities: [offer.city] });
-    else if (!existing.cities.includes(offer.city)) existing.cities.push(offer.city);
+    if (!existing) {
+      groups.set(key, { ...result, cities: [offer.city] });
+    } else {
+      const cities = existing.cities.includes(offer.city) ? existing.cities : [...existing.cities, offer.city];
+      // On garde la version la mieux notée comme représentante du groupe
+      groups.set(key, result.score > existing.score ? { ...result, cities } : { ...existing, cities });
+    }
   }
   return [...groups.values()].sort((a, b) => b.score - a.score || (b.firstSeen || "").localeCompare(a.firstSeen || ""));
 }

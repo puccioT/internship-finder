@@ -11,6 +11,7 @@ ne voit qu'un seul format.
 """
 import html
 import re
+import time
 from datetime import datetime, timezone
 
 import httpx
@@ -27,6 +28,28 @@ ALTERNANCE_PATTERN = re.compile(
     r"\b(alternance|alternant|alternante|apprenti|apprentie|apprentice|apprenticeship|work[- ]study)\b",
     re.IGNORECASE,
 )
+
+
+
+# ---------- Requête polie : réessaie si la plateforme demande de ralentir ----------
+
+MAX_RETRIES = 4
+
+
+def polite_get(client, url, **kwargs):
+    """
+    GET qui gère le code 429 ("Too Many Requests") : certaines plateformes (Workable)
+    limitent le nombre de requêtes par minute. Au lieu d'abandonner, on attend le délai
+    demandé (en-tête Retry-After), sinon 10 s, 20 s, 30 s... puis on réessaie.
+    """
+    for attempt in range(MAX_RETRIES):
+        r = client.get(url, **kwargs)
+        if r.status_code != 429:
+            return r
+        retry_after = r.headers.get("Retry-After", "")
+        wait = int(retry_after) if retry_after.isdigit() else 10 * (attempt + 1)
+        time.sleep(min(wait, 60))
+    return r
 
 
 # ---------- Petits utilitaires ----------
@@ -81,7 +104,7 @@ def make_offer(ats, slug, company, job_id, title, location, url, description, po
 # ---------- Un connecteur par plateforme ----------
 
 def fetch_greenhouse(client, slug, company):
-    r = client.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", params={"content": "true"})
+    r = polite_get(client, f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", params={"content": "true"})
     r.raise_for_status()
     offers = []
     for job in r.json().get("jobs", []):
@@ -98,7 +121,7 @@ def fetch_greenhouse(client, slug, company):
 
 
 def _fetch_lever(client, slug, company, host, ats_name):
-    r = client.get(f"https://{host}/v0/postings/{slug}", params={"mode": "json"})
+    r = polite_get(client, f"https://{host}/v0/postings/{slug}", params={"mode": "json"})
     r.raise_for_status()
     offers = []
     for job in r.json():
@@ -129,7 +152,7 @@ def fetch_lever_eu(client, slug, company):
 
 
 def fetch_ashby(client, slug, company):
-    r = client.get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
+    r = polite_get(client, f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
     r.raise_for_status()
     offers = []
     for job in r.json().get("jobs", []):
@@ -146,7 +169,7 @@ def fetch_ashby(client, slug, company):
 
 
 def fetch_workable(client, slug, company):
-    r = client.get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}", params={"details": "true"})
+    r = polite_get(client, f"https://apply.workable.com/api/v1/widget/accounts/{slug}", params={"details": "true"})
     r.raise_for_status()
     offers = []
     for job in r.json().get("jobs", []):
@@ -166,7 +189,7 @@ def fetch_smartrecruiters(client, slug, company):
     base = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings"
     postings, offset = [], 0
     while True:   # la liste est paginée par 100
-        r = client.get(base, params={"limit": 100, "offset": offset})
+        r = polite_get(client, base, params={"limit": 100, "offset": offset})
         r.raise_for_status()
         data = r.json()
         postings += data.get("content", [])
@@ -181,7 +204,7 @@ def fetch_smartrecruiters(client, slug, company):
         description = ""
         # La description demande un appel par offre : on ne le fait que pour les stages
         if INTERN_PATTERN.search(job["name"]):
-            d = client.get(f"{base}/{job['id']}")
+            d = polite_get(client, f"{base}/{job['id']}")
             if d.status_code == 200:
                 sections = ((d.json().get("jobAd") or {}).get("sections") or {})
                 description = "\n\n".join(
@@ -202,7 +225,7 @@ def fetch_smartrecruiters(client, slug, company):
 def fetch_personio(client, slug, company):
     import xml.etree.ElementTree as ET
     for domain in ("jobs.personio.de", "jobs.personio.com"):
-        r = client.get(f"https://{slug}.{domain}/xml")
+        r = polite_get(client, f"https://{slug}.{domain}/xml")
         if r.status_code == 200 and r.text.lstrip().startswith("<"):
             break
     else:

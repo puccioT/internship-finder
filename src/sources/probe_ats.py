@@ -23,13 +23,39 @@ COMPANIES = [
     "n8n", "Hugging Face", "Photoroom", "ElevenLabs", "Dataiku", "Stripe", "Qonto", "Pennylane",
     "Alan", "Adyen", "PayFit", "Spendesk", "Revolut", "Contentsquare", "Pigment", "Celonis",
     "Personio", "Aircall",
-    # --- Liste de départ ---
-    "Doctolib", "Back Market", "BlaBlaCar", "Swile", "Ledger", "Malt", "Algolia", "Ankorstore",
-    "Agicap", "Mirakl", "ManoMano", "Criteo", "Datadog", "Deezer", "Shift Technology", "Swan",
-    "Yousign", "Lucca", "Brevo", "Sorare", "Ornikar", "Lemlist", "Welcome to the Jungle", "Libeo",
-    "Sumeria", "Ivalua", "Vestiaire Collective", "Getaround", "Comet", "Side", "Upway", "H Company",
-    "Hiflow", "Indy", "Partoo", "Qover",
+    # --- Fintech ---
+    "Swile", "Ledger", "Sumeria", "Shine", "Swan", "Alma", "Libeo", "Upflow", "Agicap", "Payplug",
+    "Pretto", "Bankin", "Yomoni", "Mooncard", "Indy", "Defacto", "Silvr", "Fygr", "Pledg",
+    # --- SaaS B2B ---
+    "Lucca", "Yousign", "Brevo", "Lemlist", "Malt", "Algolia", "Mirakl", "Akeneo", "AB Tasty",
+    "Botify", "Livestorm", "Hivebrite", "Partoo", "Skello", "Matera", "Sunday", "Zenchef",
+    "Aircall", "Front", "Ivalua", "Comet", "Side", "Agicap", "Leexi", "Modjo", "Pennylane",
+    # --- Marketplaces & consumer ---
+    "Doctolib", "Back Market", "BlaBlaCar", "Vinted", "Vestiaire Collective", "ManoMano",
+    "Ankorstore", "Getaround", "Heetch", "Sorare", "Ornikar", "Leboncoin", "Selency", "Deezer",
+    "Voodoo", "Withings", "Hiflow", "Upway", "Welcome to the Jungle", "JobTeaser",
+    # --- IA, data & deeptech ---
+    "H Company", "Nabla", "Owkin", "Shift Technology", "Poolside", "Kyutai", "Giskard",
+    "Criteo", "Datadog", "Platform.sh", "Scaleway", "Cosmo Tech", "Pasqal",
 ]
+COMPANIES = list(dict.fromkeys(COMPANIES))  # retire les doublons, garde l'ordre
+
+# Noms dont l'identifiant sur les plateformes ne se devine pas à partir du nom
+EXTRA_SLUGS = {
+    "Welcome to the Jungle": ["wttj", "welcometothejungle"],
+    "Leboncoin": ["leboncoin", "adevinta"],
+    "Sumeria": ["lydia", "sumeria"],
+    "Mistral AI": ["mistral", "mistralai"],
+    "Hugging Face": ["huggingface"],
+    "H Company": ["hcompany"],
+    "Platform.sh": ["platformsh", "upsun"],
+    "AB Tasty": ["abtasty"],
+    "Back Market": ["backmarket"],
+    "Bankin": ["bankin", "bankinapp"],
+    "Front": ["front", "frontapp"],
+    "Side": ["side", "sideco"],
+    "Comet": ["comet", "cometco"],
+}
 
 # Une offre est un "stage / alternance" si son titre contient un de ces mots.
 INTERN_PATTERN = re.compile(
@@ -42,13 +68,10 @@ TIMEOUT = 10
 
 
 def slug_candidates(name):
-    """Devine les identifiants possibles : 'Back Market' -> backmarket, back-market."""
-    base = name.lower().strip()
-    return list(dict.fromkeys([
-        base.replace(" ", ""),
-        base.replace(" ", "-"),
-        base.replace(" ", "").replace("-", ""),
-    ]))
+    """Devine les identifiants possibles : 'Back Market' -> backmarket, back-market (+ EXTRA_SLUGS)."""
+    base = name.lower().strip().replace(".", "")
+    guesses = [base.replace(" ", ""), base.replace(" ", "-"), base.replace(" ", "").replace("-", "")]
+    return list(dict.fromkeys(EXTRA_SLUGS.get(name, []) + guesses))
 
 
 # Chaque fonction renvoie la liste des TITRES d'offres, ou None si le slug n'existe pas.
