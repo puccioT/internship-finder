@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T19:47:49+00:00",
+ "generatedAt": "2026-11-20T20:11:03+00:00",
  "roleFamilies": [
   "Product",
   "Data",
@@ -96,6 +96,104 @@
    "ai tools",
    "generative ai",
    "prompt engineering"
+  ]
+ },
+ "skillAliases": {
+  "Google Sheets": [
+   "G-Sheets",
+   "GSheets",
+   "Google Spreadsheets"
+  ],
+  "Google Workspace": [
+   "G Suite",
+   "GSuite",
+   "Google Suite"
+  ],
+  "Microsoft Office": [
+   "MS Office",
+   "Microsoft 365",
+   "Office 365",
+   "Microsoft Office Suite"
+  ],
+  "Excel": [
+   "Microsoft Excel",
+   "MS Excel"
+  ],
+  "PowerPoint": [
+   "Microsoft PowerPoint",
+   "MS PowerPoint"
+  ],
+  "JavaScript": [
+   "JS"
+  ],
+  "TypeScript": [
+   "TS"
+  ],
+  "React": [
+   "React.js",
+   "ReactJS"
+  ],
+  "Node.js": [
+   "NodeJS",
+   "Node"
+  ],
+  "PostgreSQL": [
+   "Postgres"
+  ],
+  "LLM": [
+   "LLMs",
+   "Large language models",
+   "Large Language Models (LLMs)"
+  ],
+  "AI tools": [
+   "AI tooling",
+   "Generative AI tools",
+   "GenAI tools"
+  ],
+  "AI": [
+   "Artificial intelligence"
+  ],
+  "Machine learning": [
+   "ML",
+   "Machine learning concepts"
+  ],
+  "APIs": [
+   "API"
+  ],
+  "REST APIs": [
+   "REST API"
+  ],
+  "CRM": [
+   "Customer relationship management",
+   "CRM tools"
+  ],
+  "ATS": [
+   "Applicant Tracking System",
+   "Applicant Tracking Systems"
+  ],
+  "Adobe Photoshop": [
+   "Photoshop"
+  ],
+  "No-code": [
+   "No-code/Low-code tools",
+   "Low-code",
+   "No-code tools"
+  ],
+  "KPI tracking": [
+   "KPIs",
+   "KPI monitoring"
+  ],
+  "Competitive benchmarking": [
+   "Competitor benchmarking"
+  ],
+  "IP law": [
+   "Intellectual property law"
+  ],
+  "Supply chain": [
+   "Supply Chain Management"
+  ],
+  "Data structures and algorithms": [
+   "DSA"
   ]
  },
  "offers": [
@@ -275,7 +373,7 @@
    "family": "Sales & Business Dev",
    "secondaryFamily": "Finance & Legal",
    "skills": [
-    "Customer relationship management",
+    "CRM",
     "Accounting basics",
     "Project management",
     "Administrative support"
@@ -385,7 +483,7 @@
    "secondaryFamily": null,
    "skills": [
     "Excel",
-    "MS Office",
+    "Microsoft Office",
     "Contract management",
     "Reporting",
     "Data analysis"
@@ -414,7 +512,7 @@
    "secondaryFamily": null,
    "skills": [
     "Excel",
-    "MS Office",
+    "Microsoft Office",
     "Data analysis",
     "Contract management",
     "Reporting"
@@ -443,7 +541,6 @@
    "secondaryFamily": "Engineering",
    "skills": [
     "No-code",
-    "Low-code",
     "AI tools",
     "Data analysis",
     "Dashboards"
@@ -471,7 +568,7 @@
    "family": "Strategy & Ops",
    "secondaryFamily": "Engineering",
    "skills": [
-    "No-code/Low-code tools",
+    "No-code",
     "AI tools",
     "Data analysis",
     "Dashboards",
@@ -697,7 +794,7 @@
    "secondaryFamily": null,
    "skills": [
     "Spreadsheets",
-    "AI tooling",
+    "AI tools",
     "Operations",
     "Process documentation"
    ],
@@ -725,7 +822,7 @@
    "secondaryFamily": null,
    "skills": [
     "Sales",
-    "Customer relationship management",
+    "CRM",
     "HubSpot",
     "Negotiation",
     "Business development"
@@ -839,7 +936,7 @@
     "KYC/AML",
     "Compliance",
     "SQL",
-    "Google Suite",
+    "Google Workspace",
     "Data analysis"
    ],
    "summary": "The intern will execute day-to-day anti-financial crime processes, including PEP and sanctions screening, KYB checks, and transaction monitoring. They will also help improve automation and tooling to streamline case processing and collaborate with compliance teams.",
@@ -1057,7 +1154,7 @@
    "skills": [
     "UX Copywriting",
     "Content Design",
-    "UX/UI Design",
+    "UX/UI design",
     "Localization",
     "Copywriting"
    ],
@@ -1086,7 +1183,7 @@
    "skills": [
     "Customer support",
     "Email management",
-    "Customer relationship management"
+    "CRM"
    ],
    "summary": "The intern will assist customers with their inquiries via phone and email while working closely with various operational teams. They will also process and forward customer requests as part of a dedicated support team.",
    "startDate": "Unknown",
@@ -1224,7 +1321,7 @@
    "skills": [
     "Excel",
     "Negotiation",
-    "Customer Support",
+    "Customer support",
     "Operations Management"
    ],
    "summary": "The intern will coordinate logistics operations by scheduling vehicle pick-ups and deliveries, and match transport missions with independent drivers. They will also manage daily transport emergencies and negotiate pricing with drivers to ensure successful deliveries.",
@@ -1417,7 +1514,7 @@
     "Data analysis",
     "User stories",
     "Requirements definition",
-    "LLMs"
+    "LLM"
    ],
    "summary": "The intern will take features from definition to release by writing requirements, collaborating with engineering and design teams, and tracking adoption after launch. They will also analyze product usage data to identify areas for improvement and present actionable proposals to leadership.",
    "startDate": "Unknown",
@@ -1578,7 +1675,7 @@
    "secondaryFamily": null,
    "skills": [
     "Digital marketing",
-    "KPIs",
+    "KPI tracking",
     "Data segmentation",
     "Reporting"
    ],
@@ -1637,7 +1734,7 @@
     "Python",
     "Data analysis",
     "Financial modeling",
-    "MS Office"
+    "Microsoft Office"
    ],
    "summary": "The intern will analyze business and financial performance to uncover insights and support data-driven decision-making. They will also build and maintain critical business dashboards and reporting frameworks.",
    "startDate": "Unknown",
@@ -1909,7 +2006,7 @@
    "skills": [
     "Data labeling",
     "Data quality assurance",
-    "Machine learning concepts",
+    "Machine learning",
     "Data analysis"
    ],
    "summary": "The intern will label and annotate images, text, audio, and video to support search and recommendation systems. They will also maintain high data quality by following guidelines and resolving discrepancies with the team.",
@@ -1936,7 +2033,7 @@
    "secondaryFamily": null,
    "skills": [
     "Excel",
-    "G-Sheets",
+    "Google Sheets",
     "Data analysis",
     "Financial modeling",
     "Reporting"
@@ -2023,7 +2120,7 @@
    "skills": [
     "Python",
     "TypeScript",
-    "Postgres",
+    "PostgreSQL",
     "Docker",
     "React",
     "AWS"
@@ -2135,7 +2232,7 @@
     "Social media management",
     "Press monitoring",
     "Microsoft Office",
-    "G Suite"
+    "Google Workspace"
    ],
    "summary": "The intern will support the communications team by drafting press materials, managing media outreach, and handling daily press monitoring and newsroom updates. They will also assist with corporate social media management, PR agency coordination, and various research and logistical tasks.",
    "startDate": "Unknown",
@@ -2188,7 +2285,7 @@
    "secondaryFamily": null,
    "skills": [
     "Excel",
-    "MS Office",
+    "Microsoft Office",
     "Financial analysis",
     "Reporting tools",
     "Cost controlling"
@@ -2466,7 +2563,7 @@
     "Excel",
     "Data analysis",
     "Stock tracking",
-    "Competitor benchmarking",
+    "Competitive benchmarking",
     "Margin calculation"
    ],
    "summary": "The intern will manage day-to-day operations for HelloFresh Market, handling stock tracking, pricing updates, margin calculations, and recipe management. Additionally, they will analyse customer feedback, evaluate ingredients, and perform market benchmarking to optimize the menu offering.",
@@ -2603,7 +2700,7 @@
    "secondaryFamily": null,
    "skills": [
     "Learning Management System",
-    "MS Office",
+    "Microsoft Office",
     "Data analysis",
     "Project management"
    ],
@@ -2633,7 +2730,7 @@
     "Customer support",
     "Zendesk",
     "Salesforce",
-    "CRM tools"
+    "CRM"
    ],
    "summary": "The student will respond to customer inquiries in Dutch and English across live chat, email, and phone, while troubleshooting complex account issues. Additionally, they will guide new corporate users through the application and share feedback to improve support processes.",
    "startDate": "Unknown",
@@ -2660,7 +2757,7 @@
    "skills": [
     "Project management",
     "Data analysis",
-    "Operations management"
+    "Operations Management"
    ],
    "summary": "The intern will work on live projects across various tracks like operations, marketing, or commercial within a fast-paced global organization. They will collaborate cross-functionally and execute day-to-day tasks to support regional business ecosystems.",
    "startDate": "Unknown",
@@ -2774,7 +2871,7 @@
     "B2B sales",
     "Negotiation",
     "Sales strategy",
-    "MS Office",
+    "Microsoft Office",
     "Data analysis"
    ],
    "summary": "The intern will target and acquire new partners in the Specialties sector to expand Glovo's footprint in Italy. Key responsibilities include presenting solutions, negotiating agreements with decision-makers, and analyzing partner performance post-onboarding.",
@@ -3426,7 +3523,7 @@
    "secondaryFamily": null,
    "skills": [
     "Windows",
-    "Microsoft 365",
+    "Microsoft Office",
     "Hardware setup",
     "Networks",
     "IT support"
@@ -3737,7 +3834,7 @@
    "secondaryFamily": null,
    "skills": [
     "Logistics",
-    "Supply Chain Management",
+    "Supply chain",
     "SAP",
     "Data analysis"
    ],
@@ -3881,7 +3978,7 @@
    "skills": [
     "Python",
     "SQL",
-    "REST API",
+    "REST APIs",
     "Generative AI",
     "Git",
     "Docker"
@@ -4770,7 +4867,7 @@
    "family": "Engineering",
    "secondaryFamily": null,
    "skills": [
-    "React.js",
+    "React",
     "PHP",
     "SQL",
     "Git",
@@ -4879,7 +4976,7 @@
    "skills": [
     "Machine learning",
     "Python",
-    "Artificial intelligence"
+    "AI"
    ],
    "summary": "The intern will contribute to research and development activities focusing on machine learning and artificial intelligence. They will work within the R&D team to help build and improve sovereign AI and cloud infrastructure solutions.",
    "startDate": "Unknown",
@@ -5110,7 +5207,7 @@
    "secondaryFamily": null,
    "skills": [
     "Data analysis",
-    "Photoshop",
+    "Adobe Photoshop",
     "A/B testing",
     "Market research",
     "Visual creation software"
@@ -5463,7 +5560,7 @@
    "skills": [
     "SQL",
     "Data analysis",
-    "Business Intelligence",
+    "Business intelligence",
     "Process mining",
     "Management consulting"
    ],
@@ -5865,7 +5962,7 @@
     "Python",
     "PyTorch",
     "TensorFlow",
-    "Artificial intelligence"
+    "AI"
    ],
    "summary": "The intern will drive fundamental and applied research in Generative AI for Figma product use cases and implement new modeling approaches. They will also experiment with novel ideas and explore the boundaries of current technology to develop AI-powered features.",
    "startDate": "Winter 2027 or Summer 2027",
@@ -6314,7 +6411,7 @@
     "Programming",
     "Ruby",
     "Java",
-    "Javascript",
+    "JavaScript",
     "Go",
     "Scala"
    ],
@@ -6476,7 +6573,7 @@
     "Software development",
     "Ruby",
     "Java",
-    "Javascript",
+    "JavaScript",
     "Go",
     "Scala"
    ],
@@ -6557,9 +6654,9 @@
    "secondaryFamily": null,
    "skills": [
     "Python",
-    "API",
+    "APIs",
     "HL7 / FHIR",
-    "Artificial intelligence",
+    "AI",
     "Git"
    ],
    "summary": "The intern will participate in setting up API connectors and integrating AI assistants to automate technical processes for healthcare interoperability. They will also update technical documentation and provide technical support to internal teams.",
@@ -6610,7 +6707,7 @@
    "skills": [
     "Legal research",
     "Contract drafting",
-    "Intellectual property law",
+    "IP law",
     "IT law"
    ],
    "summary": "The intern will assist the legal team with intellectual property, information technology, and business affairs matters. They will participate in drafting contracts, conducting legal research, and supporting operational legal needs.",
@@ -7345,7 +7442,7 @@
     "Excel",
     "Data analysis",
     "Business analysis",
-    "KPI monitoring"
+    "KPI tracking"
    ],
    "summary": "The intern will leverage data analysis and data models to monitor business performance, track KPIs, and identify growth opportunities for buyers and sellers. They will also communicate results and strategic insights to cross-functional teams.",
    "startDate": "January 2027",
@@ -7571,7 +7668,7 @@
     "FAQ management",
     "Data analysis",
     "Project management",
-    "Generative AI tools"
+    "AI tools"
    ],
    "summary": "The intern will write and manage FAQ content in French and English to feed the AI assistant and support new product launches. They will also analyze AI response performance and contribute to innovative AI content optimization projects.",
    "startDate": "January 2027",
@@ -7656,7 +7753,7 @@
    "secondaryFamily": null,
    "skills": [
     "HR administration",
-    "Applicant Tracking System",
+    "ATS",
     "Process improvement",
     "Project management"
    ],
@@ -8247,7 +8344,7 @@
    "skills": [
     "Machine learning",
     "Python",
-    "Artificial intelligence",
+    "AI",
     "Statistical modeling",
     "Software development"
    ],
@@ -8326,7 +8423,7 @@
    "family": "Engineering",
    "secondaryFamily": null,
    "skills": [
-    "IT Support",
+    "IT support",
     "Hardware troubleshooting",
     "Software troubleshooting",
     "MDM",
@@ -8412,9 +8509,9 @@
    "family": "Engineering",
    "secondaryFamily": "Data",
    "skills": [
-    "Object-Oriented Programming",
+    "Object-oriented programming",
     "SQL",
-    "Machine Learning",
+    "Machine learning",
     "ETL",
     "Data engineering"
    ],
@@ -8496,7 +8593,7 @@
    "secondaryFamily": "Data",
    "skills": [
     "Python",
-    "Machine Learning",
+    "Machine learning",
     "LLM",
     "PostgreSQL",
     "Docker"
@@ -8663,7 +8760,7 @@
     "Sourcing",
     "Recruitment metrics",
     "LinkedIn",
-    "Applicant Tracking Systems"
+    "ATS"
    ],
    "summary": "The intern will coordinate the recruitment pipeline, manage interview schedules, and source diverse talent pools through LinkedIn and creative outreach. They will also optimize employer branding initiatives and analyze recruitment metrics to monitor pipeline efficiency.",
    "startDate": "January 2027",

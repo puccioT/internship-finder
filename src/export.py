@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 
 from src.matching import ROLE_FAMILY_NAMES, SKILL_IMPLIES
 from src.offers import load_prepared_offers
+from src.skills import SKILL_ALIASES, normalize_skill_lists
 
 OUT_PATH = os.path.join("web", "public", "data", "offers.json")
 
@@ -34,8 +35,10 @@ def clean(value):
 
 def main():
     df = load_prepared_offers()
+    # "G-Sheets" -> "Google Sheets", "Javascript" -> "JavaScript"... (voir src/skills.py)
+    skill_lists = normalize_skill_lists(df["required_skills"].tolist())
     offers = []
-    for _, r in df.iterrows():
+    for i, (_, r) in enumerate(df.iterrows()):
         duration = clean(r["ai_duration_months"])
         offers.append({
             "id": r["source_id"],
@@ -47,7 +50,7 @@ def main():
             "contract": r["contract_type"],
             "family": r["role_family"],
             "secondaryFamily": clean(r["secondary_family"]),
-            "skills": r["required_skills"],
+            "skills": skill_lists[i],
             "summary": r["summary"],
             "startDate": clean(r["ai_start_date"]),
             "durationMonths": int(duration) if duration is not None else None,
@@ -62,6 +65,7 @@ def main():
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "roleFamilies": ROLE_FAMILY_NAMES,
         "skillImplies": SKILL_IMPLIES,
+        "skillAliases": SKILL_ALIASES,
         "offers": offers,
     }
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

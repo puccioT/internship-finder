@@ -20,7 +20,13 @@ const COMMON_TOOLS = ["Figma", "Notion", "Jira", "Make", "Zapier", "Amplitude", 
 
 const skillKey = (s) => s.toLowerCase().replace(/[^a-z0-9+#]/g, "");
 
-export default function ProfileEditor({ offers, skillImplies, roleFamilies }) {
+export default function ProfileEditor({ offers, skillImplies, roleFamilies, skillAliases = {} }) {
+  // "g-sheets" tapé par l'utilisateur -> "Google Sheets", le nom utilisé dans les offres
+  const canonical = useMemo(() => {
+    const lookup = {};
+    for (const [canon, variants] of Object.entries(skillAliases)) for (const v of [canon, ...variants]) lookup[v.toLowerCase()] = canon;
+    return (s) => lookup[s.trim().toLowerCase()] || s.trim();
+  }, [skillAliases]);
   const router = useRouter();
   const [profile, setProfile, loaded] = useProfile();
   const [step, setStep] = useState(0);
@@ -32,9 +38,9 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies }) {
       const next = cur.includes(value) ? cur.filter((x) => x !== value) : [...cur, value];
       return field === "countries" ? { ...p, country: undefined, countries: next } : { ...p, [field]: next };
     });
-  const hasSkill = (s) => profile.skills.some((x) => skillKey(x) === skillKey(s));
+  const hasSkill = (s) => profile.skills.some((x) => skillKey(canonical(x)) === skillKey(canonical(s)));
   const toggleSkill = (s) =>
-    setProfile((p) => ({ ...p, skills: hasSkill(s) ? p.skills.filter((x) => skillKey(x) !== skillKey(s)) : [...p.skills, s] }));
+    setProfile((p) => ({ ...p, skills: hasSkill(s) ? p.skills.filter((x) => skillKey(canonical(x)) !== skillKey(canonical(s))) : [...p.skills, canonical(s)] }));
 
   // Compétences les plus demandées dans les offres des rôles visés (et des pays choisis)
   const suggested = useMemo(() => {
@@ -66,7 +72,7 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies }) {
 
   const addCustom = (e) => {
     e.preventDefault();
-    const s = search.trim();
+    const s = canonical(search);
     if (s && !hasSkill(s)) setProfile((p) => ({ ...p, skills: [...p.skills, s] }));
     setSearch("");
   };
