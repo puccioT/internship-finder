@@ -2,7 +2,7 @@
 /** ÉCRAN « DÉTAIL D'UNE OFFRE » — score détaillé, compétences, écart à combler. */
 import Link from "next/link";
 import { useMemo } from "react";
-import { scoreOffer, rankOffers, verdict } from "@/lib/matching";
+import { scoreOffer, rankOffers, verdict, missingLanguages, LANGUAGES } from "@/lib/matching";
 import { useProfile } from "@/lib/store";
 import { isNew } from "@/lib/data";
 import { ScoreRing, Bar } from "@/components/Gauges";
@@ -71,6 +71,11 @@ export default function OfferDetail({ offer, pool, skillImplies }) {
 
       <div className="split" style={{ gap: 64 }}>
         <main className="split-main" style={{ display: "flex", flexDirection: "column", gap: 44 }}>
+          {missingLanguages(offer, profile).length > 0 && (
+            <p style={{ margin: 0, padding: "14px 18px", borderRadius: 12, background: "var(--surface)", color: "var(--accent)", fontWeight: 600 }}>
+              ⚠ Cette offre exige : {missingLanguages(offer, profile).map((c) => (LANGUAGES.find(([k]) => k === c)?.[1] || c).toLowerCase()).join(", ")}, une langue absente de ton profil.
+            </p>
+          )}
           <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
             <span className="eyebrow">Verdict · {verdict(r.score)}</span>
             <p style={{ margin: 0, fontFamily: "var(--font-display)", fontSize: 26, lineHeight: 1.3, fontWeight: 600, letterSpacing: "-0.02em" }}>

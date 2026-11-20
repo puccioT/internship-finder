@@ -10,6 +10,9 @@ export const DEFAULT_PROFILE = {
   roles: ["Product", "Strategy & Ops"],
   skills: ["Python", "Excel", "Google Analytics", "Make", "LLM", "JavaScript", "User research"],
   countries: ["France"],   // [] = tous les pays
+  languages: ["french", "english"],   // langues parlées (codes anglais)
+  hideLanguageMismatch: true,         // masquer les offres qui exigent une autre langue
+  onboarded: false,                   // l'utilisateur a-t-il terminé l'onboarding ?
   contract: "Tous",
 };
 

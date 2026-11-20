@@ -5,7 +5,7 @@
  */
 import Link from "next/link";
 import { useMemo } from "react";
-import { rankOffers, topGaps, verdict, countriesOf } from "@/lib/matching";
+import { rankOffers, topGaps, verdict, countriesOf, missingLanguages, LANGUAGES } from "@/lib/matching";
 import { useProfile, useTracker } from "@/lib/store";
 import { isNew } from "@/lib/data";
 import { ScoreRing, Segments, Bar } from "@/components/Gauges";
@@ -26,7 +26,7 @@ function whyLine(o) {
 }
 
 export default function Matches({ offers, skillImplies, roleFamilies, generatedAt }) {
-  const [profile, setProfile] = useProfile();
+  const [profile, setProfile, loaded] = useProfile();
   const [tracker] = useTracker();
 
   const ranked = useMemo(() => rankOffers(offers, profile, skillImplies), [offers, profile, skillImplies]);
@@ -36,6 +36,24 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
   const gaps = topGaps(ranked, profile);
   const strong = inTargets.filter((o) => o.score >= 75).length;
   const newCount = inTargets.filter(isNew).length;
+
+  // Offres masquées parce qu'elles exigent une langue que l'utilisateur ne parle pas
+  const hiddenByLanguage = useMemo(() => {
+    const countries = countriesOf(profile);
+    const counts = new Map();
+    let total = 0;
+    for (const o of offers) {
+      if (countries.length && !countries.includes(o.country)) continue;
+      if (profile.contract !== "Tous" && o.contract !== profile.contract) continue;
+      if (!profile.roles.includes(o.family) && !profile.roles.includes(o.secondaryFamily)) continue;
+      const miss = missingLanguages(o, profile);
+      if (!miss.length) continue;
+      total++;
+      for (const l of miss) counts.set(l, (counts.get(l) || 0) + 1);
+    }
+    const label = (code) => (LANGUAGES.find(([c]) => c === code)?.[1] || code).toLowerCase();
+    return { total, langs: [...counts.keys()].map(label) };
+  }, [offers, profile]);
 
   const tracked = Object.values(tracker);
   const countStatus = (s) => tracked.filter((t) => t.status === s).length;
@@ -54,6 +72,15 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
 
   return (
     <>
+      {loaded && !profile.onboarded && (
+        <Link href="/profil" className="row" style={{ borderTop: "none", background: "var(--surface)", padding: "16px 20px", margin: "0 0 -16px", borderRadius: 12 }}>
+          <span style={{ flex: 1 }}>
+            <b>Configure ton profil en 1 minute</b>
+            <span className="muted"> · rôles visés, compétences et langues, pour des scores qui te ressemblent.</span>
+          </span>
+          <span style={{ color: "var(--accent)", fontWeight: 700 }}>Commencer →</span>
+        </Link>
+      )}
       <header className="split" style={{ alignItems: "flex-end", gap: 40, paddingTop: 12 }}>
         <div className="split-main" style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <span className="eyebrow">Mis à jour {updated}</span>
@@ -65,7 +92,7 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
         <dl className="stats" style={{ flex: "0 1 460px", minWidth: 300 }}>
           <div><dt>offres analysées</dt><dd>{ranked.length}</dd></div>
           <div><dt>bons matchs (75+)</dt><dd style={{ color: "var(--accent)" }}>{strong}</dd></div>
-          <div><dt>à apprendre en n°1</dt><dd style={{ fontSize: gaps[0]?.skill.length > 8 ? 24 : 40 }}>{gaps[0]?.skill ?? "—"}</dd></div>
+          <div><dt>à apprendre en n°1</dt><dd style={{ fontSize: gaps[0]?.skill.length > 14 ? 20 : gaps[0]?.skill.length > 8 ? 24 : 40, overflowWrap: "anywhere" }}>{gaps[0]?.skill ?? "—"}</dd></div>
         </dl>
       </header>
 
@@ -86,6 +113,19 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
           {CONTRACTS.map((c) => <option key={c} value={c}>{c === "Tous" ? "Stage + Alternance" : c}</option>)}
         </select>
       </section>
+
+      {hiddenByLanguage.total > 0 && profile.hideLanguageMismatch !== false && (
+        <p className="muted" style={{ margin: "-20px 0 0", fontSize: 14 }}>
+          {hiddenByLanguage.total} offre{hiddenByLanguage.total > 1 ? "s" : ""} masquée{hiddenByLanguage.total > 1 ? "s" : ""} car elle{hiddenByLanguage.total > 1 ? "s exigent" : " exige"} : {hiddenByLanguage.langs.join(", ")}.{" "}
+          <button onClick={() => setProfile((p) => ({ ...p, hideLanguageMismatch: false }))} style={{ background: "none", border: 0, padding: 0, color: "var(--accent-2)", fontWeight: 600, cursor: "pointer", textDecoration: "underline", textUnderlineOffset: 3 }}>Les afficher quand même</button>
+        </p>
+      )}
+      {profile.hideLanguageMismatch === false && (
+        <p className="muted" style={{ margin: "-20px 0 0", fontSize: 14 }}>
+          Les offres qui exigent une langue que tu ne parles pas sont affichées.{" "}
+          <button onClick={() => setProfile((p) => ({ ...p, hideLanguageMismatch: true }))} style={{ background: "none", border: 0, padding: 0, color: "var(--accent-2)", fontWeight: 600, cursor: "pointer", textDecoration: "underline", textUnderlineOffset: 3 }}>Les masquer</button>
+        </p>
+      )}
 
       {profile.roles.length === 0 ? (
         <div className="empty">Choisis au moins un rôle visé pour voir tes matchs.</div>

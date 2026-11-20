@@ -54,6 +54,29 @@ export function verdict(score) {
   return "Match faible";
 }
 
+/** Langues que l'utilisateur peut proposer (codes anglais, comme dans les offres). */
+export const LANGUAGES = [
+  ["english", "Anglais"], ["french", "Français"], ["german", "Allemand"], ["dutch", "Néerlandais"],
+  ["spanish", "Espagnol"], ["italian", "Italien"], ["portuguese", "Portugais"],
+];
+
+/**
+ * Langues EXIGÉES par une offre. L'IA écrit par ex. "German (fluent)", "French (plus)".
+ * Une langue marquée "plus", "nice to have", "helpful", "bonus"... n'est pas exigée.
+ */
+export function requiredLanguages(offer) {
+  return (offer.languages || [])
+    .filter((l) => !/plus|nice|helpful|bonus|advantage|preferred|asset|optional|atout/i.test(l))
+    .map((l) => l.trim().split(/[\s(]/)[0].toLowerCase())
+    .filter((l) => LANGUAGES.some(([code]) => code === l));
+}
+
+/** Langues exigées par l'offre que l'utilisateur ne parle pas (liste vide = OK). */
+export function missingLanguages(offer, profile) {
+  if (!Array.isArray(profile.languages) || profile.languages.length === 0) return [];
+  return requiredLanguages(offer).filter((l) => !profile.languages.includes(l));
+}
+
 /** Pays choisis par l'utilisateur ([] = tous). Gère aussi les anciens profils à un seul pays. */
 export function countriesOf(profile) {
   if (Array.isArray(profile.countries)) return profile.countries;
@@ -89,6 +112,7 @@ export function rankOffers(offers, profile, skillImplies) {
   for (const offer of offers) {
     if (countries.length && !countries.includes(offer.country)) continue;
     if (profile.contract !== "Tous" && offer.contract !== profile.contract) continue;
+    if (profile.hideLanguageMismatch !== false && missingLanguages(offer, profile).length) continue;
     const key = groupKey(offer, cityNames);
     const result = { ...offer, ...scoreOffer(offer, profile, skillImplies) };
     const existing = groups.get(key);

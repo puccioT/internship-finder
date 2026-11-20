@@ -1,4 +1,8 @@
-export const metadata = { title: "Profil — Internship Finder" };
+import ProfileEditor from "@/components/ProfileEditor";
+import { offers, skillImplies, roleFamilies } from "@/lib/data";
+
+export const metadata = { title: "Mon profil — Internship Finder" };
+
 export default function Page() {
-  return <div className="empty">L'onboarding et le profil arrivent à la prochaine étape. Pour l'instant, change tes rôles visés avec les filtres de « Mes matchs ».</div>;
+  return <ProfileEditor offers={offers} skillImplies={skillImplies} roleFamilies={roleFamilies} />;
 }
