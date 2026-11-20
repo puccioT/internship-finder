@@ -95,6 +95,9 @@ EXTRA_SLUGS = {
     "Just Eat Takeaway": ["justeattakeaway", "takeaway"],
     "Remote": ["remote", "remotecom"],
     "Spread": ["spread", "spreadai"],
+    # Relevés à la main (pages carrières vérifiées)
+    "Taxfix": ["taxfix", "taxfixgroup", "taxfix-group"],
+    "Leapsome": ["leapsome", "Leapsome"],
 }
 
 # Une offre est un "stage / alternance" si son titre contient un de ces mots
@@ -112,7 +115,10 @@ TIMEOUT = 10
 def slug_candidates(name):
     """Devine les identifiants possibles : 'Back Market' -> backmarket, back-market (+ EXTRA_SLUGS)."""
     base = name.lower().strip().replace(".", "")
-    guesses = [base.replace(" ", ""), base.replace(" ", "-"), base.replace(" ", "").replace("-", "")]
+    compact = base.replace(" ", "").replace("-", "")
+    guesses = [base.replace(" ", ""), base.replace(" ", "-"), compact,
+               # Certaines pages sont à la casse d'origine ("Leapsome") ou suffixées ("taxfixgroup", "framerhq")
+               name.strip().replace(" ", "").replace(".", ""), compact + "group", compact + "hq"]
     return list(dict.fromkeys(EXTRA_SLUGS.get(name, []) + guesses))
 
 

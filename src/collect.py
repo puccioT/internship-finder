@@ -11,14 +11,17 @@ import csv
 from concurrent.futures import ThreadPoolExecutor
 
 from src.sources.ats import fetch_company, is_internship
+from src.sources.workday import workday_rows
 from src.store import connect, now_iso, save_company_offers
 
 COMPANIES_CSV = "data/companies.csv"
 
 
 def load_companies():
+    """Entreprises détectées par probe_ats (companies.csv) + grands groupes Workday (liste fixe)."""
     with open(COMPANIES_CSV, encoding="utf-8") as f:
-        return [row for row in csv.DictReader(f) if row["ats"]]
+        rows = [row for row in csv.DictReader(f) if row["ats"]]
+    return rows + workday_rows()
 
 
 def collect_one(company_row):

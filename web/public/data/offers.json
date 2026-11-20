@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T20:11:03+00:00",
+ "generatedAt": "2026-11-20T22:39:46+00:00",
  "roleFamilies": [
   "Product",
   "Data",
@@ -197,6 +197,1997 @@
   ]
  },
  "offers": [
+  {
+   "id": "workday:philips:595303",
+   "company": "Philips",
+   "title": "Portfolio Excellence Intern – Hair Care (Global Consumer Marketing)",
+   "city": "Amsterdam",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "Data analysis",
+    "Market research",
+    "Power BI",
+    "Commercial planning"
+   ],
+   "summary": "The intern will analyze portfolio and business performance data to generate insights, maintain dashboards, and prepare reporting materials. Additionally, they will support go-to-market planning, pricing and promotion analysis, and portfolio reviews for the global hair care category.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Portfolio-Excellence-Intern---Hair-Care--Global-Consumer-Marketing-_595303",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-20"
+  },
+  {
+   "id": "workday:salesforce:JR368617",
+   "company": "Salesforce",
+   "title": "Data Strategy Analytics Intern - February 2027",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "SQL",
+    "Snowflake",
+    "Data analysis",
+    "CRM",
+    "Market research"
+   ],
+   "summary": "The intern will extract, clean, and process business data to build and maintain analytical assets, forecasting models, and reporting dashboards. They will also assist in coordinating strategic projects, supporting business analysis, and developing in-depth market analyses.",
+   "startDate": "February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Data-Strategy-Analytics-Intern---February-2027_JR368617",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:salesforce:JR368786",
+   "company": "Salesforce",
+   "title": "Data Science & Analytics Intern, Alliances & Channels - February 2027",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Data analysis",
+    "Dashboard creation",
+    "AI/ML frameworks",
+    "Process optimization",
+    "Automation"
+   ],
+   "summary": "The intern will analyse data, create dashboards, and identify process optimisation opportunities. They will also implement automation solutions using AI-driven approaches to improve systems and processes.",
+   "startDate": "01 February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Data-Science---Analytics-Intern--Alliances---Channels---February-2027_JR368786-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:pernodricard:JR-055411",
+   "company": "Pernod Ricard",
+   "title": "Internship Service Delivery Analyst - Paris - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "ITSM",
+    "ITIL",
+    "Excel",
+    "PowerPoint",
+    "Data analysis"
+   ],
+   "summary": "The intern will support service delivery management by coordinating projects, tracking ITSM activities, and assisting with operational transitions. They will also produce operational reports, monitor SLAs, and contribute to knowledge sharing and continuous improvement initiatives.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Internship-Service-Delivery-Analyst---Paris---March-2027_JR-055411-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:visa:REF089622W",
+   "company": "Visa",
+   "title": "Consulting & Analytics Summer Intern (Dutch Speakers)",
+   "city": "NL",
+   "location": "NL - Amsterdam, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Data analysis",
+    "Excel",
+    "PowerPoint",
+    "Market trend analysis",
+    "Project management"
+   ],
+   "summary": "The intern will support the consulting team by gathering data, conducting market trend analysis, and driving business insights to solve strategic payment challenges for clients. They will also help develop project deliverables such as presentations and reports using Excel and PowerPoint.",
+   "startDate": "June 2027",
+   "durationMonths": 3,
+   "languages": [
+    "Dutch (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/NL---Amsterdam-Netherlands/Consulting---Analytics-Summer-Intern_REF089622W-2",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:visa:REF089625W",
+   "company": "Visa",
+   "title": "Consulting & Analytics Summer Intern",
+   "city": "DE",
+   "location": "DE - Frankfurt, Germany",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Data analysis",
+    "Project management",
+    "Market research"
+   ],
+   "summary": "The intern will support consulting projects by gathering data, analyzing market trends, and driving business insights. They will also assist in developing client deliverables using tools like PowerPoint and Excel.",
+   "startDate": "June or July",
+   "durationMonths": 3,
+   "languages": [
+    "English (professional)",
+    "German (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/DE---Frankfurt-Germany/Consulting---Analytics-Summer-Intern_REF089625W-2",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:visa:REF089620W",
+   "company": "Visa",
+   "title": "Visa Implementation Services Summer Intern (Dutch speakers)",
+   "city": "NL",
+   "location": "NL - Amsterdam, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Project management",
+    "Data analysis",
+    "Quantitative analysis",
+    "Consulting",
+    "Payments"
+   ],
+   "summary": "The intern will support client project implementation and delivery across payments, digital, and product domains, while helping with project planning and coordination. Duties also include conducting data and trend analyses using Visa tools and preparing materials for client workshops.",
+   "startDate": "15th June",
+   "durationMonths": 3,
+   "languages": [
+    "English (fluent)",
+    "Dutch (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/NL---Amsterdam-Netherlands/Visa-Implementation-Services-Summer-Intern--Dutch-speakers-_REF089620W",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:philips:593079",
+   "company": "Philips",
+   "title": "Stage Ingénieur R&D - Motion Compensation in Medical Imaging (H/F)",
+   "city": "Paris (FR)",
+   "location": "Paris (FR)",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Deep learning",
+    "Python",
+    "PyTorch",
+    "Computer vision",
+    "Image processing"
+   ],
+   "summary": "The intern will research and implement deep learning methods for motion compensation in X-ray fluoroscopy sequences. They will design experiments, train models on synthetic and real data, and develop a functional prototype.",
+   "startDate": "février à avril 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Paris-FR/Stage-Ingnieur-R-D---Motion-Compensation-in-Medical-Imaging--H-F-_593079",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:philips:593081",
+   "company": "Philips",
+   "title": "Stage Ingénieur R&D – \"Anatomy Score Maps for Neurovascular X- ray\" (H/F)",
+   "city": "Paris (FR)",
+   "location": "Paris (FR)",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Python",
+    "PyTorch",
+    "Deep learning",
+    "Computer vision",
+    "Image processing",
+    "Machine learning"
+   ],
+   "summary": "The intern will develop, train, and compare deep learning methods including supervised segmentation, self-supervised representation learning, and patch-based anomaly detection for neurovascular X-ray images. They will build a functional prototype, evaluate its robustness against unknown devices, and formulate development recommendations.",
+   "startDate": "February to April 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Paris-FR/Stage-Ingnieur-R-D----Anatomy-Score-Maps-for-Neurovascular-X--ray---H-F-_593081-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:crowdstrike:R30591",
+   "company": "CrowdStrike",
+   "title": "Intelligence Intern - Summer 2027",
+   "city": "Reading",
+   "location": "Reading, United Kingdom / Remote, Germany / London, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Reverse engineering",
+    "Python",
+    "Malware analysis",
+    "Cybersecurity",
+    "Threat intelligence"
+   ],
+   "summary": "The intern will investigate advanced cyber intrusions, perform reverse engineering on malware, and develop automation tools and threat signatures. Additionally, they will produce high-quality threat intelligence reports and collaborate across teams to track state-sponsored adversaries.",
+   "startDate": "June 2, 2027",
+   "durationMonths": 3,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Intelligence-Intern_R30591",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:salesforce:JR368628",
+   "company": "Salesforce",
+   "title": "Intern, Futureforce University Recruiting",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Recruitment",
+    "Talent acquisition",
+    "HR administration",
+    "Project management",
+    "Event coordination"
+   ],
+   "summary": "The intern will support the end-to-end recruitment lifecycle for apprentice and graduate programs, including application screening, interviewing, and assessment coordination. Additionally, they will handle administrative compliance, manage onboarding paperwork, and coordinate campus engagement and employer branding events.",
+   "startDate": "February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Intern--Futureforce-University-Recruiting_JR368628",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-17"
+  },
+  {
+   "id": "workday:philips:591199",
+   "company": "Philips",
+   "title": "Werkstudent LEAN Management in der Produktion (all genders)",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "LEAN Management",
+    "3D Printing",
+    "CAD",
+    "Process optimization",
+    "Microsoft Office"
+   ],
+   "summary": "The student will support the LEAN team in managing the LEAN workshop and analyzing production processes. They will also assist in developing and implementing improvements for production management and efficiency projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (very good)",
+    "English (good)"
+   ],
+   "remote": "Unknown",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent-LEAN-Management-in-der-Produktion--all-genders-_591199-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-17"
+  },
+  {
+   "id": "workday:crowdstrike:R30570",
+   "company": "CrowdStrike",
+   "title": "Talent Acquisition Launch Intern",
+   "city": "Reading",
+   "location": "Reading, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Boolean searches",
+    "ATS",
+    "Candidate sourcing",
+    "Talent acquisition",
+    "Market research"
+   ],
+   "summary": "The intern will directly source candidates for engineering roles using LinkedIn Recruiter and Boolean searches, while composing compelling email campaigns and maintaining accurate documentation in the ATS. They will also liaise with recruiters and hiring managers to assess talent pools and research industry market trends.",
+   "startDate": "Wednesday, June 2, 2027",
+   "durationMonths": 3,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Launch-Intern_R30570",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-16"
+  },
+  {
+   "id": "workday:salesforce:JR368365",
+   "company": "Salesforce",
+   "title": "Solution Engineer Intern France - February 2027",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Salesforce",
+    "Programming",
+    "Technical consulting",
+    "Software solutions"
+   ],
+   "summary": "The intern will create and present tailored demonstration components and support the delivery of Salesforce solutions in customer-facing webinars. They will also assist the team during key sales cycles and complete product and platform certifications.",
+   "startDate": "01 February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Solution-Engineer-Intern-France---February-2027_JR368365",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-13"
+  },
+  {
+   "id": "workday:visa:REF090466W",
+   "company": "Visa",
+   "title": "Software Engineer Intern",
+   "city": "GB",
+   "location": "GB - Reading, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Java",
+    "Go",
+    "SQL",
+    "Docker",
+    "Object-oriented programming"
+   ],
+   "summary": "The intern will work across development, test, and support on core payment systems and applications. Responsibilities include implementing the software development lifecycle, building microservices, and developing tools to improve processes.",
+   "startDate": "June or July 2027",
+   "durationMonths": 3,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/GB---Reading-United-Kingdom/Software-Engineer-Intern_REF090466W",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-12"
+  },
+  {
+   "id": "workday:visa:REF090467W",
+   "company": "Visa",
+   "title": "Software Engineer Intern",
+   "city": "GB",
+   "location": "GB - Cambridge, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Object-oriented programming",
+    "Software development",
+    "Computer science"
+   ],
+   "summary": "The intern will develop behavioral biometrics technology to detect imposter actions on websites and enhance analytics testing capabilities for fraud detection logic. They will work on financial crime-fighting technology utilizing cutting-edge tools alongside a team of engineers.",
+   "startDate": "June or July 2027",
+   "durationMonths": 3,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/GB---Cambridge-United-Kingdom/Software-Engineer-Intern_REF090467W-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-12"
+  },
+  {
+   "id": "workday:pernodricard:JR-054681",
+   "company": "Pernod Ricard",
+   "title": "Global Operations Analyst Intern - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Power BI",
+    "Data analysis",
+    "Supply chain",
+    "Procurement"
+   ],
+   "summary": "The intern will manage and coordinate global procurement data collection across multiple affiliates while analyzing spends and maintaining dashboards. Additionally, they will support operational efficiencies tracking and conduct ad hoc analyses on logistics and manufacturing topics.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Global-Operations-Analyst-Intern---March-2027_JR-054681-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-12"
+  },
+  {
+   "id": "workday:pernodricard:JR-054879",
+   "company": "Pernod Ricard",
+   "title": "Stage Prestige Project Coordination Intern - Mars 2027 - Paris",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Event management",
+    "CRM",
+    "Budgeting",
+    "Content creation",
+    "Merchandising"
+   ],
+   "summary": "The intern will coordinate VIP events for a private club, handle private client relations and orders, and assist with website optimization and operational projects. They will also manage event budgeting, billing, and operational improvements related to packaging and logistics.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (good command)"
+   ],
+   "remote": "On-site",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stage-Prestige-Project-Coordination-Intern_JR-054879-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-12"
+  },
+  {
+   "id": "workday:philips:593151",
+   "company": "Philips",
+   "title": "Internship: Enterprise Strategy",
+   "city": "Amsterdam",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Market sizing",
+    "Data analysis",
+    "Research"
+   ],
+   "summary": "The intern will assist the strategy team in conducting deep-dive strategy projects, including market sizing, trend analysis, and capability assessments. They will also collect market insights through research and surveys, and help compile strategy reports.",
+   "startDate": "February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Internship--Enterprise-Strategy_593151",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-10"
+  },
+  {
+   "id": "workday:philips:594239",
+   "company": "Philips",
+   "title": "Internship: Sustainability Requirements Management & Digital Transformation",
+   "city": "Eindhoven",
+   "location": "Eindhoven",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Data analysis",
+    "Data science",
+    "AI",
+    "Requirements analysis",
+    "Process improvement"
+   ],
+   "summary": "The intern will map and analyze the sustainability documentation landscape and assess current requirements lifecycles to propose a structured architecture. They will also explore AI and digital solutions to modernize requirements management and develop an implementation roadmap.",
+   "startDate": "February 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Internship--Sustainability-Requirements-Management---Digital-Transformation_594239",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-09"
+  },
+  {
+   "id": "workday:philips:592556",
+   "company": "Philips",
+   "title": "Internship: Full Stack Developer in Finance Domain",
+   "city": "Eindhoven",
+   "location": "Eindhoven",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Java",
+    "JavaScript",
+    "React",
+    "SQL",
+    "Full-stack development"
+   ],
+   "summary": "The intern will design, develop, and connect additional functionality in the user interface, APIs, and microservices for financial models. They will also build, test, and deploy new features and support unit tests using Playwright in an Agile environment.",
+   "startDate": "December 2026",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Internship--Full-Stack-Developer-in-Finance-Domain_592556",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-09"
+  },
+  {
+   "id": "workday:philips:594380",
+   "company": "Philips",
+   "title": "Internship: Sustainable Healthcare Engagement (Master, non-thesis)",
+   "city": "Amsterdam / Eindhoven",
+   "location": "Amsterdam / Eindhoven",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Research",
+    "Benchmarking",
+    "Data analysis",
+    "Content management",
+    "Event organization"
+   ],
+   "summary": "The intern will contribute to customer engagements by conducting research, analysis, benchmarking, and tool development within the sustainability team. Additionally, they will support regional sustainability programs, communication, training, and the management of SharePoint content and events.",
+   "startDate": "February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Internship--Sustainable-Healthcare-Engagement--Master--non-thesis-_594380",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-06"
+  },
+  {
+   "id": "workday:crowdstrike:R30656",
+   "company": "CrowdStrike",
+   "title": "Sales Excellence Elite Intern - Summer 2027 (Reading, GBR)",
+   "city": "Reading",
+   "location": "Reading, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Salesforce",
+    "Gong",
+    "LinkedIn Sales Navigator",
+    "Microsoft Office",
+    "Google Apps"
+   ],
+   "summary": "The intern will collaborate with sales professionals on business-generating activities and take part in the full sales cycle including cold calling and prospecting. They will also work on strategic cross-functional sales projects and conduct industry research and competitive analysis.",
+   "startDate": "June 2nd, 2027",
+   "durationMonths": 2,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Sales-Excellence-Elite-Intern_R30656",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-06"
+  },
+  {
+   "id": "workday:crowdstrike:R30657",
+   "company": "CrowdStrike",
+   "title": "Sales Technical Intern - Summer 2027 (Reading, GBR)",
+   "city": "Remote",
+   "location": "Remote, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Engineering",
+   "skills": [
+    "Hardware and software performance testing",
+    "Benchmarking",
+    "Technical demonstrations",
+    "Sales operations",
+    "AI technologies"
+   ],
+   "summary": "The intern will master CrowdStrike product knowledge and technical requirements while executing hardware and software performance testing, benchmarking, and tuning. They will also develop and deliver technical demonstrations and collateral for internal needs, customers, and partners.",
+   "startDate": "June 2nd, 2027",
+   "durationMonths": 2,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Remote/Sales-Technical-Intern--Remote--GBR-_R30657-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-06"
+  },
+  {
+   "id": "workday:pernodricard:JR-055386",
+   "company": "Pernod Ricard",
+   "title": "Change Management & PMO Intern - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Project management",
+    "Change management",
+    "Content creation",
+    "Event organization",
+    "SharePoint",
+    "Process automation"
+   ],
+   "summary": "The intern will support the Change Management team in deploying communication and event activities, engaging the Core Team, and assisting with pilot deployments and ERP transformation. Additionally, they will contribute to PMO activities including program planning, dashboard updates, and knowledge management.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Change-Management---PMO-Intern---January-2027_JR-055386",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-05"
+  },
+  {
+   "id": "workday:puma:R44286",
+   "company": "Puma",
+   "title": "Intern Trade Marketing & Marketing Activation",
+   "city": "Utrecht",
+   "location": "Utrecht",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Trade marketing",
+    "Influencer marketing",
+    "Event management",
+    "Social media",
+    "Public relations"
+   ],
+   "summary": "The intern will support the planning and execution of marketing campaigns, activations, and events across lifestyle, teamsport, and running. They will also contribute to influencer marketing, PR activities, and coordinate with external agencies and retailers.",
+   "startDate": "January or February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "Dutch",
+    "English"
+   ],
+   "remote": "Unknown",
+   "url": "https://puma.wd502.myworkdayjobs.com/Jobs_at_Puma/job/Utrecht/Intern-Trade-Marketing---Marketing-Activation_R44286",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-05"
+  },
+  {
+   "id": "workday:pernodricard:JR-054977",
+   "company": "Pernod Ricard",
+   "title": "Global Prestige Brand Strategy & Luxury Partnerships Intern - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Market research",
+    "Media Strategy",
+    "Go-to-Market Strategies",
+    "Brand Strategy",
+    "Event management"
+   ],
+   "summary": "The intern will support global prestige brand activations, media planning, and luxury partnerships to accelerate growth in key markets. They will also help coordinate internal communication plans and organize committees with luxury experts.",
+   "startDate": "January 2027",
+   "durationMonths": 5,
+   "languages": [
+    "English (fluent)",
+    "French (plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Global-Prestige-Activation-Intern---January-2027_JR-054977",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-04"
+  },
+  {
+   "id": "lever:Pretto:732a3118-5d82-49c4-ba2c-40b7277338cd",
+   "company": "Pretto",
+   "title": "[Stage de césure]Bras droit du fondateur, École Pretto - H/F",
+   "city": "Paris",
+   "location": "Paris, Île-de-France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [],
+   "summary": "The intern will act as the right hand to the founder, contributing to internal projects and business operations. They will work closely with the leadership team to support the growth of the fintech scale-up.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://jobs.lever.co/Pretto/732a3118-5d82-49c4-ba2c-40b7277338cd",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-03T11:36:42.628000+00:00"
+  },
+  {
+   "id": "workday:pernodricard:JR-054828",
+   "company": "Pernod Ricard",
+   "title": "Supplier Carbon Analyst Intern - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Power BI",
+    "Data analysis",
+    "Carbon footprint calculation"
+   ],
+   "summary": "The intern will analyze, update, and improve supply chain and procurement data to calculate and simulate the corporate carbon footprint. They will also contribute to modeling CO2 initiatives, monitoring subsidiary action plans, and supporting extra-financial reporting.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Supplier-Carbon-Analyst-Intern---March-2027_JR-054828",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-03"
+  },
+  {
+   "id": "workday:pernodricard:JR-054745",
+   "company": "Pernod Ricard",
+   "title": "Sustainability & Responsibility (S&R) Integration Intern - Mars 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "CSRD",
+    "ESG",
+    "Sustainability reporting",
+    "Data analysis",
+    "Benchmarking"
+   ],
+   "summary": "The intern will support the preparation of the CSRD report and assess the impact of new ESRS requirements while benchmarking sustainability disclosures. Additionally, they will assist the Social Sustainability team with human rights topics and help drive engagement initiatives with the internal S&R network.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Sustainability---Responsibility--S-R--Reporting-Intern---January-2027_JR-054745-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-03"
+  },
+  {
+   "id": "workday:pernodricard:JR-054624",
+   "company": "Pernod Ricard",
+   "title": "Sustainability & Responsibility (S&R) Reporting Intern - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Data analysis",
+    "Excel",
+    "Power BI",
+    "Sustainability reporting",
+    "ESG ratings"
+   ],
+   "summary": "The intern will support the preparation of sustainability reporting campaigns, including Ecovadis and CDP, and manage data consolidation and performance assessment. Additionally, they will assist with setting up and testing sustainability data collection tools and data visualization efforts.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Sustainability---Responsibility--S-R--Reporting-Intern---March-2027_JR-054624-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-11-03"
+  },
+  {
+   "id": "workday:pernodricard:JR-054911",
+   "company": "Pernod Ricard",
+   "title": "Business analyst intern - RTD - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Financial analysis",
+    "P&L management",
+    "Excel",
+    "Power BI",
+    "Business analysis",
+    "Financial modeling"
+   ],
+   "summary": "The intern will support business performance reporting and financial analysis by monitoring P&L elements and tracking global performance KPIs. They will also contribute to market analysis, business cases, and financial scenario modeling for key initiatives.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Business-analyst-intern---RTD---January-2027_JR-054911-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-30"
+  },
+  {
+   "id": "workday:philips:570478",
+   "company": "Philips",
+   "title": "Internship: Marketing & Marketing Communication",
+   "city": "Amsterdam / Eindhoven / Best / Drachten",
+   "location": "Amsterdam / Eindhoven / Best / Drachten",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Digital marketing",
+    "Market research",
+    "Content management",
+    "Data analysis",
+    "Marketing analytics"
+   ],
+   "summary": "The intern will support various marketing initiatives including product marketing, digital campaigns, analytics and insights, and marketing communications. They will collaborate with global teams to translate consumer insights into product concepts and optimize marketing content and technology.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Internship--Marketing---Marketing-Communication_570478",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-29"
+  },
+  {
+   "id": "workday:philips:594772",
+   "company": "Philips",
+   "title": "Internship: Philips Communications & Brand",
+   "city": "Amsterdam / Eindhoven / Best / Drachten",
+   "location": "Amsterdam / Eindhoven / Best / Drachten",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Digital communication",
+    "Editorial",
+    "Social media",
+    "Public relations",
+    "Video editing",
+    "Photo editing"
+   ],
+   "summary": "The intern will participate in various digital communication, editorial, social media, or business communication projects within a corporate communications team. They will take on independent responsibilities, work in an agile environment, and learn multiple aspects of global corporate branding and public relations.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Dutch (sometimes required)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Internship--Philips-Communications---Brand_594772",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-29"
+  },
+  {
+   "id": "workday:pernodricard:JR-054993",
+   "company": "Pernod Ricard",
+   "title": "Creative strategy & brand positioning Intern - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Strategic planning",
+    "Project management",
+    "Competitive analysis",
+    "Adobe Suite",
+    "Microsoft Office"
+   ],
+   "summary": "The intern will support the creation of brand universes and strategic guidelines in collaboration with creative and marketing teams. Additionally, they will assist in project management and planning for design projects such as packaging revamp and retail.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Creative-strategy---brand-positioning-Intern---January-2027_JR-054993",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-29"
+  },
+  {
+   "id": "workday:crowdstrike:R30675",
+   "company": "CrowdStrike",
+   "title": "Falcon Complete Analyst Intern Graduate - Summer 2027 (Reading, GBR)",
+   "city": "Reading",
+   "location": "Reading, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Information security",
+    "Incident handling",
+    "Network communications",
+    "Malware analysis",
+    "Systems administration"
+   ],
+   "summary": "The intern will learn to triage and analyze security alerts, investigate customer inquiries, and perform basic malware analysis using the Falcon platform and internal tools. They will also manage platform configurations and deliver a project focused on improving security controls or business objectives.",
+   "startDate": "Monday 6th September 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Falcon-Complete-Analyst-Intern-Graduate---Summer-2027--Reading--GBR-_R30675",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-28"
+  },
+  {
+   "id": "workday:philips:591200",
+   "company": "Philips",
+   "title": "Werkstudent im Produktionsmanagement (all genders)",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Microsoft Office",
+    "Power BI",
+    "Data analysis",
+    "Process improvement",
+    "Financial analysis"
+   ],
+   "summary": "The student will help improve production processes through digitalization and support economic feasibility analyses. They will also assist operations managers with reporting, presentations, and various production management tasks.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (very good)",
+    "English (good)"
+   ],
+   "remote": "Unknown",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent-im-Produktionsmanagement--all-genders-_591200-2",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-26"
+  },
+  {
+   "id": "workday:pernodricard:JR-054994",
+   "company": "Pernod Ricard",
+   "title": "Visual Image internship - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Design",
+   "skills": [
+    "Adobe Photoshop",
+    "Adobe InDesign",
+    "AI image generation",
+    "Project management",
+    "Asset management"
+   ],
+   "summary": "The intern will assist in the day-to-day production of photo and video content, including moodboard creation and coordination with creative agencies. They will also contribute to visual guidelines development and support international markets with their design requests.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Visual-Image-internship---January-2027_JR-054994",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-26"
+  },
+  {
+   "id": "workday:pernodricard:JR-055318",
+   "company": "Pernod Ricard",
+   "title": "Cloud and Infrastructure Intern - Paris - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Cloud infrastructure",
+    "Azure",
+    "AWS",
+    "GCP",
+    "Python",
+    "Linux"
+   ],
+   "summary": "The intern will assist in the deployment, configuration, and monitoring of cloud and hybrid infrastructure solutions while supporting system maintenance and automation tasks. They will also document procedures, contribute to security and compliance efforts, and collaborate with cross-functional teams on technology operations.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Cloud-and-Infrastructure-Intern---Paris---January-2027_JR-055318",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-23"
+  },
+  {
+   "id": "workday:visa:REF089747W",
+   "company": "Visa",
+   "title": "Consulting & Analytics Intern",
+   "city": "FR",
+   "location": "FR - Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Data analysis",
+    "Market research",
+    "Project management"
+   ],
+   "summary": "The intern will support the Visa Consulting and Analytics team by gathering data, conducting market trend analysis, and helping deliver strategic projects for clients. They will also assist in developing project deliverables such as presentations and reports using Excel and PowerPoint.",
+   "startDate": "January 2027",
+   "durationMonths": 5,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/FR---Paris-France/Consulting---Analytics-Intern_REF089747W",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-22"
+  },
+  {
+   "id": "workday:philips:592036",
+   "company": "Philips",
+   "title": "Werkstudent / Praktikum (all genders)  Supply Chain Management",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Supply chain",
+    "Excel",
+    "PowerPoint",
+    "Data analysis",
+    "Project management"
+   ],
+   "summary": "The intern will actively participate in supply chain management projects, handling smaller autonomous projects and various reports. They will also support the preparation of reports and presentations for the leadership team.",
+   "startDate": "Unknown",
+   "durationMonths": 24,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent---Praktikum--all-genders---Supply-Chain-Management_592036-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-20"
+  },
+  {
+   "id": "workday:pernodricard:JR-055363",
+   "company": "Pernod Ricard",
+   "title": "Convivialité Ventures Analyst Intern",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Financial analysis",
+    "Market research",
+    "Due diligence",
+    "Venture Capital",
+    "M&A"
+   ],
+   "summary": "The intern will source and evaluate investment opportunities by conducting market research, benchmarks, and financial analysis. They will also support portfolio monitoring and participate in the preparation of investment memos.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Convivialit-Ventures-Analyst-Intern_JR-055363",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-20"
+  },
+  {
+   "id": "workday:pernodricard:JR-055342",
+   "company": "Pernod Ricard",
+   "title": "Internship Data Sciences Intern - Paris - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Python",
+    "Machine learning",
+    "SQL",
+    "LLM tooling",
+    "Deep learning",
+    "MLOps"
+   ],
+   "summary": "The intern will contribute to the development of algorithmic building blocks ranging from classical machine learning to generative AI components, and will maintain and retrain existing models in production. They will also design and run evaluations for AI systems and contribute to responsible AI frameworks.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Internship-Data-Sciences-Intern---Paris---March-2027_JR-055342",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-16"
+  },
+  {
+   "id": "workday:philips:582340",
+   "company": "Philips",
+   "title": "Werkstudent Prozessentwicklung & Engineering - Qualifizierung / Validierung (all genders)",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Process engineering",
+    "Validation",
+    "Statistical methods",
+    "Mechanical manufacturing",
+    "Technical development"
+   ],
+   "summary": "The intern will support mechanical manufacturing processes, qualification, and validation activities within an engineering team. They will also contribute to technical development projects and assist in problem-solving using statistical methods.",
+   "startDate": "Unknown",
+   "durationMonths": 12,
+   "languages": [
+    "German (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent-Prozessentwicklung---Engineering---Qualifizierung---Validierung--all-genders-_582340-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-14"
+  },
+  {
+   "id": "workday:pernodricard:JR-055327",
+   "company": "Pernod Ricard",
+   "title": "Data Platform Intern - Paris - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Data",
+   "skills": [
+    "SQL",
+    "Python",
+    "dbt",
+    "Snowflake",
+    "Data engineering"
+   ],
+   "summary": "The intern will contribute to the development and maintenance of the data platform, including data pipelines, data quality monitoring, and platform automation. They will also support data ingestion and transformation workflows and collaborate with data engineers to ensure data availability and reliability.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Data-Platform-Intern---Paris---March-2027_JR-055327-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-14"
+  },
+  {
+   "id": "workday:pernodricard:JR-055305",
+   "company": "Pernod Ricard",
+   "title": "Application Portfolio Management Intern - January 2027 - Paris",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Microsoft Office",
+    "Data analysis",
+    "Portfolio management",
+    "Budgeting",
+    "Reporting"
+   ],
+   "summary": "The intern will contribute to the assessment, classification, and optimization of the organization's application portfolio by working closely with application owners and financial analysts. They will also prepare regular reports and dashboards to provide insights into the health and effectiveness of the IT portfolio.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Application-Portfolio-Management-Intern---January-2027---Paris_JR-055305-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-13"
+  },
+  {
+   "id": "workday:pernodricard:JR-054831",
+   "company": "Pernod Ricard",
+   "title": "Global Sustainable Manufacturing Intern - february 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Database management",
+    "Energy management",
+    "GHG Protocol"
+   ],
+   "summary": "The intern will assist in data collection and reporting for key environmental indicators and support the development and deployment of the Group's decarbonization and water efficiency roadmap. They will also collaborate on defining sustainable manufacturing benchmarks and best practices at the group level.",
+   "startDate": "February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Global-Sustainable-Manufacturing-Intern---January-2027_JR-054831-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-08"
+  },
+  {
+   "id": "workday:philips:592263",
+   "company": "Philips",
+   "title": "Werkstudent / Praktikum (all genders) - Künstliche Intelligenz & Datenanalyse",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Data",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Prompt Engineering",
+    "Data analysis",
+    "Power BI",
+    "Excel",
+    "Python",
+    "SQL"
+   ],
+   "summary": "The intern will develop and optimize AI-powered applications, prompts, and automated workflows for operational and strategic use cases. Additionally, they will analyze production and process data, and create dashboards and management reports.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent---Praktikum--all-genders----Knstliche-Intelligenz---Datenanalyse_592263-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-06"
+  },
+  {
+   "id": "workday:pernodricard:JR-055016",
+   "company": "Pernod Ricard",
+   "title": "Digital Marketing Intern – Havana Club - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Digital marketing",
+    "Social media management",
+    "WordPress",
+    "SEO",
+    "CRM"
+   ],
+   "summary": "The intern will manage and monitor international social media accounts and influencer projects while supporting the digital ecosystem team with website management, SEO, and CRM. They will also conduct competitor benchmarking, create editorial calendars, and coordinate content production with various markets and partners.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (advantage)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Digital-Marketing-Intern---Havana-Club---March-2027_JR-055016",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-05"
+  },
+  {
+   "id": "workday:pernodricard:JR-055180",
+   "company": "Pernod Ricard",
+   "title": "Stage Brand Protection – Lutte Anti-Contrefaçon H/F",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Data analysis",
+    "Project management"
+   ],
+   "summary": "The intern will assist in implementing the anti-counterfeit strategy and managing brand security programmes by coordinating investigations, authentication processes, and online monitoring. They will also contribute to reporting, draft management documents, and facilitate communication between different company entities.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stage-Brand-Protection---Lutte-Anti-Contrefaon-H-F_JR-055180",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-05"
+  },
+  {
+   "id": "workday:philips:591722",
+   "company": "Philips",
+   "title": "Werkstudent/ Praktikum Qualifizierungsdokumentation Tool Design (all genders)",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Technical documentation",
+    "Quality management",
+    "CAD",
+    "Engineering"
+   ],
+   "summary": "The intern will create and maintain qualification documents according to quality standards and participate in design projects. They will also manage technical drawings and coordinate with suppliers and manufacturing teams.",
+   "startDate": "Unknown",
+   "durationMonths": 12,
+   "languages": [
+    "German (very good)"
+   ],
+   "remote": "On-site",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent--Praktikum-Qualifizierungsdokumentation-Tool-Design--all-genders-_591722-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-02"
+  },
+  {
+   "id": "workday:philips:591723",
+   "company": "Philips",
+   "title": "Werkstudent Prozessentwicklung & Digitalisierung (all genders)",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Process optimization",
+    "Process documentation",
+    "Flowcharts",
+    "SAP",
+    "LEAN"
+   ],
+   "summary": "The intern will help digitize and optimize department processes by creating documentation, flowcharts, and training materials. They will also test new software solutions and support cross-functional digitization projects.",
+   "startDate": "Unknown",
+   "durationMonths": 12,
+   "languages": [
+    "German (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent-Prozessentwicklung---Digitalisierung--all-genders-_591723-2",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-02"
+  },
+  {
+   "id": "workday:pernodricard:JR-055011",
+   "company": "Pernod Ricard",
+   "title": "Stage Graphic Designer - Mars 2027- 6 mois",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Design",
+   "secondaryFamily": null,
+   "skills": [
+    "Graphic design",
+    "Adobe Creative Suite",
+    "InDesign",
+    "2D rendering",
+    "Packaging design"
+   ],
+   "summary": "The intern will create visual identities for brands including logos, packaging, labels, and marketing materials while collaborating with marketing and development teams. They will also produce technical files, 2D renderings, and models for production.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stage-Graphic-Designer---Mars-2027--6-mois_JR-055011",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-10-02"
+  },
+  {
+   "id": "workday:philips:591579",
+   "company": "Philips",
+   "title": "Werkstudent / Praktikum (all genders) Project Management Ultrasound",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Project management",
+    "Data analysis",
+    "Market research",
+    "Documentation"
+   ],
+   "summary": "The intern will support the project management team in planning and implementing ultrasound projects from order to delivery. They will assist in monitoring project scope, schedules, and budgets, while analyzing data and preparing documentation and reports.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent---Praktikum--all-genders--Project-Management-Ultrasound_591579-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-30"
+  },
+  {
+   "id": "workday:pernodricard:JR-055150",
+   "company": "Pernod Ricard",
+   "title": "Internal Control and Internal Audit Intern",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Internal audit",
+    "Internal control",
+    "Data analysis",
+    "Excel",
+    "PowerPoint",
+    "PowerBI"
+   ],
+   "summary": "The intern will participate in global internal control topics, including presentations, GRC tool support, and process training. They will also assist with group-wide internal audit missions, risk identification, and data analytics dashboards.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (strong plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Internal-Control-and-Internal-Audit-Intern_JR-055150-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-30"
+  },
+  {
+   "id": "workday:pernodricard:JR-055151",
+   "company": "Pernod Ricard",
+   "title": "Cash Performance Intern",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Financial analysis",
+    "Financial forecasting"
+   ],
+   "summary": "The intern will conduct financial analyses to support quarterly and monthly closings while tracking cash performance indicators such as working capital and free cash flow. They will also participate in financial forecasting and help prepare presentation materials for top management.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Cash-Performance-Intern_JR-055151-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-30"
+  },
+  {
+   "id": "workday:pernodricard:JR-055017",
+   "company": "Pernod Ricard",
+   "title": "Experience Design Intern - March 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Design",
+   "secondaryFamily": null,
+   "skills": [
+    "3D rendering",
+    "Sketching",
+    "Mood boards",
+    "Retail design",
+    "Space design"
+   ],
+   "summary": "The intern will assist the Experience Design manager by conducting upstream research, creating mood boards, and developing concepts. They will also collaborate on designing projects through sketches, plans, and 3D images while preparing presentation materials.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Experience-Design-Intern---March-2027_JR-055017",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-30"
+  },
+  {
+   "id": "workday:pernodricard:JR-055134",
+   "company": "Pernod Ricard",
+   "title": "Business Planning & Analysis Intern",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "PowerBI",
+    "Financial analysis",
+    "Tagetik",
+    "VBA"
+   ],
+   "summary": "The intern will produce financial performance reports and presentations for top management while verifying affiliate data accuracy during reporting cycles. They will also ensure the reliability of digital reporting tools and prepare ad-hoc financial analyses for various departments.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (optional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Business-Planning---Analysis-Intern_JR-055134-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-29"
+  },
+  {
+   "id": "workday:pernodricard:JR-055141",
+   "company": "Pernod Ricard",
+   "title": "Data Sciences Intern - January 2027 - Paris",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Python",
+    "Machine learning",
+    "SQL",
+    "Deep learning",
+    "LLM"
+   ],
+   "summary": "The intern will contribute to the development of algorithmic building blocks, including classical Machine Learning and Generative AI components. They will also be responsible for maintaining existing models, monitoring performance in production, and evaluating AI systems.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Data-Sciences-Intern---January-2027---Paris_JR-055141-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-29"
+  },
+  {
+   "id": "workday:philips:587828",
+   "company": "Philips",
+   "title": "Werkstudent / Praktikum (all genders) – SAP Plant Maintenance / Ersatzteilmanagement",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "SAP ERP",
+    "Data analysis",
+    "Inventory management",
+    "KPI tracking"
+   ],
+   "summary": "The intern will support spare parts management by conducting inventory counts, organizing warehouse spaces, and maintaining master data in SAP ERP. They will also process goods movements, clean up the database, and track key performance indicators to improve plant maintenance operations.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Hamburg/Werkstudent---Praktikum--all-genders----SAP-Plant-Maintenance---Ersatzteilmanagement_587828-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-24"
+  },
+  {
+   "id": "workday:pernodricard:JR-055086",
+   "company": "Pernod Ricard",
+   "title": "Program Management Intern",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Project management",
+    "Excel",
+    "PowerPoint",
+    "Process improvement",
+    "Jira"
+   ],
+   "summary": "The intern will support the Program Management Office by preparing governance activities, maintaining project assets, dashboards, and documentation. They will also contribute to continuous improvement, team enablement, and the exploration of AI automation tools for the digital transformation program.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (optional)",
+    "Spanish (optional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Program-Management-Intern_JR-055086-2",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-23"
+  },
+  {
+   "id": "workday:pernodricard:JR-055047",
+   "company": "Pernod Ricard",
+   "title": "Machine Learning Engineer Intern - Paris - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Python",
+    "MLOps",
+    "CI/CD",
+    "Docker",
+    "Machine learning"
+   ],
+   "summary": "The intern will contribute to implementing MLOps processes to maintain and deploy machine learning models in production. They will also develop scalable pipelines, maintain APIs, and apply software development practices to enhance application code quality.",
+   "startDate": "July 2026",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French"
+   ],
+   "remote": "Hybrid",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Machine-Learning-Engineer-Intern---Paris---January-2027_JR-055047-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-23"
+  },
+  {
+   "id": "workday:pernodricard:JR-054963",
+   "company": "Pernod Ricard",
+   "title": "Global Innovation & Business Analyst Intern - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Data analysis",
+    "Market research",
+    "Project management",
+    "Business analysis"
+   ],
+   "summary": "The intern will support category and business analysis by tracking market trends and analyzing data from sources like Nielsen and IWSR. They will also contribute to innovation project delivery and knowledge building for the non-alcoholic spirits portfolio.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Global-Innovation---Business-Analyst-Intern---January-2027_JR-054963",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-17"
+  },
+  {
+   "id": "workday:philips:586188",
+   "company": "Philips",
+   "title": "Product Design Internship – Philips Avent Experience Innovation",
+   "city": "Amsterdam",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Design",
+   "secondaryFamily": null,
+   "skills": [
+    "Product design",
+    "Prototyping",
+    "CAD",
+    "3D modeling",
+    "Sketching",
+    "Rendering"
+   ],
+   "summary": "The intern will support front-end innovation projects by creating, visualizing, and prototyping new physical product concepts. They will translate consumer needs into meaningful product directions through sketches, storyboards, CAD models, and renders.",
+   "startDate": "Q3/Q4 2026",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Amsterdam/Product-Design-Internship---Philips-Avent-Experience-Innovation_586188",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-14"
+  },
+  {
+   "id": "workday:philips:586187",
+   "company": "Philips",
+   "title": "Product Innovation & AI Prototyping Internship – Philips Avent Experience Innovation",
+   "city": "Eindhoven",
+   "location": "Eindhoven",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Design",
+   "skills": [
+    "CAD",
+    "Prototyping",
+    "Sketching",
+    "Adobe tools",
+    "Figma"
+   ],
+   "summary": "The intern will explore new product and experience opportunities for parents and babies, turning insights and ideas into physical and digital prototypes. They will collaborate with designers and engineers using CAD, sketching, and AI-supported tools to create presentations and visualize innovation concepts.",
+   "startDate": "Q3/Q4 2026",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Product-Innovation---AI-Powered-Video-Creation-Internship---Philips-Avent-Experience-Innovation_586187",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-14"
+  },
+  {
+   "id": "workday:pernodricard:JR-054821",
+   "company": "Pernod Ricard",
+   "title": "Stage Chef de Projet Brand Experience - Janvier 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Event management",
+    "Strategic planning",
+    "Project management",
+    "Benchmarking",
+    "Budget management"
+   ],
+   "summary": "The intern will assist the Brand Experience Project Manager in coordinating brand activation programs, events, and media partnerships from strategy to execution. They will also contribute to agency briefings, market trends monitoring, and operational follow-ups.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stage-Chef-de-Projet-Brand-Experience---Janvier-2027_JR-054821-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-07"
+  },
+  {
+   "id": "workday:pernodricard:JR-054868",
+   "company": "Pernod Ricard",
+   "title": "Tech Finance Analyst Intern - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Financial reporting",
+    "Budgeting",
+    "Variance analysis"
+   ],
+   "summary": "The intern will prepare budgets and forecasts for IT and Tech department costs, and produce monthly financial reports and variance analyses. They will also manage tax requirements through the annual charging process and collaborate with global Tech and Finance teams.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Tech-Finance-Analyst-Intern---January-2027_JR-054868-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-09-03"
+  },
+  {
+   "id": "workday:pernodricard:JR-054753",
+   "company": "Pernod Ricard",
+   "title": "Executive Assistant Intern",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Microsoft Office",
+    "Excel",
+    "PowerPoint",
+    "Data management",
+    "Invoice management"
+   ],
+   "summary": "The intern will support the Executive Assistant of the VP Marketing Prestige with day-to-day administrative tasks, invoice management, and expense reports. They will also assist with event logistics, internal database maintenance, and general process improvements.",
+   "startDate": "2026-09-01",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Executive-Assistant-Intern_JR-054753-1",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-08-25"
+  },
+  {
+   "id": "recruitee:spreadgroup:2537614",
+   "company": "Spread",
+   "title": "Praktikant Online Marketing & Content (w/m/d)",
+   "city": "Leipzig",
+   "location": "Leipzig, Germany",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Online marketing",
+    "Content creation",
+    "Market research",
+    "Excel",
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+   ],
+   "summary": "The intern will support the external marketplaces team by optimizing product offerings and creating creative content for Amazon Brand Stores. Additionally, they will conduct research on current trends in licensing and apparel and help process personalized orders.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (professional)",
+    "French (advantage)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://spreadgroup.recruitee.com/o/praktikant-online-marketing-content-wmd",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-06-10 09:27:23 UTC"
+  },
+  {
+   "id": "lever:Pretto:c2f53842-17fa-47e5-9039-d8831dffbc06",
+   "company": "Pretto",
+   "title": "Stage Business Developer / Prospection Commerciale- Paris - H/F",
+   "city": "Paris",
+   "location": "Paris, Île-de-France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Sales prospecting",
+    "Customer qualification",
+    "CRM",
+    "Negotiation",
+    "Real estate finance"
+   ],
+   "summary": "The intern will generate qualified commercial opportunities by contacting and qualifying incoming leads via phone, SMS, and email. They will also collaborate closely with real estate credit experts to transform prospective projects into concrete financing agreements.",
+   "startDate": "January",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.lever.co/Pretto/c2f53842-17fa-47e5-9039-d8831dffbc06",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2026-05-18T15:53:41.585000+00:00"
+  },
+  {
+   "id": "lever:Pretto:7dc95b17-9ba1-4d94-a6f9-be86c1c90313",
+   "company": "Pretto",
+   "title": "Operations & Data Analyst - stage H/F",
+   "city": "Paris",
+   "location": "Paris, Île-de-France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "SQL",
+    "Python",
+    "Data analysis",
+    "Salesforce",
+    "Data visualization"
+   ],
+   "summary": "The intern will analyze commercial performance data and build automated dashboards to support the sales team. They will also design and implement internal tools and operational processes to optimize business workflows.",
+   "startDate": "January 2027",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.lever.co/Pretto/7dc95b17-9ba1-4d94-a6f9-be86c1c90313",
+   "firstSeen": "2026-11-20T20:31:38+00:00",
+   "postedAt": "2023-04-21T10:42:28.322000+00:00"
+  },
   {
    "id": "ashby:upvest:b2698ee6-0ffa-46dd-8b61-207765c02160",
    "company": "Upvest",
@@ -742,7 +2733,7 @@
     "AI",
     "Prototyping",
     "Software architecture",
-    "Prompt engineering"
+    "Prompt Engineering"
    ],
    "summary": "The intern will own and develop an AI project from prototype to production use for the team or customers. They will work directly alongside product, engineering, or go-to-market teams to ship, measure, and iterate based on real feedback.",
    "startDate": "ASAP",
@@ -4366,7 +6357,7 @@
    "family": "Marketing & Growth",
    "secondaryFamily": null,
    "skills": [
-    "Brand strategy",
+    "Brand Strategy",
     "Project management",
     "Market research",
     "Creative briefs",

@@ -2,7 +2,7 @@
 CONNECTEURS ATS
 ---------------
 Récupère les offres d'une entreprise sur Greenhouse, Lever, Ashby, Workable,
-SmartRecruiters ou Personio
+SmartRecruiters, Personio, Recruitee (et Workday, dans workday.py)
 et les convertit toutes au MÊME format (un dictionnaire par offre).
 
 C'est le principe de la "normalisation" : chaque plateforme nomme ses champs
@@ -293,6 +293,10 @@ FETCHERS = {
 
 def fetch_company(ats, slug, company):
     """Renvoie TOUTES les offres de l'entreprise (le filtre stage est fait par le collecteur)."""
+    if ats == "workday":   # import ici pour éviter une boucle d'imports (workday.py importe ats.py)
+        from src.sources.workday import fetch_workday
+        with httpx.Client(timeout=TIMEOUT, follow_redirects=True, headers={"Accept": "application/json"}) as client:
+            return fetch_workday(client, slug, company)
     with httpx.Client(timeout=TIMEOUT, follow_redirects=True) as client:
         return FETCHERS[ats](client, slug, company)
 

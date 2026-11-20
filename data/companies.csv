@@ -1,8 +1,7 @@
 company,ats,slug,nb_jobs,nb_intern
 Doctolib,ashby,doctolib,154,30
 Enpal,ashby,enpal,184,22
-Stripe,greenhouse,stripe,778,21
-Withings,workable,withings,34,17
+Stripe,greenhouse,stripe,779,21
 Back Market,ashby,backmarket,32,14
 Trade Republic,greenhouse,traderepublicbank,42,11
 Celonis,greenhouse,celonis,262,10
@@ -25,13 +24,14 @@ Shift Technology,greenhouse,shifttechnology,13,4
 Catawiki,greenhouse,catawiki,35,4
 Deliveroo,greenhouse,deliveroo,189,4
 Pigment,lever,pigment,125,3
+Pretto,lever,Pretto,25,3
 Malt,lever,malt,32,3
 Hiflow,recruitee,hiflow,4,3
 Scaleway,lever,scaleway,37,3
 Delivery Hero,smartrecruiters,deliveryhero,100,3
 Proxima Fusion,ashby,proxima-fusion,57,3
 Bunq,recruitee,bunq,23,3
-Qonto,ashby,qonto,54,2
+Qonto,ashby,qonto,56,2
 Ledger,ashby,ledger,17,2
 Raisin,greenhouse,raisin,31,2
 GetYourGuide,ashby,getyourguide,73,2
@@ -50,6 +50,7 @@ SumUp,greenhouse,sumup,318,1
 Babbel,ashby,babbel,9,1
 Moss,ashby,moss,32,1
 Billie,ashby,billie,2,1
+Spread,recruitee,spreadgroup,3,1
 Langdock,ashby,langdock,12,1
 Helsing,greenhouse,helsing,175,1
 Mollie,ashby,mollie,48,1
@@ -64,7 +65,7 @@ Lovable,ashby,lovable,79,0
 n8n,ashby,n8n,68,0
 Hugging Face,workable,huggingface,10,0
 Photoroom,ashby,photoroom,7,0
-ElevenLabs,ashby,elevenlabs,124,0
+ElevenLabs,ashby,elevenlabs,123,0
 Adyen,greenhouse,adyen,241,0
 Personio,personio,personio,2,0
 Swile,lever,swile,27,0
@@ -89,18 +90,16 @@ Contentful,greenhouse,contentful,51,0
 Omio,smartrecruiters,omio,2,0
 Grover,greenhouse,grover,9,0
 Pliant,ashby,pliant,30,0
-Finom,greenhouse,finom,21,0
-Ada Health,personio,ada,1,0
+Finom,greenhouse,finom,22,0
 Choco,ashby,choco,6,0
 Forto,ashby,forto,11,0
 Flink,ashby,flink,2,0
 Remote,greenhouse,remote,2,0
 Picnic,smartrecruiters,picnic,2,0
 Bird,greenhouse,bird,28,0
-Elastic,greenhouse,elastic,381,0
+Elastic,greenhouse,elastic,380,0
 Bitvavo,ashby,bitvavo,14,0
 Effectory,recruitee,effectory,6,0
-Ohpen,personio,ohpen,15,0
 Intercom,greenhouse,intercom,120,0
 Tines,greenhouse,tines,32,0
 Flipdish,greenhouse,flipdish,11,0
@@ -115,9 +114,12 @@ Multiverse,ashby,multiverse,23,0
 Paddle,ashby,paddle,16,0
 Marshmallow,ashby,marshmallow,9,0
 Thought Machine,ashby,thought-machine,32,0
+Zopa,lever,zopa,31,0
 Primer,ashby,primer,16,0
 Frontify,ashby,frontify,15,0
 On,greenhouse,onrunning,141,0
 Ledgy,greenhouse,ledgy,4,0
 Proton,greenhouse,proton,15,0
-Zopa,lever,zopa,31,0
+Withings,workable,withings,34,17
+Ada Health,personio,ada,1,0
+Ohpen,personio,ohpen,15,0
