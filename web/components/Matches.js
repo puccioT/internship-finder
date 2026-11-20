@@ -5,14 +5,18 @@
  */
 import Link from "next/link";
 import { useMemo } from "react";
-import { rankOffers, topGaps, verdict } from "@/lib/matching";
+import { rankOffers, topGaps, verdict, countriesOf } from "@/lib/matching";
 import { useProfile, useTracker } from "@/lib/store";
 import { isNew } from "@/lib/data";
 import { ScoreRing, Segments, Bar } from "@/components/Gauges";
 import TrackButton from "@/components/TrackButton";
 
-const COUNTRIES = ["France", "Toutes"];
-const CONTRACTS = ["Tous", "Stage", "Alternance"];
+// Pays proposés en filtre (nom en anglais = valeur extraite par l'IA ; libellé en français)
+const COUNTRIES = [
+  ["France", "France"], ["Germany", "Allemagne"], ["Netherlands", "Pays-Bas"],
+  ["Ireland", "Irlande"], ["United Kingdom", "Royaume-Uni"], ["Switzerland", "Suisse"],
+];
+const CONTRACTS = ["Tous", "Stage", "Alternance", "Working student"];
 
 /** Une phrase courte et factuelle sous chaque offre du top 3 (le verdict IA viendra plus tard). */
 function whyLine(o) {
@@ -35,6 +39,13 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
 
   const tracked = Object.values(tracker);
   const countStatus = (s) => tracked.filter((t) => t.status === s).length;
+
+  const countries = countriesOf(profile);
+  const toggleCountry = (c) =>
+    setProfile((p) => {
+      const cur = countriesOf(p);
+      return { ...p, country: undefined, countries: cur.includes(c) ? cur.filter((x) => x !== c) : [...cur, c] };
+    });
 
   const toggleRole = (role) =>
     setProfile((p) => ({ ...p, roles: p.roles.includes(role) ? p.roles.filter((r) => r !== role) : [...p.roles, role] }));
@@ -62,11 +73,14 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
         {roleFamilies.filter((r) => r !== "Other").map((role) => (
           <button key={role} className="chip" aria-pressed={profile.roles.includes(role)} onClick={() => toggleRole(role)}>{role}</button>
         ))}
+      </section>
+
+      <section aria-label="Pays et contrat" className="filters" style={{ marginTop: -24 }}>
+        {COUNTRIES.map(([value, label]) => (
+          <button key={value} className="chip" aria-pressed={countries.includes(value)} onClick={() => toggleCountry(value)}>{label}</button>
+        ))}
+        <button className="chip" aria-pressed={countries.length === 0} onClick={() => setProfile((p) => ({ ...p, country: undefined, countries: [] }))}>Tous pays</button>
         <span style={{ width: 8 }} />
-        <label className="sr-only" htmlFor="country">Pays</label>
-        <select id="country" className="select" value={profile.country} onChange={(e) => setProfile((p) => ({ ...p, country: e.target.value }))}>
-          {COUNTRIES.map((c) => <option key={c} value={c}>{c === "Toutes" ? "Tous pays" : c}</option>)}
-        </select>
         <label className="sr-only" htmlFor="contract">Contrat</label>
         <select id="contract" className="select" value={profile.contract} onChange={(e) => setProfile((p) => ({ ...p, contract: e.target.value }))}>
           {CONTRACTS.map((c) => <option key={c} value={c}>{c === "Tous" ? "Stage + Alternance" : c}</option>)}

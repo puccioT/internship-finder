@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T10:48:04+00:00",
+ "generatedAt": "2026-11-20T19:47:49+00:00",
  "roleFamilies": [
   "Product",
   "Data",
@@ -99,6 +99,4223 @@
   ]
  },
  "offers": [
+  {
+   "id": "ashby:upvest:b2698ee6-0ffa-46dd-8b61-207765c02160",
+   "company": "Upvest",
+   "title": "Compliance Analyst Intern (f/m/d)",
+   "city": "London",
+   "location": "London",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Financial regulation",
+    "Compliance monitoring",
+    "Risk assessment",
+    "Regulatory reporting",
+    "Spreadsheets"
+   ],
+   "summary": "The intern will execute compliance monitoring checks, maintain regulatory registers, and support due diligence and risk assessments. They will also assist with policy documentation and regulatory horizon scanning for the UK entity.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/upvest/b2698ee6-0ffa-46dd-8b61-207765c02160",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-20T16:04:27.220+00:00"
+  },
+  {
+   "id": "ashby:upvest:5b81800f-c504-4fd7-ba16-c6a3fa42b4f5",
+   "company": "Upvest",
+   "title": "UK Strategy Intern (f/m/d)",
+   "city": "London",
+   "location": "London",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Project management",
+    "Data analysis",
+    "Stakeholder management"
+   ],
+   "summary": "The intern will support UK expansion planning, product launches, and partner onboarding by coordinating stakeholders and tracking milestones. They will also gather reporting requirements, design reporting tools, and prepare documentation for senior leadership.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/upvest/5b81800f-c504-4fd7-ba16-c6a3fa42b4f5",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-20T12:40:48.962+00:00"
+  },
+  {
+   "id": "recruitee:fastned:2835151",
+   "company": "Fastned",
+   "title": "Working Student - Procurement",
+   "city": "Amsterdam",
+   "location": "Amsterdam, Netherlands",
+   "country": "Netherlands",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Spend analysis",
+    "Market research",
+    "Supplier management"
+   ],
+   "summary": "The intern will analyze purchasing data to identify savings opportunities, conduct market research, and map supplier landscapes. They will also prepare supplier profiles, support commercial negotiations, and help maintain procurement templates and documentation.",
+   "startDate": "Immediately",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://fastned.recruitee.com/o/working-student-procurement",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-20 10:17:17 UTC"
+  },
+  {
+   "id": "recruitee:matera:2184071",
+   "company": "Matera",
+   "title": "Alternance - Assistant(e) de copropriété",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Alternance",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Property management",
+    "Customer support",
+    "Administrative management",
+    "Vendor management"
+   ],
+   "summary": "The apprentice will assist property managers with daily administrative, technical, and operational tasks such as managing quotes, supplier invoices, and insurance claims. They will also handle customer inquiries by email or phone and assist in preparing General Assemblies.",
+   "startDate": "ASAP",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://matera.recruitee.com/o/alternance-assistante-de-copropriete",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-19 08:48:16 UTC"
+  },
+  {
+   "id": "recruitee:matera:1783520",
+   "company": "Matera",
+   "title": "Founders Associate/M&A - Praktikant/Werkstudent (m/w/d)",
+   "city": "Berlin",
+   "location": "Berlin, Allemagne",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Business strategy",
+    "Project management",
+    "AI tools",
+    "Automation",
+    "Operations"
+   ],
+   "summary": "The intern will work closely with the Country Manager to support daily business operations and drive strategic initiatives and projects. They will also coordinate cross-functional activities, internal communications, and event organization.",
+   "startDate": "Ab sofort",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://matera.recruitee.com/o/founders-associatema-praktikantwerkstudent-mwd",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-18 14:58:46 UTC"
+  },
+  {
+   "id": "recruitee:climeworks:2831389",
+   "company": "Climeworks",
+   "title": "Human Resources Intern – Recruiting & HR Projects (80 -100%)",
+   "city": "Zurich",
+   "location": "Zurich, Switzerland",
+   "country": "Switzerland",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Recruitment",
+    "HR operations",
+    "HR systems",
+    "Data management"
+   ],
+   "summary": "The intern will independently manage the full internship recruitment process from sourcing to offer coordination and support day-to-day HR operations and reference letter preparation. Additionally, they will drive HR projects, maintain employee data across systems, and coordinate interviews with hiring managers.",
+   "startDate": "February or earlier",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "German (good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://climeworks.recruitee.com/o/human-resources-intern-recruiting-hr-projects-80-100",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-18 07:11:03 UTC"
+  },
+  {
+   "id": "recruitee:matera:2587067",
+   "company": "Matera",
+   "title": "Stage - Service client : Onboarding",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Customer relationship management",
+    "Accounting basics",
+    "Project management",
+    "Administrative support"
+   ],
+   "summary": "The intern will guide new clients through the platform onboarding process, assisting with configuration and administrative follow-ups. They will also learn basic real estate accounting principles to support setup operations and help digitize documentation.",
+   "startDate": "4 janvier 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://matera.recruitee.com/o/stage-service-client-onboarding",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-17 16:23:19 UTC"
+  },
+  {
+   "id": "recruitee:hiflow:2830258",
+   "company": "Hiflow",
+   "title": "Stagiaire Finance",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Accounting",
+    "Invoicing",
+    "Excel",
+    "Financial recovery",
+    "Process optimization"
+   ],
+   "summary": "The intern will manage supplier and carrier payment cycles, handle monthly invoicing, cash flow tracking, and customer receivables. They will also assist with administrative tasks, process improvements, and international development projects.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)",
+    "English (B2)"
+   ],
+   "remote": "Unknown",
+   "url": "https://careers.hiflow.com/o/stagiaire-finance",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-17 15:16:17 UTC"
+  },
+  {
+   "id": "ashby:upvest:9bc0554e-72c5-4746-9c43-454fb8fd3ace",
+   "company": "Upvest",
+   "title": "Brokerage Operations Intern (f/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Data analysis",
+    "Financial markets",
+    "Risk management",
+    "Compliance",
+    "Excel"
+   ],
+   "summary": "The intern will support brokerage managers in daily trading activities, risk management, order monitoring, and trade execution. They will also assist with market abuse monitoring, regulatory compliance reporting, and the operational rollout of new investment products.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "German (strong plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/upvest/9bc0554e-72c5-4746-9c43-454fb8fd3ace",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-16T13:57:15.245+00:00"
+  },
+  {
+   "id": "ashby:upvest:d93327d3-6dfe-423a-9cff-eeb487e0020c",
+   "company": "Upvest",
+   "title": "Strategy Intern (f/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Market research",
+    "Data analysis",
+    "Project management",
+    "Financial analysis",
+    "Strategic planning"
+   ],
+   "summary": "The intern will support high-stakes strategic projects, board meetings, and leadership offsites while helping to run company OKRs and market expansion initiatives. They will also own independent work packages and collaborate cross-functionally with senior leadership.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/upvest/d93327d3-6dfe-423a-9cff-eeb487e0020c",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-13T14:17:26.196+00:00"
+  },
+  {
+   "id": "greenhouse:flix:8938441002",
+   "company": "FlixBus",
+   "title": "Werkstudent Serivce Excellence (m/w/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "MS Office",
+    "Contract management",
+    "Reporting",
+    "Data analysis"
+   ],
+   "summary": "The intern will coordinate with cleaning service providers and manage administrative tasks such as orders, contracts, and invoice verification. Additionally, they will create reports, analyze quality reports, and contribute to process improvement projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (C1)",
+    "English (C1)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://flix.careers/job/8938441002?gh_jid=8938441002",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-13T09:09:47-05:00"
+  },
+  {
+   "id": "greenhouse:flix:8941030002",
+   "company": "FlixBus",
+   "title": "Werkstudent Dienstleistungsmanagement (m/w/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "MS Office",
+    "Data analysis",
+    "Contract management",
+    "Reporting"
+   ],
+   "summary": "The intern will coordinate with cleaning service providers, manage orders, contracts, and invoices, and track quality metrics using Excel. They will also assist with reporting and participate in smaller process improvement projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (C1)",
+    "English (C1)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://flix.careers/job/8941030002?gh_jid=8941030002",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-13T09:09:45-05:00"
+  },
+  {
+   "id": "ashby:enpal:fdb35915-85a7-4616-bc78-c7db06e2411f",
+   "company": "Enpal",
+   "title": "Praktikum KI-Lösungen & Automatisierung im Energiemarkt (m/w/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Engineering",
+   "skills": [
+    "No-code",
+    "Low-code",
+    "AI tools",
+    "Data analysis",
+    "Dashboards"
+   ],
+   "summary": "The intern will take end-to-end responsibility for projects by building AI agents, workflows, and automations using no-code, low-code, and AI tools. They will also prepare data and build dashboards to measure impact and drive decision-making.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/enpal/fdb35915-85a7-4616-bc78-c7db06e2411f",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-12T09:26:09.093+00:00"
+  },
+  {
+   "id": "ashby:enpal:92a4b0d6-3eeb-414d-b609-7aa2d796734c",
+   "company": "Enpal",
+   "title": "Praktikum AI & Automation – Virtual Power Plant (m/w/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Engineering",
+   "skills": [
+    "No-code/Low-code tools",
+    "AI tools",
+    "Data analysis",
+    "Dashboards",
+    "SQL"
+   ],
+   "summary": "The intern will take end-to-end ownership of projects involving AI agents, workflows, and automations to scale the virtual power plant business. They will also prepare data, build dashboards, and collaborate across operations and technology teams.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [
+    "German (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/enpal/92a4b0d6-3eeb-414d-b609-7aa2d796734c",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-11T15:40:35.721+00:00"
+  },
+  {
+   "id": "ashby:enpal:9a7314e8-4669-4491-b401-a66ed2854d0b",
+   "company": "Enpal",
+   "title": "Praktikum Tech Venture Development (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Engineering",
+   "skills": [
+    "No-code",
+    "Automation",
+    "Data analysis",
+    "SQL",
+    "Dashboards"
+   ],
+   "summary": "The intern will take end-to-end ownership of tech venture projects, building AI agents, workflows, and automations to scale the virtual power plant. They will also process data and build dashboards to measure impact and drive business decisions.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/enpal/9a7314e8-4669-4491-b401-a66ed2854d0b",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-11T15:39:01.072+00:00"
+  },
+  {
+   "id": "ashby:upvest:936058cd-9ffe-4286-9c68-7d024111b2f7",
+   "company": "Upvest",
+   "title": "Growth Strategy Intern (f/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Data analysis",
+    "Market research",
+    "Sales enablement",
+    "Process automation",
+    "CRM"
+   ],
+   "summary": "The intern will support outbound sales motions, assist with strategic deals, and contribute to sales enablement materials. They will also conduct market research, drive data-driven insights on sales performance, and lead AI and process automation initiatives.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "German (strong plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/upvest/936058cd-9ffe-4286-9c68-7d024111b2f7",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-09T17:14:05.350+00:00"
+  },
+  {
+   "id": "recruitee:matera:1769411",
+   "company": "Matera",
+   "title": "Stage - Juriste chargé·e de recouvrement / contentieux",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Legal research",
+    "Debt collection",
+    "Contract drafting",
+    "Legal analysis"
+   ],
+   "summary": "The intern will assist with amicable and judicial debt recovery procedures by preparing reminders and gathering supporting documents for lawyers and bailiffs. They will also contribute to optimizing legal workflows and tracking reports.",
+   "startDate": "February 15, 2027",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://matera.recruitee.com/o/stage-juriste-chargee-de-recouvrement-contentieux",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-09 10:11:03 UTC"
+  },
+  {
+   "id": "ashby:parloa:6ed1789d-be4b-4337-9c0e-d8b9d49a40c1",
+   "company": "Parloa",
+   "title": "Finance Systems Intern",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "ERP systems",
+    "NetSuite",
+    "Salesforce",
+    "SAP",
+    "Spreadsheets",
+    "SQL"
+   ],
+   "summary": "The intern will help run and improve quote-to-cash systems by managing billing operations, configuring financial systems, and ensuring cross-system data integrity. Additionally, they will triage issues, support month-end close processes, and lead a process automation project.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/parloa/6ed1789d-be4b-4337-9c0e-d8b9d49a40c1",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-06T15:34:08.758+00:00"
+  },
+  {
+   "id": "ashby:enpal:e8565c32-2dbd-4db9-9c7b-986133df7a63",
+   "company": "Enpal",
+   "title": "Praktikum Strategische Baubarkeit (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Business cases",
+    "Process improvement",
+    "Project management",
+    "Data analysis"
+   ],
+   "summary": "The intern will manage strategic projects in the field of constructability, analyzing sales and operations funnels to identify bottlenecks. They will also build business cases, evaluate initiative impacts, and coordinate implementation with cross-functional teams.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/e8565c32-2dbd-4db9-9c7b-986133df7a63",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-05T10:40:10.564+00:00"
+  },
+  {
+   "id": "ashby:langdock:6e9e2672-851a-40e9-9c4e-0fb6cf351474",
+   "company": "Langdock",
+   "title": "Build Your Own Internship – m/f/d (min. 6 Months)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "AI",
+    "Prototyping",
+    "Software architecture",
+    "Prompt engineering"
+   ],
+   "summary": "The intern will own and develop an AI project from prototype to production use for the team or customers. They will work directly alongside product, engineering, or go-to-market teams to ship, measure, and iterate based on real feedback.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "English (professional)"
+   ],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/langdock/6e9e2672-851a-40e9-9c4e-0fb6cf351474",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-04T10:49:43.714+00:00"
+  },
+  {
+   "id": "recruitee:matera:429725",
+   "company": "Matera",
+   "title": "Stage - Commercial·e / Sales / Business Developer",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Sales prospecting",
+    "CRM",
+    "B2C sales",
+    "Lead qualification"
+   ],
+   "summary": "The intern will conduct initial phone calls to qualify incoming leads and analyze prospect needs for co-ownership solutions. They will also assist Account Executives by organizing demonstration meetings and updating the CRM system.",
+   "startDate": "janvier",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://matera.recruitee.com/o/stage-business-developersdr",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-11-02 15:45:18 UTC"
+  },
+  {
+   "id": "ashby:upvest:17a72c33-8c12-4e1f-a1b8-2385e4af43d3",
+   "company": "Upvest",
+   "title": "Working Student Client Experience (f/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Spreadsheets",
+    "AI tooling",
+    "Operations",
+    "Process documentation"
+   ],
+   "summary": "The intern will support day-to-day operations for a new state-subsidised pension product by handling client queries, managing ZfA processes, and payment reconciliation. Additionally, they will help build internal playbooks, document workflows, and identify opportunities for process improvements.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/upvest/17a72c33-8c12-4e1f-a1b8-2385e4af43d3",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-28T19:25:23.942+00:00"
+  },
+  {
+   "id": "recruitee:matera:2799602",
+   "company": "Matera",
+   "title": "Stage - Account Executive: Gestion locative",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Sales",
+    "Customer relationship management",
+    "HubSpot",
+    "Negotiation",
+    "Business development"
+   ],
+   "summary": "The intern will participate in client meetings, identify prospect needs regarding property management solutions, and contribute to the sales follow-up and subscription process. They will also update the CRM and help improve sales processes and messaging alongside the sales team.",
+   "startDate": "janvier",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://matera.recruitee.com/o/stage-account-executive-gestion-locative",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-27 16:31:45 UTC"
+  },
+  {
+   "id": "ashby:doctolib:11e1a6db-f039-481f-98f2-6eb98698dfec",
+   "company": "Doctolib",
+   "title": "Praktikum Campaign Management (x/f/m)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Campaign management",
+    "Tableau",
+    "Canva",
+    "WordPress",
+    "Data analysis"
+   ],
+   "summary": "The intern will support the campaign management team by tracking campaign performance, preparing reports for clients, and managing campaigns from preparation to launch and evaluation. They will also analyze customer satisfaction, help develop dashboards, and work with tools like Tableau, Canva, and WordPress.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "German (C1)",
+    "English (very good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/doctolib/11e1a6db-f039-481f-98f2-6eb98698dfec",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-23T13:26:07.387+00:00"
+  },
+  {
+   "id": "recruitee:bunq:2779896",
+   "company": "Bunq",
+   "title": "Partnership Ops Intern",
+   "city": "Amsterdam",
+   "location": "Amsterdam, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Event management",
+    "CRM administration",
+    "Data analysis",
+    "Project management",
+    "Copywriting"
+   ],
+   "summary": "The intern will manage the operations of partner campaigns and on-site events from setup to launch, while qualifying inbound partners and coordinating cross-functional teams. Additionally, they will track campaign performance metrics, handle partner outreach, and ensure quality assurance before go-live.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://careers.bunq.com/o/partnership-ops-intern",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-21 14:28:04 UTC"
+  },
+  {
+   "id": "ashby:doctolib:fa2db303-a58f-42b6-885f-b36ba6773683",
+   "company": "Doctolib",
+   "title": "Praktikum Product Marketing (x/f/m)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Product marketing",
+    "Go-to-market strategy",
+    "Customer journey analysis",
+    "Market research",
+    "Competitive analysis"
+   ],
+   "summary": "The intern will support the launch of new practice management software and features by contributing to go-to-market strategies and analyzing user needs. They will also conduct market and competitor research and collaborate cross-functionally with product and sales teams.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/doctolib/fa2db303-a58f-42b6-885f-b36ba6773683",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-20T07:24:23.722+00:00"
+  },
+  {
+   "id": "ashby:upvest:fe82ad57-73bd-4359-b4e3-904cff54aaa3",
+   "company": "Upvest",
+   "title": "AFC Operations Intern (f/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "KYC/AML",
+    "Compliance",
+    "SQL",
+    "Google Suite",
+    "Data analysis"
+   ],
+   "summary": "The intern will execute day-to-day anti-financial crime processes, including PEP and sanctions screening, KYB checks, and transaction monitoring. They will also help improve automation and tooling to streamline case processing and collaborate with compliance teams.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (good)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/upvest/fe82ad57-73bd-4359-b4e3-904cff54aaa3",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-16T10:13:14.035+00:00"
+  },
+  {
+   "id": "greenhouse:flix:8874507002",
+   "company": "FlixBus",
+   "title": "Werkstudent Operational Planning (m/w/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Data management",
+    "Transport planning",
+    "Operations support"
+   ],
+   "summary": "The student will support the operational planning team by creating, updating, and managing train schedules and related data. They will also handle schedule changes, interface with internal and external partners, and assist with communication regarding operational disruptions.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://flix.careers/job/8874507002?gh_jid=8874507002",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-16T06:43:35-04:00"
+  },
+  {
+   "id": "greenhouse:flix:8894028002",
+   "company": "FlixBus",
+   "title": "Werkstudent Betriebsplanung (m/w/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Data management",
+    "Schedule planning"
+   ],
+   "summary": "The working student will support the operations and timetable planning team by creating and maintaining schedule data and processing timetable changes. They will also manage data reconciliation across various interfaces and assist with customer communication regarding schedule updates.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://flix.careers/job/8894028002?gh_jid=8894028002",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-16T06:43:33-04:00"
+  },
+  {
+   "id": "recruitee:fastned:2783353",
+   "company": "Fastned",
+   "title": "Working Student - Business Support",
+   "city": "Copenhagen",
+   "location": "Copenhagen, Denmark",
+   "country": "Denmark",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Market analysis",
+    "Business cases",
+    "Excel",
+    "PowerPoint",
+    "Project management"
+   ],
+   "summary": "The intern will support the Network Development team by conducting market and competitor analyses, building business cases, and researching potential new locations. They will also assist the wider Danish team with administrative, analytical, and organizational tasks to help drive growth.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "Danish"
+   ],
+   "remote": "Unknown",
+   "url": "https://fastned.recruitee.com/o/working-student-business-support",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-14 10:11:19 UTC"
+  },
+  {
+   "id": "ashby:billie:02abea78-d78f-4a3f-b1d2-ce38f8714cb8",
+   "company": "Billie",
+   "title": "Working Student Sales (m/f/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Salesforce",
+    "Lead generation",
+    "Pipeline analysis",
+    "Sales outreach"
+   ],
+   "summary": "The working student will conduct prospect research and outreach to book meetings, while managing smaller deals and inbound leads end-to-end. They will also support the sales team with reporting, pipeline analysis, and Salesforce maintenance.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (native)",
+    "English (C1)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/billie/02abea78-d78f-4a3f-b1d2-ce38f8714cb8",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-13T11:40:33.936+00:00"
+  },
+  {
+   "id": "ashby:enpal:ff122601-f78f-4d4f-a66e-a2a5e9b9cd91",
+   "company": "Enpal",
+   "title": "Werkstudent:in Booking Manager:in (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Customer service",
+    "Scheduling",
+    "Dispatching",
+    "Customer communication"
+   ],
+   "summary": "The intern will plan and schedule incoming service tickets for heat pump customers while coordinating daily technician tours. They will act as a point of contact for appointment coordination, prioritize urgent cases, and manage ongoing operations and capacities.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/ff122601-f78f-4d4f-a66e-a2a5e9b9cd91",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-08T11:51:50.750+00:00"
+  },
+  {
+   "id": "recruitee:hiflow:2776567",
+   "company": "Hiflow",
+   "title": "Stage - Relations Partenaires",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Partner management",
+    "Onboarding",
+    "Billing",
+    "CRM"
+   ],
+   "summary": "The intern will develop and onboard the network of independent drivers by training them on tools and launching activation campaigns. They will also manage partner operations, including handling support, monitoring service quality, and processing bi-monthly billing.",
+   "startDate": "Février 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://careers.hiflow.com/o/stage-relations-partenaires",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-08 12:50:41 UTC"
+  },
+  {
+   "id": "recruitee:bunq:2774877",
+   "company": "Bunq",
+   "title": "Technical Website Intern",
+   "city": "Amsterdam",
+   "location": "Amsterdam, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "React",
+    "Vitest",
+    "Playwright"
+   ],
+   "summary": "The intern will contribute to website growth by maintaining and optimizing the shared component library, fixing accessibility, performance, and browser-compatibility issues. Additionally, they will write automated tests, monitor Core Web Vitals, and utilize AI tools for coding and testing.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://careers.bunq.com/o/technical-website-intern",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-10-07 14:22:19 UTC"
+  },
+  {
+   "id": "greenhouse:tide:8006663003",
+   "company": "Tide",
+   "title": "Werkstudent:in (m/w/d) – UX Copywriting",
+   "city": "Berlin",
+   "location": "Berlin, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Design",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "UX Copywriting",
+    "Content Design",
+    "UX/UI Design",
+    "Localization",
+    "Copywriting"
+   ],
+   "summary": "The intern will write microcopy for app screens and product experiences, collaborating with designers and product teams to localize the product for the German market. Additionally, they will test and optimize texts to ensure users understand on-screen instructions quickly and effortlessly.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (native)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/8006663003",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-09-29T05:36:59-04:00"
+  },
+  {
+   "id": "ashby:enpal:b8f180ba-4429-49e6-866d-59e4379dfda4",
+   "company": "Enpal",
+   "title": "Werkstudent:in Customer Success Manager:in (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Customer support",
+    "Email management",
+    "Customer relationship management"
+   ],
+   "summary": "The intern will assist customers with their inquiries via phone and email while working closely with various operational teams. They will also process and forward customer requests as part of a dedicated support team.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (C1)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/b8f180ba-4429-49e6-866d-59e4379dfda4",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-09-28T14:03:29.567+00:00"
+  },
+  {
+   "id": "recruitee:matera:2510450",
+   "company": "Matera",
+   "title": "Stage - Bras droit CEO / Chief of Staff  (Paris)",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Market research",
+    "Financial modeling",
+    "Project management",
+    "Strategic analysis",
+    "M&A"
+   ],
+   "summary": "The intern will work within the CEO Office to manage strategic projects, market research, and M&A target evaluations. They will also assist in investor relations, board meeting preparation, and internal communications.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://matera.recruitee.com/o/stage-bras-droit-ceo-chief-of-staff-paris",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-09-25 14:57:29 UTC"
+  },
+  {
+   "id": "recruitee:bunq:2760260",
+   "company": "Bunq",
+   "title": "Copywriting Intern",
+   "city": "Amsterdam",
+   "location": "Amsterdam, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Copywriting",
+    "Digital marketing",
+    "Social media management",
+    "Content creation",
+    "Market research"
+   ],
+   "summary": "The intern will write and test copywriting variations for ads, social media, and website content while conducting competitor and trend research. They will also manage blog content and support marketing campaigns to enhance brand awareness.",
+   "startDate": "Unknown",
+   "durationMonths": 3,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://careers.bunq.com/o/copywriting-intern-3",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-09-25 14:45:40 UTC"
+  },
+  {
+   "id": "ashby:enpal:cbcd1fa5-d2ea-4e84-bec1-e76f9eef7a2e",
+   "company": "Enpal",
+   "title": "Praktikant:in (w/m/d) - für Integration und Deutschsprachlehre",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Other",
+   "secondaryFamily": null,
+   "skills": [
+    "Teaching",
+    "Didactic material design",
+    "Language instruction",
+    "Project administration",
+    "Evaluation processes"
+   ],
+   "summary": "The intern will conduct German language training for international specialists and develop educational and technical teaching materials. Additionally, they will support administrative processes, coordinate online courses, and assist with onboarding and student support at the academy.",
+   "startDate": "July 2026",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "Spanish (B2)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/cbcd1fa5-d2ea-4e84-bec1-e76f9eef7a2e",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-09-11T07:11:36.391+00:00"
+  },
+  {
+   "id": "ashby:enpal:4e7de8c5-5356-43f6-99ac-323b52efbc2b",
+   "company": "Enpal",
+   "title": "Werkstudent:in Kundenbetreuer:in (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Customer support",
+    "CRM",
+    "Communication"
+   ],
+   "summary": "The student will handle customer inquiries and requests as the primary contact point via telephone and email. They will also collaborate with various operational teams to structure and resolve customer issues.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (C1)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/4e7de8c5-5356-43f6-99ac-323b52efbc2b",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-09-07T12:13:01.304+00:00"
+  },
+  {
+   "id": "recruitee:hiflow:2730687",
+   "company": "Hiflow",
+   "title": "Stage - Assistant.e des opérations logistiques",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Excel",
+    "Negotiation",
+    "Customer Support",
+    "Operations Management"
+   ],
+   "summary": "The intern will coordinate logistics operations by scheduling vehicle pick-ups and deliveries, and match transport missions with independent drivers. They will also manage daily transport emergencies and negotiate pricing with drivers to ensure successful deliveries.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://careers.hiflow.com/o/stage-assistante-des-operations-logistiques-5",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2026-09-02 09:47:22 UTC"
+  },
+  {
+   "id": "recruitee:matera:2283791",
+   "company": "Matera",
+   "title": "Sales Praktikum | Scaling Phase",
+   "city": "Berlin",
+   "location": "Berlin, Allemagne",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Sales",
+    "Business development",
+    "Outbound prospecting",
+    "Customer communication"
+   ],
+   "summary": "The intern will be responsible for making the first contact with potential clients by explaining the product and convincing property owners. They will also support sales managers throughout the sales process and help build a new outbound channel.",
+   "startDate": "February",
+   "durationMonths": 4,
+   "languages": [
+    "German (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://matera.recruitee.com/o/sales-praktikum-scaling-phase-1",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2025-09-24 11:36:10 UTC"
+  },
+  {
+   "id": "ashby:parloa:fbf471a9-8c89-4db0-a531-c6ac94ec82aa",
+   "company": "Parloa",
+   "title": "Founder's Associate Intern",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Project management",
+    "Data analysis",
+    "Strategic planning",
+    "Research"
+   ],
+   "summary": "The intern will own cross-functional CEO Office projects from end to end and support strategic planning. They will also conduct research, analyze data, and assist with day-to-day operations to enhance efficiency.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/parloa/fbf471a9-8c89-4db0-a531-c6ac94ec82aa",
+   "firstSeen": "2026-11-20T19:41:59+00:00",
+   "postedAt": "2024-07-03T08:55:06.111+00:00"
+  },
+  {
+   "id": "ashby:doctolib:43aa413d-c4a3-4f77-bbe6-ef640db9f0ea",
+   "company": "Doctolib",
+   "title": "Stage - Coordinateur administratif & opérations événementielles (x/f/m) - janvier 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Administrative management",
+    "Event logistics",
+    "Budget tracking"
+   ],
+   "summary": "The intern will manage event registrations, invoicing, and supplier orders while structuring administrative processes. They will also provide operational on-site support during B2B health events.",
+   "startDate": "Janvier 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/doctolib/43aa413d-c4a3-4f77-bbe6-ef640db9f0ea",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T17:58:01.735+00:00"
+  },
+  {
+   "id": "ashby:voodoo:357c52d9-2310-46b0-a9f8-fb3cef795eca",
+   "company": "Voodoo",
+   "title": "Accounting Intern - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Accounting software",
+    "SAP by Design",
+    "Financial analysis",
+    "French accounting rules"
+   ],
+   "summary": "The intern will manage supplier and customer accounts, bank reconciliations, and employee expense reports. They will also actively contribute to the monthly closing process and help improve accounting working methods.",
+   "startDate": "January 2027",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/voodoo/357c52d9-2310-46b0-a9f8-fb3cef795eca",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T15:09:57.238+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000162726645",
+   "company": "Delivery Hero",
+   "title": "Intern Regions Spain",
+   "city": "Las Palmas de Gran Canaria",
+   "location": "Las Palmas de Gran Canaria, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Account management",
+    "Google Sheets",
+    "Excel",
+    "Data analysis"
+   ],
+   "summary": "The intern will manage a portfolio of food partners by conducting outreach, recommending promotions, and following up on performance. They will also prepare performance reports, business reviews, and operational dashboards to support the account management team.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English",
+    "Spanish"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000162726645",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T12:51:55.064Z"
+  },
+  {
+   "id": "ashby:proxima-fusion:4c4972b7-4e5f-424d-885e-67fdfe9622d7",
+   "company": "Proxima Fusion",
+   "title": "International Policy Intern",
+   "city": "Munich",
+   "location": "Munich",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Policy analysis",
+    "Regulatory monitoring",
+    "Drafting policy papers",
+    "Stakeholder engagement",
+    "Briefing preparation"
+   ],
+   "summary": "The intern will monitor EU policy and regulatory developments, and prepare briefings and position papers for engagement with European institutions and governments. They will also support government relations coordination and align policy insights with technical teams.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/proxima-fusion/4c4972b7-4e5f-424d-885e-67fdfe9622d7",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T11:49:25.481+00:00"
+  },
+  {
+   "id": "smartrecruiters:nexthink:744000162689809",
+   "company": "Nexthink",
+   "title": "Product Management Intern",
+   "city": "Lausanne",
+   "location": "Lausanne, CH",
+   "country": "Switzerland",
+   "contract": "Stage",
+   "family": "Product",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Product management",
+    "Data analysis",
+    "User stories",
+    "Requirements definition",
+    "LLMs"
+   ],
+   "summary": "The intern will take features from definition to release by writing requirements, collaborating with engineering and design teams, and tracking adoption after launch. They will also analyze product usage data to identify areas for improvement and present actionable proposals to leadership.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/nexthink/744000162689809",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T09:27:18.865Z"
+  },
+  {
+   "id": "smartrecruiters:nexthink:744000162671595",
+   "company": "Nexthink",
+   "title": "Reception & Workplace Experience Intern",
+   "city": "Lausanne",
+   "location": "Lausanne, CH",
+   "country": "Switzerland",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Microsoft Office",
+    "Customer service",
+    "Event coordination",
+    "Administration"
+   ],
+   "summary": "The intern will manage reception duties, visitor access, and daily office operations while supporting employee onboarding and workplace events. They will also contribute to workplace projects and help streamline administrative workflows to improve operational efficiency.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://jobs.smartrecruiters.com/nexthink/744000162671595",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T08:17:40.469Z"
+  },
+  {
+   "id": "greenhouse:celonis:8046316003",
+   "company": "Celonis",
+   "title": "Strategy & Operations Working Student",
+   "city": "Munich",
+   "location": "Munich, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Salesforce",
+    "Market analysis",
+    "Data analysis",
+    "Business planning"
+   ],
+   "summary": "The intern will support the EMEA leadership team with annual planning, go-to-market strategy execution, and sales operations. They will leverage internal and external data to deliver commercial insights, drive strategic projects, and manage regional forecasting and performance governance.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)"
+   ],
+   "remote": "On-site",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/8046316003?gh_jid=8046316003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T07:34:49-05:00"
+  },
+  {
+   "id": "greenhouse:scandit:8405367",
+   "company": "Scandit",
+   "title": "Associate, Product Engineer (working student)",
+   "city": "Tampere",
+   "location": "Tampere",
+   "country": "Finland",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Python",
+    "Synthetic data",
+    "AI coding tools",
+    "Computer vision"
+   ],
+   "summary": "The intern will build and maintain synthetic data templates and datasets while testing their technical performance and quality. They will also improve Python-based tooling and integrate new AI features for dataset generation, validation, and evaluation.",
+   "startDate": "Unknown",
+   "durationMonths": 12,
+   "languages": [
+    "English (professional)"
+   ],
+   "remote": "On-site",
+   "url": "https://www.scandit.com/careers/job-description/?gh_jid=8405367",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-20T04:26:18-05:00"
+  },
+  {
+   "id": "ashby:wayflyer:0cf09ee7-ba97-42f3-baf0-bebd89400b37",
+   "company": "Wayflyer",
+   "title": "Credit Intern",
+   "city": "Charlotte",
+   "location": "Charlotte, North Carolina",
+   "country": "United States",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Credit analysis",
+    "Financial analysis",
+    "Excel",
+    "Underwriting",
+    "Portfolio management"
+   ],
+   "summary": "The intern will evaluate credit risks for eCommerce businesses, support the underwriting team on live deals, and coordinate customer calls and relationships. They will also analyze loan portfolios and collaborate with sales and operations teams to manage funding decisions.",
+   "startDate": "Unknown",
+   "durationMonths": 2,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/wayflyer/0cf09ee7-ba97-42f3-baf0-bebd89400b37",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-19T16:32:51.979+00:00"
+  },
+  {
+   "id": "greenhouse:deliveroo:8398982",
+   "company": "Deliveroo",
+   "title": "Software Engineering Summer Internship 2027 (London)",
+   "city": "London",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "SQL",
+    "Algorithms",
+    "Data structures",
+    "Object-oriented programming",
+    "Version control"
+   ],
+   "summary": "The intern will contribute to technical projects by developing, maintaining, and shipping software products alongside experienced engineers. They will build and improve backend architecture and user-friendly experiences while solving real-world marketplace problems.",
+   "startDate": "June 2027",
+   "durationMonths": 3,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8398982",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-19T14:19:18-05:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000162507329",
+   "company": "Delivery Hero",
+   "title": "Digital Marketing Intern",
+   "city": "Santa Cruz",
+   "location": "Santa Cruz, BO",
+   "country": "Bolivia",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Digital marketing",
+    "KPIs",
+    "Data segmentation",
+    "Reporting"
+   ],
+   "summary": "The intern will assist in executing digital marketing and retail media strategies, planning online advertising campaigns, and managing client information. They will also validate digital content, prepare performance reports, support data segmentation for campaigns, and help with client billing processes.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (intermediate)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000162507329",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-19T12:46:06.074Z"
+  },
+  {
+   "id": "greenhouse:isaraerospace:5041630101",
+   "company": "Isar Aerospace",
+   "title": "Working Student - Investor Relations (f/m/d)",
+   "city": "Parsdorf",
+   "location": "Parsdorf, Bavaria, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Financial analysis",
+    "Excel",
+    "PowerPoint",
+    "CRM",
+    "Data analysis"
+   ],
+   "summary": "The intern will support day-to-day investor relations activities by assisting with monthly investor reporting and preparing shareholder materials such as quarterly updates and ESG reporting. They will also manage shareholder interactions in a CRM and help develop investor relations processes.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "German (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5041630101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-19T12:31:42-05:00"
+  },
+  {
+   "id": "ashby:getyourguide:8feddea1-046b-4932-bce4-d90555b7fefa",
+   "company": "GetYourGuide",
+   "title": "Business Performance Analyst Intern (Voluntary Internship)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": null,
+   "skills": [
+    "SQL",
+    "Python",
+    "Data analysis",
+    "Financial modeling",
+    "MS Office"
+   ],
+   "summary": "The intern will analyze business and financial performance to uncover insights and support data-driven decision-making. They will also build and maintain critical business dashboards and reporting frameworks.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/GetYourGuide/8feddea1-046b-4932-bce4-d90555b7fefa",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-19T11:26:00.072+00:00"
+  },
+  {
+   "id": "greenhouse:flix:8946825002",
+   "company": "FlixBus",
+   "title": "Business Development Intern",
+   "city": "Lisbon",
+   "location": "Lisbon",
+   "country": "Portugal",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Excel",
+    "Data analysis",
+    "Competitive benchmarking",
+    "Reporting"
+   ],
+   "summary": "The intern will support administrative and operational processes, including complaints management, database updates, and partner communication. They will also conduct business and marketing analyses for bus routes, including pricing reviews, capacity comparisons, and bus station operations support.",
+   "startDate": "Dec 2026",
+   "durationMonths": 6,
+   "languages": [
+    "Portuguese (native)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://flix.careers/job/8946825002?gh_jid=8946825002",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-18T16:33:13-05:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000162312919",
+   "company": "Delivery Hero",
+   "title": "Category Management Intern",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Data analysis",
+    "Excel",
+    "Category management",
+    "Operations"
+   ],
+   "summary": "The intern will assist in day-to-day category management operations, including product listings, pricing, and promotions. They will also analyze category performance and resolve invoice discrepancies with suppliers.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Spanish (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000162312919",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-18T14:31:26.622Z"
+  },
+  {
+   "id": "ashby:enpal:f0cdd84d-bbd8-4841-8e4a-2755181a1bf1",
+   "company": "Enpal",
+   "title": "Venture Development | AI Engineering - Internship",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Product",
+   "skills": [
+    "Machine learning",
+    "APIs",
+    "Databases",
+    "Agentic tools",
+    "Statistical modeling"
+   ],
+   "summary": "The intern will build AI solutions to streamline customer ticket workflows from automated resolution to smart routing and agent assistance. They will take ownership end-to-end, scoping business cases, collaborating with stakeholders, and deploying prototypes using a modern agentic stack.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/f0cdd84d-bbd8-4841-8e4a-2755181a1bf1",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-18T12:13:40.138+00:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:8208091003",
+   "company": "Trade Republic",
+   "title": "Financial Accounting Intern",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "HGB accounting",
+    "IFRS",
+    "Financial statements",
+    "Accounting",
+    "Financial analysis"
+   ],
+   "summary": "The intern will collaborate on strategic projects including the financial assessment of new product launches and help define HGB and IFRS accounting requirements. Additionally, they will support the preparation of annual financial statements and handle audit-related inquiries.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "German (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=8208091003&gh_jid=8208091003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-18T10:05:11-05:00"
+  },
+  {
+   "id": "smartrecruiters:nexthink:744000162081131",
+   "company": "Nexthink",
+   "title": "Credit Management & Cash Collection (Intern)",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Account reconciliation",
+    "Data analysis",
+    "Financial operations",
+    "Accounts receivable"
+   ],
+   "summary": "The intern will support day-to-day collection activities, customer account monitoring, and payment reconciliations to maintain healthy cash flow. They will also analyze aging data, manage customer master data, and collaborate cross-functionally to resolve payment discrepancies.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/nexthink/744000162081131",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-17T13:47:32.056Z"
+  },
+  {
+   "id": "ashby:proxima-fusion:e64e8fb6-8c4a-462c-ac0d-c3423df6549a",
+   "company": "Proxima Fusion",
+   "title": "Strategic Finance Intern",
+   "city": "Munich",
+   "location": "Munich",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Financial modeling",
+    "Excel",
+    "Financial reconciliation",
+    "Budgeting",
+    "Data analysis"
+   ],
+   "summary": "The intern will review, reconcile, and document long-term financial models and multi-year business plans. Additionally, they will build dashboards and automations to help teams answer financial questions.",
+   "startDate": "Immediately",
+   "durationMonths": 3,
+   "languages": [
+    "English (fluent)",
+    "German (plus)"
+   ],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/proxima-fusion/e64e8fb6-8c4a-462c-ac0d-c3423df6549a",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-17T08:48:04.391+00:00"
+  },
+  {
+   "id": "greenhouse:catawiki:8395157",
+   "company": "Catawiki",
+   "title": "Accounting & Reporting Intern",
+   "city": "Netherlands",
+   "location": "Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Accounting",
+    "Financial reporting",
+    "Invoice processing",
+    "Process improvement",
+    "Excel"
+   ],
+   "summary": "The intern will support the accounting team with day-to-day activities such as invoice processing and expense claims, while assisting with monthly reporting and tax invoices. Additionally, they will explore process automation opportunities and contribute to various cross-functional finance projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://job-boards.greenhouse.io/catawiki/jobs/8395157",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-17T04:55:42-05:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000161825759",
+   "company": "Delivery Hero",
+   "title": "Logistics Intern",
+   "city": "Guayaquil",
+   "location": "Guayaquil, EC",
+   "country": "Ecuador",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Logistics operations",
+    "Customer support"
+   ],
+   "summary": "The intern will support the logistics and operations team by assisting with rider onboarding, equipment delivery, and fleet support. They will also manage support tickets, track dispatch metrics, and help identify service improvement opportunities.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000161825759",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-16T14:34:52.850Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000161454849",
+   "company": "Delivery Hero",
+   "title": "Intern, Data Labeler (Spanish Speaker) - (Global Discovery, Consumer)",
+   "city": "Berlin",
+   "location": "Berlin, DE",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": null,
+   "skills": [
+    "Data labeling",
+    "Data analysis",
+    "Machine learning"
+   ],
+   "summary": "The intern will accurately label and annotate images, text, audio, and video data to support search and recommendation systems. They will also maintain data quality, resolve labeling discrepancies, and provide feedback to improve guidelines.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Spanish (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000161454849",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-13T10:09:22.591Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000161452755",
+   "company": "Delivery Hero",
+   "title": "Intern, Data Labeler (Arabic Speaker) - (Global Discovery, Consumer)",
+   "city": "Berlin",
+   "location": "Berlin, DE",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": null,
+   "skills": [
+    "Data labeling",
+    "Data quality assurance",
+    "Machine learning concepts",
+    "Data analysis"
+   ],
+   "summary": "The intern will label and annotate images, text, audio, and video to support search and recommendation systems. They will also maintain high data quality by following guidelines and resolving discrepancies with the team.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Arabic (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000161452755",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-13T10:05:25.373Z"
+  },
+  {
+   "id": "greenhouse:hellofresh:8383114",
+   "company": "HelloFresh",
+   "title": "Product Monetization Operations intern (M/F/X)",
+   "city": "Paris",
+   "location": "Paris, Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "G-Sheets",
+    "Data analysis",
+    "Financial modeling",
+    "Reporting"
+   ],
+   "summary": "The intern will orchestrate operational workflows for upselling and cross-selling offers, monitor KPIs, and analyze customer feedback to optimize performance. They will also manage planning based on stock and collaborate with finance, marketing, and procurement teams to improve existing processes.",
+   "startDate": "ASAP",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)",
+    "English (C1)"
+   ],
+   "remote": "Unknown",
+   "url": "https://careers.hellofresh.com/global/en/job/8383114?gh_jid=8383114",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-12T10:33:58-05:00"
+  },
+  {
+   "id": "greenhouse:deliveroo:8383006",
+   "company": "Deliveroo",
+   "title": "Retail & Specialist - Intern",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Account management",
+    "Sales negotiation",
+    "Data analysis",
+    "CRM",
+    "Marketing campaigns"
+   ],
+   "summary": "The intern will support account managers in handling operational and commercial follow-ups for partner stores, and analyze daily performance metrics. They will also contact underperforming partners to improve their operational excellence and help set up marketing campaigns.",
+   "startDate": "2 Septembre 2024",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8383006",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-12T10:33:04-05:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000161139879",
+   "company": "Delivery Hero",
+   "title": "Account Manager Intern Groceries Spain",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Account management",
+    "Data analysis",
+    "Reporting",
+    "Business acumen"
+   ],
+   "summary": "The intern will support the team in managing day-to-day operations with top grocery partners and track key account metrics. They will also collaborate cross-functionally and prepare reports and presentations for internal reviews and partner meetings.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English",
+    "Spanish"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000161139879",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-11T18:03:35.857Z"
+  },
+  {
+   "id": "greenhouse:scandit:8379482",
+   "company": "Scandit",
+   "title": "Software Engineering Internship - Tampere 2027",
+   "city": "Tampere",
+   "location": "Tampere",
+   "country": "Finland",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Python",
+    "TypeScript",
+    "Postgres",
+    "Docker",
+    "React",
+    "AWS"
+   ],
+   "summary": "The intern will build and extend backend services, APIs, internal dashboards, and analytics tools while helping maintain data pipelines. They will also write tests, improve automation, and participate in sprint planning, code reviews, and retrospectives.",
+   "startDate": "2027",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://www.scandit.com/careers/job-description/?gh_jid=8379482",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-11T12:03:51-05:00"
+  },
+  {
+   "id": "greenhouse:hellofresh:8371654",
+   "company": "HelloFresh",
+   "title": "Logistics Operational Excellence Intern",
+   "city": "Amsterdam",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Data analysis",
+    "Process improvement",
+    "Supply chain"
+   ],
+   "summary": "The intern will investigate operational bottlenecks, analyze fleet performance data, and standardize processes across multiple regions. They will also build performance dashboards, document standard operating procedures, and support optimization initiatives.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "Dutch (plus)",
+    "French (plus)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://careers.hellofresh.com/global/en/job/8371654?gh_jid=8371654",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-11T10:51:31-05:00"
+  },
+  {
+   "id": "ashby:enpal:e08c0610-9580-43dc-94d9-dccb8582d4c7",
+   "company": "Enpal",
+   "title": "Partnership Development Intern",
+   "city": "Milan",
+   "location": "Milan",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Business development",
+    "Lead generation",
+    "Sales",
+    "CRM"
+   ],
+   "summary": "The intern will conduct market scouting to identify potential strategic partners and reach out to decision makers via cold calling, email, and LinkedIn. They will also manage the sales pipeline, handle initial objections, and support the team in turning business opportunities into active partnerships.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/enpal/e08c0610-9580-43dc-94d9-dccb8582d4c7",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-11T07:52:17.698+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000160871880",
+   "company": "Delivery Hero",
+   "title": "Data Intern",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": null,
+   "skills": [
+    "SQL",
+    "Python",
+    "Data analysis",
+    "Machine learning",
+    "A/B testing",
+    "Statistics"
+   ],
+   "summary": "The intern will perform exploratory data analysis and build machine learning models to optimize the product user funnel. They will also design and evaluate A/B tests while communicating insights to stakeholders.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000160871880",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-10T13:40:12.688Z"
+  },
+  {
+   "id": "greenhouse:catawiki:8358950",
+   "company": "Catawiki",
+   "title": "Communications Intern",
+   "city": "Netherlands",
+   "location": "Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Press release writing",
+    "Media outreach",
+    "Social media management",
+    "Press monitoring",
+    "Microsoft Office",
+    "G Suite"
+   ],
+   "summary": "The intern will support the communications team by drafting press materials, managing media outreach, and handling daily press monitoring and newsroom updates. They will also assist with corporate social media management, PR agency coordination, and various research and logistical tasks.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://job-boards.greenhouse.io/catawiki/jobs/8358950",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-10T03:55:32-05:00"
+  },
+  {
+   "id": "ashby:mollie:168dc355-a15e-4480-ad57-f731658e73ce",
+   "company": "Mollie",
+   "title": "Regional Marketing Intern - Italy (curricular internship)",
+   "city": "Milan",
+   "location": "Milan",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Event management",
+    "Content creation",
+    "Email marketing",
+    "Account-Based Marketing"
+   ],
+   "summary": "The intern will manage regional events and execute localized marketing campaigns, content creation, and email initiatives for the Italian market. They will also coordinate cross-functional projects and support regional marketing operations.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Italian (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/mollie/168dc355-a15e-4480-ad57-f731658e73ce",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-09T14:21:16.976+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000160597029",
+   "company": "Delivery Hero",
+   "title": "Working Student, Central Controlling",
+   "city": "Berlin",
+   "location": "Berlin, DE",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "MS Office",
+    "Financial analysis",
+    "Reporting tools",
+    "Cost controlling"
+   ],
+   "summary": "The student will process internal tickets on cost center adjustments, help resolve intercompany recharge differences, and support the preparation of monthly financial reports. Additionally, they will assist cost center owners with inquiries, maintain internal documentation, and document controlling workflows.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000160597029",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-09T12:08:54.559Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000160569449",
+   "company": "Delivery Hero",
+   "title": "Intern, Local Service Desk - (ETS)",
+   "city": "Berlin",
+   "location": "Berlin, DE",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Computer hardware",
+    "IT asset management",
+    "Inventory management",
+    "IT support"
+   ],
+   "summary": "The intern will maintain accurate IT asset inventory records and track hardware movements within the CMDB. Additionally, they will support the full hardware lifecycle, including onboarding activities, peripheral distribution, and basic first-line technical assistance.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000160569449",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-09T09:45:59.853Z"
+  },
+  {
+   "id": "greenhouse:deliveroo:8359584",
+   "company": "Deliveroo",
+   "title": "Assistant·e Chef de Projet Marketing - alternance",
+   "city": "Paris",
+   "location": "Paris, France",
+   "country": "France",
+   "contract": "Alternance",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Project management",
+    "Marketing campaigns",
+    "Data analysis",
+    "Budget management",
+    "CRM"
+   ],
+   "summary": "The intern will support the merchant marketing team by executing 360-degree marketing campaigns and partner plans to drive restaurant acquisition and retention. They will also analyze campaign performance, manage budgets, and coordinate cross-functional projects with sales and creative teams.",
+   "startDate": "December 2026 / January 2027",
+   "durationMonths": 12,
+   "languages": [
+    "French (fluent)",
+    "English (good level)"
+   ],
+   "remote": "Unknown",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8359584",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-09T05:21:14-05:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000160184049",
+   "company": "Delivery Hero",
+   "title": "Intern Account Management Integrations Global",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Workflow automation",
+    "Data analysis",
+    "APIs"
+   ],
+   "summary": "The intern will support the commercial team with technical operations by optimizing onboarding workflows, troubleshooting integration issues, and coordinating with cross-functional teams. They will also manage global trackers, monitor system performance, and handle API contract billing management.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000160184049",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-06T12:06:58.803Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000159792689",
+   "company": "Delivery Hero",
+   "title": "Working Student, Corporate Tax",
+   "city": "Berlin",
+   "location": "Berlin, DE",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Tax compliance",
+    "Tax accounting",
+    "Tax returns",
+    "Financial analysis"
+   ],
+   "summary": "The student will support the Central Tax team with German direct taxes, including preparing tax returns, tax calculations, and tax accounting. They will also contribute to tax audits, tax litigation, and the implementation of tax processes.",
+   "startDate": "Unknown",
+   "durationMonths": 12,
+   "languages": [
+    "English (fluent)",
+    "German (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000159792689",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-05T07:09:50.845Z"
+  },
+  {
+   "id": "ashby:babbel:dd520fb8-ede6-4d9f-9423-111e2eb801ac",
+   "company": "Babbel",
+   "title": "Performance Marketing Intern",
+   "city": "New York",
+   "location": "New York",
+   "country": "United States",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Performance marketing",
+    "Excel",
+    "Google Sheets",
+    "Data analysis"
+   ],
+   "summary": "The intern will help run and monitor paid advertising campaigns across multiple digital channels and build performance reports. They will also analyze campaign data, conduct competitor research, and assist with A/B testing on ad creatives and landing pages.",
+   "startDate": "November",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/babbel/dd520fb8-ede6-4d9f-9423-111e2eb801ac",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-04T13:36:45.121+00:00"
+  },
+  {
+   "id": "smartrecruiters:nexthink:744000159632929",
+   "company": "Nexthink",
+   "title": "Software Engineer (Intern)",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Java",
+    "AI",
+    "Retrieval-Augmented Generation (RAG)",
+    "Kubernetes",
+    "Microservices",
+    "Kafka"
+   ],
+   "summary": "The intern will assist in developing, testing, and optimizing Java-based software solutions using AI techniques. They will participate in agile development processes, including code reviews, feature documentation, and software maintenance alongside senior engineers.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/nexthink/744000159632929",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-04T13:29:58.374Z"
+  },
+  {
+   "id": "greenhouse:hellofresh:8352477",
+   "company": "HelloFresh",
+   "title": "Culinary Intern (f/m/x)",
+   "city": "Amsterdam",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Other",
+   "secondaryFamily": null,
+   "skills": [
+    "Cooking",
+    "Recipe development",
+    "Food research",
+    "Kitchen management"
+   ],
+   "summary": "The intern will support the recipe team in the kitchen by preparing cooking and tasting sessions, maintaining kitchen organization, and ensuring recipe accuracy. They will also assist with marketing initiatives, culinary inspiration sessions, and research into recipe successes.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Dutch (plus)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://careers.hellofresh.com/global/en/job/8352477?gh_jid=8352477",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-04T08:30:15-05:00"
+  },
+  {
+   "id": "smartrecruiters:nexthink:744000159392102",
+   "company": "Nexthink",
+   "title": "Java Software Engineer (Intern)",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Java",
+    "Microservices",
+    "Kubernetes",
+    "Distributed systems",
+    "SOLID principles"
+   ],
+   "summary": "The intern will assist in developing, testing, and maintaining Java-based software solutions within an agile engineering team. They will also collaborate with senior engineers on tasks, participate in code reviews, and contribute to feature documentation.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/nexthink/744000159392102",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-03T13:56:16.058Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000159376449",
+   "company": "Delivery Hero",
+   "title": "Intern, People Generalist",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "HR administration",
+    "Excel",
+    "Google Sheets",
+    "Data management"
+   ],
+   "summary": "The intern will support day-to-day HR operations, including employee onboarding, offboarding, and benefits administration. They will also manage employee records, assist with payroll coordination, and ensure compliance with Spanish labor legislation.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)",
+    "Spanish (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000159376449",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-03T12:43:37.716Z"
+  },
+  {
+   "id": "greenhouse:hellofresh:8349401",
+   "company": "HelloFresh",
+   "title": "Intern Menu Planning & Ingredients (f/m/x)",
+   "city": "Amsterdam",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Excel",
+    "Data analysis",
+    "Stock tracking",
+    "Competitor benchmarking",
+    "Margin calculation"
+   ],
+   "summary": "The intern will manage day-to-day operations for HelloFresh Market, handling stock tracking, pricing updates, margin calculations, and recipe management. Additionally, they will analyse customer feedback, evaluate ingredients, and perform market benchmarking to optimize the menu offering.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Dutch (bonus)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://careers.hellofresh.com/global/en/job/8349401?gh_jid=8349401",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-03T07:41:49-05:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000159186209",
+   "company": "Delivery Hero",
+   "title": "Operations Analyst Intern",
+   "city": "Milano",
+   "location": "Milano, IT",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "SQL",
+    "Data analysis",
+    "Data visualization",
+    "Process optimization"
+   ],
+   "summary": "The intern will manage courier operations in an Italian macro-region by implementing process improvements and optimizing the platform experience. They will also analyze key performance indicators, track operational health, and build data reports to support strategic initiatives.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Italian (professional)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000159186209",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-02T16:00:34.830Z"
+  },
+  {
+   "id": "ashby:proxima-fusion:9fd42d90-2c8b-4e5c-ac56-b77750329fb7",
+   "company": "Proxima Fusion",
+   "title": "Intern/Working Student, Alpha Engineering Design Team",
+   "city": "Munich",
+   "location": "Munich",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Mechanical engineering",
+    "Finite element analysis",
+    "CAD",
+    "Python",
+    "Prototyping"
+   ],
+   "summary": "The intern will contribute to the design, analysis, or testing of Alpha systems by carrying out finite element simulations and engineering studies. They will also document results, present them to the team, and translate findings into concrete design recommendations.",
+   "startDate": "January - March 2027",
+   "durationMonths": 12,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/proxima-fusion/9fd42d90-2c8b-4e5c-ac56-b77750329fb7",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-02T11:33:51.341+00:00"
+  },
+  {
+   "id": "greenhouse:navvis:5001671101",
+   "company": "NavVis",
+   "title": "Working Student - Electrical Engineering (F/M/D)",
+   "city": "Munich Hybrid (NavVis GmbH)",
+   "location": "Munich Hybrid (NavVis GmbH)",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "PCB design",
+    "Altium",
+    "Soldering",
+    "Oscilloscopes",
+    "Python",
+    "Embedded systems"
+   ],
+   "summary": "The student will build, test, and troubleshoot custom electrical prototypes and design printed circuit boards (PCBs) for mobile mapping systems. They will also collaborate with multidisciplinary teams to integrate electrical systems, validate hardware, and support production ramp-up.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://job-boards.eu.greenhouse.io/navvis/jobs/5001671101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-11-02T09:11:53-05:00"
+  },
+  {
+   "id": "greenhouse:isaraerospace:5020763101",
+   "company": "Isar Aerospace",
+   "title": "Working Student, Launch Vehicle Structures (m/f/d)",
+   "city": "Parsdorf",
+   "location": "Parsdorf, Bavaria, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Python",
+    "Matlab",
+    "Data analysis",
+    "CFD",
+    "GitLab"
+   ],
+   "summary": "The intern will support flight and test data analysis by developing scripts and comparing numerical predictions against actual results. They will also contribute to automated workflows, sensor instrumentation documentation, and multidisciplinary loads and dynamics engineering activities.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)"
+   ],
+   "remote": "On-site",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5020763101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-29T10:12:54-04:00"
+  },
+  {
+   "id": "greenhouse:isaraerospace:5013229101",
+   "company": "Isar Aerospace",
+   "title": "Intern Learning and Development (m/f/d)",
+   "city": "Parsdorf",
+   "location": "Parsdorf, Bavaria, Germany",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Learning Management System",
+    "MS Office",
+    "Data analysis",
+    "Project management"
+   ],
+   "summary": "The intern will support the Learning and Development team by coordinating training sessions, managing the Learning Management System, and contributing to employee development projects. They will also analyze learning feedback, research L&D trends, and provide administrative support for learning activities.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "German (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5013229101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-27T08:07:08-04:00"
+  },
+  {
+   "id": "ashby:moss:d4b23b50-7c80-46a5-a35a-d8a78bd61b3d",
+   "company": "Moss",
+   "title": "Customer Support NL - Working Student",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Customer support",
+    "Zendesk",
+    "Salesforce",
+    "CRM tools"
+   ],
+   "summary": "The student will respond to customer inquiries in Dutch and English across live chat, email, and phone, while troubleshooting complex account issues. Additionally, they will guide new corporate users through the application and share feedback to improve support processes.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (business-fluent)",
+    "Dutch (native or C1+)"
+   ],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/moss/d4b23b50-7c80-46a5-a35a-d8a78bd61b3d",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-26T10:57:00.764+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000157083449",
+   "company": "Delivery Hero",
+   "title": "Intern - Bahrain",
+   "city": "Manama",
+   "location": "Manama, BH",
+   "country": "Bahrain",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Project management",
+    "Data analysis",
+    "Operations management"
+   ],
+   "summary": "The intern will work on live projects across various tracks like operations, marketing, or commercial within a fast-paced global organization. They will collaborate cross-functionally and execute day-to-day tasks to support regional business ecosystems.",
+   "startDate": "Unknown",
+   "durationMonths": 2,
+   "languages": [
+    "English (fluent)",
+    "Arabic (plus)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000157083449",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-22T09:28:55.633Z"
+  },
+  {
+   "id": "ashby:enpal:3fb5cf92-4293-4f8c-a605-53342248a791",
+   "company": "Enpal",
+   "title": "Intern Strategic Projects (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Business cases",
+    "Process improvement",
+    "Project management",
+    "Data analysis"
+   ],
+   "summary": "The intern will own strategic projects from analysis to implementation, focusing on optimizing the sales and operations funnel to overcome installation bottlenecks. They will evaluate the impact of various initiatives, build business cases, and coordinate with operations, tech, and software teams to bring new solutions to life.",
+   "startDate": "Unknown",
+   "durationMonths": 5,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/3fb5cf92-4293-4f8c-a605-53342248a791",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-20T17:51:54.518+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000156554419",
+   "company": "Delivery Hero",
+   "title": "Intern Brands Ads Global HQ",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Data analysis",
+    "Campaign management",
+    "Lead generation"
+   ],
+   "summary": "The intern will support advertiser acquisition by driving a new inbound sales channel and tracking performance KPIs. They will also manage discount-based marketing campaigns and assist the Commercial Lead with pitch decks and data analysis for global partnerships.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156554419",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-20T13:03:44.756Z"
+  },
+  {
+   "id": "ashby:enpal:ac25e91c-5050-4f43-ac73-e2da942b1df0",
+   "company": "Enpal",
+   "title": "Sales Operations & Pricing Intern",
+   "city": "Milan",
+   "location": "Milan",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Excel",
+    "Data analysis",
+    "Financial modeling",
+    "Power BI",
+    "SQL",
+    "Python"
+   ],
+   "summary": "The intern will support the Sales Operations team by building and updating pricing models, analyzing margins, and running commercial simulations. They will also help develop go-to-market offers, monitor commercial KPIs, and contribute to cross-functional projects with sales and finance.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)",
+    "Italian (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/ac25e91c-5050-4f43-ac73-e2da942b1df0",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-20T10:17:19.158+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000156490889",
+   "company": "Delivery Hero",
+   "title": "Specialties intern",
+   "city": "Milano",
+   "location": "Milano, IT",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "B2B sales",
+    "Negotiation",
+    "Sales strategy",
+    "MS Office",
+    "Data analysis"
+   ],
+   "summary": "The intern will target and acquire new partners in the Specialties sector to expand Glovo's footprint in Italy. Key responsibilities include presenting solutions, negotiating agreements with decision-makers, and analyzing partner performance post-onboarding.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Italian (proficient)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156490889",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-20T08:09:22.741Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000155970319",
+   "company": "Delivery Hero",
+   "title": "Intern Retail Global HQ",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Data analysis",
+    "Process improvement",
+    "Project management",
+    "Excel",
+    "Performance tracking"
+   ],
+   "summary": "The intern will implement processes and playbooks to support local teams across multiple countries and track key performance metrics. They will also evaluate strategic opportunities through quantitative and qualitative analysis and coordinate cross-department projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000155970319",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-16T11:11:20.883Z"
+  },
+  {
+   "id": "ashby:enpal:885f0961-2656-4fe6-9004-a1ee46a67d73",
+   "company": "Enpal",
+   "title": "Founder's Associate Intern - New Venture (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Market analysis",
+    "Project management",
+    "Excel",
+    "Business strategy",
+    "Process optimization"
+   ],
+   "summary": "The intern will drive end-to-end project pilots for a new venture, from customer acquisition to operational site support and process implementation. They will also quantify market potentials, conduct feasibility analyses, and prepare strategic presentations for C-level management.",
+   "startDate": "Q4",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/885f0961-2656-4fe6-9004-a1ee46a67d73",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-16T09:30:35.484+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000155809000",
+   "company": "Delivery Hero",
+   "title": "Intern, Marketing (Campaigns) - Academic Internship",
+   "city": "Taguig",
+   "location": "Taguig, PH",
+   "country": "Philippines",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Campaign management",
+    "Content creation",
+    "Social media",
+    "Project management",
+    "Analytics dashboards"
+   ],
+   "summary": "The intern will support the end-to-end execution of marketing campaigns by managing campaign calendars, trackers, and performance dashboards. They will also coordinate cross-functionally to ensure smooth campaign launches, assist with creative asset QA, and help create short-form video content.",
+   "startDate": "October / November",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000155809000",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-15T16:39:37.257Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000154651959",
+   "company": "Delivery Hero",
+   "title": "Data Analyst Intern",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "SQL",
+    "Python",
+    "Excel",
+    "Looker",
+    "Data analysis"
+   ],
+   "summary": "The intern will analyze the full funnel landscape across paid and organic acquisition channels, while also managing creative assets and campaigns on major ad platforms. Additionally, they will track referral programs, automate reports, and build visualization tools to monitor lead generation performance.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000154651959",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-09T11:26:58.406Z"
+  },
+  {
+   "id": "greenhouse:catawiki:8264441",
+   "company": "Catawiki",
+   "title": "IT Systems & Services Intern",
+   "city": "Netherlands",
+   "location": "Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "IT support",
+    "Device management",
+    "Hardware logistics",
+    "Troubleshooting",
+    "Apple laptops"
+   ],
+   "summary": "The intern will serve as the first point of contact for end-user technical support, resolving day-to-day IT issues and documenting solutions. Additionally, they will manage device lifecycles, including laptop provisioning, configuration, hardware logistics, and employee technology onboarding and offboarding.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://job-boards.greenhouse.io/catawiki/jobs/8264441",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-08T10:38:25-04:00"
+  },
+  {
+   "id": "greenhouse:isaraerospace:5000652101",
+   "company": "Isar Aerospace",
+   "title": "12 months internship - Propulsion Test Engineer (m/f/d)",
+   "city": "Kiruna",
+   "location": "Kiruna, Norrbotten, Sweden",
+   "country": "Sweden",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Mechanical engineering",
+    "Fluid systems",
+    "Python",
+    "Matlab",
+    "Testing and verification"
+   ],
+   "summary": "The intern will plan and conduct rocket engine test campaigns while ensuring safe operations and maintaining test benches. They will also assist in designing and building test benches for propulsion testing.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5000652101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-08T08:24:28-04:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:8015727003",
+   "company": "Trade Republic",
+   "title": "Payroll Intern",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Excel",
+    "Personio",
+    "Payroll coordination",
+    "Document administration",
+    "Compliance"
+   ],
+   "summary": "The intern will support the monthly payroll cycle by collecting data, managing digital documents, and ensuring compliance across multiple locations. They will also act as the first point of contact for employee payroll inquiries and assist with onboarding sessions.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)",
+    "German (B1/B2)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=8015727003&gh_jid=8015727003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-07T10:50:24-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000154066964",
+   "company": "Delivery Hero",
+   "title": "Intern Talent & Development Global HQ",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Make",
+    "Zapier",
+    "Python",
+    "SQL",
+    "Google Sheets",
+    "Data analysis"
+   ],
+   "summary": "The intern will build automated workflows, dashboards, and AI-powered tools using platforms like Claude and Make to streamline talent development and leadership programs. They will also manage automation projects from scoping to launch to optimize HR operations and internal communications.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000154066964",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-07T10:40:07.417Z"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:8014652003",
+   "company": "Trade Republic",
+   "title": "Talent Acquisition Working Student",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Talent acquisition",
+    "Candidate sourcing",
+    "ATS administration",
+    "Greenhouse",
+    "LinkedIn Recruiter"
+   ],
+   "summary": "The intern will support recruiters with end-to-end talent acquisition processes for product and tech roles, including candidate sourcing and interview coordination. Additionally, they will independently manage the full recruitment lifecycle for product operations positions while ensuring a high-quality candidate experience.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (proficient)"
+   ],
+   "remote": "On-site",
+   "url": "https://traderepublic.com/en-de/about?jobId=8014652003&gh_jid=8014652003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-07T05:40:03-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000153815878",
+   "company": "Delivery Hero",
+   "title": "Intern Regions Spain",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Google Sheets",
+    "Excel",
+    "Data analysis",
+    "Account management",
+    "Digital marketing"
+   ],
+   "summary": "The intern will support the Account Management team by collaborating with Food Partners, preparing performance reports, and conducting outreach. They will also create operational dashboards, prepare business reviews, and monitor competitor trends.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Spanish (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000153815878",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-06T16:20:53.912Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000153719071",
+   "company": "Delivery Hero",
+   "title": "Intern Account Manager Top Accounts Spain",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Data analysis",
+    "Excel",
+    "SQL",
+    "Business intelligence",
+    "Dashboards",
+    "Forecasting"
+   ],
+   "summary": "The intern will build and maintain analytical tools, dashboards, and trackers to support business performance reviews for the XL vertical. They will also monitor KPIs, investigate anomalies, and produce data-driven recommendations and forecasts for commercial leadership.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Spanish (native)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000153719071",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-10-06T10:14:54.079Z"
+  },
+  {
+   "id": "ashby:enpal:957f224f-cef5-48cd-887c-0e2d2d822435",
+   "company": "Enpal",
+   "title": "Inhouse Consulting Internship (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Business analysis",
+    "Project management",
+    "Financial modeling",
+    "Presentations"
+   ],
+   "summary": "The intern will work on strategic and operational in-house consulting projects, developing hypotheses and recommendations from analysis. They will also create analytical deep-dives, business cases, and executive readouts for top management while driving sub-projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/957f224f-cef5-48cd-887c-0e2d2d822435",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-30T12:08:06.808+00:00"
+  },
+  {
+   "id": "ashby:enpal:26dd9ac1-c79a-4179-abb1-18694453ccb4",
+   "company": "Enpal",
+   "title": "Strategic Projects Internship (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Market analysis",
+    "Go-to-market strategy",
+    "Excel",
+    "Google Sheets",
+    "Performance analysis"
+   ],
+   "summary": "The intern will develop and manage go-to-market strategies by conducting market and competitor analyses, and coordinate cross-functional teams to ensure successful product launches. Additionally, they will analyze performance KPIs to identify improvement levers and optimize business actions.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/26dd9ac1-c79a-4179-abb1-18694453ccb4",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-30T12:07:54.379+00:00"
+  },
+  {
+   "id": "ashby:enpal:b75bf6b5-f1af-4a3c-9ead-33e9ab819b85",
+   "company": "Enpal",
+   "title": "Business Operations Internship (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Process optimization",
+    "Project management",
+    "Data analysis",
+    "Internal tools"
+   ],
+   "summary": "The intern will support the optimization and development of operational processes, analyze structures and metrics, and coordinate projects to scale operations. They will also drive their own initiatives from problem identification to implementation.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/b75bf6b5-f1af-4a3c-9ead-33e9ab819b85",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-30T12:07:43.906+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000152638469",
+   "company": "Delivery Hero",
+   "title": "Catalog Operations Intern Q-Commerce",
+   "city": "Casablanca",
+   "location": "Casablanca, MA",
+   "country": "Morocco",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Google Sheets",
+    "Google Workspace",
+    "Data analysis",
+    "Category management",
+    "Process improvement"
+   ],
+   "summary": "The intern will enrich and maintain catalog information by managing large datasets in Excel and CSV files to support category management. They will also improve store menus and develop new processes to drive operational efficiency.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000152638469",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-30T09:30:44.341Z"
+  },
+  {
+   "id": "greenhouse:deliveroo:8236293",
+   "company": "Deliveroo",
+   "title": "Local Marketing Intern",
+   "city": "Brussels",
+   "location": "Brussels, Belgium",
+   "country": "Belgium",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "CRM",
+    "Localization",
+    "Campaign execution",
+    "Marketing operations",
+    "Google Sheets"
+   ],
+   "summary": "The intern will support the day-to-day execution and localization of marketing campaigns across multiple channels and languages for the Belgian market. They will also provide operational support for CRM campaigns, manage in-app messaging, and perform quality checks on campaign assets.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)",
+    "Dutch (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8236293",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-29T16:02:34-04:00"
+  },
+  {
+   "id": "greenhouse:raisin:4987560101",
+   "company": "Raisin",
+   "title": "Working Student Deposit Operations (m/f/d)",
+   "city": "Berlin",
+   "location": "Berlin, Berlin, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Data analysis",
+    "Reconciliation",
+    "Operations support",
+    "Process optimization"
+   ],
+   "summary": "The intern will execute and supervise real-time automated payment flows while conducting daily reconciliations between internal ledgers and partner bank data. They will also manage operational liaison for partner banks, coordinate tech enhancements, and help optimize deposit processes.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (C1)",
+    "German (C1)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4987560101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-29T11:23:47-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000151793969",
+   "company": "Delivery Hero",
+   "title": "Category Management - Internship",
+   "city": "Milano",
+   "location": "Milano, IT",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Data analysis",
+    "Category management"
+   ],
+   "summary": "The intern will maintain and enrich product information by managing large datasets in Excel and CSV files. They will also improve category trees and develop new processes to drive operational efficiency.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (professional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000151793969",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-25T08:49:17.229Z"
+  },
+  {
+   "id": "greenhouse:raisin:4953669101",
+   "company": "Raisin",
+   "title": "Working Student - Business Analyst, Growth & Operations (m/f/d) – Dutch Market",
+   "city": "Berlin",
+   "location": "Berlin, Berlin, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Data analysis",
+    "Competitive analysis",
+    "Market research"
+   ],
+   "summary": "The intern will support performance marketing activities, customer onboarding optimization, and website management for the Dutch market. They will also track growth strategy execution, conduct competitive analysis, and prepare reports.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Dutch (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4953669101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-25T06:44:02-04:00"
+  },
+  {
+   "id": "greenhouse:navvis:4972247101",
+   "company": "NavVis",
+   "title": "Working Student – Legal Operations (F/M/D)",
+   "city": "Munich Hybrid (NavVis GmbH)",
+   "location": "Munich Hybrid (NavVis GmbH)",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Legal research",
+    "Intellectual property",
+    "Knowledge management",
+    "Process improvement",
+    "Microsoft Office"
+   ],
+   "summary": "The student will coordinate intellectual property matters, evaluate and rollout legal technology including AI-powered solutions, and build AI-supported workflows. They will also manage knowledge bases, create internal documentation, conduct legal research, and support corporate and privacy matters.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (strong)",
+    "German (plus)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4972247101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-21T03:54:48-04:00"
+  },
+  {
+   "id": "ashby:getyourguide:a6881808-615e-4e66-99a5-b51794b38785",
+   "company": "GetYourGuide",
+   "title": "Working Student, Security Engineer",
+   "city": "Zurich",
+   "location": "Zurich",
+   "country": "Switzerland",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Information security",
+    "Cybersecurity",
+    "AI",
+    "Vulnerability assessment",
+    "Security tools"
+   ],
+   "summary": "The working student will assist in developing and implementing security measures, conducting research on AI and cybersecurity trends, and evaluating systems for vulnerabilities. Additionally, the intern will support security tool management, organize documentation, and collaborate on security awareness initiatives.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/GetYourGuide/a6881808-615e-4e66-99a5-b51794b38785",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-17T10:04:36.072+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000149604315",
+   "company": "Delivery Hero",
+   "title": "Intern Demand Planning Global HQ",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Supply chain",
+    "Data analysis",
+    "Forecasting",
+    "Inventory optimization",
+    "Google Workspace"
+   ],
+   "summary": "The intern will support daily demand planning processes by forecasting product needs, creating purchase orders, and managing supplier replenishment for micro fulfillment centers. They will also monitor supply chain KPIs and prepare strategic analyses to optimize inventory and minimize waste.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Spanish (mandatory)",
+    "English (mandatory)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000149604315",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-15T13:33:45.991Z"
+  },
+  {
+   "id": "greenhouse:isaraerospace:4977045101",
+   "company": "Isar Aerospace",
+   "title": "Working Student IT Helpdesk (m/f/d)",
+   "city": "Parsdorf",
+   "location": "Parsdorf, Bavaria, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Windows",
+    "Microsoft 365",
+    "Hardware setup",
+    "Networks",
+    "IT support"
+   ],
+   "summary": "The working student will set up laptops, accounts, phones, and peripherals while providing hands-on IT support across the office and shop floor. They will troubleshoot common IT issues, maintain IT equipment inventory, and help improve basic IT processes.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "German (plus)"
+   ],
+   "remote": "On-site",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4977045101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-15T12:20:45-04:00"
+  },
+  {
+   "id": "greenhouse:isaraerospace:4976775101",
+   "company": "Isar Aerospace",
+   "title": "Working Student Software Engineer (f/m/d)",
+   "city": "Parsdorf",
+   "location": "Parsdorf, Bavaria, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Node.js",
+    "C#",
+    "Git",
+    "SQL",
+    "Web development"
+   ],
+   "summary": "The intern will implement new features and improve in-house software used to operate test rigs and launch facilities. They will also contribute to full-stack, backend, and frontend development while helping automate engineering processes.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4976775101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-15T09:08:16-04:00"
+  },
+  {
+   "id": "ashby:enpal:9307b657-2c7b-4bd4-961e-0b505abc3ac2",
+   "company": "Enpal",
+   "title": "Venture Building Internship - New Venture (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Market analysis",
+    "Project management",
+    "Process optimization",
+    "Business strategy",
+    "Excel"
+   ],
+   "summary": "The intern will quantify market potentials, conduct feasibility analyses, and take end-to-end ownership of project pilots from customer acquisition to operational site support. They will also prepare strategic materials for C-level check-ins and design scalable sales and operations processes.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/9307b657-2c7b-4bd4-961e-0b505abc3ac2",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-09-08T11:25:30.383+00:00"
+  },
+  {
+   "id": "ashby:enpal:5e53a3ab-c784-41d2-92a1-a103b92147e7",
+   "company": "Enpal",
+   "title": "Venture Development Intern (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Sales support",
+    "Process analysis",
+    "Project management",
+    "Data analysis"
+   ],
+   "summary": "The intern will onboard and support external sales partners, answering operational questions and facilitating daily collaboration. Additionally, they will analyze processes, create reports, and drive internal optimization projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/5e53a3ab-c784-41d2-92a1-a103b92147e7",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-08-26T13:35:23.151+00:00"
+  },
+  {
+   "id": "greenhouse:sumup:8737288002",
+   "company": "SumUp",
+   "title": "People Operations & Payroll (Working Student)",
+   "city": "Paris",
+   "location": "Paris, Paris, France",
+   "country": "France",
+   "contract": "Working student",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "HR administration",
+    "Payroll administration",
+    "Excel",
+    "Google Sheets",
+    "Data management"
+   ],
+   "summary": "The intern will support the People Operations and Payroll team by managing employee lifecycle administration, preparing contracts, and handling onboarding and offboarding processes. They will also assist with monthly payroll inputs, maintain accurate HR data, and provide frontline support for employee queries.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://sumup.com/careers/positions/8737288002?gh_jid=8737288002",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-08-26T08:37:56-04:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:7900870003",
+   "company": "Trade Republic",
+   "title": "Accounting Intern",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Accounting",
+    "Financial assessment",
+    "Financial statements",
+    "IFRS",
+    "HGB"
+   ],
+   "summary": "The intern will collaborate on strategic projects involving financial assessments and help define accounting requirements for new business models. Additionally, they will support the preparation of annual financial statements and handle audit-related inquiries.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "German (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=7900870003&gh_jid=7900870003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-08-19T05:28:47-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000140902719",
+   "company": "Delivery Hero",
+   "title": "Brands Ads Intern",
+   "city": "Milano",
+   "location": "Milano, IT",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Data analysis",
+    "Excel",
+    "Performance tracking",
+    "Process optimization"
+   ],
+   "summary": "The intern will support the Brands Ads team by executing operational tasks, setting up data cleaning processes, and optimizing performance analysis. They will also help categorize and sort product assortments to improve the user shopping experience.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000140902719",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-31T12:48:43.312Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000140854105",
+   "company": "Delivery Hero",
+   "title": "Intern Key Accounts Italy",
+   "city": "Milano",
+   "location": "Milano, IT",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Data analysis",
+    "Business development",
+    "Account management"
+   ],
+   "summary": "The intern will support the National Account Team in managing and growing top-tier partners by analyzing key metrics and building strong relationships. They will also collaborate with internal teams to drive local success and assist with strategic business development initiatives.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Italian (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000140854105",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-31T08:53:27.234Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000140708549",
+   "company": "Delivery Hero",
+   "title": "Category Management Intern - Q-Commerce",
+   "city": "Milano",
+   "location": "Milano, IT",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Category management",
+    "Pricing analysis",
+    "Assortment optimization",
+    "Data analysis",
+    "Content management"
+   ],
+   "summary": "The intern will manage product categorization, assortment optimization, and dynamic pricing strategies to improve the user shopping experience. They will also define scalable content processes, execute promotions, and collaborate with regional teams.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Italian (fluent)",
+    "Spanish (plus)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000140708549",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-30T14:36:01.197Z"
+  },
+  {
+   "id": "greenhouse:helsing:4941957101",
+   "company": "Helsing",
+   "title": "AI Research Intern (PhD) – 3D Computer Vision",
+   "city": "Barcelona; Berlin; London; Munich; Paris",
+   "location": "Barcelona; Berlin; London; Munich; Paris",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "C++",
+    "Rust",
+    "Computer vision",
+    "Machine learning"
+   ],
+   "summary": "The intern will research, prototype, and evaluate advanced algorithms in spatial perception, localization, and 3D reconstruction for deployable systems. They will also survey state-of-the-art literature and summarize their findings in technical reports and presentations.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://helsing.ai/jobs/4941957101?gh_jid=4941957101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-30T13:19:19-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000139910349",
+   "company": "Delivery Hero",
+   "title": "Intern, Talent Acquisition",
+   "city": "Yangon",
+   "location": "Yangon, MM",
+   "country": "Myanmar",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Recruitment",
+    "Google Workspace",
+    "Onboarding",
+    "HR administration"
+   ],
+   "summary": "The intern will create job advertisements, schedule interviews, and communicate with candidates throughout the recruitment process. Additionally, they will maintain recruitment records using Google Sheets and assist with new hire onboarding.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000139910349",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-27T03:22:25.913Z"
+  },
+  {
+   "id": "greenhouse:isaraerospace:4930992101",
+   "company": "Isar Aerospace",
+   "title": "Working Student, POQ (m/f/d)",
+   "city": "Ottobrunn",
+   "location": "Ottobrunn, Bavaria, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Logistics",
+    "Supply Chain Management",
+    "SAP",
+    "Data analysis"
+   ],
+   "summary": "The working student will support day-to-day logistics activities and help organize materials, equipment, and workspaces. They will also assist with general operational tasks and coordination to maintain an efficient working environment.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (good)",
+    "English (basic)"
+   ],
+   "remote": "On-site",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4930992101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-17T11:13:41-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000136526272",
+   "company": "Delivery Hero",
+   "title": "3pl commercial intern Spain",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Data analysis",
+    "Excel",
+    "Dashboards",
+    "Process optimization",
+    "Project management"
+   ],
+   "summary": "The intern will support the Third-Party Logistics team by managing operational initiatives, building streamlined processes, and automating manual tasks. They will also analyze fleet performance data and maintain dashboards to track operational efficiency.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Spanish (native/fluent)",
+    "English (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000136526272",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-08T16:50:43.740Z"
+  },
+  {
+   "id": "greenhouse:catawiki:8041201",
+   "company": "Catawiki",
+   "title": "Paralegal Intern",
+   "city": "Netherlands",
+   "location": "Netherlands",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Commercial law",
+    "Contract law",
+    "Compliance",
+    "Data protection",
+    "Legal documentation"
+   ],
+   "summary": "The intern will support the legal team by reviewing standard agreements, drafting internal memos, and managing contract and litigation administration. They will also help maintain legal operations systems and develop training materials and legal guidelines for business stakeholders.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "Dutch (preferred)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://job-boards.greenhouse.io/catawiki/jobs/8041201",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-07-02T03:09:28-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000134187639",
+   "company": "Delivery Hero",
+   "title": "Intern",
+   "city": "Tunis",
+   "location": "Tunis, TN",
+   "country": "Tunisia",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Account management",
+    "Data analysis",
+    "Google Sheets",
+    "SQL",
+    "Negotiation"
+   ],
+   "summary": "The intern will support the growth and management of top and SMB account partners by handling operational tasks, building automated reports, and defining long-term portfolio strategies. They will collaborate with internal departments to create tailored solutions and deliver data-driven insights to improve partner performance.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "French",
+    "English"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000134187639",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-06-25T07:17:03.131Z"
+  },
+  {
+   "id": "ashby:enpal:01d697a0-6c0c-4e2e-8bd1-296c71e4494a",
+   "company": "Enpal",
+   "title": "Growth Intern (w/m/d)",
+   "city": "Berlin",
+   "location": "Berlin",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Product",
+   "skills": [
+    "Market analysis",
+    "Business planning",
+    "Strategy development",
+    "Operations"
+   ],
+   "summary": "The intern will identify and validate market opportunities, design business models, and help scale new business units and spin-offs. They will also handle tasks ranging from market analysis and business planning to partnership management and end-to-end execution of operations.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.ashbyhq.com/enpal/01d697a0-6c0c-4e2e-8bd1-296c71e4494a",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-06-24T08:07:18.495+00:00"
+  },
+  {
+   "id": "ashby:enpal:24ebfa69-5689-49f1-bf69-f7224d6b2ff4",
+   "company": "Enpal",
+   "title": "Automation & Software Developer Intern (f/m/x)",
+   "city": "Milan",
+   "location": "Milan",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Python",
+    "SQL",
+    "REST API",
+    "Generative AI",
+    "Git",
+    "Docker"
+   ],
+   "summary": "The intern will design and develop internal software tools, automation workflows, and data processing pipelines to optimize supply chain and operations. They will also integrate AI models and APIs, build performance dashboards, and collaborate with cross-functional business stakeholders.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "Italian (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.ashbyhq.com/enpal/24ebfa69-5689-49f1-bf69-f7224d6b2ff4",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-06-23T14:08:47.437+00:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000133574326",
+   "company": "Delivery Hero",
+   "title": "Data Analyst Intern",
+   "city": "Barcelona",
+   "location": "Barcelona, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": null,
+   "skills": [
+    "SQL",
+    "Python",
+    "Excel",
+    "Data analysis",
+    "A/B testing"
+   ],
+   "summary": "The intern will support the global logistics team in modeling and reviewing order payment structures using data analysis and experimentation. They will query large datasets, build analytical foundations, track KPIs, and present insights to stakeholders.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000133574326",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-06-23T12:02:55.643Z"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:7781222003",
+   "company": "Trade Republic",
+   "title": "Working Student - Corporate IT & Operations (London/Berlin)",
+   "city": "Berlin; London",
+   "location": "Berlin; London",
+   "country": "United Kingdom",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Google Workspace",
+    "Jira",
+    "IT support",
+    "Process documentation"
+   ],
+   "summary": "The intern will support Corporate IT operations by managing device lifecycles, user onboarding, and access provisioning. They will also assist with IT compliance, process documentation, and SaaS tool administration.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=7781222003&gh_jid=7781222003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-06-23T07:40:45-04:00"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000132160454",
+   "company": "Delivery Hero",
+   "title": "Account Manager Intern Groceries Spain",
+   "city": "Madrid",
+   "location": "Madrid, ES",
+   "country": "Spain",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Account management",
+    "Data analysis",
+    "Excel",
+    "Reporting"
+   ],
+   "summary": "The intern will support the team in managing daily operations with top grocery partners and tracking key account metrics to identify trends. They will also collaborate cross-functionally and prepare reports and presentations for internal reviews and partner meetings.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English",
+    "Spanish"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000132160454",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-06-15T10:04:28.383Z"
+  },
+  {
+   "id": "smartrecruiters:deliveryhero:744000126482377",
+   "company": "Delivery Hero",
+   "title": "Internship Program",
+   "city": "Kuala Lumpur",
+   "location": "Kuala Lumpur, MY",
+   "country": "Malaysia",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "SQL",
+    "Python",
+    "Data analysis",
+    "Project management"
+   ],
+   "summary": "The intern will lead an assigned project from inception to completion to solve a business challenge and optimize operations. They will work with high-volume data to influence market strategy and collaborate with cross-functional stakeholders.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000126482377",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-05-14T08:57:03.804Z"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:7728317003",
+   "company": "Trade Republic",
+   "title": "Intern Influencer & Affiliate Marketing - Spanish Speaker",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Influencer marketing",
+    "Affiliate marketing",
+    "Performance analysis",
+    "Project management"
+   ],
+   "summary": "The intern will support the execution and operation of large-scale influencer and affiliate marketing growth campaigns across multiple markets. They will coordinate with internal teams and external stakeholders to manage briefs, asset coordination, and performance analysis.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "Spanish (fluent)",
+    "Portuguese (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=7728317003&gh_jid=7728317003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-05-11T11:59:19-04:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:7723561003",
+   "company": "Trade Republic",
+   "title": "Intern Influencer & Affiliate Marketing",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Influencer marketing",
+    "Affiliate marketing",
+    "Campaign management",
+    "Performance analysis",
+    "Project management"
+   ],
+   "summary": "The intern will support the execution and operation of large-scale influencer and affiliate marketing campaigns across multiple markets. They will collaborate with cross-functional teams to coordinate assets, refine messaging, and analyze performance.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (C1)",
+    "German (C1)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=7723561003&gh_jid=7723561003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-05-05T04:17:08-04:00"
+  },
+  {
+   "id": "ashby:enpal:dea17df6-a27c-4094-ad94-f6ee163b5ec7",
+   "company": "Enpal",
+   "title": "Inside Sales - Energia Rinnovabile (Stage 6 mesi) | Milano (f/m/x)",
+   "city": "Milan",
+   "location": "Milan",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "CRM",
+    "Sales",
+    "Lead generation"
+   ],
+   "summary": "The intern will present offers to inbound and outbound clients and manage the full sales process from first contact to contract signature. They will also update the company CRM and deepen their knowledge of renewable energy products.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/enpal/dea17df6-a27c-4094-ad94-f6ee163b5ec7",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-04-08T07:19:49.667+00:00"
+  },
+  {
+   "id": "ashby:enpal:fefe77a4-03ca-4b32-b972-da9a7504c965",
+   "company": "Enpal",
+   "title": "Business Development Operations Intern",
+   "city": "Milan",
+   "location": "Milan",
+   "country": "Italy",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Excel",
+    "CRM",
+    "Python",
+    "Data analysis",
+    "Process optimization"
+   ],
+   "summary": "The intern will create and optimize operational workflows, automate manual processes, and analyze data to support strategic decisions within the business development team. They will also manage internal and external stakeholder relationships and work on end-to-end automation projects.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "Italian (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://jobs.ashbyhq.com/enpal/fefe77a4-03ca-4b32-b972-da9a7504c965",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-04-08T07:16:48.349+00:00"
+  },
+  {
+   "id": "greenhouse:hellofresh:7741137",
+   "company": "HelloFresh",
+   "title": "Delivery Operations Business Analyst Intern France et Benelux(M/F/X)",
+   "city": "Paris",
+   "location": "Paris, Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Excel",
+    "SQL",
+    "Data analysis",
+    "Logistics",
+    "Process improvement"
+   ],
+   "summary": "The intern will monitor operational performance and reporting of external delivery partners, while conducting ad-hoc data analysis to drive logistics improvements. They will also industrialize reporting tools and actively participate in various supply chain and continuous improvement projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)",
+    "English (professional)"
+   ],
+   "remote": "Unknown",
+   "url": "https://careers.hellofresh.com/global/en/job/7741137?gh_jid=7741137",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-03-22T18:02:26-04:00"
+  },
+  {
+   "id": "greenhouse:isaraerospace:4802021101",
+   "company": "Isar Aerospace",
+   "title": "Working Student, Ground Systems (m/f/d)",
+   "city": "Ottobrunn",
+   "location": "Ottobrunn, Bavaria, Germany",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Thermodynamics",
+    "Fluid mechanics",
+    "Technical documentation",
+    "CAD",
+    "Piping and instrumentation"
+   ],
+   "summary": "The intern will assist engineers in designing fluid systems for launch facilities and prepare technical documentation including diagrams and hardware specifications. They will also maintain part catalogs and create calculation tools to support internal engineering workflows.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4802021101",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-03-15T19:00:00-04:00"
+  },
+  {
+   "id": "greenhouse:hellofresh:7704587",
+   "company": "HelloFresh",
+   "title": "Growth Strategy Data Analyst - Intern (M/F/N)",
+   "city": "Paris",
+   "location": "Paris, Paris, France",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Data",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "SQL",
+    "Excel",
+    "Tableau",
+    "Data analysis",
+    "A/B testing"
+   ],
+   "summary": "The intern will conduct deep-dive analyses on customer acquisition, retention, and pricing strategy while building dashboards and tracking key KPIs. They will also support A/B testing and provide actionable recommendations to the growth marketing team.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "French (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://careers.hellofresh.com/global/en/job/7704587?gh_jid=7704587",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-03-11T10:07:43-04:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:7652222003",
+   "company": "Trade Republic",
+   "title": "Influencer Marketing Intern - French Speaker",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Influencer marketing",
+    "Affiliate marketing",
+    "Project management",
+    "Growth marketing"
+   ],
+   "summary": "The intern will support the execution of large-scale growth and influencer marketing campaigns across multiple markets. They will assist in campaign operations, coordinate assets, and collaborate with cross-functional teams to maximize engagement and ROI.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (C1)",
+    "French (C1)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=7652222003&gh_jid=7652222003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2026-03-04T10:23:45-05:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:7550818003",
+   "company": "Trade Republic",
+   "title": "Working Student - Social Media & Community Management",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Community management",
+    "Social media",
+    "Content creation"
+   ],
+   "summary": "The intern will manage social media channels like X, Reddit, and Threads by engaging with the community and handling customer issues. Additionally, they will collaborate with content creatives to produce posts that resonate with trends and audience feedback.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "German (C1)",
+    "English (C1)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://traderepublic.com/en-de/about?jobId=7550818003&gh_jid=7550818003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2025-12-08T14:00:59-05:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:7527243003",
+   "company": "Trade Republic",
+   "title": "Brand Strategy Intern - Italian Speaker",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Brand strategy",
+    "Project management",
+    "Market research",
+    "Creative briefs",
+    "Campaign execution"
+   ],
+   "summary": "The intern will contribute to the development and execution of brand initiatives, insight gathering, and multi-market campaigns. They will also assist in managing workflows, maintaining brand systems, and translating strategy into actionable project support.",
+   "startDate": "Q1 or Q2 2027",
+   "durationMonths": null,
+   "languages": [
+    "English",
+    "Italian (C1)"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=7527243003&gh_jid=7527243003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2025-11-13T06:18:39-05:00"
+  },
+  {
+   "id": "greenhouse:traderepublicbank:4221684003",
+   "company": "Trade Republic",
+   "title": "Intern - Executive Office",
+   "city": "Headquarter",
+   "location": "Headquarter",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Market analysis",
+    "Project management",
+    "Business development",
+    "Excel",
+    "PowerPoint"
+   ],
+   "summary": "The intern will drive and execute end-to-end strategic initiatives and high-impact projects to scale the business across Europe. They will also conduct market analysis and collaborate with the management team to evaluate business development opportunities.",
+   "startDate": "Q1/27",
+   "durationMonths": 3,
+   "languages": [
+    "German",
+    "English"
+   ],
+   "remote": "Unknown",
+   "url": "https://traderepublic.com/en-de/about?jobId=4221684003&gh_jid=4221684003",
+   "firstSeen": "2026-11-20T19:24:04+00:00",
+   "postedAt": "2020-12-17T15:34:18-05:00"
+  },
   {
    "id": "workable:withings:1D1CD628E8",
    "company": "Withings",
@@ -1016,35 +5233,6 @@
    "postedAt": "2026-09-24T19:58:11.492+00:00"
   },
   {
-   "id": "lever:scaleway:b21b7af6-f7f7-42db-9a87-9cc6932a73fc",
-   "company": "Scaleway",
-   "title": "Sales Enablement Intern",
-   "city": "Paris",
-   "location": "Paris",
-   "country": "France",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "Sales enablement",
-    "Salesforce",
-    "Google Workspace",
-    "Canva",
-    "Confluence"
-   ],
-   "summary": "The intern will support the Sales Enablement team by creating and updating training materials, organizing learning sessions, and simplifying business processes. They will also contribute to cross-functional sales projects and help ensure sales representatives have up-to-date content and resources.",
-   "startDate": "January 4 2027",
-   "durationMonths": null,
-   "languages": [
-    "French (C1+)",
-    "English (C1+)"
-   ],
-   "remote": "On-site",
-   "url": "https://jobs.lever.co/scaleway/b21b7af6-f7f7-42db-9a87-9cc6932a73fc",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-09-24T11:52:09.316000+00:00"
-  },
-  {
    "id": "lever:heetch:9423fae2-b334-4bdd-9f53-3e45aa05dc5c",
    "company": "Heetch",
    "title": "Stagiaire Operation Agent - Gestionnaire de Flotte VTC (H/F)",
@@ -1261,118 +5449,6 @@
    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7984415003",
    "firstSeen": "2026-11-18T22:58:37+00:00",
    "postedAt": "2026-11-18T11:56:15-05:00"
-  },
-  {
-   "id": "ashby:doctolib:8eee07c8-dd36-4a3c-99cd-a95d65415dec",
-   "company": "Doctolib",
-   "title": "AI Engineer intern (x/f/m) - Milano",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Git",
-    "APIs",
-    "Natural language processing"
-   ],
-   "summary": "The intern will contribute to the development of AI-powered features by writing Python code for prototypes, experiments, and evaluation tools. They will also experiment with large language models, participate in code reviews, and help investigate technical issues.",
-   "startDate": "March 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/8eee07c8-dd36-4a3c-99cd-a95d65415dec",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-18T09:16:56.063+00:00"
-  },
-  {
-   "id": "ashby:doctolib:170c2710-df1d-4630-8451-9433e959f4eb",
-   "company": "Doctolib",
-   "title": "AI Engineer Intern (x/f/m) - Nantes",
-   "city": "Nantes",
-   "location": "Nantes",
-   "country": "France",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Large language models",
-    "Git",
-    "APIs"
-   ],
-   "summary": "The intern will contribute to the development of AI-powered features by writing Python code, experimenting with large language models, and building prototypes. They will also participate in code reviews, automated testing, and technical discussions under the guidance of a mentor.",
-   "startDate": "March 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/170c2710-df1d-4630-8451-9433e959f4eb",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-18T09:16:36.030+00:00"
-  },
-  {
-   "id": "ashby:doctolib:2a909eff-070e-4c49-a305-5adf5aa5c5a2",
-   "company": "Doctolib",
-   "title": "AI Engineer intern (x/f/m) - Berlin",
-   "city": "Berlin",
-   "location": "Berlin",
-   "country": "Germany",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Natural language processing",
-    "Git",
-    "APIs"
-   ],
-   "summary": "The intern will contribute to the development of AI-powered features by writing Python code for prototypes, experiments, and backend components. They will also experiment with large language models, prompting techniques, and automated testing.",
-   "startDate": "March 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/2a909eff-070e-4c49-a305-5adf5aa5c5a2",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-18T09:15:30.857+00:00"
-  },
-  {
-   "id": "ashby:doctolib:4588a32b-f865-48ec-a2b3-2c89d735c7cb",
-   "company": "Doctolib",
-   "title": "AI Engineer Intern (x/f/m) - Paris",
-   "city": "Paris",
-   "location": "Paris",
-   "country": "France",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Natural language processing",
-    "Git",
-    "APIs"
-   ],
-   "summary": "The intern will contribute to the development of AI-powered features by writing Python code for prototypes, experiments, and backend components. They will also experiment with large language models, retrieval, and tool integration while participating in code reviews and automated testing.",
-   "startDate": "March 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/4588a32b-f865-48ec-a2b3-2c89d735c7cb",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-18T09:14:20.236+00:00"
   },
   {
    "id": "greenhouse:celonis:8198760003",
@@ -1688,34 +5764,6 @@
    "url": "https://boards.greenhouse.io/figma/jobs/6238015004?gh_jid=6238015004",
    "firstSeen": "2026-11-18T22:58:37+00:00",
    "postedAt": "2026-10-28T20:08:03-04:00"
-  },
-  {
-   "id": "greenhouse:celonis:8046331003",
-   "company": "Celonis",
-   "title": "Strategy & Operations Graduated Internship (12 months)",
-   "city": "Madrid",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": null,
-   "skills": [
-    "Excel",
-    "PowerPoint",
-    "Salesforce",
-    "Data analysis",
-    "Market analysis"
-   ],
-   "summary": "The intern will support the EMEA leadership team with annual planning, go-to-market strategy, and sales territory design. They will also analyze data to provide commercial insights, run forecasting, and drive strategic business projects.",
-   "startDate": "Unknown",
-   "durationMonths": 12,
-   "languages": [
-    "English (proficient)"
-   ],
-   "remote": "On-site",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8046331003?gh_jid=8046331003",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-28T11:24:23-04:00"
   },
   {
    "id": "greenhouse:celonis:7925721003",
@@ -2393,7 +6441,7 @@
    "city": "Munich",
    "location": "Munich, Germany",
    "country": "Germany",
-   "contract": "Stage",
+   "contract": "Working student",
    "family": "Finance & Legal",
    "secondaryFamily": "Strategy & Ops",
    "skills": [
@@ -2469,34 +6517,6 @@
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7767090003?gh_jid=7767090003",
    "firstSeen": "2026-11-18T22:58:37+00:00",
    "postedAt": "2026-07-01T11:04:27-04:00"
-  },
-  {
-   "id": "lever:malt:473946fd-c520-4892-a851-c486af9ed851",
-   "company": "Malt",
-   "title": "Data Engineer Intern (January 2027)",
-   "city": "Paris",
-   "location": "Paris",
-   "country": "France",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "dbt",
-    "Python",
-    "Data modeling",
-    "Data engineering"
-   ],
-   "summary": "The intern will build an AI-ready data context layer and work on data transformation tasks, including deprecating legacy tables and building AI agents. They will also collaborate with engineering and business teams to ensure proper data documentation, testing, and architecture.",
-   "startDate": "September 2026",
-   "durationMonths": 6,
-   "languages": [
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.lever.co/malt/473946fd-c520-4892-a851-c486af9ed851",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-06-10T09:05:17.098000+00:00"
   },
   {
    "id": "ashby:lemlist:20e017c5-d063-43f3-9495-284085e6ca06",
@@ -3031,35 +7051,6 @@
    "url": "https://jobs.lever.co/contentsquare/107a663c-ab04-4033-900c-2ed10090d645",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-11-03T10:00:09.128000+00:00"
-  },
-  {
-   "id": "ashby:alan:042421fd-55af-40f2-85c0-20a2fb354c1e",
-   "company": "Alan",
-   "title": "Data Associate - Internship (6 months, flexible start)",
-   "city": "Paris",
-   "location": "Paris, France",
-   "country": "France",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "Python",
-    "dbt",
-    "Airflow",
-    "Metabase",
-    "Data analysis"
-   ],
-   "summary": "The intern will answer business and product questions by analyzing data and turning insights into recommendations. They will also build end-to-end data tools such as dbt models, weekly dashboards, and AI-powered applications.",
-   "startDate": "Flexible",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/alan/042421fd-55af-40f2-85c0-20a2fb354c1e",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-11-02T14:41:20.216+00:00"
   },
   {
    "id": "ashby:backmarket:9c27f185-5f20-4676-a398-d2126ce26d99",
@@ -3747,7 +7738,7 @@
    "city": "Berlin",
    "location": "Berlin",
    "country": "Germany",
-   "contract": "Stage",
+   "contract": "Working student",
    "family": "Engineering",
    "secondaryFamily": null,
    "skills": [
@@ -3855,31 +7846,6 @@
    "url": "https://jobs.ashbyhq.com/backmarket/bdd15e60-60f0-4282-bf87-f789ae7501ad",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-09-21T09:39:50.796+00:00"
-  },
-  {
-   "id": "ashby:doctolib:09933f5e-451a-4cc3-bea6-98a5a0160fe5",
-   "company": "Doctolib",
-   "title": "Stage - Assistant Conformité & Modération de Contenu (x/f/m) - janvier 2027",
-   "city": "Paris",
-   "location": "Paris",
-   "country": "France",
-   "contract": "Stage",
-   "family": "Finance & Legal",
-   "secondaryFamily": null,
-   "skills": [
-    "Regulatory watch",
-    "Legal compliance",
-    "Content moderation",
-    "Copywriting"
-   ],
-   "summary": "The intern will participate in daily content moderation and conduct regulatory monitoring regarding healthcare professionals. They will also update team intranets and draft templates for legal compliance missions.",
-   "startDate": "January 2027",
-   "durationMonths": 6,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/09933f5e-451a-4cc3-bea6-98a5a0160fe5",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-09-21T07:41:07.623+00:00"
   },
   {
    "id": "ashby:doctolib:4a8dcc41-47e2-44d6-baac-8664bc0055bc",

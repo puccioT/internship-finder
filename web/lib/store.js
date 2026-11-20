@@ -9,7 +9,7 @@ export const DEFAULT_PROFILE = {
   name: "",
   roles: ["Product", "Strategy & Ops"],
   skills: ["Python", "Excel", "Google Analytics", "Make", "LLM", "JavaScript", "User research"],
-  country: "France",
+  countries: ["France"],   // [] = tous les pays
   contract: "Tous",
 };
 

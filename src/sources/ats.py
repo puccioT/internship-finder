@@ -21,9 +21,14 @@ TIMEOUT = 20
 # Une offre est gardée si son titre contient un de ces mots.
 INTERN_PATTERN = re.compile(
     r"\b(intern|internship|stage|stagiaire|alternance|alternant|alternante|apprenti|apprentie|"
-    r"apprentice|apprenticeship|work[- ]study|working student|trainee|césure|gap year)\b",
+    r"apprentice|apprenticeship|work[- ]study|working student|trainee|césure|gap year|"
+    # Allemand : stage = Praktikum, stagiaire = Praktikant(in), étudiant salarié = Werkstudent(in)
+    r"praktikum|pflichtpraktikum|praktikant|praktikantin|werkstudent|werkstudentin|"
+    # Néerlandais : stagiaire = stagiair(e)
+    r"stagiair|stagiaire|afstudeerstage)\b",
     re.IGNORECASE,
 )
+WORKING_STUDENT_PATTERN = re.compile(r"\b(working student|werkstudent|werkstudentin)\b", re.IGNORECASE)
 ALTERNANCE_PATTERN = re.compile(
     r"\b(alternance|alternant|alternante|apprenti|apprentie|apprentice|apprenticeship|work[- ]study)\b",
     re.IGNORECASE,
@@ -75,7 +80,12 @@ def ms_to_iso(ms):
 
 
 def contract_from_title(title):
-    return "Alternance" if ALTERNANCE_PATTERN.search(title) else "Stage"
+    """Alternance, Working student (temps partiel, Allemagne surtout) ou Stage."""
+    if ALTERNANCE_PATTERN.search(title):
+        return "Alternance"
+    if WORKING_STUDENT_PATTERN.search(title):
+        return "Working student"
+    return "Stage"
 
 
 def city_from_location(location):
@@ -250,6 +260,25 @@ def fetch_personio(client, slug, company):
     return offers
 
 
+def fetch_recruitee(client, slug, company):
+    """Recruitee (plateforme néerlandaise, très utilisée à Amsterdam)."""
+    r = polite_get(client, f"https://{slug}.recruitee.com/api/offers/")
+    r.raise_for_status()
+    offers = []
+    for job in r.json().get("offers", []):
+        location = ", ".join(p for p in (job.get("city"), job.get("country")) if p) or job.get("location")
+        description = "\n\n".join(p for p in (html_to_text(job.get("description")), html_to_text(job.get("requirements"))) if p)
+        offers.append(make_offer(
+            "recruitee", slug, company, job["id"], job["title"],
+            location,
+            job.get("careers_url") or job.get("careers_apply_url"),
+            description,
+            job.get("published_at") or job.get("created_at"),
+            job.get("department"),
+        ))
+    return offers
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -258,6 +287,7 @@ FETCHERS = {
     "workable": fetch_workable,
     "smartrecruiters": fetch_smartrecruiters,
     "personio": fetch_personio,
+    "recruitee": fetch_recruitee,
 }
 
 

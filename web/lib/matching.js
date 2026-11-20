@@ -54,6 +54,12 @@ export function verdict(score) {
   return "Match faible";
 }
 
+/** Pays choisis par l'utilisateur ([] = tous). Gère aussi les anciens profils à un seul pays. */
+export function countriesOf(profile) {
+  if (Array.isArray(profile.countries)) return profile.countries;
+  return profile.country && profile.country !== "Toutes" ? [profile.country] : [];
+}
+
 /**
  * Clé de regroupement des doublons multi-villes : le titre SANS les mentions de ville
  * ni les "(x/f/m)", "(H/F)"...
@@ -77,10 +83,11 @@ function groupKey(offer, cityNames) {
  * (le même stage publié à Paris, Nantes, Berlin... devient UNE ligne avec 3 villes).
  */
 export function rankOffers(offers, profile, skillImplies) {
+  const countries = countriesOf(profile);
   const cityNames = [...new Set(offers.map((o) => (o.city || "").toLowerCase()).filter((c) => c.length > 2))];
   const groups = new Map();
   for (const offer of offers) {
-    if (profile.country !== "Toutes" && offer.country !== profile.country) continue;
+    if (countries.length && !countries.includes(offer.country)) continue;
     if (profile.contract !== "Tous" && offer.contract !== profile.contract) continue;
     const key = groupKey(offer, cityNames);
     const result = { ...offer, ...scoreOffer(offer, profile, skillImplies) };

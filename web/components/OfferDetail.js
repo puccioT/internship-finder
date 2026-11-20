@@ -26,7 +26,7 @@ export default function OfferDetail({ offer, pool, skillImplies }) {
   const gapCount = mainGap ? pool.filter((o) => o.skills.some((s) => s.toLowerCase() === mainGap.toLowerCase())).length : 0;
 
   const similar = useMemo(
-    () => rankOffers(pool, { ...profile, country: "Toutes", contract: "Tous" }, skillImplies)
+    () => rankOffers(pool, { ...profile, countries: [], contract: "Tous" }, skillImplies)
       .filter((o) => o.id !== offer.id && (o.family === offer.family || o.secondaryFamily === offer.family))
       .slice(0, 3),
     [pool, profile, skillImplies, offer]

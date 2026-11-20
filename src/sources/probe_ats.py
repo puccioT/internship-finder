@@ -37,6 +37,25 @@ COMPANIES = [
     # --- IA, data & deeptech ---
     "H Company", "Nabla", "Owkin", "Shift Technology", "Poolside", "Kyutai", "Giskard",
     "Criteo", "Datadog", "Platform.sh", "Scaleway", "Cosmo Tech", "Pasqal",
+    # --- Berlin ---
+    "N26", "Trade Republic", "SumUp", "Raisin", "Taxfix", "GetYourGuide", "Delivery Hero", "Zalando",
+    "HelloFresh", "Contentful", "Pitch", "Babbel", "Omio", "Solaris", "Grover", "Enpal", "Moss", "Klarna",
+    "Upvest", "Mambu", "Billie", "Pliant", "Finom", "Ada Health", "Choco", "Forto", "Sennder",
+    "Flink", "Wefox", "Dott", "Heyjobs", "Remote", "Spread", "Kenjo", "Langdock", "Parloa",
+    # --- Munich ---
+    "Scalable Capital", "Helsing", "FlixBus", "Isar Aerospace", "Proxima Fusion", "Agile Robots", "NavVis",
+    "Quantum Systems",
+    # --- Amsterdam ---
+    "Mollie", "Booking.com", "Bunq", "Picnic", "Framer", "Catawiki", "WeTransfer", "Bird", "Backbase",
+    "Elastic", "Bitvavo", "Tiqets", "Sendcloud", "Lightyear", "Mews", "Just Eat Takeaway", "Bolt",
+    "Effectory", "Otrium", "Swapfiets", "Studocu", "Fastned", "Ohpen", "Leapsome",
+    # --- Dublin ---
+    "Intercom", "Tines", "Wayflyer", "Fenergo", "Flipdish", "Workhuman", "LetsGetChecked", "Manna",
+    # --- Londres ---
+    "Monzo", "Wise", "Deliveroo", "GoCardless", "Synthesia", "Cleo", "Checkout.com", "Multiverse",
+    "Paddle", "Starling Bank", "Marshmallow", "Thought Machine", "Tide", "Zopa", "Nothing", "Primer",
+    # --- Zurich / Suisse ---
+    "Scandit", "Frontify", "Yokoy", "Beekeeper", "Climeworks", "On", "Ledgy", "Nexthink", "Proton",
 ]
 COMPANIES = list(dict.fromkeys(COMPANIES))  # retire les doublons, garde l'ordre
 
@@ -55,12 +74,35 @@ EXTRA_SLUGS = {
     "Front": ["front", "frontapp"],
     "Side": ["side", "sideco"],
     "Comet": ["comet", "cometco"],
+    "Booking.com": ["bookingcom", "booking"],
+    "Checkout.com": ["checkoutcom", "checkout"],
+    "Bird": ["messagebird", "bird"],
+    "On": ["onrunning", "on"],
+    "FlixBus": ["flix", "flixbus"],
+    "Starling Bank": ["starlingbank", "starling"],
+    "Trade Republic": ["traderepublic", "traderepublicbank"],
+    "Delivery Hero": ["deliveryhero"],
+    "Nothing": ["nothing", "nothingtechnology"],
+    "Pitch": ["pitch", "pitchsoftware"],
+    "Moss": ["moss", "getmoss"],
+    "Cleo": ["cleo", "meetcleo"],
+    "Tide": ["tide", "tidebanking"],
+    "Primer": ["primer", "primerio"],
+    "Proton": ["proton", "protonag"],
+    "Isar Aerospace": ["isaraerospace"],
+    "Proxima Fusion": ["proximafusion"],
+    "Ada Health": ["ada", "adahealth"],
+    "Just Eat Takeaway": ["justeattakeaway", "takeaway"],
+    "Remote": ["remote", "remotecom"],
+    "Spread": ["spread", "spreadai"],
 }
 
-# Une offre est un "stage / alternance" si son titre contient un de ces mots.
+# Une offre est un "stage / alternance" si son titre contient un de ces mots
+# (même liste que src/sources/ats.py, y compris allemand et néerlandais).
 INTERN_PATTERN = re.compile(
     r"\b(intern|internship|stage|stagiaire|alternance|alternant|apprenti|apprentice|"
-    r"apprenticeship|work[- ]study|working student|trainee|césure|gap year)\b",
+    r"apprenticeship|work[- ]study|working student|trainee|césure|gap year|"
+    r"praktikum|pflichtpraktikum|praktikant|praktikantin|werkstudent|werkstudentin|stagiair|afstudeerstage)\b",
     re.IGNORECASE,
 )
 
@@ -133,6 +175,16 @@ def try_personio(client, slug):
     return None
 
 
+def try_recruitee(client, slug):
+    r = client.get(f"https://{slug}.recruitee.com/api/offers/")
+    if r.status_code != 200:
+        return None
+    try:
+        return [job["title"] for job in r.json().get("offers", [])]
+    except ValueError:
+        return None
+
+
 ATS_TESTERS = {
     "greenhouse": try_greenhouse,
     "lever": try_lever,
@@ -141,6 +193,7 @@ ATS_TESTERS = {
     "workable": try_workable,
     "smartrecruiters": try_smartrecruiters,
     "personio": try_personio,
+    "recruitee": try_recruitee,
 }
 
 
@@ -173,7 +226,7 @@ def load_previous():
 
 
 def main():
-    print(f"Test de {len(COMPANIES)} entreprises sur Greenhouse, Lever, Ashby, Workable, SmartRecruiters et Personio...\n")
+    print(f"Test de {len(COMPANIES)} entreprises sur Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Personio et Recruitee...\n")
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(probe_company, COMPANIES))
 
