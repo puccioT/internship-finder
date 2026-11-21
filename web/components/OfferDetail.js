@@ -7,6 +7,7 @@ import { useProfile } from "@/lib/store";
 import { isNew } from "@/lib/data";
 import { ScoreRing, Bar } from "@/components/Gauges";
 import TrackButton from "@/components/TrackButton";
+import OutreachMessage from "@/components/OutreachMessage";
 
 const REMOTE_FR = { "On-site": "Sur site", Hybrid: "Hybride", "Full remote": "Télétravail complet" };
 
@@ -129,6 +130,7 @@ export default function OfferDetail({ offer, pool, skillImplies }) {
             <a href={offer.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Voir l'offre complète ↗</a>
             <TrackButton offerId={offer.id} variant="full" />
           </div>
+          <OutreachMessage key={offer.id} offer={offer} profile={profile} />
           {similar.length > 0 && (
             <section style={{ display: "flex", flexDirection: "column" }}>
               <h2 className="h2" style={{ fontSize: 19, paddingBottom: 12 }}>Offres similaires</h2>
