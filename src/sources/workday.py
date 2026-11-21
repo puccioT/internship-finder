@@ -46,7 +46,7 @@ WORKDAY_COMPANIES = [
 
 # Moins de mots-clés = moins de requêtes ("intern" ramène déjà la plupart des "internship")
 SEARCH_TERMS = ["intern", "internship", "praktikum", "werkstudent", "stage"]
-PAUSE_S = 1.0        # pause entre deux requêtes : Workday bloque (429) les clients trop pressés
+PAUSE_S = 3.0        # pause entre deux requêtes : plus rapide, Workday bloque (429)
 MAX_PER_TERM = 200   # garde-fou : au-delà, la recherche ramène surtout du bruit
 PAGE_SIZE = 20       # maximum accepté par Workday
 

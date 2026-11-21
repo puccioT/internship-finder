@@ -39,8 +39,17 @@ def main():
     run_time = now_iso()
     print(f"Collecte de {len(companies)} entreprises...\n")
 
+    # Les startups (Greenhouse, Lever...) sont sur des serveurs différents : on les collecte en
+    # parallèle. Les grands groupes Workday partagent les MÊMES serveurs : en parallèle, on se fait
+    # bloquer (429). On les collecte donc un par un, à la fin.
+    startups = [c for c in companies if c["ats"] != "workday"]
+    big_groups = [c for c in companies if c["ats"] == "workday"]
     with ThreadPoolExecutor(max_workers=8) as pool:
-        results = list(pool.map(collect_one, companies))
+        results = list(pool.map(collect_one, startups))
+    print(f"Startups terminées. Grands groupes Workday ({len(big_groups)}), un par un...")
+    for row in big_groups:
+        print(f"  ... {row['company']}")
+        results.append(collect_one(row))
 
     conn = connect()
     total, total_new, errors = 0, 0, []

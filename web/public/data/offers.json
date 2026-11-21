@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T22:39:46+00:00",
+ "generatedAt": "2026-11-21T20:05:15+00:00",
  "roleFamilies": [
   "Product",
   "Data",
@@ -198,6 +198,1325 @@
  },
  "offers": [
   {
+   "id": "workday:ing:REQ-10124978",
+   "company": "ING",
+   "title": "Werkstudent Talent & Learning – Human Resources (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "HR",
+    "Employee experience",
+    "Data analysis",
+    "Microsoft Office",
+    "Generative AI"
+   ],
+   "summary": "The intern will support the HR team by helping with employee surveys, analyzing results, and creating reports. They will also assist in developing and testing AI agents for HR applications and contribute to talent, learning, and culture development initiatives.",
+   "startDate": "1. Januar 2027",
+   "durationMonths": 12,
+   "languages": [
+    "German (very good)",
+    "English (very good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Werkstudent-Talent---Learning---Human-Resources--w-m-d-_REQ-10124978",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-20"
+  },
+  {
+   "id": "workday:ing:REQ-10124997",
+   "company": "ING",
+   "title": "Praktikant Marketing und Sales – Sparen (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Online Marketing",
+    "Customer Journey",
+    "Reporting",
+    "PowerPoint",
+    "Excel"
+   ],
+   "summary": "The intern will support website maintenance, online marketing campaigns, and multi-channel distribution across web, app, and email. They will also assist with campaign monitoring, reporting, and creating presentations.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Marketing-und-Sales---Sparen--w-m-d-_REQ-10124997",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-20"
+  },
+  {
+   "id": "workday:ing:REQ-10124763",
+   "company": "ING",
+   "title": "Praktikant Corporate & Network Sector Coverage - Wholesale Banking (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Financial analysis",
+    "Microsoft Office",
+    "Market research",
+    "Customer research"
+   ],
+   "summary": "The intern will support relationship managers with corporate finance, cash management solutions, and daily banking needs for international large corporations. They will also collect and analyze client and sector information, prepare presentations, and assist with Know-Your-Customer processes.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Corporate---Network-Sector-Coverage---Wholesale-Banking--w-m-d-_REQ-10124763",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:ing:REQ-10124920",
+   "company": "ING",
+   "title": "Praktikant Asset Securitisation (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Bloomberg Terminal",
+    "Portfolio data analysis",
+    "Financial modeling"
+   ],
+   "summary": "The intern will assist deal teams with preparing pitching materials, executing ongoing asset-backed financing transactions, and analyzing portfolio data. Additionally, they will monitor European capital market developments and prepare presentations for internal and external stakeholders.",
+   "startDate": "March 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "German"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Asset-Securitisation--w-m-d-_REQ-10124920",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:ag:JR10450463",
+   "company": "Airbus",
+   "title": "Working Student (d/f/m) for Application Development in Flight Physics",
+   "city": "Hamburg Area",
+   "location": "Hamburg Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Python",
+    "Matlab",
+    "Git",
+    "Pytest",
+    "Software development"
+   ],
+   "summary": "The student will develop and continuously improve engineering applications for design and operational loads using Python and Matlab. They will also implement testing schemes, apply version control, and document system improvements.",
+   "startDate": "ASAP",
+   "durationMonths": 12,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg-Area/Working-Student--d-f-m--for-Application-Development-in-Flight-Physics_JR10450463",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:ag:JR10457925",
+   "company": "Airbus",
+   "title": "Werkstudent (d/m/w) HR Support",
+   "city": "München Area",
+   "location": "München Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Human Resources",
+    "Data management",
+    "Reporting",
+    "Office applications"
+   ],
+   "summary": "The student will support the local HR team with occupational health management, data management, and reporting tasks. They will also provide administrative support to local HR Business Partners.",
+   "startDate": "ASAP",
+   "durationMonths": 12,
+   "languages": [
+    "German (C1)",
+    "English (B2)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Werkstudent--d-m-w--HR-Support_JR10457925-1",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:ag:JR10454731",
+   "company": "Airbus",
+   "title": "Werkstudent (d/m/w) - Einkauf - Account Management Hamburg",
+   "city": "Hamburg Area",
+   "location": "Hamburg Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Procurement",
+    "Account management",
+    "Data analysis",
+    "Reporting",
+    "Process optimization"
+   ],
+   "summary": "The student will support the operational procurement and key account management team by preparing meetings, performing data analysis and reporting tasks, and helping optimize internal processes. Additionally, they will work independently on small sub-projects to improve customer and supplier relationships.",
+   "startDate": "ASAP",
+   "durationMonths": null,
+   "languages": [
+    "German (C1)",
+    "English (B1/B2)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg-Area/Werkstudent--d-m-w----Einkauf---Account-Management-Hamburg_JR10454731-1",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:ag:JR10458052",
+   "company": "Airbus",
+   "title": "Werkstudent (d/m/w) für den Bereich SA Ramp-up Value Stream Management",
+   "city": "Hamburg",
+   "location": "Hamburg - Finkenwerder",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Project management",
+    "Excel",
+    "VBA",
+    "Data analysis",
+    "Planisware"
+   ],
+   "summary": "The student will support project management and industrial ramp-up by developing capacity planning tools, tracking project progress and action items. They will also assist with reporting, data maintenance, and preparing meetings for the ramp-up steering committee.",
+   "startDate": "ASAP",
+   "durationMonths": 12,
+   "languages": [
+    "German (very good)",
+    "English (good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg---Finkenwerder/Werkstudent--d-m-w--fr-den-Bereich-SA-Ramp-up-Value-Stream-Management_JR10458052",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-19"
+  },
+  {
+   "id": "workday:ing:REQ-10124745",
+   "company": "ING",
+   "title": "Internship Front End Engineering— InfraPort DMS",
+   "city": "HBP (Amsterdam",
+   "location": "HBP (Amsterdam - Haarlerbergpark)",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "HTML",
+    "CSS"
+   ],
+   "summary": "The intern will build and refine user-facing components for the InfraPort Data Management System using modern frameworks like React and TypeScript. They will also collaborate with engineers and product teams to integrate APIs and contribute to code reviews and testing.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/HBP-Amsterdam---Haarlerbergpark/Internship-Front-End-Engineering--InfraPort-DMS_REQ-10124745",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:ing:REQ-10124924",
+   "company": "ING",
+   "title": "Praktikant Sponsoring & Events (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Marketing & Growth",
+   "secondaryFamily": null,
+   "skills": [
+    "Event management",
+    "Microsoft Office",
+    "Project management",
+    "Marketing"
+   ],
+   "summary": "The intern will support marketing professionals in planning, organizing, and executing corporate events and sponsoring partnerships from conception to evaluation. They will actively participate in ongoing processes and assist on-site during events.",
+   "startDate": "1. Februar 2027",
+   "durationMonths": 6,
+   "languages": [
+    "German (good)",
+    "English (good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Sponsoring---Events--w-m-d-_REQ-10124924",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:ing:REQ-10124549",
+   "company": "ING",
+   "title": "Trainee im Junior Expert Programme – Conversational AI & Customer Interactions (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Product",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "User Stories",
+    "Process modeling",
+    "Data analysis",
+    "Prompt Engineering",
+    "Customer Experience"
+   ],
+   "summary": "The trainee will analyze customer interactions and processes to identify improvements for digital solutions, and collaborate with tech and business teams to develop chatbots and conversational AI applications by writing user stories and managing features. They will also prioritize use cases, evaluate metrics and customer feedback, and participate in agile product development and governance topics.",
+   "startDate": "1. Januar, 1. April oder 1. Oktober 2027",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Trainee-im-Junior-Expert-Programme---Conversational-AI---Customer-Interactions--w-m-d-_REQ-10124549-1",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:db:R0457690",
+   "company": "Deutsche Bank",
+   "title": "Internship – Fixed Income Sales and Trading (f/m/x)",
+   "city": "Zürich Uraniastrasse 9",
+   "location": "Zürich Uraniastrasse 9",
+   "country": "Switzerland",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Engineering",
+   "skills": [
+    "Excel",
+    "VBA",
+    "Python",
+    "Fixed income",
+    "Financial analysis"
+   ],
+   "summary": "The intern will assist traders with pricing, liquidity provision, repo market activities, and flow monitoring on the Fixed Income Trading Desk. They will also build analytical tools and automated workflows using Python and VBA, and prepare market commentary and client materials.",
+   "startDate": "Unknown",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "German (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Zrich-Uraniastrasse-9/Internship---Fixed-Income-Sales-and-Trading--f-m-x-_R0457690",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:ag:JR10454297",
+   "company": "Airbus",
+   "title": "Werkstudent  (w/m/d) A320 Family FCO AI Implementation & Process Automation",
+   "city": "Hamburg Area",
+   "location": "Hamburg Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Python",
+    "Low-code/No-code tools",
+    "AI",
+    "Process automation"
+   ],
+   "summary": "The intern will analyze operational workflows to identify automation opportunities and support the implementation of AI agents. They will also build a centralized database for process improvements and facilitate awareness sessions on AI technologies.",
+   "startDate": "01.02.2027",
+   "durationMonths": 12,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg-Area/Werkstudent---w-m-d--A320-Family-FCO-AI-Implementation---Process-Automation_JR10454297-1",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:ag:JR10457748",
+   "company": "Airbus",
+   "title": "Werkstudent (d/m/w) im Bereich After Sales",
+   "city": "Hamburg Area",
+   "location": "Hamburg Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Supply chain",
+    "Process management",
+    "Order management",
+    "Logistics"
+   ],
+   "summary": "The student will support end-to-end process management and order fulfillment while collaborating with customers, manufacturing, purchasing, and logistics providers. They will also contribute to digitalization projects and help develop solutions to optimize supply chain efficiency and resolve bottlenecks.",
+   "startDate": "Ab sofort",
+   "durationMonths": 12,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg-Area/Werkstudent--d-m-w--im-Bereich-After-Sales_JR10457748",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-18"
+  },
+  {
+   "id": "workday:ing:REQ-10124748",
+   "company": "ING",
+   "title": "Internship Front End Engineering — InfraPort DMS",
+   "city": "HBP (Amsterdam",
+   "location": "HBP (Amsterdam - Haarlerbergpark)",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "HTML",
+    "CSS"
+   ],
+   "summary": "The intern will build user interfaces using modern JavaScript or TypeScript with React and Next.js, and integrate them with backend services and APIs. They will also collaborate with UX and product teams to create intuitive user flows and contribute to code reviews and testing.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/HBP-Amsterdam---Haarlerbergpark/Internship-Front-End-Engineering---InfraPort-DMS_REQ-10124748",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-17"
+  },
+  {
+   "id": "workday:intel:JR0289209",
+   "company": "Intel",
+   "title": "Manufacturing Engineering Intern",
+   "city": "Leixlip",
+   "location": "Leixlip, Ireland",
+   "country": "Ireland",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Industrial Engineering",
+    "Manufacturing Engineering",
+    "Data analysis",
+    "Workflow automation",
+    "Modelling techniques"
+   ],
+   "summary": "The intern will support the development of long-term capacity and capital strategies using data analysis and modeling techniques. They will also apply AI and workflow automation tools to analyze data, identify risks, and automate routine reporting and administrative workflows.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "On-site",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Ireland-Leixlip/Manufacturing-Engineering-Intern_JR0289209",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-17"
+  },
+  {
+   "id": "workday:ag:JR10454871",
+   "company": "Airbus",
+   "title": "Working Student: Design Operations & 3D Data Architecture (d/f/m)",
+   "city": "Hamburg",
+   "location": "Hamburg - Finkenwerder",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Engineering",
+   "skills": [
+    "PLM",
+    "3D CAD",
+    "Project management",
+    "Data governance",
+    "Figma"
+   ],
+   "summary": "The student will support design operations by structuring digital workflows, evaluating PLM platforms, and establishing 3D data governance standards. They will also assist project leads with milestone tracking and create executive presentations for technical architectures.",
+   "startDate": "February 2027",
+   "durationMonths": 12,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg---Finkenwerder/Working-Student--Design-Operations---3D-Data-Architecture--d-f-m-_JR10454871",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-16"
+  },
+  {
+   "id": "workday:ing:REQ-10124291",
+   "company": "ING",
+   "title": "Internship Corporate Finance - FIG M&A (FI Advisory)",
+   "city": "AME (Amsterdam",
+   "location": "AME (Amsterdam - Maple)",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Financial modeling",
+    "Valuation",
+    "Industry research",
+    "Excel",
+    "Capital IQ"
+   ],
+   "summary": "The intern will support the corporate finance advisory team by conducting industry research, analyzing financial information, and preparing pitch books and financial models for M&A and capital markets transactions. They will also assist with due diligence and participate in all aspects of transaction execution.",
+   "startDate": "April / May 2027",
+   "durationMonths": 4,
+   "languages": [
+    "Dutch (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/AME-Amsterdam---Maple/Internship-Financial-Institutions-Advisory-Team_REQ-10124291",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-13"
+  },
+  {
+   "id": "workday:ag:JR10457170",
+   "company": "Airbus",
+   "title": "Working Student Procurement Air Power Commodity Avionics and IT/Ground Systems  (d/f/m)",
+   "city": "München Area",
+   "location": "München Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Spend analysis",
+    "Microsoft Office",
+    "Google Workspace",
+    "Project management",
+    "Procurement"
+   ],
+   "summary": "The working student will support the procurement commodity team with administrative tasks, data analyses, and event organization. They will also assist the commodity manager in managing supplier requests, preparing strategies, and handling project tasks.",
+   "startDate": "15th January 2027",
+   "durationMonths": 12,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "On-site",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Working-Student-Procurement-Air-Power-Commodity-Avionics-and-IT-Ground-Systems---d-f-m-_JR10457170",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-13"
+  },
+  {
+   "id": "workday:crowdstrike:R30500",
+   "company": "CrowdStrike",
+   "title": "Intelligence Launch Intern - Summer 2027",
+   "city": "Reading",
+   "location": "Reading, United Kingdom",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Python",
+    "REST APIs",
+    "JSON",
+    "Cybersecurity",
+    "AI tools"
+   ],
+   "summary": "The intern will design and build AI agents and automated workflows to support threat investigations by writing and testing Python scripts. They will also collaborate with analysts to evaluate automation tools, troubleshoot systems, and document their projects.",
+   "startDate": "Wednesday, June 2, 2027",
+   "durationMonths": 3,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Intelligence-Launch-Intern---Summer-2027_R30500",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-12"
+  },
+  {
+   "id": "workday:ing:REQ-10121282",
+   "company": "ING",
+   "title": "HRBP Intern H/F/X",
+   "city": "Paris Richelieu",
+   "location": "Paris Richelieu",
+   "country": "France",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "HR management",
+    "Recruitment",
+    "Excel",
+    "HR reporting"
+   ],
+   "summary": "The intern will support HR development topics including recruitment and talent management, and participate in deploying HR processes such as performance reviews. They will also contribute to transverse HR projects, produce HR reporting dashboards, and handle onboarding and offboarding follow-ups.",
+   "startDate": "January 4, 2027",
+   "durationMonths": 6,
+   "languages": [
+    "French",
+    "English"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Paris-Richelieu/HRBP-Intern-H-F-X_REQ-10121282-2",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-10"
+  },
+  {
+   "id": "workday:ing:REQ-10124251",
+   "company": "ING",
+   "title": "Praktikant Human Resources – Knowledge Management (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Knowledge management",
+    "Content management",
+    "Internal communication",
+    "Content analysis"
+   ],
+   "summary": "The intern will support the HR team by updating, structuring, and improving digital HR knowledge bases and intranet content. They will analyze information flows, test content usability from an employee perspective, and help develop quality standards for HR documentation.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Human-Resources---Knowledge-Management--w-m-d-_REQ-10124251",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-09"
+  },
+  {
+   "id": "workday:ing:REQ-10101049",
+   "company": "ING",
+   "title": "Praktikant Mobile Banking und Web (w/m/d)",
+   "city": "Frankfurt / Nürnberg",
+   "location": "Frankfurt / Nürnberg",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Microsoft Office",
+    "PowerPoint",
+    "Excel",
+    "Data analysis",
+    "User research"
+   ],
+   "summary": "The intern will optimize customer journeys, processes, and usability while collaborating closely with the management and IT teams. They will also analyze data and user studies, measure performance, and prepare reports and presentations for management.",
+   "startDate": "April 2027",
+   "durationMonths": 6,
+   "languages": [
+    "German (very good)",
+    "English (very good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Mobile-Banking-und-Web--w-m-d-_REQ-10101049",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-09"
+  },
+  {
+   "id": "workday:ag:JR10452716",
+   "company": "Airbus",
+   "title": "Working Student (d/f/m) for Performance & Business Improvement",
+   "city": "München Area",
+   "location": "München Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Data",
+   "skills": [
+    "Performance management",
+    "Project management",
+    "Data analysis",
+    "Data visualization",
+    "Google Workspace",
+    "AI tools"
+   ],
+   "summary": "The student will assist in preparing and tracking performance dashboards, reporting, and enterprise risk management documentation. They will also compile data, support continuous improvement initiatives, and help integrate AI solutions into operational workflows.",
+   "startDate": "15.01.2027",
+   "durationMonths": 12,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Working-Student--d-f-m--for-Performance---Business-Improvement_JR10452716-1",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-09"
+  },
+  {
+   "id": "workday:db:R0453418",
+   "company": "Deutsche Bank",
+   "title": "O&A Swiss Coverage Intern (f/m/x)",
+   "city": "Zürich Uraniastrasse 9",
+   "location": "Zürich Uraniastrasse 9",
+   "country": "Switzerland",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Financial modeling",
+    "Valuation",
+    "Excel",
+    "PowerPoint",
+    "Data analysis"
+   ],
+   "summary": "The intern will participate in the preparation of client and marketing presentations as well as the execution of M&A and ECM transactions. They will work on corporate finance topics including financial analysis, industry research, and valuation work.",
+   "startDate": "February 2027",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "German (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Zrich-Uraniastrasse-9/O-A-Swiss-Coverage-Intern--f-m-x-_R0453418",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-05"
+  },
+  {
+   "id": "workday:ing:REQ-10123912",
+   "company": "ING",
+   "title": "Praktikant Client Services – Wholesale Banking (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Excel",
+    "Management reporting",
+    "Banking",
+    "Data analysis"
+   ],
+   "summary": "The intern will support the Client Services Wholesale Banking team with daily operations, balance confirmations, and management reporting. They will also contribute to digitalization and AI initiatives to optimize internal processes.",
+   "startDate": "ASAP",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Client-Services---Wholesale-Banking--w-m-d-_REQ-10123912",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-04"
+  },
+  {
+   "id": "workday:ing:REQ-10123866",
+   "company": "ING",
+   "title": "Praktikant Data Governance, Privacy & AI Regulation (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Strategy & Ops",
+   "skills": [
+    "Data protection",
+    "Data governance",
+    "Legal compliance",
+    "Quality assurance",
+    "Process improvement"
+   ],
+   "summary": "The intern will support regulatory and governance processes related to data protection, privacy, and AI regulation. They will also assist with quality assurance, digital transformation initiatives, and the preparation of stakeholder guidance.",
+   "startDate": "ASAP",
+   "durationMonths": null,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Data-Governance--Privacy---AI-Regulation--w-m-d-_REQ-10123866",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-04"
+  },
+  {
+   "id": "workday:ing:REQ-10123901",
+   "company": "ING",
+   "title": "Praktikant Client Coverage im Bereich Corporate Banking (w/m/d)",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Microsoft Office",
+    "Financial analysis",
+    "Market research",
+    "CRM",
+    "Data analysis"
+   ],
+   "summary": "The intern will support relationship managers in corporate banking by analyzing client and sector data, assisting with financing requests and KYC processes, and helping identify potential new clients. Additionally, they will prepare presentations and coordinate international cooperation with experts across the network.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Hamburg/Praktikant-Client-Coverage-im-Bereich-Corporate-Banking--w-m-d-_REQ-10123901",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-04"
+  },
+  {
+   "id": "workday:ag:JR10445261",
+   "company": "Airbus",
+   "title": "Working Student (d/f/m) – Development of GNSS Solutions for Navigation Applications",
+   "city": "München Area",
+   "location": "München Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "C++",
+    "Software testing",
+    "GNSS",
+    "Data analysis",
+    "Algorithms"
+   ],
+   "summary": "The student will support the development and implementation of GNSS positioning algorithms within navigation simulation environments and assist with software lifecycle tasks. They will also process, analyze, and visualize complex datasets while collaborating closely with software and navigation engineers.",
+   "startDate": "January 2027",
+   "durationMonths": 12,
+   "languages": [
+    "German",
+    "English"
+   ],
+   "remote": "On-site",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Working-Student--m-f-d----Development-of-GNSS-Solutions-for-Navigation-Applications_JR10445261",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-04"
+  },
+  {
+   "id": "workday:ag:JR10324606",
+   "company": "Airbus",
+   "title": "Working student (d/f/m) within Compliance",
+   "city": "München Area",
+   "location": "München Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Compliance",
+    "Due diligence",
+    "Microsoft Office",
+    "Data analysis"
+   ],
+   "summary": "The student will support the compliance team by performing third-party due diligence, organizing training sessions, and carrying out controls. They will also assist with compliance supplier screening projects and coordinate inputs for auditors and authorities.",
+   "startDate": "As soon as possible",
+   "durationMonths": 12,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Working-Student--d-f-m--within-Compliance_JR10324606",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-04"
+  },
+  {
+   "id": "workday:ag:JR10453540",
+   "company": "Airbus",
+   "title": "Praktikum (d/m/w) im Cabin Conformance Management Single Aisle",
+   "city": "Hamburg Area",
+   "location": "Hamburg Area",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Data analysis",
+    "Excel",
+    "Databases",
+    "AI"
+   ],
+   "summary": "The intern will support the Quality Conformance Management team by creating presentations, managing and optimizing databases, and assisting with technical incoming inspections. They will also conduct literature research on machine vision and participate in knowledge exchange regarding artificial intelligence.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Hamburg-Area/Praktikum--d-m-w--im-Cabin-Conformance-Management-Single-Aisle_JR10453540",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-11-03"
+  },
+  {
+   "id": "workday:ag:JR10445545",
+   "company": "Airbus",
+   "title": "Werkstudent (d/m/w) im Bereich 5G- und LEO- Satellitenkommunikationssignale",
+   "city": "München Area",
+   "location": "München Area",
+   "country": "Germany",
+   "contract": "Working student",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Matlab",
+    "Signal processing",
+    "Software-Defined Radio"
+   ],
+   "summary": "The student will conduct research on 5G and LEO satellite communication positioning signal structures and data demodulation. They will also develop signal processing algorithms and perform laboratory experiments using software-defined radio on prototypes.",
+   "startDate": "ASAP",
+   "durationMonths": 12,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Working-student-on-5G-and-LEO-satellite-communication-signals--d-f-m-_JR10445545",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-30"
+  },
+  {
+   "id": "workday:db:R0453346",
+   "company": "Deutsche Bank",
+   "title": "O&A Benelux Coverage Seasonal Intern (f/m/x)",
+   "city": "Amsterdam",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Financial modeling",
+    "Company valuation",
+    "Financial forecasting",
+    "Data analysis",
+    "AI tools"
+   ],
+   "summary": "The intern will assist on corporate finance projects by modeling and forecasting financial statements, valuing companies, and preparing marketing materials for client pitches and capital issues. They will also get involved in current M&A and advisory deals while interacting with international clients and bankers.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [
+    "Dutch (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Amsterdam/O-A-Benelux-Coverage-Seasonal-Intern--f-m-x-_R0453346",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-28"
+  },
+  {
+   "id": "workday:ing:REQ-10123697",
+   "company": "ING",
+   "title": "Praktikant Human Resources – Young Talents (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "People & HR",
+   "secondaryFamily": null,
+   "skills": [
+    "Microsoft Office",
+    "Recruiting",
+    "Event management",
+    "HR administration"
+   ],
+   "summary": "The intern will support the HR Young Talents team by handling application pre-screening, candidate correspondence, and the complete onboarding process. Additionally, they will assist in planning and executing internal events and job fairs.",
+   "startDate": "February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Human-Resources---Young-Talents--w-m-d-_REQ-10123697",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-27"
+  },
+  {
+   "id": "workday:db:R0413245",
+   "company": "Deutsche Bank",
+   "title": "Wealth Management Intern – Relationship Management (f/m/x)",
+   "city": "Amsterdam",
+   "location": "Amsterdam",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Financial analysis",
+    "Market research",
+    "KYC/AML"
+   ],
+   "summary": "The intern will support relationship managers by preparing client meetings, pitches, portfolio reviews, and wealth research. They will also assist with client onboarding, KYC documentation, lending opportunities, and market research.",
+   "startDate": "Unknown",
+   "durationMonths": 4,
+   "languages": [
+    "Dutch (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Amsterdam/Wealth-Management-Intern---Relationship-Management--f-m-x-_R0413245",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-26"
+  },
+  {
+   "id": "workday:ing:REQ-10123704",
+   "company": "ING",
+   "title": "Praktikant Payroll (m/w/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Excel",
+    "Microsoft Office",
+    "SAP HCM",
+    "Financial analysis"
+   ],
+   "summary": "The intern will assist the payroll team with monthly salary calculations using SAP HCM and handle administrative tasks. They will also support daily operations and participate in various HR and finance projects.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Payroll--m-w-d-_REQ-10123704",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-23"
+  },
+  {
+   "id": "workday:shell:R208570",
+   "company": "Shell",
+   "title": "Category Management Intern - Food Service",
+   "city": "Rotterdam",
+   "location": "Rotterdam - Weena",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Marketing & Growth",
+   "skills": [
+    "Excel",
+    "Power BI",
+    "Data analysis",
+    "Project management",
+    "Business analytics"
+   ],
+   "summary": "The intern will support cross-functional foodservice projects by tracking milestones, analysing business performance data, and preparing presentations for stakeholders. They will also assist with purchasing, operations, and the implementation of marketing and promotional campaigns.",
+   "startDate": "October 2026",
+   "durationMonths": 6,
+   "languages": [
+    "English (professional)",
+    "Dutch (preferred)"
+   ],
+   "remote": "Unknown",
+   "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Rotterdam---Weena/Category-Management-Intern---Food-Service_R208570",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-23"
+  },
+  {
+   "id": "workday:ing:REQ-10088079",
+   "company": "ING",
+   "title": "Praktikant Global Capital Markets (w/m/d)",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Corporate Finance",
+    "Microsoft Office",
+    "Financial modeling",
+    "Data analysis"
+   ],
+   "summary": "The intern will support the origination and execution of bond and Schuldschein transactions, including pricing, structuring, and market updates. They will also develop presentation materials for client meetings and help identify new market opportunities.",
+   "startDate": "July 2027",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Global-Capital-Markets--w-m-d-_REQ-10088079",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-22"
+  },
+  {
+   "id": "workday:ing:REQ-10121759",
+   "company": "ING",
+   "title": "Stagiaire Corporate Sector Coverage H/F/X",
+   "city": "Paris Richelieu",
+   "location": "Paris Richelieu",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": "Sales & Business Dev",
+   "skills": [
+    "Financial analysis",
+    "Excel",
+    "KYC",
+    "Commercial prospecting",
+    "Corporate Finance"
+   ],
+   "summary": "The intern will assist senior bankers and relationship managers in preparing client pitches, managing KYC files, and supporting commercial prospecting actions. They will also draft activity and revenue reports while interacting directly with corporate clients.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (professional)",
+    "French (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Paris-Richelieu/Stagiaire-Corporate-Sector-Coverage_REQ-10121759-2",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-21"
+  },
+  {
+   "id": "workday:db:R0450629",
+   "company": "Deutsche Bank",
+   "title": "Sales Coverage Support Intern (f/m/x)",
+   "city": "Geneva Place des Bergues 3",
+   "location": "Geneva Place des Bergues 3",
+   "country": "Switzerland",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Financial analysis",
+    "Banking processes",
+    "Customer service",
+    "Transaction management",
+    "Avaloq"
+   ],
+   "summary": "The intern will support Relationship Managers and Client Service Executives in daily internal activities, handling mandates, transactions, credit limits, and account closures. They will also act as an internal point of contact between coverage teams and support functions such as Middle Office and Lending.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [
+    "English (fluent)",
+    "French (fluent)"
+   ],
+   "remote": "Unknown",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Geneva-Place-des-Bergues-3/Sales-Coverage-Support-Intern--f-m-x-_R0450629",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-19"
+  },
+  {
+   "id": "workday:intel:JR0287942",
+   "company": "Intel",
+   "title": "MLIR Compiler Engineering Undergraduate Intern (f/m/d)",
+   "city": "Munich",
+   "location": "Munich, Germany",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Engineering",
+   "secondaryFamily": null,
+   "skills": [
+    "C",
+    "C++",
+    "Linux",
+    "Git",
+    "Compilers"
+   ],
+   "summary": "The intern will design, implement, and test compiler and runtime technologies by writing, debugging, and optimizing C or C++ code. Additionally, they will conduct performance evaluations, resolve software defects, and collaborate on open-source and cross-functional projects.",
+   "startDate": "Unknown",
+   "durationMonths": null,
+   "languages": [],
+   "remote": "Hybrid",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Germany-Munich/MLIR-Compiler-Engineering-Undergraduate-Intern--f-m-d-_JR0287942",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-10-14"
+  },
+  {
+   "id": "workday:ing:REQ-10097584",
+   "company": "ING",
+   "title": "Praktikant Relationship Management – Wholesale Banking (w/m/d)",
+   "city": "München",
+   "location": "München",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Microsoft Office",
+    "Financial analysis",
+    "Market research",
+    "CRM"
+   ],
+   "summary": "The intern will support relationship managers by analyzing customer and sector data to identify potential new clients and assist with financing requests. They will also prepare presentations, conduct risk assessments for the Know-Your-Customer process, and coordinate with international teams.",
+   "startDate": "January/February 2027",
+   "durationMonths": 6,
+   "languages": [
+    "German (fluent)",
+    "English (fluent)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Mnchen/Praktikant-Relationship-Management---Wholesale-Banking--w-m-d-_REQ-10097584",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-09-22"
+  },
+  {
+   "id": "workday:shell:R205154",
+   "company": "Shell",
+   "title": "Shell Assessed Internship Programme 2027 – United Kingdom",
+   "city": "London",
+   "location": "London - Shell Centre",
+   "country": "United Kingdom",
+   "contract": "Stage",
+   "family": "Finance & Legal",
+   "secondaryFamily": null,
+   "skills": [
+    "Financial analysis",
+    "Project management",
+    "Commercial analysis",
+    "Data analysis"
+   ],
+   "summary": "The intern will work on actual projects with significant business impact within areas such as finance, digital technology, trading, or commercial operations. They will collaborate with project teams, deliver meaningful projects, and present their work at the end of the internship.",
+   "startDate": "15 June 2027",
+   "durationMonths": 3,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/London---Shell-Centre/Shell-Assessed-Internship-Programme-2027---United-Kingdom_R205154",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-09-15"
+  },
+  {
+   "id": "workday:shell:R205052",
+   "company": "Shell",
+   "title": "Shell Assessed Internship Programme 2027 - Netherlands",
+   "city": "Amsterdam / The Hague / Rotterdam / Pernis",
+   "location": "Amsterdam / The Hague / Rotterdam / Pernis",
+   "country": "Netherlands",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": null,
+   "skills": [
+    "Project management",
+    "Data analysis",
+    "Energy industry knowledge",
+    "Presentation",
+    "Problem solving"
+   ],
+   "summary": "The intern will work on actual projects with a real business impact alongside a project team in the energy sector. They will be evaluated through regular assessments and prepare a final presentation on project delivery and performance.",
+   "startDate": "Unknown",
+   "durationMonths": 12,
+   "languages": [],
+   "remote": "Unknown",
+   "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Amsterdam/Shell-Assessed-Internship-Programme-2027---Netherlands_R205052",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-09-10"
+  },
+  {
+   "id": "workday:shell:R205122",
+   "company": "Shell",
+   "title": "Shell Assessed Internship Programme 2027 - Commercial – Germany",
+   "city": "Hamburg",
+   "location": "Hamburg",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Sales & Business Dev",
+   "secondaryFamily": null,
+   "skills": [
+    "Commercial analysis",
+    "Project management",
+    "Business development",
+    "Data analysis"
+   ],
+   "summary": "The intern will work on a real commercial project with significant business impact within the energy sector. They will collaborate with a project team, receive direct mentorship, and present their project delivery and performance at the end of the internship.",
+   "startDate": "April / May / June 2027",
+   "durationMonths": null,
+   "languages": [
+    "German (C2)",
+    "English"
+   ],
+   "remote": "Unknown",
+   "url": "https://shell.wd3.myworkdayjobs.com/ShellCareers/job/Hamburg/Shell-Assessed-Internship-Programme-2027---Commercial---Germany_R205122",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-09-02"
+  },
+  {
+   "id": "workday:ing:REQ-10105832",
+   "company": "ING",
+   "title": "Praktikant Produktstrategie Wertpapiere (w/m/d) in Frankfurt / Nürnberg",
+   "city": "Frankfurt",
+   "location": "Frankfurt",
+   "country": "Germany",
+   "contract": "Stage",
+   "family": "Product",
+   "secondaryFamily": "Finance & Legal",
+   "skills": [
+    "Financial markets",
+    "Product management",
+    "Data analysis",
+    "ESG investing"
+   ],
+   "summary": "The intern will support customer journey experts in the further development of brokerage and securities offerings. They will also assist the team with daily operations, process design, and the integration of sustainability topics into the product portfolio.",
+   "startDate": "ASAP",
+   "durationMonths": 6,
+   "languages": [
+    "English (good)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Frankfurt/Praktikant-Produktstrategie-Wertpapiere--w-m-d--in-Frankfurt---Nrnberg_REQ-10105832",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-08-27"
+  },
+  {
+   "id": "workday:pernodricard:JR-054682",
+   "company": "Pernod Ricard",
+   "title": "Commercial Development & Execution Excellence Intern - January 2027",
+   "city": "Paris",
+   "location": "Paris",
+   "country": "France",
+   "contract": "Stage",
+   "family": "Strategy & Ops",
+   "secondaryFamily": "Product",
+   "skills": [
+    "Excel",
+    "PowerPoint",
+    "Data analysis",
+    "Agile methodologies",
+    "Project management"
+   ],
+   "summary": "The intern will support commercial excellence initiatives by conducting maturity assessments, analyzing performance data, and updating strategic frameworks. They will also contribute to the deployment of machine learning-based commercial tools and coordinate between business and tech teams.",
+   "startDate": "January 2027",
+   "durationMonths": 6,
+   "languages": [
+    "English (fluent)",
+    "French (professional)"
+   ],
+   "remote": "Hybrid",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Commercial-Development---Execution-Excellence-Intern---January-2027_JR-054682-1",
+   "firstSeen": "2026-11-21T18:57:44+00:00",
+   "postedAt": "2026-08-26"
+  },
+  {
    "id": "workday:philips:595303",
    "company": "Philips",
    "title": "Portfolio Excellence Intern – Hair Care (Global Consumer Marketing)",
@@ -395,7 +1714,7 @@
     "Dutch (fluent)"
    ],
    "remote": "Hybrid",
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/NL---Amsterdam-Netherlands/Visa-Implementation-Services-Summer-Intern--Dutch-speakers-_REF089620W",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/NL---Amsterdam-Netherlands/Visa-Implementation-Services-Summer-Intern--Dutch-speakers-_REF089620W-1",
    "firstSeen": "2026-11-20T20:31:38+00:00",
    "postedAt": "2026-11-18"
   },
@@ -565,34 +1884,6 @@
    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Launch-Intern_R30570",
    "firstSeen": "2026-11-20T20:31:38+00:00",
    "postedAt": "2026-11-16"
-  },
-  {
-   "id": "workday:salesforce:JR368365",
-   "company": "Salesforce",
-   "title": "Solution Engineer Intern France - February 2027",
-   "city": "Paris",
-   "location": "Paris, France",
-   "country": "France",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Sales & Business Dev",
-   "skills": [
-    "Salesforce",
-    "Programming",
-    "Technical consulting",
-    "Software solutions"
-   ],
-   "summary": "The intern will create and present tailored demonstration components and support the delivery of Salesforce solutions in customer-facing webinars. They will also assist the team during key sales cycles and complete product and platform certifications.",
-   "startDate": "01 February 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)",
-    "French (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Solution-Engineer-Intern-France---February-2027_JR368365",
-   "firstSeen": "2026-11-20T20:31:38+00:00",
-   "postedAt": "2026-11-13"
   },
   {
    "id": "workday:visa:REF090466W",
@@ -1169,32 +2460,6 @@
    "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Creative-strategy---brand-positioning-Intern---January-2027_JR-054993",
    "firstSeen": "2026-11-20T20:31:38+00:00",
    "postedAt": "2026-10-29"
-  },
-  {
-   "id": "workday:crowdstrike:R30675",
-   "company": "CrowdStrike",
-   "title": "Falcon Complete Analyst Intern Graduate - Summer 2027 (Reading, GBR)",
-   "city": "Reading",
-   "location": "Reading, United Kingdom",
-   "country": "United Kingdom",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Information security",
-    "Incident handling",
-    "Network communications",
-    "Malware analysis",
-    "Systems administration"
-   ],
-   "summary": "The intern will learn to triage and analyze security alerts, investigate customer inquiries, and perform basic malware analysis using the Falcon platform and internal tools. They will also manage platform configurations and deliver a project focused on improving security controls or business objectives.",
-   "startDate": "Monday 6th September 2027",
-   "durationMonths": 6,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Reading/Falcon-Complete-Analyst-Intern-Graduate---Summer-2027--Reading--GBR-_R30675",
-   "firstSeen": "2026-11-20T20:31:38+00:00",
-   "postedAt": "2026-10-28"
   },
   {
    "id": "workday:philips:591200",
@@ -2112,7 +3377,7 @@
    "family": "Marketing & Growth",
    "secondaryFamily": null,
    "skills": [
-    "Online marketing",
+    "Online Marketing",
     "Content creation",
     "Market research",
     "Excel",
@@ -3503,7 +4768,7 @@
    "skills": [
     "Product management",
     "Data analysis",
-    "User stories",
+    "User Stories",
     "Requirements definition",
     "LLM"
    ],
