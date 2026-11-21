@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const offer = offers.find((o) => o.slug === slug);
-  return { title: offer ? `${offer.title} · ${offer.company} — Internship Finder` : "Offre introuvable" };
+  return { title: offer ? `${offer.title} · ${offer.company} — Internship Finder` : "Offer not found" };
 }
 
 /**
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
  */
 export default function OfferPage({ params }) {
   return (
-    <Suspense fallback={<p className="muted">Chargement de l'offre…</p>}>
+    <Suspense fallback={<p className="muted">Loading offer…</p>}>
       <Offer params={params} />
     </Suspense>
   );

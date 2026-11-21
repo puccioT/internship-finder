@@ -2,13 +2,13 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 
 export const metadata = {
-  title: "Internship Finder — ton copilote de recherche de stage",
-  description: "Les vraies offres de stage et d'alternance des startups tech françaises, classées selon ton profil.",
+  title: "Internship Finder — your internship search copilot",
+  description: "Real internship and working-student offers from European tech companies, ranked for your profile.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

@@ -1,7 +1,7 @@
 /** Anneau de score : un dégradé conique rempli à `score` %. */
 export function ScoreRing({ score, size = 74, thickness = 6, background = "var(--surface)", label }) {
   return (
-    <div className="ring" role="img" aria-label={`Score ${score} sur 100`}
+    <div className="ring" role="img" aria-label={`Score ${score} out of 100`}
       style={{ width: size, height: size, background: `conic-gradient(var(--accent) ${score}%, var(--surface-2) 0)` }}>
       <div className="ring-inner" style={{ width: size - 2 * thickness, height: size - 2 * thickness, background, fontSize: size * 0.32 }}>
         {score}
@@ -14,7 +14,7 @@ export function ScoreRing({ score, size = 74, thickness = 6, background = "var(-
 /** Jauge en segments : 3 compétences couvertes sur 5 = 3 segments allumés. */
 export function Segments({ have, total }) {
   return (
-    <div className="segments" role="img" aria-label={`${have} compétences sur ${total}`}>
+    <div className="segments" role="img" aria-label={`${have} of ${total} skills`}>
       {Array.from({ length: total }, (_, i) => <div key={i} className={`segment${i < have ? " on" : ""}`} />)}
     </div>
   );

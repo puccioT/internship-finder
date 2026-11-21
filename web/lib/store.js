@@ -73,9 +73,9 @@ export const isOnboarded = () => read("if-profile", DEFAULT_PROFILE).onboarded =
  * On garde le titre et l'entreprise : si l'offre disparaît des données, la ligne reste lisible.
  */
 export const TRACK_STATUSES = [
-  { id: "todo", label: "À postuler" },
-  { id: "applied", label: "Postulé" },
-  { id: "interview", label: "Entretien" },
-  { id: "closed", label: "Clôturé" },   // refusé, abandonné ou offre fermée
+  { id: "todo", label: "To apply" },
+  { id: "applied", label: "Applied" },
+  { id: "interview", label: "Interview" },
+  { id: "closed", label: "Closed" },   // refusé, abandonné ou offre fermée
 ];
 export const useTracker = () => useStored("if-tracker", {});

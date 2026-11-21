@@ -49,15 +49,15 @@ export function scoreOffer(offer, profile, skillImplies) {
 
 /** Verdict déterministe : il découle du score (l'IA ne fera que l'expliquer). */
 export function verdict(score) {
-  if (score >= 75) return "Bon match";
-  if (score >= 50) return "Match partiel";
-  return "Match faible";
+  if (score >= 75) return "Strong match";
+  if (score >= 50) return "Partial match";
+  return "Weak match";
 }
 
 /** Langues que l'utilisateur peut proposer (codes anglais, comme dans les offres). */
 export const LANGUAGES = [
-  ["english", "Anglais"], ["french", "Français"], ["german", "Allemand"], ["dutch", "Néerlandais"],
-  ["spanish", "Espagnol"], ["italian", "Italien"], ["portuguese", "Portugais"],
+  ["english", "English"], ["french", "French"], ["german", "German"], ["dutch", "Dutch"],
+  ["spanish", "Spanish"], ["italian", "Italian"], ["portuguese", "Portuguese"],
 ];
 
 /**
@@ -136,3 +136,7 @@ export function topGaps(ranked, profile, limit = 4) {
   }
   return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, limit).map(([skill, n]) => ({ skill, n }));
 }
+
+/** Libellés anglais des types de contrat (les valeurs en base restent "Stage", "Alternance"...). */
+export const CONTRACT_LABELS = { Stage: "Internship", Alternance: "Apprenticeship", "Working student": "Working student", Tous: "All contracts" };
+export const contractLabel = (c) => CONTRACT_LABELS[c] || c;

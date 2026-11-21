@@ -60,10 +60,10 @@ const clean = (v, max) => String(v || "").trim().slice(0, max);
 
 export async function POST(request) {
   let body;
-  try { body = await request.json(); } catch { return Response.json({ error: "Requête invalide" }, { status: 400 }); }
+  try { body = await request.json(); } catch { return Response.json({ error: "Invalid request" }, { status: 400 }); }
 
   const offer = offers.find((o) => o.id === body?.offerId);
-  if (!offer) return Response.json({ error: "Offre introuvable" }, { status: 404 });
+  if (!offer) return Response.json({ error: "Offer not found" }, { status: 404 });
 
   // On ne fait confiance à rien de ce qui vient du navigateur : tailles bornées.
   const name = clean(body.name, 40);

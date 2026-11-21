@@ -3,17 +3,17 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const LINKS = [
-  { href: "/", label: "Mes matchs" },
-  { href: "/suivi", label: "Mon suivi" },
-  { href: "/marche", label: "Marché" },
-  { href: "/profil", label: "Profil" },
+  { href: "/", label: "My matches" },
+  { href: "/tracker", label: "My tracker" },
+  { href: "/market", label: "Market" },
+  { href: "/profile", label: "Profile" },
 ];
 
 export default function Nav() {
   const path = usePathname();
-  const isActive = (href) => (href === "/" ? path === "/" || path.startsWith("/offre") : path.startsWith(href));
+  const isActive = (href) => (href === "/" ? path === "/" || path.startsWith("/offer") : path.startsWith(href));
   return (
-    <nav className="nav" aria-label="Navigation principale">
+    <nav className="nav" aria-label="Main navigation">
       <Link href="/" className="logo">internship<span>.</span>finder</Link>
       <div className="nav-links">
         {LINKS.map((l) => (

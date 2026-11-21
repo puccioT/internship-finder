@@ -8,12 +8,12 @@ import { useRouter } from "next/navigation";
 import { rankOffers, countriesOf, LANGUAGES } from "@/lib/matching";
 import { useProfile } from "@/lib/store";
 
-const STEPS = ["Rôles visés", "Tes compétences", "Préférences"];
+const STEPS = ["Target roles", "Your skills", "Preferences"];
 const COUNTRIES = [
-  ["France", "France"], ["Germany", "Allemagne"], ["Netherlands", "Pays-Bas"],
-  ["Ireland", "Irlande"], ["United Kingdom", "Royaume-Uni"], ["Switzerland", "Suisse"],
+  ["France", "France"], ["Germany", "Germany"], ["Netherlands", "Netherlands"],
+  ["Ireland", "Ireland"], ["United Kingdom", "UK"], ["Switzerland", "Switzerland"],
 ];
-const CONTRACTS = [["Tous", "Stage + Alternance + Working student"], ["Stage", "Stage"], ["Alternance", "Alternance"], ["Working student", "Working student"]];
+const CONTRACTS = [["Tous", "All contracts"], ["Stage", "Internship"], ["Alternance", "Apprenticeship"], ["Working student", "Working student"]];
 // Outils souvent demandés, proposés même s'ils sont rares dans les offres actuelles
 const COMMON_TOOLS = ["Figma", "Notion", "Jira", "Make", "Zapier", "Amplitude", "A/B testing", "User research",
   "JavaScript", "HTML/CSS", "Git", "LLM", "Google Analytics", "Tableau", "Power BI", "Salesforce", "HubSpot"];
@@ -79,7 +79,7 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
   const finish = () => { setProfile((p) => ({ ...p, onboarded: true })); router.push("/"); };
   const canContinue = step !== 0 || profile.roles.length > 0;
 
-  if (!loaded) return <p className="muted">Chargement du profil…</p>;
+  if (!loaded) return <p className="muted">Loading profile…</p>;
 
   const searchMatches = search.trim()
     ? [...new Set([...suggested.map(([s]) => s), ...COMMON_TOOLS])].filter((s) => s.toLowerCase().includes(search.trim().toLowerCase())).slice(0, 8)
@@ -88,7 +88,7 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
   return (
     <div className="split" style={{ gap: 56, paddingTop: 12 }}>
       <aside className="split-side" style={{ flex: "1 1 280px", maxWidth: 360, display: "flex", flexDirection: "column", gap: 36 }}>
-        <ol aria-label="Étapes" style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: 20 }}>
+        <ol aria-label="Steps" style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: 20 }}>
           {STEPS.map((label, i) => (
             <li key={label}>
               <button onClick={() => (i === 0 || profile.roles.length) && setStep(i)} aria-current={i === step ? "step" : undefined}
@@ -104,14 +104,14 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
           ))}
         </ol>
         <div style={{ borderTop: "1px solid var(--line)", paddingTop: 22, display: "flex", flexDirection: "column", gap: 10 }} aria-live="polite">
-          <span className="eyebrow">Aperçu en direct</span>
+          <span className="eyebrow">Live preview</span>
           <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
             <span style={{ fontFamily: "var(--font-display)", fontSize: 48, fontWeight: 700, letterSpacing: "-0.03em", color: "var(--accent)" }}>{preview.strong}</span>
-            <span className="muted">bons matchs (75+) sur {preview.total} offres dans tes rôles</span>
+            <span className="muted">strong matches (75+) out of {preview.total} offers in your roles</span>
           </div>
           {preview.best && (
             <span className="muted" style={{ fontSize: 14 }}>
-              Ajouter <b style={{ color: "var(--text)" }}>{preview.best.skill}</b> en débloquerait {preview.best.gain} de plus.
+              Adding <b style={{ color: "var(--text)" }}>{preview.best.skill}</b> would unlock {preview.best.gain} more.
             </span>
           )}
         </div>
@@ -119,24 +119,24 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
 
       <div className="split-main" style={{ display: "flex", flexDirection: "column", gap: 28, maxWidth: 860 }}>
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-          <span className="eyebrow">Étape {step + 1} sur 3</span>
+          <span className="eyebrow">Step {step + 1} of 3</span>
           <h1 className="h1" style={{ fontSize: "clamp(32px, 4vw, 48px)" }}>
-            {step === 0 && "Qu'est-ce que tu cherches ?"}
-            {step === 1 && "Qu'est-ce que tu sais vraiment faire ?"}
-            {step === 2 && "Où et comment ?"}
+            {step === 0 && "What are you looking for?"}
+            {step === 1 && "What can you really do?"}
+            {step === 2 && "Where and how?"}
           </h1>
           <p className="muted" style={{ margin: 0, fontSize: 16, maxWidth: 620 }}>
-            {step === 0 && "Choisis un ou plusieurs types de poste. Les vrais stages Product sont rares : vise aussi les postes voisins."}
-            {step === 1 && "Coche seulement ce que tu pourrais défendre en entretien. Le score n'a de valeur que s'il est honnête."}
-            {step === 2 && "Les offres qui exigent une langue que tu ne parles pas seront masquées."}
+            {step === 0 && "Pick one or more role types. True Product internships are rare: aim at neighbouring roles too."}
+            {step === 1 && "Only tick what you could defend in an interview. The score is only worth something if it's honest."}
+            {step === 2 && "Offers that require a language you don't speak will be hidden."}
           </p>
         </div>
 
         {step === 0 && (
           <>
             <div style={{ display: "flex", flexDirection: "column", gap: 8, maxWidth: 360 }}>
-              <label htmlFor="name" style={{ fontSize: 14, fontWeight: 600 }} className="muted">Ton prénom (facultatif)</label>
-              <input id="name" className="input" value={profile.name} onChange={(e) => setProfile((p) => ({ ...p, name: e.target.value }))} placeholder="Ex. Titouan" />
+              <label htmlFor="name" style={{ fontSize: 14, fontWeight: 600 }} className="muted">Your first name (optional)</label>
+              <input id="name" className="input" value={profile.name} onChange={(e) => setProfile((p) => ({ ...p, name: e.target.value }))} placeholder="e.g. Alex" />
             </div>
             <div className="filters">
               {roleFamilies.filter((r) => r !== "Other").map((r) => (
@@ -149,10 +149,10 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
         {step === 1 && (
           <>
             <form onSubmit={addCustom} style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-              <label htmlFor="skill-search" style={{ fontSize: 14, fontWeight: 600 }} className="muted">Chercher ou ajouter une compétence</label>
+              <label htmlFor="skill-search" style={{ fontSize: 14, fontWeight: 600 }} className="muted">Search or add a skill</label>
               <div style={{ display: "flex", gap: 8 }}>
-                <input id="skill-search" className="input" style={{ flex: 1 }} value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Ex. Figma, SQL, A/B testing…" />
-                <button type="submit" className="btn btn-ghost" disabled={!search.trim()}>Ajouter</button>
+                <input id="skill-search" className="input" style={{ flex: 1 }} value={search} onChange={(e) => setSearch(e.target.value)} placeholder="e.g. Figma, SQL, A/B testing…" />
+                <button type="submit" className="btn btn-ghost" disabled={!search.trim()}>Add</button>
               </div>
               {searchMatches.length > 0 && (
                 <div className="filters" style={{ marginTop: 6 }}>
@@ -163,8 +163,8 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
 
             <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
               <div style={{ display: "flex", justifyContent: "space-between", gap: 12, alignItems: "baseline" }}>
-                <h2 className="h2" style={{ fontSize: 17 }}>Les plus demandées dans tes rôles</h2>
-                <span className="muted" style={{ fontSize: 13 }}>nombre d'offres qui la demandent</span>
+                <h2 className="h2" style={{ fontSize: 17 }}>Most requested in your roles</h2>
+                <span className="muted" style={{ fontSize: 13 }}>number of offers asking for it</span>
               </div>
               <div className="filters">
                 {suggested.map(([s, n]) => (
@@ -176,7 +176,7 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
             </section>
 
             <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              <h2 className="h2" style={{ fontSize: 17 }}>Outils courants</h2>
+              <h2 className="h2" style={{ fontSize: 17 }}>Common tools</h2>
               <div className="filters">
                 {COMMON_TOOLS.map((s) => <button key={s} className="chip" aria-pressed={hasSkill(s)} onClick={() => toggleSkill(s)}>{hasSkill(s) ? "✓ " : ""}{s}</button>)}
               </div>
@@ -184,10 +184,10 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
 
             {profile.skills.filter((s) => !COMMON_TOOLS.some((t) => skillKey(t) === skillKey(s)) && !suggested.some(([t]) => skillKey(t) === skillKey(s))).length > 0 && (
               <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-                <h2 className="h2" style={{ fontSize: 17 }}>Ajoutées par toi</h2>
+                <h2 className="h2" style={{ fontSize: 17 }}>Added by you</h2>
                 <div className="filters">
                   {profile.skills.filter((s) => !COMMON_TOOLS.some((t) => skillKey(t) === skillKey(s)) && !suggested.some(([t]) => skillKey(t) === skillKey(s))).map((s) => (
-                    <button key={s} className="chip" aria-pressed="true" onClick={() => toggleSkill(s)} aria-label={`Retirer ${s}`}>✓ {s} ✕</button>
+                    <button key={s} className="chip" aria-pressed="true" onClick={() => toggleSkill(s)} aria-label={`Remove ${s}`}>✓ {s} ✕</button>
                   ))}
                 </div>
               </section>
@@ -198,20 +198,20 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
         {step === 2 && (
           <>
             <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              <h2 className="h2" style={{ fontSize: 17 }}>Pays</h2>
+              <h2 className="h2" style={{ fontSize: 17 }}>Countries</h2>
               <div className="filters">
                 {COUNTRIES.map(([v, l]) => <button key={v} className="chip" aria-pressed={countriesOf(profile).includes(v)} onClick={() => toggleIn("countries", v)}>{l}</button>)}
               </div>
-              <span className="muted" style={{ fontSize: 13 }}>Aucun pays coché = tous les pays.</span>
+              <span className="muted" style={{ fontSize: 13 }}>No country selected = all countries.</span>
             </section>
             <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              <h2 className="h2" style={{ fontSize: 17 }}>Langues que tu parles couramment</h2>
+              <h2 className="h2" style={{ fontSize: 17 }}>Languages you speak fluently</h2>
               <div className="filters">
                 {LANGUAGES.map(([v, l]) => <button key={v} className="chip" aria-pressed={(profile.languages || []).includes(v)} onClick={() => toggleIn("languages", v)}>{l}</button>)}
               </div>
             </section>
             <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              <h2 className="h2" style={{ fontSize: 17 }}>Type de contrat</h2>
+              <h2 className="h2" style={{ fontSize: 17 }}>Contract type</h2>
               <div className="filters">
                 {CONTRACTS.map(([v, l]) => <button key={v} className="chip" aria-pressed={profile.contract === v} onClick={() => setProfile((p) => ({ ...p, contract: v }))}>{l}</button>)}
               </div>
@@ -220,13 +220,13 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
         )}
 
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12, paddingTop: 20, borderTop: "1px solid var(--line)", flexWrap: "wrap" }}>
-          <button className="btn btn-ghost" onClick={() => setStep((s) => Math.max(0, s - 1))} disabled={step === 0}>Retour</button>
+          <button className="btn btn-ghost" onClick={() => setStep((s) => Math.max(0, s - 1))} disabled={step === 0}>Back</button>
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            {step === 1 && <span className="muted" style={{ fontSize: 14 }}>{profile.skills.length} compétence{profile.skills.length > 1 ? "s" : ""}</span>}
-            {step === 0 && !profile.roles.length && <span className="muted" style={{ fontSize: 14 }}>Choisis au moins un rôle</span>}
+            {step === 1 && <span className="muted" style={{ fontSize: 14 }}>{profile.skills.length} skill{profile.skills.length > 1 ? "s" : ""}</span>}
+            {step === 0 && !profile.roles.length && <span className="muted" style={{ fontSize: 14 }}>Pick at least one role</span>}
             {step < 2
-              ? <button className="btn btn-primary" onClick={() => setStep((s) => s + 1)} disabled={!canContinue}>Continuer</button>
-              : <button className="btn btn-primary" onClick={finish}>Voir mes matchs</button>}
+              ? <button className="btn btn-primary" onClick={() => setStep((s) => s + 1)} disabled={!canContinue}>Continue</button>
+              : <button className="btn btn-primary" onClick={finish}>See my matches</button>}
           </div>
         </div>
       </div>
