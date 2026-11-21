@@ -128,7 +128,7 @@ export default function OfferDetail({ offer, pool, skillImplies }) {
         <aside className="split-side" style={{ display: "flex", flexDirection: "column", gap: 40 }}>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             <a href={offer.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Voir l'offre complète ↗</a>
-            <TrackButton offerId={offer.id} variant="full" />
+            <TrackButton offerId={offer.id} offer={offer} variant="full" />
           </div>
           <OutreachMessage key={offer.id} offer={offer} profile={profile} />
           {similar.length > 0 && (

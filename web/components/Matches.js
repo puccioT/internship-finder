@@ -4,9 +4,11 @@
  * Les scores sont calculés ici, dans le navigateur, à partir du profil enregistré.
  */
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 import { useMemo } from "react";
 import { rankOffers, topGaps, verdict, countriesOf, missingLanguages, LANGUAGES } from "@/lib/matching";
-import { useProfile, useTracker } from "@/lib/store";
+import { isOnboarded, useProfile, useTracker } from "@/lib/store";
 import { isNew } from "@/lib/data";
 import { ScoreRing, Segments, Bar } from "@/components/Gauges";
 import TrackButton from "@/components/TrackButton";
@@ -28,6 +30,14 @@ function whyLine(o) {
 export default function Matches({ offers, skillImplies, roleFamilies, generatedAt }) {
   const [profile, setProfile, loaded] = useProfile();
   const [tracker] = useTracker();
+  const router = useRouter();
+
+  // Premier passage : pas encore de profil -> on envoie vers l'onboarding
+  useEffect(() => {
+    // On relit le navigateur : Next peut réafficher une ancienne version de cette page,
+    // dont l'état dirait encore "pas d'onboarding" alors qu'il vient d'être terminé.
+    if (loaded && !profile.onboarded && !isOnboarded()) router.replace("/profil");
+  }, [loaded, profile.onboarded, router]);
 
   const ranked = useMemo(() => rankOffers(offers, profile, skillImplies), [offers, profile, skillImplies]);
   const inTargets = ranked.filter((o) => profile.roles.includes(o.family) || profile.roles.includes(o.secondaryFamily));
@@ -69,6 +79,8 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
     setProfile((p) => ({ ...p, roles: p.roles.includes(role) ? p.roles.filter((r) => r !== role) : [...p.roles, role] }));
 
   const updated = new Date(generatedAt).toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+
+  if (!loaded || !profile.onboarded) return <p className="muted" aria-live="polite">Chargement de ton profil…</p>;
 
   return (
     <>
@@ -161,7 +173,7 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
                   </div>
                   <div style={{ display: "flex", gap: 8, marginTop: "auto" }}>
                     <Link href={`/offre/${o.slug}`} className="btn btn-primary" style={{ flex: 1 }}>Voir le match</Link>
-                    <TrackButton offerId={o.id} />
+                    <TrackButton offerId={o.id} offer={o} />
                   </div>
                 </article>
               ))}

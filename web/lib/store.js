@@ -5,12 +5,13 @@
  */
 import { useEffect, useState, useCallback, useRef } from "react";
 
+// Profil vierge : un nouveau visiteur passe d'abord par l'onboarding (/profil).
 export const DEFAULT_PROFILE = {
   name: "",
-  roles: ["Product", "Strategy & Ops"],
-  skills: ["Python", "Excel", "Google Analytics", "Make", "LLM", "JavaScript", "User research"],
-  countries: ["France"],   // [] = tous les pays
-  languages: ["french", "english"],   // langues parlées (codes anglais)
+  roles: [],
+  skills: [],
+  countries: [],                      // [] = tous les pays
+  languages: [],                      // langues parlées (codes anglais) ; [] = pas de filtre
   hideLanguageMismatch: true,         // masquer les offres qui exigent une autre langue
   onboarded: false,                   // l'utilisateur a-t-il terminé l'onboarding ?
   contract: "Tous",
@@ -64,11 +65,17 @@ function useStored(key, fallback) {
 
 export const useProfile = () => useStored("if-profile", DEFAULT_PROFILE);
 
-/** Suivi : { [offerId]: { status: "todo" | "applied" | "interview" | "closed", updatedAt } } */
+/** Lecture directe (pas d'état React) : utile pour décider d'une redirection sans valeur périmée. */
+export const isOnboarded = () => read("if-profile", DEFAULT_PROFILE).onboarded === true;
+
+/**
+ * Suivi : { [offerId]: { status, addedAt, updatedAt, title, company, city, slug } }
+ * On garde le titre et l'entreprise : si l'offre disparaît des données, la ligne reste lisible.
+ */
 export const TRACK_STATUSES = [
   { id: "todo", label: "À postuler" },
   { id: "applied", label: "Postulé" },
   { id: "interview", label: "Entretien" },
-  { id: "closed", label: "Clôturé" },
+  { id: "closed", label: "Clôturé" },   // refusé, abandonné ou offre fermée
 ];
 export const useTracker = () => useStored("if-tracker", {});

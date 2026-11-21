@@ -2,14 +2,18 @@
 import { useTracker } from "@/lib/store";
 
 /** Bouton signet : ajoute l'offre à "À postuler" dans le suivi, ou l'en retire. */
-export default function TrackButton({ offerId, variant = "icon" }) {
+export default function TrackButton({ offerId, offer, variant = "icon" }) {
   const [tracker, setTracker] = useTracker();
   const tracked = Boolean(tracker[offerId]);
   const toggle = () =>
     setTracker((t) => {
       const next = { ...t };
       if (next[offerId]) delete next[offerId];
-      else next[offerId] = { status: "todo", updatedAt: new Date().toISOString() };
+      else {
+        const now = new Date().toISOString();
+        next[offerId] = { status: "todo", addedAt: now, updatedAt: now,
+          ...(offer && { title: offer.title, company: offer.company, city: offer.city, slug: offer.slug }) };
+      }
       return next;
     });
 
