@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T21:24:49+00:00",
+ "generatedAt": "2026-11-23T21:37:05+00:00",
  "roleFamilies": [
   "Product",
   "Data",
@@ -216,6 +216,8 @@
    ],
    "summary": "The intern will support the HR team by helping with employee surveys, analyzing results, and creating reports. They will also assist in developing and testing AI agents for HR applications and contribute to talent, learning, and culture development initiatives.",
    "startDate": "1. Januar 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "German (very good)",
@@ -245,6 +247,8 @@
    ],
    "summary": "The intern will support website maintenance, online marketing campaigns, and multi-channel distribution across web, app, and email. They will also assist with campaign monitoring, reporting, and creating presentations.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -273,6 +277,8 @@
    ],
    "summary": "The intern will support relationship managers with corporate finance, cash management solutions, and daily banking needs for international large corporations. They will also collect and analyze client and sector information, prepare presentations, and assist with Know-Your-Customer processes.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -302,6 +308,8 @@
    ],
    "summary": "The intern will assist deal teams with preparing pitching materials, executing ongoing asset-backed financing transactions, and analyzing portfolio data. Additionally, they will monitor European capital market developments and prepare presentations for internal and external stakeholders.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -331,6 +339,8 @@
    ],
    "summary": "The student will develop and continuously improve engineering applications for design and operational loads using Python and Matlab. They will also implement testing schemes, apply version control, and document system improvements.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 12,
    "languages": [
     "English (fluent)"
@@ -358,6 +368,8 @@
    ],
    "summary": "The student will support the local HR team with occupational health management, data management, and reporting tasks. They will also provide administrative support to local HR Business Partners.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 12,
    "languages": [
     "German (C1)",
@@ -387,6 +399,8 @@
    ],
    "summary": "The student will support the operational procurement and key account management team by preparing meetings, performing data analysis and reporting tasks, and helping optimize internal processes. Additionally, they will work independently on small sub-projects to improve customer and supplier relationships.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": null,
    "languages": [
     "German (C1)",
@@ -416,6 +430,8 @@
    ],
    "summary": "The student will support project management and industrial ramp-up by developing capacity planning tools, tracking project progress and action items. They will also assist with reporting, data maintenance, and preparing meetings for the ramp-up steering committee.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 12,
    "languages": [
     "German (very good)",
@@ -446,6 +462,8 @@
    ],
    "summary": "The intern will build and refine user-facing components for the InfraPort Data Management System using modern frameworks like React and TypeScript. They will also collaborate with engineers and product teams to integrate APIs and contribute to code reviews and testing.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -471,6 +489,8 @@
    ],
    "summary": "The intern will support marketing professionals in planning, organizing, and executing corporate events and sponsoring partnerships from conception to evaluation. They will actively participate in ongoing processes and assist on-site during events.",
    "startDate": "1. Februar 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "German (good)",
@@ -500,6 +520,8 @@
    ],
    "summary": "The trainee will analyze customer interactions and processes to identify improvements for digital solutions, and collaborate with tech and business teams to develop chatbots and conversational AI applications by writing user stories and managing features. They will also prioritize use cases, evaluate metrics and customer feedback, and participate in agile product development and governance topics.",
    "startDate": "1. Januar, 1. April oder 1. Oktober 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-10",
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -529,6 +551,8 @@
    ],
    "summary": "The intern will assist traders with pricing, liquidity provision, repo market activities, and flow monitoring on the Fixed Income Trading Desk. They will also build analytical tools and automated workflows using Python and VBA, and prepare market commentary and client materials.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -557,6 +581,8 @@
    ],
    "summary": "The intern will analyze operational workflows to identify automation opportunities and support the implementation of AI agents. They will also build a centralized database for process improvements and facilitate awareness sessions on AI technologies.",
    "startDate": "01.02.2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-12",
    "durationMonths": 12,
    "languages": [
     "German (fluent)",
@@ -585,6 +611,8 @@
    ],
    "summary": "The student will support end-to-end process management and order fulfillment while collaborating with customers, manufacturing, purchasing, and logistics providers. They will also contribute to digitalization projects and help develop solutions to optimize supply chain efficiency and resolve bottlenecks.",
    "startDate": "Ab sofort",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 12,
    "languages": [
     "German (fluent)",
@@ -615,6 +643,8 @@
    ],
    "summary": "The intern will build user interfaces using modern JavaScript or TypeScript with React and Next.js, and integrate them with backend services and APIs. They will also collaborate with UX and product teams to create intuitive user flows and contribute to code reviews and testing.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -641,6 +671,8 @@
    ],
    "summary": "The intern will support the development of long-term capacity and capital strategies using data analysis and modeling techniques. They will also apply AI and workflow automation tools to analyze data, identify risks, and automate routine reporting and administrative workflows.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "On-site",
@@ -667,6 +699,8 @@
    ],
    "summary": "The student will support design operations by structuring digital workflows, evaluating PLM platforms, and establishing 3D data governance standards. They will also assist project leads with milestone tracking and create executive presentations for technical architectures.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 12,
    "languages": [
     "English (fluent)"
@@ -695,6 +729,8 @@
    ],
    "summary": "The intern will support the corporate finance advisory team by conducting industry research, analyzing financial information, and preparing pitch books and financial models for M&A and capital markets transactions. They will also assist with due diligence and participate in all aspects of transaction execution.",
    "startDate": "April / May 2027",
+   "startFrom": "2027-04",
+   "startTo": "2027-05",
    "durationMonths": 4,
    "languages": [
     "Dutch (fluent)",
@@ -724,6 +760,8 @@
    ],
    "summary": "The working student will support the procurement commodity team with administrative tasks, data analyses, and event organization. They will also assist the commodity manager in managing supplier requests, preparing strategies, and handling project tasks.",
    "startDate": "15th January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "English (fluent)"
@@ -752,6 +790,8 @@
    ],
    "summary": "The intern will design and build AI agents and automated workflows to support threat investigations by writing and testing Python scripts. They will also collaborate with analysts to evaluate automation tools, troubleshoot systems, and document their projects.",
    "startDate": "Wednesday, June 2, 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [],
    "remote": "Hybrid",
@@ -777,6 +817,8 @@
    ],
    "summary": "The intern will support HR development topics including recruitment and talent management, and participate in deploying HR processes such as performance reviews. They will also contribute to transverse HR projects, produce HR reporting dashboards, and handle onboarding and offboarding follow-ups.",
    "startDate": "January 4, 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French",
@@ -805,6 +847,8 @@
    ],
    "summary": "The intern will support the HR team by updating, structuring, and improving digital HR knowledge bases and intranet content. They will analyze information flows, test content usability from an employee perspective, and help develop quality standards for HR documentation.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -834,6 +878,8 @@
    ],
    "summary": "The intern will optimize customer journeys, processes, and usability while collaborating closely with the management and IT teams. They will also analyze data and user studies, measure performance, and prepare reports and presentations for management.",
    "startDate": "April 2027",
+   "startFrom": "2027-04",
+   "startTo": "2027-04",
    "durationMonths": 6,
    "languages": [
     "German (very good)",
@@ -864,6 +910,8 @@
    ],
    "summary": "The student will assist in preparing and tracking performance dashboards, reporting, and enterprise risk management documentation. They will also compile data, support continuous improvement initiatives, and help integrate AI solutions into operational workflows.",
    "startDate": "15.01.2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-12",
    "durationMonths": 12,
    "languages": [
     "German (fluent)",
@@ -893,6 +941,8 @@
    ],
    "summary": "The intern will participate in the preparation of client and marketing presentations as well as the execution of M&A and ECM transactions. They will work on corporate finance topics including financial analysis, industry research, and valuation work.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -921,6 +971,8 @@
    ],
    "summary": "The intern will support the Client Services Wholesale Banking team with daily operations, balance confirmations, and management reporting. They will also contribute to digitalization and AI initiatives to optimize internal processes.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -950,6 +1002,8 @@
    ],
    "summary": "The intern will support regulatory and governance processes related to data protection, privacy, and AI regulation. They will also assist with quality assurance, digital transformation initiatives, and the preparation of stakeholder guidance.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -979,6 +1033,8 @@
    ],
    "summary": "The intern will support relationship managers in corporate banking by analyzing client and sector data, assisting with financing requests and KYC processes, and helping identify potential new clients. Additionally, they will prepare presentations and coordinate international cooperation with experts across the network.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -1008,6 +1064,8 @@
    ],
    "summary": "The student will support the development and implementation of GNSS positioning algorithms within navigation simulation environments and assist with software lifecycle tasks. They will also process, analyze, and visualize complex datasets while collaborating closely with software and navigation engineers.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "German",
@@ -1036,6 +1094,8 @@
    ],
    "summary": "The student will support the compliance team by performing third-party due diligence, organizing training sessions, and carrying out controls. They will also assist with compliance supplier screening projects and coordinate inputs for auditors and authorities.",
    "startDate": "As soon as possible",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 12,
    "languages": [
     "English (fluent)"
@@ -1063,6 +1123,8 @@
    ],
    "summary": "The intern will support the Quality Conformance Management team by creating presentations, managing and optimizing databases, and assisting with technical incoming inspections. They will also conduct literature research on machine vision and participate in knowledge exchange regarding artificial intelligence.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -1092,6 +1154,8 @@
    ],
    "summary": "The student will conduct research on 5G and LEO satellite communication positioning signal structures and data demodulation. They will also develop signal processing algorithms and perform laboratory experiments using software-defined radio on prototypes.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 12,
    "languages": [
     "German (fluent)",
@@ -1121,6 +1185,8 @@
    ],
    "summary": "The intern will assist on corporate finance projects by modeling and forecasting financial statements, valuing companies, and preparing marketing materials for client pitches and capital issues. They will also get involved in current M&A and advisory deals while interacting with international clients and bankers.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 4,
    "languages": [
     "Dutch (fluent)",
@@ -1149,6 +1215,8 @@
    ],
    "summary": "The intern will support the HR Young Talents team by handling application pre-screening, candidate correspondence, and the complete onboarding process. Additionally, they will assist in planning and executing internal events and job fairs.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -1177,6 +1245,8 @@
    ],
    "summary": "The intern will support relationship managers by preparing client meetings, pitches, portfolio reviews, and wealth research. They will also assist with client onboarding, KYC documentation, lending opportunities, and market research.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 4,
    "languages": [
     "Dutch (fluent)",
@@ -1205,6 +1275,8 @@
    ],
    "summary": "The intern will assist the payroll team with monthly salary calculations using SAP HCM and handle administrative tasks. They will also support daily operations and participate in various HR and finance projects.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -1231,6 +1303,8 @@
    ],
    "summary": "The intern will support cross-functional foodservice projects by tracking milestones, analysing business performance data, and preparing presentations for stakeholders. They will also assist with purchasing, operations, and the implementation of marketing and promotional campaigns.",
    "startDate": "October 2026",
+   "startFrom": "2026-10",
+   "startTo": "2026-10",
    "durationMonths": 6,
    "languages": [
     "English (professional)",
@@ -1259,6 +1333,8 @@
    ],
    "summary": "The intern will support the origination and execution of bond and Schuldschein transactions, including pricing, structuring, and market updates. They will also develop presentation materials for client meetings and help identify new market opportunities.",
    "startDate": "July 2027",
+   "startFrom": "2027-07",
+   "startTo": "2027-07",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -1288,6 +1364,8 @@
    ],
    "summary": "The intern will assist senior bankers and relationship managers in preparing client pitches, managing KYC files, and supporting commercial prospecting actions. They will also draft activity and revenue reports while interacting directly with corporate clients.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (professional)",
@@ -1317,6 +1395,8 @@
    ],
    "summary": "The intern will support Relationship Managers and Client Service Executives in daily internal activities, handling mandates, transactions, credit limits, and account closures. They will also act as an internal point of contact between coverage teams and support functions such as Middle Office and Lending.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -1346,6 +1426,8 @@
    ],
    "summary": "The intern will design, implement, and test compiler and runtime technologies by writing, debugging, and optimizing C or C++ code. Additionally, they will conduct performance evaluations, resolve software defects, and collaborate on open-source and cross-functional projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -1371,6 +1453,8 @@
    ],
    "summary": "The intern will support relationship managers by analyzing customer and sector data to identify potential new clients and assist with financing requests. They will also prepare presentations, conduct risk assessments for the Know-Your-Customer process, and coordinate with international teams.",
    "startDate": "January/February 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -1399,6 +1483,8 @@
    ],
    "summary": "The intern will work on actual projects with significant business impact within areas such as finance, digital technology, trading, or commercial operations. They will collaborate with project teams, deliver meaningful projects, and present their work at the end of the internship.",
    "startDate": "15 June 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [],
    "remote": "Unknown",
@@ -1425,6 +1511,8 @@
    ],
    "summary": "The intern will work on actual projects with a real business impact alongside a project team in the energy sector. They will be evaluated through regular assessments and prepare a final presentation on project delivery and performance.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 12,
    "languages": [],
    "remote": "Unknown",
@@ -1450,6 +1538,8 @@
    ],
    "summary": "The intern will work on a real commercial project with significant business impact within the energy sector. They will collaborate with a project team, receive direct mentorship, and present their project delivery and performance at the end of the internship.",
    "startDate": "April / May / June 2027",
+   "startFrom": "2027-04",
+   "startTo": "2027-06",
    "durationMonths": null,
    "languages": [
     "German (C2)",
@@ -1478,6 +1568,8 @@
    ],
    "summary": "The intern will support customer journey experts in the further development of brokerage and securities offerings. They will also assist the team with daily operations, process design, and the integration of sustainability topics into the product portfolio.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (good)"
@@ -1506,6 +1598,8 @@
    ],
    "summary": "The intern will support commercial excellence initiatives by conducting maturity assessments, analyzing performance data, and updating strategic frameworks. They will also contribute to the deployment of machine learning-based commercial tools and coordinate between business and tech teams.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -1535,6 +1629,8 @@
    ],
    "summary": "The intern will analyze portfolio and business performance data to generate insights, maintain dashboards, and prepare reporting materials. Additionally, they will support go-to-market planning, pricing and promotion analysis, and portfolio reviews for the global hair care category.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -1563,6 +1659,8 @@
    ],
    "summary": "The intern will extract, clean, and process business data to build and maintain analytical assets, forecasting models, and reporting dashboards. They will also assist in coordinating strategic projects, supporting business analysis, and developing in-depth market analyses.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -1592,6 +1690,8 @@
    ],
    "summary": "The intern will analyse data, create dashboards, and identify process optimisation opportunities. They will also implement automation solutions using AI-driven approaches to improve systems and processes.",
    "startDate": "01 February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -1621,6 +1721,8 @@
    ],
    "summary": "The intern will support service delivery management by coordinating projects, tracking ITSM activities, and assisting with operational transitions. They will also produce operational reports, monitor SLAs, and contribute to knowledge sharing and continuous improvement initiatives.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -1650,6 +1752,8 @@
    ],
    "summary": "The intern will support the consulting team by gathering data, conducting market trend analysis, and driving business insights to solve strategic payment challenges for clients. They will also help develop project deliverables such as presentations and reports using Excel and PowerPoint.",
    "startDate": "June 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [
     "Dutch (fluent)",
@@ -1679,6 +1783,8 @@
    ],
    "summary": "The intern will support consulting projects by gathering data, analyzing market trends, and driving business insights. They will also assist in developing client deliverables using tools like PowerPoint and Excel.",
    "startDate": "June or July",
+   "startFrom": "2027-06",
+   "startTo": "2027-07",
    "durationMonths": 3,
    "languages": [
     "English (professional)",
@@ -1708,6 +1814,8 @@
    ],
    "summary": "The intern will support client project implementation and delivery across payments, digital, and product domains, while helping with project planning and coordination. Duties also include conducting data and trend analyses using Visa tools and preparing materials for client workshops.",
    "startDate": "15th June",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [
     "English (fluent)",
@@ -1737,6 +1845,8 @@
    ],
    "summary": "The intern will research and implement deep learning methods for motion compensation in X-ray fluoroscopy sequences. They will design experiments, train models on synthetic and real data, and develop a functional prototype.",
    "startDate": "février à avril 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-04",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -1766,6 +1876,8 @@
    ],
    "summary": "The intern will develop, train, and compare deep learning methods including supervised segmentation, self-supervised representation learning, and patch-based anomaly detection for neurovascular X-ray images. They will build a functional prototype, evaluate its robustness against unknown devices, and formulate development recommendations.",
    "startDate": "February to April 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-04",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -1794,6 +1906,8 @@
    ],
    "summary": "The intern will investigate advanced cyber intrusions, perform reverse engineering on malware, and develop automation tools and threat signatures. Additionally, they will produce high-quality threat intelligence reports and collaborate across teams to track state-sponsored adversaries.",
    "startDate": "June 2, 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [],
    "remote": "Hybrid",
@@ -1820,6 +1934,8 @@
    ],
    "summary": "The intern will support the end-to-end recruitment lifecycle for apprentice and graduate programs, including application screening, interviewing, and assessment coordination. Additionally, they will handle administrative compliance, manage onboarding paperwork, and coordinate campus engagement and employer branding events.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -1849,6 +1965,8 @@
    ],
    "summary": "The student will support the LEAN team in managing the LEAN workshop and analyzing production processes. They will also assist in developing and implementing improvements for production management and efficiency projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (very good)",
@@ -1878,6 +1996,8 @@
    ],
    "summary": "The intern will directly source candidates for engineering roles using LinkedIn Recruiter and Boolean searches, while composing compelling email campaigns and maintaining accurate documentation in the ATS. They will also liaise with recruiters and hiring managers to assess talent pools and research industry market trends.",
    "startDate": "Wednesday, June 2, 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [],
    "remote": "Hybrid",
@@ -1904,6 +2024,8 @@
    ],
    "summary": "The intern will work across development, test, and support on core payment systems and applications. Responsibilities include implementing the software development lifecycle, building microservices, and developing tools to improve processes.",
    "startDate": "June or July 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-07",
    "durationMonths": 3,
    "languages": [],
    "remote": "Unknown",
@@ -1928,6 +2050,8 @@
    ],
    "summary": "The intern will develop behavioral biometrics technology to detect imposter actions on websites and enhance analytics testing capabilities for fraud detection logic. They will work on financial crime-fighting technology utilizing cutting-edge tools alongside a team of engineers.",
    "startDate": "June or July 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-07",
    "durationMonths": 3,
    "languages": [],
    "remote": "Unknown",
@@ -1955,6 +2079,8 @@
    ],
    "summary": "The intern will manage and coordinate global procurement data collection across multiple affiliates while analyzing spends and maintaining dashboards. Additionally, they will support operational efficiencies tracking and conduct ad hoc analyses on logistics and manufacturing topics.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -1984,6 +2110,8 @@
    ],
    "summary": "The intern will coordinate VIP events for a private club, handle private client relations and orders, and assist with website optimization and operational projects. They will also manage event budgeting, billing, and operational improvements related to packaging and logistics.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (good command)"
@@ -2012,6 +2140,8 @@
    ],
    "summary": "The intern will assist the strategy team in conducting deep-dive strategy projects, including market sizing, trend analysis, and capability assessments. They will also collect market insights through research and surveys, and help compile strategy reports.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2040,6 +2170,8 @@
    ],
    "summary": "The intern will map and analyze the sustainability documentation landscape and assess current requirements lifecycles to propose a structured architecture. They will also explore AI and digital solutions to modernize requirements management and develop an implementation roadmap.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -2066,6 +2198,8 @@
    ],
    "summary": "The intern will design, develop, and connect additional functionality in the user interface, APIs, and microservices for financial models. They will also build, test, and deploy new features and support unit tests using Playwright in an Agile environment.",
    "startDate": "December 2026",
+   "startFrom": "2026-12",
+   "startTo": "2026-12",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2094,6 +2228,8 @@
    ],
    "summary": "The intern will contribute to customer engagements by conducting research, analysis, benchmarking, and tool development within the sustainability team. Additionally, they will support regional sustainability programs, communication, training, and the management of SharePoint content and events.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2122,6 +2258,8 @@
    ],
    "summary": "The intern will collaborate with sales professionals on business-generating activities and take part in the full sales cycle including cold calling and prospecting. They will also work on strategic cross-functional sales projects and conduct industry research and competitive analysis.",
    "startDate": "June 2nd, 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 2,
    "languages": [],
    "remote": "Unknown",
@@ -2148,6 +2286,8 @@
    ],
    "summary": "The intern will master CrowdStrike product knowledge and technical requirements while executing hardware and software performance testing, benchmarking, and tuning. They will also develop and deliver technical demonstrations and collateral for internal needs, customers, and partners.",
    "startDate": "June 2nd, 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 2,
    "languages": [],
    "remote": "Hybrid",
@@ -2175,6 +2315,8 @@
    ],
    "summary": "The intern will support the Change Management team in deploying communication and event activities, engaging the Core Team, and assisting with pilot deployments and ERP transformation. Additionally, they will contribute to PMO activities including program planning, dashboard updates, and knowledge management.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -2204,6 +2346,8 @@
    ],
    "summary": "The intern will support the planning and execution of marketing campaigns, activations, and events across lifestyle, teamsport, and running. They will also contribute to influencer marketing, PR activities, and coordinate with external agencies and retailers.",
    "startDate": "January or February 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "Dutch",
@@ -2233,6 +2377,8 @@
    ],
    "summary": "The intern will support global prestige brand activations, media planning, and luxury partnerships to accelerate growth in key markets. They will also help coordinate internal communication plans and organize committees with luxury experts.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 5,
    "languages": [
     "English (fluent)",
@@ -2256,6 +2402,8 @@
    "skills": [],
    "summary": "The intern will act as the right hand to the founder, contributing to internal projects and business operations. They will work closely with the leadership team to support the growth of the fintech scale-up.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -2282,6 +2430,8 @@
    ],
    "summary": "The intern will analyze, update, and improve supply chain and procurement data to calculate and simulate the corporate carbon footprint. They will also contribute to modeling CO2 initiatives, monitoring subsidiary action plans, and supporting extra-financial reporting.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2310,6 +2460,8 @@
    ],
    "summary": "The intern will support the preparation of the CSRD report and assess the impact of new ESRS requirements while benchmarking sustainability disclosures. Additionally, they will assist the Social Sustainability team with human rights topics and help drive engagement initiatives with the internal S&R network.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [],
    "remote": "Unknown",
@@ -2336,6 +2488,8 @@
    ],
    "summary": "The intern will support the preparation of sustainability reporting campaigns, including Ecovadis and CDP, and manage data consolidation and performance assessment. Additionally, they will assist with setting up and testing sustainability data collection tools and data visualization efforts.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2365,6 +2519,8 @@
    ],
    "summary": "The intern will support business performance reporting and financial analysis by monitoring P&L elements and tracking global performance KPIs. They will also contribute to market analysis, business cases, and financial scenario modeling for key initiatives.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2393,6 +2549,8 @@
    ],
    "summary": "The intern will support various marketing initiatives including product marketing, digital campaigns, analytics and insights, and marketing communications. They will collaborate with global teams to translate consumer insights into product concepts and optimize marketing content and technology.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2422,6 +2580,8 @@
    ],
    "summary": "The intern will participate in various digital communication, editorial, social media, or business communication projects within a corporate communications team. They will take on independent responsibilities, work in an agile environment, and learn multiple aspects of global corporate branding and public relations.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -2451,6 +2611,8 @@
    ],
    "summary": "The intern will support the creation of brand universes and strategic guidelines in collaboration with creative and marketing teams. Additionally, they will assist in project management and planning for design projects such as packaging revamp and retail.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -2480,6 +2642,8 @@
    ],
    "summary": "The student will help improve production processes through digitalization and support economic feasibility analyses. They will also assist operations managers with reporting, presentations, and various production management tasks.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (very good)",
@@ -2509,6 +2673,8 @@
    ],
    "summary": "The intern will assist in the day-to-day production of photo and video content, including moodboard creation and coordination with creative agencies. They will also contribute to visual guidelines development and support international markets with their design requests.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -2539,6 +2705,8 @@
    ],
    "summary": "The intern will assist in the deployment, configuration, and monitoring of cloud and hybrid infrastructure solutions while supporting system maintenance and automation tasks. They will also document procedures, contribute to security and compliance efforts, and collaborate with cross-functional teams on technology operations.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -2568,6 +2736,8 @@
    ],
    "summary": "The intern will support the Visa Consulting and Analytics team by gathering data, conducting market trend analysis, and helping deliver strategic projects for clients. They will also assist in developing project deliverables such as presentations and reports using Excel and PowerPoint.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 5,
    "languages": [
     "English (fluent)",
@@ -2597,6 +2767,8 @@
    ],
    "summary": "The intern will actively participate in supply chain management projects, handling smaller autonomous projects and various reports. They will also support the preparation of reports and presentations for the leadership team.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 24,
    "languages": [
     "German (fluent)",
@@ -2626,6 +2798,8 @@
    ],
    "summary": "The intern will source and evaluate investment opportunities by conducting market research, benchmarks, and financial analysis. They will also support portfolio monitoring and participate in the preparation of investment memos.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [],
    "remote": "Unknown",
@@ -2653,6 +2827,8 @@
    ],
    "summary": "The intern will contribute to the development of algorithmic building blocks ranging from classical machine learning to generative AI components, and will maintain and retrain existing models in production. They will also design and run evaluations for AI systems and contribute to responsible AI frameworks.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -2682,6 +2858,8 @@
    ],
    "summary": "The intern will support mechanical manufacturing processes, qualification, and validation activities within an engineering team. They will also contribute to technical development projects and assist in problem-solving using statistical methods.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 12,
    "languages": [
     "German (fluent)"
@@ -2710,6 +2888,8 @@
    ],
    "summary": "The intern will contribute to the development and maintenance of the data platform, including data pipelines, data quality monitoring, and platform automation. They will also support data ingestion and transformation workflows and collaborate with data engineers to ensure data availability and reliability.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [],
    "remote": "Unknown",
@@ -2736,6 +2916,8 @@
    ],
    "summary": "The intern will contribute to the assessment, classification, and optimization of the organization's application portfolio by working closely with application owners and financial analysts. They will also prepare regular reports and dashboards to provide insights into the health and effectiveness of the IT portfolio.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -2765,6 +2947,8 @@
    ],
    "summary": "The intern will assist in data collection and reporting for key environmental indicators and support the development and deployment of the Group's decarbonization and water efficiency roadmap. They will also collaborate on defining sustainable manufacturing benchmarks and best practices at the group level.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2794,6 +2978,8 @@
    ],
    "summary": "The intern will develop and optimize AI-powered applications, prompts, and automated workflows for operational and strategic use cases. Additionally, they will analyze production and process data, and create dashboards and management reports.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -2823,6 +3009,8 @@
    ],
    "summary": "The intern will manage and monitor international social media accounts and influencer projects while supporting the digital ecosystem team with website management, SEO, and CRM. They will also conduct competitor benchmarking, create editorial calendars, and coordinate content production with various markets and partners.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -2851,6 +3039,8 @@
    ],
    "summary": "The intern will assist in implementing the anti-counterfeit strategy and managing brand security programmes by coordinating investigations, authentication processes, and online monitoring. They will also contribute to reporting, draft management documents, and facilitate communication between different company entities.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -2878,6 +3068,8 @@
    ],
    "summary": "The intern will create and maintain qualification documents according to quality standards and participate in design projects. They will also manage technical drawings and coordinate with suppliers and manufacturing teams.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 12,
    "languages": [
     "German (very good)"
@@ -2906,6 +3098,8 @@
    ],
    "summary": "The intern will help digitize and optimize department processes by creating documentation, flowcharts, and training materials. They will also test new software solutions and support cross-functional digitization projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 12,
    "languages": [
     "German (fluent)"
@@ -2934,6 +3128,8 @@
    ],
    "summary": "The intern will create visual identities for brands including logos, packaging, labels, and marketing materials while collaborating with marketing and development teams. They will also produce technical files, 2D renderings, and models for production.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -2959,6 +3155,8 @@
    ],
    "summary": "The intern will support the project management team in planning and implementing ultrasound projects from order to delivery. They will assist in monitoring project scope, schedules, and budgets, while analyzing data and preparing documentation and reports.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -2989,6 +3187,8 @@
    ],
    "summary": "The intern will participate in global internal control topics, including presentations, GRC tool support, and process training. They will also assist with group-wide internal audit missions, risk identification, and data analytics dashboards.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -3017,6 +3217,8 @@
    ],
    "summary": "The intern will conduct financial analyses to support quarterly and monthly closings while tracking cash performance indicators such as working capital and free cash flow. They will also participate in financial forecasting and help prepare presentation materials for top management.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -3046,6 +3248,8 @@
    ],
    "summary": "The intern will assist the Experience Design manager by conducting upstream research, creating mood boards, and developing concepts. They will also collaborate on designing projects through sketches, plans, and 3D images while preparing presentation materials.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -3074,6 +3278,8 @@
    ],
    "summary": "The intern will produce financial performance reports and presentations for top management while verifying affiliate data accuracy during reporting cycles. They will also ensure the reliability of digital reporting tools and prepare ad-hoc financial analyses for various departments.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -3103,6 +3309,8 @@
    ],
    "summary": "The intern will contribute to the development of algorithmic building blocks, including classical Machine Learning and Generative AI components. They will also be responsible for maintaining existing models, monitoring performance in production, and evaluating AI systems.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -3131,6 +3339,8 @@
    ],
    "summary": "The intern will support spare parts management by conducting inventory counts, organizing warehouse spaces, and maintaining master data in SAP ERP. They will also process goods movements, clean up the database, and track key performance indicators to improve plant maintenance operations.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -3160,6 +3370,8 @@
    ],
    "summary": "The intern will support the Program Management Office by preparing governance activities, maintaining project assets, dashboards, and documentation. They will also contribute to continuous improvement, team enablement, and the exploration of AI automation tools for the digital transformation program.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -3190,6 +3402,8 @@
    ],
    "summary": "The intern will contribute to implementing MLOps processes to maintain and deploy machine learning models in production. They will also develop scalable pipelines, maintain APIs, and apply software development practices to enhance application code quality.",
    "startDate": "July 2026",
+   "startFrom": "2026-07",
+   "startTo": "2026-07",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -3220,6 +3434,8 @@
    ],
    "summary": "The intern will support category and business analysis by tracking market trends and analyzing data from sources like Nielsen and IWSR. They will also contribute to innovation project delivery and knowledge building for the non-alcoholic spirits portfolio.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -3250,6 +3466,8 @@
    ],
    "summary": "The intern will support front-end innovation projects by creating, visualizing, and prototyping new physical product concepts. They will translate consumer needs into meaningful product directions through sketches, storyboards, CAD models, and renders.",
    "startDate": "Q3/Q4 2026",
+   "startFrom": "2026-07",
+   "startTo": "2026-12",
    "durationMonths": 6,
    "languages": [],
    "remote": "On-site",
@@ -3276,6 +3494,8 @@
    ],
    "summary": "The intern will explore new product and experience opportunities for parents and babies, turning insights and ideas into physical and digital prototypes. They will collaborate with designers and engineers using CAD, sketching, and AI-supported tools to create presentations and visualize innovation concepts.",
    "startDate": "Q3/Q4 2026",
+   "startFrom": "2026-07",
+   "startTo": "2026-12",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -3302,6 +3522,8 @@
    ],
    "summary": "The intern will assist the Brand Experience Project Manager in coordinating brand activation programs, events, and media partnerships from strategy to execution. They will also contribute to agency briefings, market trends monitoring, and operational follow-ups.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -3328,6 +3550,8 @@
    ],
    "summary": "The intern will prepare budgets and forecasts for IT and Tech department costs, and produce monthly financial reports and variance analyses. They will also manage tax requirements through the annual charging process and collaborate with global Tech and Finance teams.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -3356,6 +3580,8 @@
    ],
    "summary": "The intern will support the Executive Assistant of the VP Marketing Prestige with day-to-day administrative tasks, invoice management, and expense reports. They will also assist with event logistics, internal database maintenance, and general process improvements.",
    "startDate": "2026-09-01",
+   "startFrom": "2026-01",
+   "startTo": "2026-12",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -3386,6 +3612,8 @@
    ],
    "summary": "The intern will support the external marketplaces team by optimizing product offerings and creating creative content for Amazon Brand Stores. Additionally, they will conduct research on current trends in licensing and apparel and help process personalized orders.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -3416,6 +3644,8 @@
    ],
    "summary": "The intern will generate qualified commercial opportunities by contacting and qualifying incoming leads via phone, SMS, and email. They will also collaborate closely with real estate credit experts to transform prospective projects into concrete financing agreements.",
    "startDate": "January",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)"
@@ -3444,6 +3674,8 @@
    ],
    "summary": "The intern will analyze commercial performance data and build automated dashboards to support the sales team. They will also design and implement internal tools and operational processes to optimize business workflows.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "French (fluent)"
@@ -3472,6 +3704,8 @@
    ],
    "summary": "The intern will execute compliance monitoring checks, maintain regulatory registers, and support due diligence and risk assessments. They will also assist with policy documentation and regulatory horizon scanning for the UK entity.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -3499,6 +3733,8 @@
    ],
    "summary": "The intern will support UK expansion planning, product launches, and partner onboarding by coordinating stakeholders and tracking milestones. They will also gather reporting requirements, design reporting tools, and prepare documentation for senior leadership.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -3527,6 +3763,8 @@
    ],
    "summary": "The intern will analyze purchasing data to identify savings opportunities, conduct market research, and map supplier landscapes. They will also prepare supplier profiles, support commercial negotiations, and help maintain procurement templates and documentation.",
    "startDate": "Immediately",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -3554,6 +3792,8 @@
    ],
    "summary": "The apprentice will assist property managers with daily administrative, technical, and operational tasks such as managing quotes, supplier invoices, and insurance claims. They will also handle customer inquiries by email or phone and assist in preparing General Assemblies.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -3580,6 +3820,8 @@
    ],
    "summary": "The intern will work closely with the Country Manager to support daily business operations and drive strategic initiatives and projects. They will also coordinate cross-functional activities, internal communications, and event organization.",
    "startDate": "Ab sofort",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -3608,6 +3850,8 @@
    ],
    "summary": "The intern will independently manage the full internship recruitment process from sourcing to offer coordination and support day-to-day HR operations and reference letter preparation. Additionally, they will drive HR projects, maintain employee data across systems, and coordinate interviews with hiring managers.",
    "startDate": "February or earlier",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -3636,6 +3880,8 @@
    ],
    "summary": "The intern will guide new clients through the platform onboarding process, assisting with configuration and administrative follow-ups. They will also learn basic real estate accounting principles to support setup operations and help digitize documentation.",
    "startDate": "4 janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -3662,6 +3908,8 @@
    ],
    "summary": "The intern will manage supplier and carrier payment cycles, handle monthly invoicing, cash flow tracking, and customer receivables. They will also assist with administrative tasks, process improvements, and international development projects.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -3691,6 +3939,8 @@
    ],
    "summary": "The intern will support brokerage managers in daily trading activities, risk management, order monitoring, and trade execution. They will also assist with market abuse monitoring, regulatory compliance reporting, and the operational rollout of new investment products.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -3720,6 +3970,8 @@
    ],
    "summary": "The intern will support high-stakes strategic projects, board meetings, and leadership offsites while helping to run company OKRs and market expansion initiatives. They will also own independent work packages and collaborate cross-functionally with senior leadership.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 4,
    "languages": [],
    "remote": "Hybrid",
@@ -3746,6 +3998,8 @@
    ],
    "summary": "The intern will coordinate with cleaning service providers and manage administrative tasks such as orders, contracts, and invoice verification. Additionally, they will create reports, analyze quality reports, and contribute to process improvement projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (C1)",
@@ -3775,6 +4029,8 @@
    ],
    "summary": "The intern will coordinate with cleaning service providers, manage orders, contracts, and invoices, and track quality metrics using Excel. They will also assist with reporting and participate in smaller process improvement projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (C1)",
@@ -3803,6 +4059,8 @@
    ],
    "summary": "The intern will take end-to-end responsibility for projects by building AI agents, workflows, and automations using no-code, low-code, and AI tools. They will also prepare data and build dashboards to measure impact and drive decision-making.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 4,
    "languages": [
     "German (fluent)",
@@ -3832,6 +4090,8 @@
    ],
    "summary": "The intern will take end-to-end ownership of projects involving AI agents, workflows, and automations to scale the virtual power plant business. They will also prepare data, build dashboards, and collaborate across operations and technology teams.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 4,
    "languages": [
     "German (fluent)",
@@ -3861,6 +4121,8 @@
    ],
    "summary": "The intern will take end-to-end ownership of tech venture projects, building AI agents, workflows, and automations to scale the virtual power plant. They will also process data and build dashboards to measure impact and drive business decisions.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 4,
    "languages": [
     "German (fluent)",
@@ -3890,6 +4152,8 @@
    ],
    "summary": "The intern will support outbound sales motions, assist with strategic deals, and contribute to sales enablement materials. They will also conduct market research, drive data-driven insights on sales performance, and lead AI and process automation initiatives.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -3918,6 +4182,8 @@
    ],
    "summary": "The intern will assist with amicable and judicial debt recovery procedures by preparing reminders and gathering supporting documents for lawyers and bailiffs. They will also contribute to optimizing legal workflows and tracking reports.",
    "startDate": "February 15, 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "French (fluent)"
@@ -3947,6 +4213,8 @@
    ],
    "summary": "The intern will help run and improve quote-to-cash systems by managing billing operations, configuring financial systems, and ensuring cross-system data integrity. Additionally, they will triage issues, support month-end close processes, and lead a process automation project.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -3974,6 +4242,8 @@
    ],
    "summary": "The intern will manage strategic projects in the field of constructability, analyzing sales and operations funnels to identify bottlenecks. They will also build business cases, evaluate initiative impacts, and coordinate implementation with cross-functional teams.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 4,
    "languages": [
     "German (fluent)",
@@ -4002,6 +4272,8 @@
    ],
    "summary": "The intern will own and develop an AI project from prototype to production use for the team or customers. They will work directly alongside product, engineering, or go-to-market teams to ship, measure, and iterate based on real feedback.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (professional)"
@@ -4029,6 +4301,8 @@
    ],
    "summary": "The intern will conduct initial phone calls to qualify incoming leads and analyze prospect needs for co-ownership solutions. They will also assist Account Executives by organizing demonstration meetings and updating the CRM system.",
    "startDate": "janvier",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)"
@@ -4056,6 +4330,8 @@
    ],
    "summary": "The intern will support day-to-day operations for a new state-subsidised pension product by handling client queries, managing ZfA processes, and payment reconciliation. Additionally, they will help build internal playbooks, document workflows, and identify opportunities for process improvements.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -4085,6 +4361,8 @@
    ],
    "summary": "The intern will participate in client meetings, identify prospect needs regarding property management solutions, and contribute to the sales follow-up and subscription process. They will also update the CRM and help improve sales processes and messaging alongside the sales team.",
    "startDate": "janvier",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)"
@@ -4113,6 +4391,8 @@
    ],
    "summary": "The intern will support the campaign management team by tracking campaign performance, preparing reports for clients, and managing campaigns from preparation to launch and evaluation. They will also analyze customer satisfaction, help develop dashboards, and work with tools like Tableau, Canva, and WordPress.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "German (C1)",
@@ -4142,6 +4422,8 @@
    ],
    "summary": "The intern will manage the operations of partner campaigns and on-site events from setup to launch, while qualifying inbound partners and coordinating cross-functional teams. Additionally, they will track campaign performance metrics, handle partner outreach, and ensure quality assurance before go-live.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -4168,6 +4450,8 @@
    ],
    "summary": "The intern will support the launch of new practice management software and features by contributing to go-to-market strategies and analyzing user needs. They will also conduct market and competitor research and collaborate cross-functionally with product and sales teams.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -4197,6 +4481,8 @@
    ],
    "summary": "The intern will execute day-to-day anti-financial crime processes, including PEP and sanctions screening, KYB checks, and transaction monitoring. They will also help improve automation and tooling to streamline case processing and collaborate with compliance teams.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (good)"
@@ -4224,6 +4510,8 @@
    ],
    "summary": "The student will support the operational planning team by creating, updating, and managing train schedules and related data. They will also handle schedule changes, interface with internal and external partners, and assist with communication regarding operational disruptions.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -4251,6 +4539,8 @@
    ],
    "summary": "The working student will support the operations and timetable planning team by creating and maintaining schedule data and processing timetable changes. They will also manage data reconciliation across various interfaces and assist with customer communication regarding schedule updates.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -4279,6 +4569,8 @@
    ],
    "summary": "The working student will conduct prospect research and outreach to book meetings, while managing smaller deals and inbound leads end-to-end. They will also support the sales team with reporting, pipeline analysis, and Salesforce maintenance.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (native)",
@@ -4307,6 +4599,8 @@
    ],
    "summary": "The intern will plan and schedule incoming service tickets for heat pump customers while coordinating daily technician tours. They will act as a point of contact for appointment coordination, prioritize urgent cases, and manage ongoing operations and capacities.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)"
@@ -4334,6 +4628,8 @@
    ],
    "summary": "The intern will develop and onboard the network of independent drivers by training them on tools and launching activation campaigns. They will also manage partner operations, including handling support, monitoring service quality, and processing bi-monthly billing.",
    "startDate": "Février 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -4361,6 +4657,8 @@
    ],
    "summary": "The intern will contribute to website growth by maintaining and optimizing the shared component library, fixing accessibility, performance, and browser-compatibility issues. Additionally, they will write automated tests, monitor Core Web Vitals, and utilize AI tools for coding and testing.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -4387,6 +4685,8 @@
    ],
    "summary": "The intern will write microcopy for app screens and product experiences, collaborating with designers and product teams to localize the product for the German market. Additionally, they will test and optimize texts to ensure users understand on-screen instructions quickly and effortlessly.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (native)",
@@ -4414,6 +4714,8 @@
    ],
    "summary": "The intern will assist customers with their inquiries via phone and email while working closely with various operational teams. They will also process and forward customer requests as part of a dedicated support team.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (C1)"
@@ -4442,6 +4744,8 @@
    ],
    "summary": "The intern will work within the CEO Office to manage strategic projects, market research, and M&A target evaluations. They will also assist in investor relations, board meeting preparation, and internal communications.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -4471,6 +4775,8 @@
    ],
    "summary": "The intern will write and test copywriting variations for ads, social media, and website content while conducting competitor and trend research. They will also manage blog content and support marketing campaigns to enhance brand awareness.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 3,
    "languages": [
     "English (fluent)"
@@ -4499,6 +4805,8 @@
    ],
    "summary": "The intern will conduct German language training for international specialists and develop educational and technical teaching materials. Additionally, they will support administrative processes, coordinate online courses, and assist with onboarding and student support at the academy.",
    "startDate": "July 2026",
+   "startFrom": "2026-07",
+   "startTo": "2026-07",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -4526,6 +4834,8 @@
    ],
    "summary": "The student will handle customer inquiries and requests as the primary contact point via telephone and email. They will also collaborate with various operational teams to structure and resolve customer issues.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (C1)"
@@ -4553,6 +4863,8 @@
    ],
    "summary": "The intern will coordinate logistics operations by scheduling vehicle pick-ups and deliveries, and match transport missions with independent drivers. They will also manage daily transport emergencies and negotiate pricing with drivers to ensure successful deliveries.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)"
@@ -4580,6 +4892,8 @@
    ],
    "summary": "The intern will be responsible for making the first contact with potential clients by explaining the product and convincing property owners. They will also support sales managers throughout the sales process and help build a new outbound channel.",
    "startDate": "February",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 4,
    "languages": [
     "German (fluent)",
@@ -4608,6 +4922,8 @@
    ],
    "summary": "The intern will own cross-functional CEO Office projects from end to end and support strategic planning. They will also conduct research, analyze data, and assist with day-to-day operations to enhance efficiency.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "On-site",
@@ -4634,6 +4950,8 @@
    ],
    "summary": "The intern will manage event registrations, invoicing, and supplier orders while structuring administrative processes. They will also provide operational on-site support during B2B health events.",
    "startDate": "Janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -4660,6 +4978,8 @@
    ],
    "summary": "The intern will manage supplier and customer accounts, bank reconciliations, and employee expense reports. They will also actively contribute to the monthly closing process and help improve accounting working methods.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -4689,6 +5009,8 @@
    ],
    "summary": "The intern will monitor EU policy and regulatory developments, and prepare briefings and position papers for engagement with European institutions and governments. They will also support government relations coordination and align policy insights with technical teams.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -4717,6 +5039,8 @@
    ],
    "summary": "The intern will take features from definition to release by writing requirements, collaborating with engineering and design teams, and tracking adoption after launch. They will also analyze product usage data to identify areas for improvement and present actionable proposals to leadership.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (professional)"
@@ -4744,6 +5068,8 @@
    ],
    "summary": "The intern will manage reception duties, visitor access, and daily office operations while supporting employee onboarding and workplace events. They will also contribute to workplace projects and help streamline administrative workflows to improve operational efficiency.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -4774,6 +5100,8 @@
    ],
    "summary": "The intern will support the EMEA leadership team with annual planning, go-to-market strategy execution, and sales operations. They will leverage internal and external data to deliver commercial insights, drive strategic projects, and manage regional forecasting and performance governance.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (professional)"
@@ -4802,6 +5130,8 @@
    ],
    "summary": "The intern will contribute to technical projects by developing, maintaining, and shipping software products alongside experienced engineers. They will build and improve backend architecture and user-friendly experiences while solving real-world marketplace problems.",
    "startDate": "June 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [],
    "remote": "On-site",
@@ -4828,6 +5158,8 @@
    ],
    "summary": "The intern will support day-to-day investor relations activities by assisting with monthly investor reporting and preparing shareholder materials such as quarterly updates and ESG reporting. They will also manage shareholder interactions in a CRM and help develop investor relations processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -4857,6 +5189,8 @@
    ],
    "summary": "The intern will analyze business and financial performance to uncover insights and support data-driven decision-making. They will also build and maintain critical business dashboards and reporting frameworks.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -4885,6 +5219,8 @@
    ],
    "summary": "The intern will build AI solutions to streamline customer ticket workflows from automated resolution to smart routing and agent assistance. They will take ownership end-to-end, scoping business cases, collaborating with stakeholders, and deploying prototypes using a modern agentic stack.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -4911,6 +5247,8 @@
    ],
    "summary": "The intern will collaborate on strategic projects including the financial assessment of new product launches and help define HGB and IFRS accounting requirements. Additionally, they will support the preparation of annual financial statements and handle audit-related inquiries.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -4940,6 +5278,8 @@
    ],
    "summary": "The intern will review, reconcile, and document long-term financial models and multi-year business plans. Additionally, they will build dashboards and automations to help teams answer financial questions.",
    "startDate": "Immediately",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 3,
    "languages": [
     "English (fluent)",
@@ -4969,6 +5309,8 @@
    ],
    "summary": "The intern will support the accounting team with day-to-day activities such as invoice processing and expense claims, while assisting with monthly reporting and tax invoices. Additionally, they will explore process automation opportunities and contribute to various cross-functional finance projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -4993,6 +5335,8 @@
    ],
    "summary": "The intern will accurately label and annotate images, text, audio, and video data to support search and recommendation systems. They will also maintain data quality, resolve labeling discrepancies, and provide feedback to improve guidelines.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -5021,6 +5365,8 @@
    ],
    "summary": "The intern will label and annotate images, text, audio, and video to support search and recommendation systems. They will also maintain high data quality by following guidelines and resolving discrepancies with the team.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -5050,6 +5396,8 @@
    ],
    "summary": "The intern will orchestrate operational workflows for upselling and cross-selling offers, monitor KPIs, and analyze customer feedback to optimize performance. They will also manage planning based on stock and collaborate with finance, marketing, and procurement teams to improve existing processes.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -5079,6 +5427,8 @@
    ],
    "summary": "The intern will support account managers in handling operational and commercial follow-ups for partner stores, and analyze daily performance metrics. They will also contact underperforming partners to improve their operational excellence and help set up marketing campaigns.",
    "startDate": "2 Septembre 2024",
+   "startFrom": "2024-09",
+   "startTo": "2024-09",
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -5108,6 +5458,8 @@
    ],
    "summary": "The intern will investigate operational bottlenecks, analyze fleet performance data, and standardize processes across multiple regions. They will also build performance dashboards, document standard operating procedures, and support optimization initiatives.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -5139,6 +5491,8 @@
    ],
    "summary": "The intern will support the communications team by drafting press materials, managing media outreach, and handling daily press monitoring and newsroom updates. They will also assist with corporate social media management, PR agency coordination, and various research and logistical tasks.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -5167,6 +5521,8 @@
    ],
    "summary": "The student will process internal tickets on cost center adjustments, help resolve intercompany recharge differences, and support the preparation of monthly financial reports. Additionally, they will assist cost center owners with inquiries, maintain internal documentation, and document controlling workflows.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (good)"
@@ -5194,6 +5550,8 @@
    ],
    "summary": "The intern will maintain accurate IT asset inventory records and track hardware movements within the CMDB. Additionally, they will support the full hardware lifecycle, including onboarding activities, peripheral distribution, and basic first-line technical assistance.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -5220,6 +5578,8 @@
    ],
    "summary": "The intern will support the merchant marketing team by executing 360-degree marketing campaigns and partner plans to drive restaurant acquisition and retention. They will also analyze campaign performance, manage budgets, and coordinate cross-functional projects with sales and creative teams.",
    "startDate": "December 2026 / January 2027",
+   "startFrom": "2026-12",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "French (fluent)",
@@ -5248,6 +5608,8 @@
    ],
    "summary": "The student will support the Central Tax team with German direct taxes, including preparing tax returns, tax calculations, and tax accounting. They will also contribute to tax audits, tax litigation, and the implementation of tax processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 12,
    "languages": [
     "English (fluent)",
@@ -5276,6 +5638,8 @@
    ],
    "summary": "The intern will support the recipe team in the kitchen by preparing cooking and tasting sessions, maintaining kitchen organization, and ensuring recipe accuracy. They will also assist with marketing initiatives, culinary inspiration sessions, and research into recipe successes.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -5305,6 +5669,8 @@
    ],
    "summary": "The intern will manage day-to-day operations for HelloFresh Market, handling stock tracking, pricing updates, margin calculations, and recipe management. Additionally, they will analyse customer feedback, evaluate ingredients, and perform market benchmarking to optimize the menu offering.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -5334,6 +5700,8 @@
    ],
    "summary": "The intern will contribute to the design, analysis, or testing of Alpha systems by carrying out finite element simulations and engineering studies. They will also document results, present them to the team, and translate findings into concrete design recommendations.",
    "startDate": "January - March 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-03",
    "durationMonths": 12,
    "languages": [],
    "remote": "On-site",
@@ -5361,6 +5729,8 @@
    ],
    "summary": "The student will build, test, and troubleshoot custom electrical prototypes and design printed circuit boards (PCBs) for mobile mapping systems. They will also collaborate with multidisciplinary teams to integrate electrical systems, validate hardware, and support production ramp-up.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -5387,6 +5757,8 @@
    ],
    "summary": "The intern will support flight and test data analysis by developing scripts and comparing numerical predictions against actual results. They will also contribute to automated workflows, sensor instrumentation documentation, and multidisciplinary loads and dynamics engineering activities.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (professional)"
@@ -5414,6 +5786,8 @@
    ],
    "summary": "The intern will support the Learning and Development team by coordinating training sessions, managing the Learning Management System, and contributing to employee development projects. They will also analyze learning feedback, research L&D trends, and provide administrative support for learning activities.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -5442,6 +5816,8 @@
    ],
    "summary": "The student will respond to customer inquiries in Dutch and English across live chat, email, and phone, while troubleshooting complex account issues. Additionally, they will guide new corporate users through the application and share feedback to improve support processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (business-fluent)",
@@ -5470,6 +5846,8 @@
    ],
    "summary": "The intern will own strategic projects from analysis to implementation, focusing on optimizing the sales and operations funnel to overcome installation bottlenecks. They will evaluate the impact of various initiatives, build business cases, and coordinate with operations, tech, and software teams to bring new solutions to life.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 5,
    "languages": [
     "German (fluent)",
@@ -5499,6 +5877,8 @@
    ],
    "summary": "The intern will drive end-to-end project pilots for a new venture, from customer acquisition to operational site support and process implementation. They will also quantify market potentials, conduct feasibility analyses, and prepare strategic presentations for C-level management.",
    "startDate": "Q4",
+   "startFrom": "2026-10",
+   "startTo": "2026-12",
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -5528,6 +5908,8 @@
    ],
    "summary": "The intern will serve as the first point of contact for end-user technical support, resolving day-to-day IT issues and documenting solutions. Additionally, they will manage device lifecycles, including laptop provisioning, configuration, hardware logistics, and employee technology onboarding and offboarding.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -5556,6 +5938,8 @@
    ],
    "summary": "The intern will support the monthly payroll cycle by collecting data, managing digital documents, and ensuring compliance across multiple locations. They will also act as the first point of contact for employee payroll inquiries and assist with onboarding sessions.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (professional)",
@@ -5585,6 +5969,8 @@
    ],
    "summary": "The intern will support recruiters with end-to-end talent acquisition processes for product and tech roles, including candidate sourcing and interview coordination. Additionally, they will independently manage the full recruitment lifecycle for product operations positions while ensuring a high-quality candidate experience.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (proficient)"
@@ -5613,6 +5999,8 @@
    ],
    "summary": "The intern will work on strategic and operational in-house consulting projects, developing hypotheses and recommendations from analysis. They will also create analytical deep-dives, business cases, and executive readouts for top management while driving sub-projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)"
@@ -5641,6 +6029,8 @@
    ],
    "summary": "The intern will develop and manage go-to-market strategies by conducting market and competitor analyses, and coordinate cross-functional teams to ensure successful product launches. Additionally, they will analyze performance KPIs to identify improvement levers and optimize business actions.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)"
@@ -5668,6 +6058,8 @@
    ],
    "summary": "The intern will support the optimization and development of operational processes, analyze structures and metrics, and coordinate projects to scale operations. They will also drive their own initiatives from problem identification to implementation.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -5697,6 +6089,8 @@
    ],
    "summary": "The intern will execute and supervise real-time automated payment flows while conducting daily reconciliations between internal ledgers and partner bank data. They will also manage operational liaison for partner banks, coordinate tech enhancements, and help optimize deposit processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (C1)",
@@ -5726,6 +6120,8 @@
    ],
    "summary": "The intern will support performance marketing activities, customer onboarding optimization, and website management for the Dutch market. They will also track growth strategy execution, conduct competitive analysis, and prepare reports.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "Dutch (fluent)",
@@ -5755,6 +6151,8 @@
    ],
    "summary": "The student will coordinate intellectual property matters, evaluate and rollout legal technology including AI-powered solutions, and build AI-supported workflows. They will also manage knowledge bases, create internal documentation, conduct legal research, and support corporate and privacy matters.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (strong)",
@@ -5784,6 +6182,8 @@
    ],
    "summary": "The working student will assist in developing and implementing security measures, conducting research on AI and cybersecurity trends, and evaluating systems for vulnerabilities. Additionally, the intern will support security tool management, organize documentation, and collaborate on security awareness initiatives.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -5812,6 +6212,8 @@
    ],
    "summary": "The working student will set up laptops, accounts, phones, and peripherals while providing hands-on IT support across the office and shop floor. They will troubleshoot common IT issues, maintain IT equipment inventory, and help improve basic IT processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -5841,6 +6243,8 @@
    ],
    "summary": "The intern will implement new features and improve in-house software used to operate test rigs and launch facilities. They will also contribute to full-stack, backend, and frontend development while helping automate engineering processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -5869,6 +6273,8 @@
    ],
    "summary": "The intern will quantify market potentials, conduct feasibility analyses, and take end-to-end ownership of project pilots from customer acquisition to operational site support. They will also prepare strategic materials for C-level check-ins and design scalable sales and operations processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)",
@@ -5897,6 +6303,8 @@
    ],
    "summary": "The intern will onboard and support external sales partners, answering operational questions and facilitating daily collaboration. Additionally, they will analyze processes, create reports, and drive internal optimization projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (fluent)"
@@ -5925,6 +6333,8 @@
    ],
    "summary": "The intern will support the People Operations and Payroll team by managing employee lifecycle administration, preparing contracts, and handling onboarding and offboarding processes. They will also assist with monthly payroll inputs, maintain accurate HR data, and provide frontline support for employee queries.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -5954,6 +6364,8 @@
    ],
    "summary": "The intern will collaborate on strategic projects involving financial assessments and help define accounting requirements for new business models. Additionally, they will support the preparation of annual financial statements and handle audit-related inquiries.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -5982,6 +6394,8 @@
    ],
    "summary": "The working student will support day-to-day logistics activities and help organize materials, equipment, and workspaces. They will also assist with general operational tasks and coordination to maintain an efficient working environment.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (good)",
@@ -6011,6 +6425,8 @@
    ],
    "summary": "The intern will support the legal team by reviewing standard agreements, drafting internal memos, and managing contract and litigation administration. They will also help maintain legal operations systems and develop training materials and legal guidelines for business stakeholders.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -6039,6 +6455,8 @@
    ],
    "summary": "The intern will identify and validate market opportunities, design business models, and help scale new business units and spin-offs. They will also handle tasks ranging from market analysis and business planning to partnership management and end-to-end execution of operations.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -6067,6 +6485,8 @@
    ],
    "summary": "The intern will support Corporate IT operations by managing device lifecycles, user onboarding, and access provisioning. They will also assist with IT compliance, process documentation, and SaaS tool administration.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -6094,6 +6514,8 @@
    ],
    "summary": "The intern will support the execution and operation of large-scale influencer and affiliate marketing growth campaigns across multiple markets. They will coordinate with internal teams and external stakeholders to manage briefs, asset coordination, and performance analysis.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -6124,6 +6546,8 @@
    ],
    "summary": "The intern will support the execution and operation of large-scale influencer and affiliate marketing campaigns across multiple markets. They will collaborate with cross-functional teams to coordinate assets, refine messaging, and analyze performance.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (C1)",
@@ -6153,6 +6577,8 @@
    ],
    "summary": "The intern will monitor operational performance and reporting of external delivery partners, while conducting ad-hoc data analysis to drive logistics improvements. They will also industrialize reporting tools and actively participate in various supply chain and continuous improvement projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -6182,6 +6608,8 @@
    ],
    "summary": "The intern will assist engineers in designing fluid systems for launch facilities and prepare technical documentation including diagrams and hardware specifications. They will also maintain part catalogs and create calculation tools to support internal engineering workflows.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -6210,6 +6638,8 @@
    ],
    "summary": "The intern will conduct deep-dive analyses on customer acquisition, retention, and pricing strategy while building dashboards and tracking key KPIs. They will also support A/B testing and provide actionable recommendations to the growth marketing team.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -6238,6 +6668,8 @@
    ],
    "summary": "The intern will support the execution of large-scale growth and influencer marketing campaigns across multiple markets. They will assist in campaign operations, coordinate assets, and collaborate with cross-functional teams to maximize engagement and ROI.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (C1)",
@@ -6265,6 +6697,8 @@
    ],
    "summary": "The intern will manage social media channels like X, Reddit, and Threads by engaging with the community and handling customer issues. Additionally, they will collaborate with content creatives to produce posts that resonate with trends and audience feedback.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (C1)",
@@ -6294,6 +6728,8 @@
    ],
    "summary": "The intern will contribute to the development and execution of brand initiatives, insight gathering, and multi-market campaigns. They will also assist in managing workflows, maintaining brand systems, and translating strategy into actionable project support.",
    "startDate": "Q1 or Q2 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-06",
    "durationMonths": null,
    "languages": [
     "English",
@@ -6323,6 +6759,8 @@
    ],
    "summary": "The intern will drive and execute end-to-end strategic initiatives and high-impact projects to scale the business across Europe. They will also conduct market analysis and collaborate with the management team to evaluate business development opportunities.",
    "startDate": "Q1/27",
+   "startFrom": "2027-01",
+   "startTo": "2027-03",
    "durationMonths": 3,
    "languages": [
     "German",
@@ -6352,6 +6790,8 @@
    ],
    "summary": "The intern will manage import and inter-site logistics flows from suppliers in China and organize stock transfers between warehouses in Europe and the United States. They will also handle customs compliance, international shipping documents, duty drawback processes, and drive import process optimization projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (professional)"
@@ -6379,6 +6819,8 @@
    ],
    "summary": "The intern will drive adoption of the Cardio Program by identifying, prospecting, and onboarding cardiologists across France. They will manage the sales pipeline, conduct product demonstrations, and collect field feedback to help scale the program.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "French (native)",
@@ -6408,6 +6850,8 @@
    ],
    "summary": "The intern will conduct technological watch on materials and manufacturing processes, and design, prototype, and validate technical solutions for connected health devices. They will also collaborate with applied sciences and electronics teams to integrate these solutions into future products and participate in industrialization.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -6435,6 +6879,8 @@
    ],
    "summary": "The intern will support the brand marketing team by assisting with influencer campaigns, ambassador partnerships, public relations, and event coordination. They will also contribute to social media content creation, editorial planning, and cross-functional marketing projects across multiple European markets.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -6465,6 +6911,8 @@
    ],
    "summary": "The intern will design, build, and improve an automated physical test bench to validate connected health devices and convert manual test cases into automated Python scripts. They will also work on device emulation, 3D printing for test jigs, and integrate scenarios into the Jenkins CI pipeline.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "Technical English (reading and writing)"
@@ -6493,6 +6941,8 @@
    ],
    "summary": "The intern will design, develop, and validate algorithms to extract physiological and medical information from physical signals collected by connected devices. They will also explore real datasets and work on algorithmic optimization for embedded implementation.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (scientific and technical reading)"
@@ -6521,6 +6971,8 @@
    ],
    "summary": "The intern will participate in the daily management and optimization of sponsored advertising campaigns on Amazon across international markets. They will also contribute to performance reporting dashboards and conduct keyword analyses to support media strategies.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -6549,6 +7001,8 @@
    ],
    "summary": "The intern will manage the product catalog, advertising campaigns, and operational flow on various marketplace platforms. They will also identify new high-potential marketplaces and analyze sales and marketing performance to drive growth.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (professional)"
@@ -6577,6 +7031,8 @@
    ],
    "summary": "The intern will take on technical subjects in collaboration with development teams and participate in prototype assembly, testing, and validation. They will also define specifications for new features and contribute to their development while improving the user experience.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -6603,6 +7059,8 @@
    ],
    "summary": "The intern will analyze commercial performance, forecast data, and operating expenses while helping to automate financial reporting and manage data projects. They will act as a bridge between operational teams and finance by building reliable revenue and margin databases.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -6630,6 +7088,8 @@
    ],
    "summary": "The intern will contribute to the development of the remote monitoring platform and conduct testing and validation campaigns. They will also perform product benchmarks, track performance KPIs, and collaborate with developers and quality teams.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -6656,6 +7116,8 @@
    ],
    "summary": "The intern will investigate hardware and firmware product failures, analyze root causes, and deploy correction actions. They will also develop test benches (JIG), design calibration equipment, and participate in embedded software validation.",
    "startDate": "Début janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -6684,6 +7146,8 @@
    ],
    "summary": "The intern will design and develop new features for the Android application in collaboration with product and engineering teams, and write unit and UI tests to ensure high code quality. They will also contribute to data transmission pipelines and continuous improvement of existing features and tools.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (professional)"
@@ -6713,6 +7177,8 @@
    ],
    "summary": "The intern will develop and manufacture new robots and testing tools by designing mechanical assemblies, electronics, and writing control code. They will also handle fabrication tasks such as 3D printing, machining, and electrical soldering.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -6741,6 +7207,8 @@
    ],
    "summary": "The intern will develop a technical debt monitoring tool and build visualization dashboards for machine learning algorithms. They will also construct alerting systems and automated correction tools to address code quality and security issues.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [],
    "remote": "Unknown",
@@ -6767,6 +7235,8 @@
    ],
    "summary": "The intern will design and develop new mobile features in collaboration with product and engineering teams. They will also write unit and UI tests, perform code reviews, and contribute to improving existing codebase and processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (professional)"
@@ -6795,6 +7265,8 @@
    ],
    "summary": "The intern will migrate the mobile app help content management interface to a modern React.js and PHP solution. They will design and develop the interface and APIs for content administration while collaborating with product managers.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (professional)",
@@ -6824,6 +7296,8 @@
    ],
    "summary": "The intern will contact inbound prospects using AI-powered lead generation tools and book qualified meetings for the Account Executives. They will also search for new leads and participate in discovery calls.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -6854,6 +7328,8 @@
    ],
    "summary": "The intern will design, develop, and deploy new features using modern tech stacks including Python and PyTorch. They will also optimize existing services and work on search algorithms and recommendation systems.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (professional)"
@@ -6876,6 +7352,8 @@
    "skills": [],
    "summary": "Unknown",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -6900,6 +7378,8 @@
    ],
    "summary": "The intern will contribute to research and development activities focusing on machine learning and artificial intelligence. They will work within the R&D team to help build and improve sovereign AI and cloud infrastructure solutions.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -6924,6 +7404,8 @@
    ],
    "summary": "The intern will manage a low-touch portfolio of startup clients to drive adoption and satisfaction. They will also assist in building scalable onboarding processes and analyze customer usage data.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -6950,6 +7432,8 @@
    ],
    "summary": "The intern will contribute to infrastructure projects to improve platform reliability, cost-efficiency, and performance while utilizing AI assistants for daily tasks. They will test changes in safe environments, measure impacts, and collaborate closely with a senior SRE mentor through pair programming and code reviews.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [],
    "remote": "On-site",
@@ -6976,6 +7460,8 @@
    ],
    "summary": "The intern will manage and optimize paid advertising campaigns across multiple platforms like Meta, Google, and TikTok. They will also run bid, audience, and creative tests to scale high-performing marketing assets.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -7005,6 +7491,8 @@
    ],
    "summary": "The intern will analyze market and creative performance to benchmark competitor ads and review past campaigns. They will also develop creative concepts, run A/B tests, and contribute to the hands-on production of playable ad variations.",
    "startDate": "January / February 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -7033,6 +7521,8 @@
    ],
    "summary": "The intern will support the HR and legal teams by ensuring compliance with labor regulations and assisting with daily labor matters. They will also help prepare company collective agreements, draft documents for employee representatives, and participate in CSE meetings.",
    "startDate": "January 2026",
+   "startFrom": "2026-01",
+   "startTo": "2026-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -7063,6 +7553,8 @@
    ],
    "summary": "The intern will configure API integrations, build data enrichment flows, and own website tracking to support growth and sales teams. They will also use SQL, Python, or JavaScript to turn data into insights and investigate infrastructure issues.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 24,
    "languages": [
     "English (fluent)",
@@ -7092,6 +7584,8 @@
    ],
    "summary": "The intern will manage scooter sales acquisition channels, monitor and optimize the battery-swap station network and subscription recovery processes, and streamline internal operations and inventory management. They will work hands-on across multiple projects to support the growth and execution of the new business venture.",
    "startDate": "April 2026",
+   "startFrom": "2026-04",
+   "startTo": "2026-04",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -7119,6 +7613,8 @@
    ],
    "summary": "The intern will represent Heetch on the ground at events and local activations to engage passengers and drive app downloads. They will also collect feedback from the field to support the marketing strategy.",
    "startDate": "April 2026",
+   "startFrom": "2026-04",
+   "startTo": "2026-04",
    "durationMonths": 2,
    "languages": [],
    "remote": "On-site",
@@ -7145,6 +7641,8 @@
    ],
    "summary": "The intern will assist with setting up global gaming studios by drafting and negotiating documentation and coordinating with advisors. They will also provide corporate support for French and foreign entities, including governance, incentive mechanisms, and M&A transactions.",
    "startDate": "July 2027",
+   "startFrom": "2027-07",
+   "startTo": "2027-07",
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -7173,6 +7671,8 @@
    ],
    "summary": "The legal intern will manage intellectual property protection, trademark registrations, and infringement issues globally. Additionally, the intern will draft and review various commercial agreements for publishing, marketing, and gaming teams.",
    "startDate": "July 2026",
+   "startFrom": "2026-07",
+   "startTo": "2026-07",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -7202,6 +7702,8 @@
    ],
    "summary": "The intern will investigate and report suspicious activities, drafting Enhanced Investigations and Suspicious Activity Reports for regulatory authorities. They will also handle escalated alerts and participate in projects to enhance detection capacities.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (C2)"
@@ -7229,6 +7731,8 @@
    ],
    "summary": "The intern will support the steering and execution of strategic programs by designing conceptual frameworks, conducting data analysis, and coordinating multiple streams. They will also track progress, identify risks, and report outcomes directly to executive management.",
    "startDate": "December/January 2026/2027",
+   "startFrom": "2026-12",
+   "startTo": "2027-01",
    "durationMonths": 5,
    "languages": [],
    "remote": "Hybrid",
@@ -7255,6 +7759,8 @@
    ],
    "summary": "The intern will analyze customer data to identify process inefficiencies, create business cases and presentations for C-level executives, and prototype AI and machine learning solutions on the Celonis platform. They will also collaborate with the sales team to translate customer pain points into actionable use cases and value propositions.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "German (business fluent)",
@@ -7284,6 +7790,8 @@
    ],
    "summary": "The intern will support end-to-end seller onboarding on Mirakl Connect, guiding clients through setup and troubleshooting catalogs using AI-based tools. Additionally, they will contribute to scaling processes by creating documentation, automating reporting, and collaborating cross-functionally.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (professional)",
@@ -7314,6 +7822,8 @@
    ],
    "summary": "The intern will join a small engineering team to ship meaningful features, tools, or systems and collaborate with cross-functional teams to plan timelines and write tests. They will also build, document, and maintain software projects while participating in peer code reviews.",
    "startDate": "Summer 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-08",
    "durationMonths": null,
    "languages": [],
    "remote": "On-site",
@@ -7340,6 +7850,8 @@
    ],
    "summary": "The intern will write and ship software in production across Stripe's stack, owning problems end to end and participating in technical design processes. They will collaborate with engineers and stakeholders, engaging in code reviews and utilizing modern tools to build scalable solutions.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -7365,6 +7877,8 @@
    ],
    "summary": "The intern will analyze customer data to identify business process inefficiencies, quantify the financial impact of solutions, and create management-ready presentations. They will also support strategic business development and pitch the company's value proposition directly to clients and C-level stakeholders.",
    "startDate": "October onwards",
+   "startFrom": "2027-10",
+   "startTo": "2027-10",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -7395,6 +7909,8 @@
    ],
    "summary": "The intern will write production software, engage in technical design processes, and contribute to Stripe's codebase across various domains. They will also give and receive technical feedback through code reviews while collaborating with engineers and cross-functional stakeholders.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -7421,6 +7937,8 @@
    ],
    "summary": "The intern will operationalize legal, regulatory, and information security requirements into daily workflows and use AI and automation to streamline legal processes. They will also build automated metrics, dashboards, and reporting to measure control effectiveness and compliance.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -7449,6 +7967,8 @@
    ],
    "summary": "The intern will analyze customer data to identify business process inefficiencies and translate them into actionable use cases on the Celonis platform. They will also quantify the financial impact, build business cases, and present findings and AI value propositions to C-level stakeholders.",
    "startDate": "October 2024",
+   "startFrom": "2024-10",
+   "startTo": "2024-10",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -7477,6 +7997,8 @@
    ],
    "summary": "The intern will prospect companies across multiple markets and build outbound campaigns to generate pipeline for the sales team. They will also personalize outreach, call prospects, qualify opportunities, and use AI tools daily to improve performance.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (native)"
@@ -7505,6 +8027,8 @@
    ],
    "summary": "The intern will participate in setting up API connectors and integrating AI assistants to automate technical processes for healthcare interoperability. They will also update technical documentation and provide technical support to internal teams.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -7531,6 +8055,8 @@
    ],
    "summary": "The intern will participate in the identification and prospecting of new hospital accounts and support key account managers in developing commercial opportunities. They will also analyze performance indicators and help optimize hospital usage of Doctolib solutions.",
    "startDate": "janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -7556,6 +8082,8 @@
    ],
    "summary": "The intern will assist the legal team with intellectual property, information technology, and business affairs matters. They will participate in drafting contracts, conducting legal research, and supporting operational legal needs.",
    "startDate": "July 2027",
+   "startFrom": "2027-07",
+   "startTo": "2027-07",
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -7582,6 +8110,8 @@
    ],
    "summary": "The intern will contribute to corporate communication campaigns, update assets, and monitor social media. They will also create corporate content and support key strategic projects such as website redesigns.",
    "startDate": "Janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French",
@@ -7610,6 +8140,8 @@
    ],
    "summary": "The intern will contribute to the events team by managing the logistics, administration, and execution of professional congresses and proprietary events. They will also assist with event promotion campaigns and analyze performance using precise KPIs.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -7636,6 +8168,8 @@
    ],
    "summary": "The intern will assist with the annual IFRS financial consolidation, including intercompany reconciliations, adjustments, and audit support. They will also contribute to the EPM tool migration project by helping with data migration, testing workshops, and documenting processes.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)",
@@ -7665,6 +8199,8 @@
    ],
    "summary": "The intern will assist in developing and improving features while writing clean, well-tested code within agile engineering teams. They will also participate in code reviews, bug investigations, testing, and deployment activities.",
    "startDate": "March/April 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-04",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -7695,6 +8231,8 @@
    ],
    "summary": "The intern will manage day-to-day legal requests, draft contracts from templates, and coordinate approvals. They will also build internal tools, process automations, and dashboards to optimize legal operations.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -7724,6 +8262,8 @@
    ],
    "summary": "The intern will monitor and evaluate the performance of an AI customer care agent by reviewing conversations, tracking metrics, and identifying recurring issues. They will also analyze data across markets and collaborate with product and engineering teams to implement quality improvements.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (professional)",
@@ -7753,6 +8293,8 @@
    ],
    "summary": "The intern will build and design RevOps systems, APIs, and AI-ready data tools to support sales and marketing teams. They will also consolidate custom applications and integrate various sales and prospecting tools.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -7781,6 +8323,8 @@
    ],
    "summary": "The intern will simplify and automate sales operations processes using AI tools, agents, and workflows. They will also manage sales team requests, build enablement resources, and help optimize the lead scoring model and upsell strategies.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -7809,6 +8353,8 @@
    ],
    "summary": "The intern will work on cybersecurity tasks such as compliance certifications, vulnerability management, and incident response. They will also own and build technical security projects from framing to adoption.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -7837,6 +8383,8 @@
    ],
    "summary": "The intern will monitor and analyze regulations related to AI, e-commerce, and digital markets while supporting product compliance and contract reviews. They will also help improve internal processes by building compliance frameworks and templates.",
    "startDate": "July 2027",
+   "startFrom": "2027-07",
+   "startTo": "2027-07",
    "durationMonths": null,
    "languages": [
     "French (professional)",
@@ -7867,6 +8415,8 @@
    ],
    "summary": "The intern will maintain tracking data quality, build data models, and support A/B testing and AI-assisted analytics workflows. They will also collaborate cross-functionally to deliver insights and document analytics infrastructure.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "English (fluent)"
@@ -7895,6 +8445,8 @@
    ],
    "summary": "The intern will support software application mapping, renewal planning, and vendor negotiations. They will also track cost optimization metrics and prepare dashboards and reports for key stakeholders.",
    "startDate": "Beginning of 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-12",
    "durationMonths": null,
    "languages": [
     "English (professional)"
@@ -7923,6 +8475,8 @@
    ],
    "summary": "The intern will design repeatable processes and maintain shared calendars to coordinate global marketing initiatives between central teams and the APAC region. They will also improve handoff workflows, build operational templates, and clarify localization requirements for Japan and Australia.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "Japanese (native)",
@@ -7952,6 +8506,8 @@
    ],
    "summary": "The intern will contribute to creating, planning, and publishing social media content across platforms like LinkedIn, Instagram, and TikTok while monitoring trends and community engagement. They will also coordinate video shoots, write scripts, and collaborate with internal teams to highlight company expertise and events.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -7981,6 +8537,8 @@
    ],
    "summary": "The intern will take full ownership of a concrete project within a host team, building solutions with AI, data, and code to be shipped into production. Additionally, they will participate in a team sprint during the first two weeks and demo their final project to the company.",
    "startDate": "Early June 2027",
+   "startFrom": "2027-06",
+   "startTo": "2027-06",
    "durationMonths": 3,
    "languages": [
     "English (fluent)"
@@ -8009,6 +8567,8 @@
    ],
    "summary": "The intern will support the sales administration team with monthly closing processes, contract follow-ups, and invoicing coordination. They will also track unbilled revenue and collaborate with finance and sales teams to minimize billing delays.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -8034,6 +8594,8 @@
    ],
    "summary": "The intern will develop and experiment with machine learning models to solve healthcare challenges and explore new model architectures. They will also collaborate with ML engineers and researchers on applied research projects to improve medical practice efficiency.",
    "startDate": "April 2027",
+   "startFrom": "2027-04",
+   "startTo": "2027-04",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -8063,6 +8625,8 @@
    ],
    "summary": "The intern will set up and deploy data processing pipelines, and conduct R&D to drive product innovation such as machine learning and NLP. They will also collaborate with clients to understand their needs and incorporate feedback into solutions.",
    "startDate": "February/March 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -8092,6 +8656,8 @@
    ],
    "summary": "The intern will support the daily management and optimization of international paid media campaigns across multiple channels like Google Ads and Meta. They will also analyze campaign performance, build reporting templates, and collaborate on creative strategy and influencer content integration.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -8118,6 +8684,8 @@
    ],
    "summary": "The intern will support the performance marketing team by managing affiliate partners, optimizing campaign performance, and collaborating on promotional materials. They will also coordinate with internal teams to ensure consistent messaging and assist with everyday tasks related to partner operations.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -8147,6 +8715,8 @@
    ],
    "summary": "The intern will support the Head of Tax and Accounting team with day-to-day tax matters, including tax reporting, research, and analysis across CIT, VAT, and transfer pricing. Additionally, they will assist in handling customer tax-related queries and defining applicable tax rules.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (professional)"
@@ -8175,6 +8745,8 @@
    ],
    "summary": "The intern will leverage data analysis and data models to monitor business performance, track KPIs, and identify growth opportunities for buyers and sellers. They will also communicate results and strategic insights to cross-functional teams.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "English (professional)",
@@ -8204,6 +8776,8 @@
    ],
    "summary": "The intern will build and own features from design to deployment and collaborate with cross-functional teams to solve technical challenges. They will write clean and efficient code while exploring new technologies like AI and distributed systems.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -8232,6 +8806,8 @@
    ],
    "summary": "The intern will build and own features from design to deployment, collaborating with cross-functional teams to develop scalable healthcare tools. They will write clean code, solve complex technical challenges, and explore new technologies including AI and distributed systems.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -8260,6 +8836,8 @@
    ],
    "summary": "The intern will build and own fullstack features alongside experienced engineers from design and development to testing and shipping. They will collaborate with cross-functional teams to solve complex technical challenges and create user-friendly healthcare tools.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -8289,6 +8867,8 @@
    ],
    "summary": "The intern will build and own features from design to deployment, collaborating with engineers and product managers to develop scalable healthcare tools. They will write clean code, solve complex technical challenges, and explore new tools including AI and distributed systems.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -8317,6 +8897,8 @@
    ],
    "summary": "The intern will build and own features from design to deployment, collaborating with cross-functional engineering teams to develop scalable healthcare solutions. They will write clean code and solve technical challenges to enhance patient care tools.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -8344,6 +8926,8 @@
    ],
    "summary": "The intern will coordinate learning events and track participation feedback while curating learning content and creating practical resources. They will also support AI fluency initiatives by gathering use cases and organizing assessment data.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -8373,6 +8957,8 @@
    ],
    "summary": "The intern will write and manage FAQ content in French and English to feed the AI assistant and support new product launches. They will also analyze AI response performance and contribute to innovative AI content optimization projects.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -8403,6 +8989,8 @@
    ],
    "summary": "The intern will own an end-to-end project to build intelligent QA tooling such as an AI-driven release validation copilot, test gap analysis dashboard, or synthetic test data pipeline. They will work daily with engineering teams to automate software testing, validate releases, and deploy solutions in production.",
    "startDate": "February 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-02",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -8433,6 +9021,8 @@
    ],
    "summary": "The intern will design engaging visual assets for digital and print channels while ensuring consistency with the brand identity. They will also contribute creative ideas during brainstorming sessions, edit and optimize images, and support multimedia projects.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (professional)"
@@ -8460,6 +9050,8 @@
    ],
    "summary": "The intern will coordinate interviews and candidate communications while maintaining candidate information in the Applicant Tracking System. Additionally, they will contribute to interview process design and track scheduling metrics to improve recruitment efficiency.",
    "startDate": "As soon as possible",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -8489,6 +9081,8 @@
    ],
    "summary": "The intern will track performance KPIs, manage operational processes, and support reporting and continuous improvement for the BuyBulk trade-in service. Additionally, they will contribute to cross-functional projects focused on efficiency, automation, and operational structuring.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (professional)",
@@ -8519,6 +9113,8 @@
    ],
    "summary": "The intern will help develop and optimize SEO content, manage editorial publications, and conduct keyword research and competitive analysis. They will also track SEO performance metrics and leverage generative AI tools to automate and accelerate SEO activities.",
    "startDate": "Novembre 2026",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "French (native)",
@@ -8548,6 +9144,8 @@
    ],
    "summary": "The student will manage IT stock and asset inventory, handling equipment life cycles, procurement, and device preparation. They will also provide on-site IT support, manage meeting room hardware, and handle level 1 support requests.",
    "startDate": "ASAP",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -8577,6 +9175,8 @@
    ],
    "summary": "The intern will collect, format, and map medical terms and terminologies using standard classifications like ICD-10 and SNOMED CT. They will also adapt medical labels for patients and healthcare professionals and deliver structured datasets to technical teams.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "German (fluent)",
@@ -8607,6 +9207,8 @@
    ],
    "summary": "The apprentice will monitor partnership health by updating dashboards, tracking incidents, and supporting business operations through reporting and invoicing reconciliation. They will also contribute to new partnership features by documenting requirements, coordinating delivery, and managing QA activities.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "French (fluent)",
@@ -8636,6 +9238,8 @@
    ],
    "summary": "The intern will analyze customer journeys across the website and mobile apps to support product and business decisions. They will also contribute to preparing, monitoring, and analyzing A/B tests and customer experiments.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "English (professional)"
@@ -8662,6 +9266,8 @@
    ],
    "summary": "The intern will coordinate technical and product interview schedules and ensure an exceptional candidate experience. They will also contribute to continuous improvement projects for the recruitment process and optimize scheduling operations.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -8690,6 +9296,8 @@
    ],
    "summary": "The intern will support the General Secretary on strategic projects, governance matters, and internal process improvements. They will also assist with stakeholder relations, event organization, and cross-functional business initiatives.",
    "startDate": "March 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -8719,6 +9327,8 @@
    ],
    "summary": "The intern will conduct qualitative and quantitative user research to collect insights and provide actionable recommendations for the e-commerce experience. They will also work closely with product designers, product owners, and business stakeholders to ensure a user-centered culture.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 24,
    "languages": [
     "English (professional)"
@@ -8747,6 +9357,8 @@
    ],
    "summary": "The intern will support product development across the product lifecycle by writing specifications, managing delivery with engineers, and running A/B tests to optimize conversion rates. They will also collaborate with cross-functional teams to prioritize features and monitor post-launch performance.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 24,
    "languages": [
     "English (fluent)"
@@ -8776,6 +9388,8 @@
    ],
    "summary": "The intern will create and update web pages using WordPress while adapting them for different international markets. They will also track page performance, optimize SEO and GEO visibility, and identify opportunities for UX and conversion improvements.",
    "startDate": "22 janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -8805,6 +9419,8 @@
    ],
    "summary": "The intern will manage community interactions across multiple social media platforms and handle performance reporting to track KPIs. They will also participate in creative brainstorming and produce engaging visual and video content for patient-facing channels.",
    "startDate": "Janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English"
@@ -8833,6 +9449,8 @@
    ],
    "summary": "The intern will support the deployment consultants by assisting with project configuration, training, and launch for major accounts in the healthcare sector. They will also contribute to transverse deliverables and preparation for client interactions.",
    "startDate": "mars 2027",
+   "startFrom": "2027-03",
+   "startTo": "2027-03",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -8858,6 +9476,8 @@
    ],
    "summary": "The intern will support the regional sales team by handling contract entry, post-signature follow-up, and coordinating between sales and account management. They will also optimize internal processes and accompany sales representatives on field client appointments.",
    "startDate": "janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "French (fluent)"
@@ -8886,6 +9506,8 @@
    ],
    "summary": "The intern will support customer success by managing CRM reporting, qualifying training requests, and collaborating with onboarding managers. They will also pilot and improve internal team presentations and KPI tracking dashboards.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -8913,6 +9535,8 @@
    ],
    "summary": "The intern will manage day-to-day trade-in operations, monitor processes, and handle incident resolution. They will also use data, automation, and workflow tools to simplify and scale operational processes.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "English (professional)"
@@ -8941,6 +9565,8 @@
    ],
    "summary": "The intern will qualify and prioritize potential sellers while providing onboarding support and consultation through Salesforce. They will also analyze seller data and lead end-to-end process improvement projects to optimize the marketplace activation workflow.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -8969,6 +9595,8 @@
    ],
    "summary": "The intern will provide daily support for the Salesforce CRM by handling user tickets, managing data quality, and creating dashboards. They will also participate in improvement projects by gathering feedback and collaborating with internal teams.",
    "startDate": "janvier 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -8996,6 +9624,8 @@
    ],
    "summary": "The intern will generate new business opportunities by contacting potential healthcare clients and updating prospect information in the CRM. They will also collaborate with support and product teams to ensure user satisfaction throughout the customer journey.",
    "startDate": "1er décembre 2026",
+   "startFrom": "2026-12",
+   "startTo": "2026-12",
    "durationMonths": 6,
    "languages": [
     "French (fluent)",
@@ -9025,6 +9655,8 @@
    ],
    "summary": "The intern will design and build scalable AI-powered features and machine learning models in collaboration with engineering and product teams. They will also research, benchmark, and deploy production-ready AI solutions using large-scale observability data.",
    "startDate": "February, March, April, May, or June 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-06",
    "durationMonths": 6,
    "languages": [],
    "remote": "Hybrid",
@@ -9051,6 +9683,8 @@
    ],
    "summary": "The intern will contribute to production systems that process and analyze large-scale observability and application data in real time. They will own and deliver technical projects from design through deployment while collaborating with experienced engineers.",
    "startDate": "February, March, April, May, or June 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-06",
    "durationMonths": 6,
    "languages": [
     "English (professional)"
@@ -9079,6 +9713,8 @@
    ],
    "summary": "The intern will provide technical support and customer service to employees, handling hardware and software provisioning, troubleshooting, and device management. They will also assist with security-related tasks, documentation, and IT workflows under supervision.",
    "startDate": "February, March, April, May, or June 2027",
+   "startFrom": "2027-02",
+   "startTo": "2027-06",
    "durationMonths": 6,
    "languages": [
     "English (great skills)",
@@ -9108,6 +9744,8 @@
    ],
    "summary": "The intern will participate in the preparation of monthly reporting, operational KPIs, and the company's financials alongside board materials. They will also assist in developing the annual budget and monthly forecasts while working on ad-hoc reports and financial tools.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 6,
    "languages": [
     "English (fluent)",
@@ -9137,6 +9775,8 @@
    ],
    "summary": "The intern will support the CTO and senior leaders on strategic priorities, including market analysis, AI implementation, and cross-functional projects. They will also coordinate internal communications, organize company events, and build new internal processes.",
    "startDate": "Immediate",
+   "startFrom": "2026-11",
+   "startTo": "2026-11",
    "durationMonths": 6,
    "languages": [
     "English (fluent)"
@@ -9165,6 +9805,8 @@
    ],
    "summary": "The intern will support the Go-To-Market team by identifying targeted account-based audiences and launching creative outbound campaigns. They will also gather market research, monitor performance metrics, and participate in AI and automation tech projects.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": 6,
    "languages": [
     "French (native)",
@@ -9194,6 +9836,8 @@
    ],
    "summary": "The intern will support the CEO and senior team on top business priorities by contributing to strategic projects, market analysis, and growth modeling. They will also help coordinate strategic initiatives across product, growth, corporate governance, and brand communication.",
    "startDate": "July 2027",
+   "startFrom": "2027-07",
+   "startTo": "2027-07",
    "durationMonths": 6,
    "languages": [],
    "remote": "Unknown",
@@ -9220,6 +9864,8 @@
    ],
    "summary": "The intern will design, test, and evaluate LLM-based systems to enhance the AI Modeler by converting unstructured inputs into reliable planning models and formulas. They will define evaluation metrics, benchmark system performance, and collaborate with engineers to build testing pipelines.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -9247,6 +9893,8 @@
    ],
    "summary": "The intern will develop and improve the SaaS platform by working on data ingestion connectors or building AI-powered modeling tools. They will collaborate with experienced engineers on design, coding, testing, and application lifecycle challenges.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Hybrid",
@@ -9272,6 +9920,8 @@
    ],
    "summary": "The intern will provide practical legal advice and support to internal clients across various legal topics including contracts and compliance. They will also draft and review commercial contracts, assist the customer support team, and conduct regulatory monitoring.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "French (fluent)",
@@ -9301,6 +9951,8 @@
    ],
    "summary": "The intern will support the implementation of data protection policies and Data Processing Agreements while assisting in reviewing and drafting internal legal documents. They will also contribute to risk mapping, conduct legal monitoring on data protection and AI, and prepare awareness and training materials.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [
     "French (full professional proficiency)",
@@ -9330,6 +9982,8 @@
    ],
    "summary": "The intern will work with senior software engineers to code, debug, optimize, and document features for the Dataiku platform. They will contribute to various technical projects spanning backend development, frontend interfaces, AI integrations, and cloud infrastructure.",
    "startDate": "Unknown",
+   "startFrom": null,
+   "startTo": null,
    "durationMonths": null,
    "languages": [],
    "remote": "Unknown",
@@ -9355,6 +10009,8 @@
    ],
    "summary": "The intern will coordinate learning events, curate learning content, and support AI fluency initiatives within the People team. They will also contribute to People projects, data accuracy, reporting, and process optimization.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": 12,
    "languages": [
     "French (C2)",
@@ -9384,6 +10040,8 @@
    ],
    "summary": "The intern will coordinate the recruitment pipeline, manage interview schedules, and source diverse talent pools through LinkedIn and creative outreach. They will also optimize employer branding initiatives and analyze recruitment metrics to monitor pipeline efficiency.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "French (native)",
@@ -9413,6 +10071,8 @@
    ],
    "summary": "The intern will provide level 1 and 2 international tech support for employees and manage hardware deployment using MDM tools. Additionally, they will maintain global IT inventory and contribute to internal IT improvement projects and documentation.",
    "startDate": "January 2027",
+   "startFrom": "2027-01",
+   "startTo": "2027-01",
    "durationMonths": null,
    "languages": [
     "English (fluent)"

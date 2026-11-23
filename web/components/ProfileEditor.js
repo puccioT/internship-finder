@@ -5,7 +5,7 @@
  */
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { rankOffers, countriesOf, LANGUAGES } from "@/lib/matching";
+import { rankOffers, countriesOf, LANGUAGES, startOptions } from "@/lib/matching";
 import { useProfile } from "@/lib/store";
 
 const STEPS = ["Target roles", "Your skills", "Preferences"];
@@ -215,6 +215,14 @@ export default function ProfileEditor({ offers, skillImplies, roleFamilies, skil
               <div className="filters">
                 {CONTRACTS.map(([v, l]) => <button key={v} className="chip" aria-pressed={profile.contract === v} onClick={() => setProfile((p) => ({ ...p, contract: v }))}>{l}</button>)}
               </div>
+            </section>
+            <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+              <h2 className="h2" style={{ fontSize: 17 }}><label htmlFor="available">When can you start?</label></h2>
+              <select id="available" className="select" style={{ maxWidth: 320 }} value={profile.availableFrom || ""}
+                onChange={(e) => setProfile((p) => ({ ...p, availableFrom: e.target.value }))}>
+                {startOptions().map(([v, l]) => <option key={v} value={v}>{v ? `From ${l}` : "Any time"}</option>)}
+              </select>
+              <span className="muted" style={{ fontSize: 13 }}>Offers starting earlier are hidden. Offers with no start date stay visible.</span>
             </section>
           </>
         )}

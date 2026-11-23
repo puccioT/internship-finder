@@ -15,6 +15,7 @@ export const DEFAULT_PROFILE = {
   hideLanguageMismatch: true,         // masquer les offres qui exigent une autre langue
   onboarded: false,                   // l'utilisateur a-t-il terminé l'onboarding ?
   contract: "Tous",
+  availableFrom: "",                  // "AAAA-MM" : premier mois où l'étudiant peut commencer ; "" = n'importe quand
 };
 
 function read(key, fallback) {

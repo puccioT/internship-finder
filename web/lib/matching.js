@@ -105,6 +105,25 @@ function groupKey(offer, cityNames) {
  * Score de toutes les offres + regroupement des doublons multi-villes
  * (le même stage publié à Paris, Nantes, Berlin... devient UNE ligne avec 3 villes).
  */
+/**
+ * L'offre commence-t-elle trop tôt pour l'étudiant ?
+ * startTo = mois de début "au plus tard" (calculé à l'export). Date inconnue -> on garde l'offre.
+ */
+export function startsTooEarly(offer, profile) {
+  return Boolean(profile.availableFrom && offer.startTo && offer.startTo < profile.availableFrom);
+}
+
+/** Choix du filtre "Je peux commencer à partir de" : le mois en cours + 18 mois. */
+export function startOptions(now = new Date()) {
+  const opts = [["", "Any time"]];
+  for (let i = 0; i <= 18; i++) {
+    const d = new Date(now.getFullYear(), now.getMonth() + i, 1);
+    const value = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+    opts.push([value, d.toLocaleDateString("en-GB", { month: "long", year: "numeric" })]);
+  }
+  return opts;
+}
+
 export function rankOffers(offers, profile, skillImplies) {
   const countries = countriesOf(profile);
   const cityNames = [...new Set(offers.map((o) => (o.city || "").toLowerCase()).filter((c) => c.length > 2))];
@@ -113,6 +132,7 @@ export function rankOffers(offers, profile, skillImplies) {
     if (countries.length && !countries.includes(offer.country)) continue;
     if (profile.contract !== "Tous" && offer.contract !== profile.contract) continue;
     if (profile.hideLanguageMismatch !== false && missingLanguages(offer, profile).length) continue;
+    if (startsTooEarly(offer, profile)) continue;
     const key = groupKey(offer, cityNames);
     const result = { ...offer, ...scoreOffer(offer, profile, skillImplies) };
     const existing = groups.get(key);

@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { useMemo } from "react";
-import { rankOffers, topGaps, verdict, countriesOf, missingLanguages, LANGUAGES, contractLabel } from "@/lib/matching";
+import { rankOffers, topGaps, verdict, countriesOf, missingLanguages, LANGUAGES, contractLabel, startsTooEarly, startOptions } from "@/lib/matching";
 import { isOnboarded, useProfile, useTracker } from "@/lib/store";
 import { isNew } from "@/lib/data";
 import { ScoreRing, Segments, Bar } from "@/components/Gauges";
@@ -62,7 +62,13 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
       for (const l of miss) counts.set(l, (counts.get(l) || 0) + 1);
     }
     const label = (code) => LANGUAGES.find(([c]) => c === code)?.[1] || code;
-    return { total, langs: [...counts.keys()].map(label) };
+    // Offres masquées parce qu'elles commencent avant la disponibilité de l'utilisateur
+    const tooEarly = offers.filter((o) =>
+      (!countries.length || countries.includes(o.country)) &&
+      (profile.contract === "Tous" || o.contract === profile.contract) &&
+      (profile.roles.includes(o.family) || profile.roles.includes(o.secondaryFamily)) &&
+      startsTooEarly(o, profile)).length;
+    return { total, langs: [...counts.keys()].map(label), tooEarly };
   }, [offers, profile]);
 
   const tracked = Object.values(tracker);
@@ -124,8 +130,17 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
         <select id="contract" className="select" value={profile.contract} onChange={(e) => setProfile((p) => ({ ...p, contract: e.target.value }))}>
           {CONTRACTS.map((c) => <option key={c} value={c}>{contractLabel(c)}</option>)}
         </select>
+        <label className="sr-only" htmlFor="start">Can start from</label>
+        <select id="start" className="select" value={profile.availableFrom || ""} onChange={(e) => setProfile((p) => ({ ...p, availableFrom: e.target.value }))}>
+          {startOptions().map(([v, l]) => <option key={v} value={v}>{v ? `Start from ${l}` : "Start: any time"}</option>)}
+        </select>
       </section>
 
+      {hiddenByLanguage.tooEarly > 0 && (
+        <p className="muted" style={{ margin: "-20px 0 0", fontSize: 14 }}>
+          {hiddenByLanguage.tooEarly} offer{hiddenByLanguage.tooEarly > 1 ? "s" : ""} hidden because {hiddenByLanguage.tooEarly > 1 ? "they start" : "it starts"} before you're available. Offers with no start date are kept.
+        </p>
+      )}
       {hiddenByLanguage.total > 0 && profile.hideLanguageMismatch !== false && (
         <p className="muted" style={{ margin: "-20px 0 0", fontSize: 14 }}>
           {hiddenByLanguage.total} offer{hiddenByLanguage.total > 1 ? "s" : ""} hidden because {hiddenByLanguage.total > 1 ? "they require" : "it requires"} {hiddenByLanguage.langs.join(", ")}.{" "}

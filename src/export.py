@@ -13,11 +13,12 @@ proches utilisée par le matching. L'app web lit ce fichier, rien d'autre.
 import json
 import os
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 from src.matching import ROLE_FAMILY_NAMES, SKILL_IMPLIES
 from src.offers import load_prepared_offers
 from src.skills import SKILL_ALIASES, normalize_skill_lists
+from src.startdate import parse_start
 
 OUT_PATH = os.path.join("web", "public", "data", "offers.json")
 
@@ -45,6 +46,9 @@ def main():
     offers = []
     for i, (_, r) in enumerate(df.iterrows()):
         duration = clean(r["ai_duration_months"])
+        # "Janvier 2027", "Q1/27", "ASAP"... -> période ("2027-01", "2027-03") pour le filtre de date
+        seen = str(r["first_seen"] or "")[:10]
+        start_from, start_to = parse_start(clean(r["ai_start_date"]), date.fromisoformat(seen) if seen else None)
         offers.append({
             "id": r["source_id"],
             "company": r["company"],
@@ -58,6 +62,8 @@ def main():
             "skills": skill_lists[i],
             "summary": r["summary"],
             "startDate": clean(r["ai_start_date"]),
+            "startFrom": start_from,
+            "startTo": start_to,
             "durationMonths": int(duration) if duration is not None else None,
             "languages": r["languages"],
             "remote": r["remote"],
