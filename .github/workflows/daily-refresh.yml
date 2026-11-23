@@ -1,0 +1,70 @@
+# MISE À JOUR AUTOMATIQUE — chaque nuit, sur les serveurs de GitHub (gratuit pour un repo public)
+#   1. collecte les offres  2. les fait lire par Gemini  3. exporte offers.json
+#   4. pousse offers.json sur GitHub -> Vercel redéploie le site tout seul
+# La base SQLite (data/offers.db) est gardée d'une nuit à l'autre dans le cache de GitHub Actions.
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: "17 4 * * *"      # 4h17 UTC = 5h17 à Paris
+  workflow_dispatch:           # bouton "Run workflow"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120       # la 1re fois, l'IA lit toutes les offres (~40 min) ; ensuite quelques minutes
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Récupérer la base de la veille
+        uses: actions/cache/restore@v4
+        with:
+          path: data/offers.db
+          key: offers-db-${{ github.run_id }}
+          restore-keys: offers-db-
+
+      - name: Collecte
+        run: python -m src.collect
+
+      - name: Extraction IA (nouvelles offres seulement)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m src.extract
+
+      - name: Export
+        run: python -m src.export
+
+      - name: Sauvegarder la base pour la nuit suivante
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/offers.db
+          key: offers-db-${{ github.run_id }}
+
+      - name: Publier les nouvelles données
+        run: |
+          git config user.name "internship-finder-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/offers.json
+          if git diff --cached --quiet; then
+            echo "Aucune nouvelle donnée."
+            exit 0
+          fi
+          git commit -m "Daily refresh: $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
