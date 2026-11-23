@@ -2,7 +2,7 @@
 
 **Real internship offers from European tech companies, ranked for *your* profile, with an explanation for every score.**
 
-🔗 **Live app:** _coming soon_ · Built by [Titouan](https://github.com/puccioT), a business-school student (EM Lyon) looking for his own Product internship.
+🔗 **Live app: [internship-finder-black-five.vercel.app](https://internship-finder-black-five.vercel.app)** · Built by [Titouan](https://github.com/puccioT), a business-school student (EM Lyon) looking for his own Product internship.
 
 ---
 
@@ -72,7 +72,8 @@ npm run dev                                      # http://localhost:3000
 - [x] Real offers from 8 platforms, daily refresh
 - [x] AI extraction, skill normalisation, explainable matching
 - [x] Onboarding, language and start-date filters, application tracker, AI LinkedIn message
-- [ ] Public launch, analytics and user tests
+- [x] Public launch with a nightly refresh (GitHub Actions → Vercel)
+- [ ] Analytics and user tests
 - [ ] Measure AI extraction quality on 50 hand-labelled offers
 - [ ] More sources (Teamtailor, Welcome to the Jungle) and a weekly email digest
 
