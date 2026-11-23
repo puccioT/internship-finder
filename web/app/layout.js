@@ -21,6 +21,13 @@ export default function RootLayout({ children }) {
         <div className="container">
           <Nav />
           {children}
+          <footer className="footer">
+            <p>
+              Offers are collected every day from companies' public career pages (Greenhouse, Lever, Ashby, Workday…)
+              and analysed by AI. Summaries can contain mistakes: always read the full posting and apply on the company's site.
+            </p>
+            <p>Built by Titouan, a business-school student looking for his own internship. Your profile stays in your browser.</p>
+          </footer>
         </div>
       </body>
     </html>

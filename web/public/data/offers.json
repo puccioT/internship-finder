@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T20:05:15+00:00",
+ "generatedAt": "2026-11-23T21:24:49+00:00",
  "roleFamilies": [
   "Product",
   "Data",
@@ -4262,35 +4262,6 @@
    "postedAt": "2026-10-16T06:43:33-04:00"
   },
   {
-   "id": "recruitee:fastned:2783353",
-   "company": "Fastned",
-   "title": "Working Student - Business Support",
-   "city": "Copenhagen",
-   "location": "Copenhagen, Denmark",
-   "country": "Denmark",
-   "contract": "Working student",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Sales & Business Dev",
-   "skills": [
-    "Market analysis",
-    "Business cases",
-    "Excel",
-    "PowerPoint",
-    "Project management"
-   ],
-   "summary": "The intern will support the Network Development team by conducting market and competitor analyses, building business cases, and researching potential new locations. They will also assist the wider Danish team with administrative, analytical, and organizational tasks to help drive growth.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)",
-    "Danish"
-   ],
-   "remote": "Unknown",
-   "url": "https://fastned.recruitee.com/o/working-student-business-support",
-   "firstSeen": "2026-11-20T19:41:59+00:00",
-   "postedAt": "2026-10-14 10:11:19 UTC"
-  },
-  {
    "id": "ashby:billie:02abea78-d78f-4a3f-b1d2-ce38f8714cb8",
    "company": "Billie",
    "title": "Working Student Sales (m/f/d)",
@@ -4700,34 +4671,6 @@
    "postedAt": "2026-11-20T15:09:57.238+00:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000162726645",
-   "company": "Delivery Hero",
-   "title": "Intern Regions Spain",
-   "city": "Las Palmas de Gran Canaria",
-   "location": "Las Palmas de Gran Canaria, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "Account management",
-    "Google Sheets",
-    "Excel",
-    "Data analysis"
-   ],
-   "summary": "The intern will manage a portfolio of food partners by conducting outreach, recommending promotions, and following up on performance. They will also prepare performance reports, business reviews, and operational dashboards to support the account management team.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English",
-    "Spanish"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000162726645",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-20T12:51:55.064Z"
-  },
-  {
    "id": "ashby:proxima-fusion:4c4972b7-4e5f-424d-885e-67fdfe9622d7",
    "company": "Proxima Fusion",
    "title": "International Policy Intern",
@@ -4841,59 +4784,6 @@
    "postedAt": "2026-11-20T07:34:49-05:00"
   },
   {
-   "id": "greenhouse:scandit:8405367",
-   "company": "Scandit",
-   "title": "Associate, Product Engineer (working student)",
-   "city": "Tampere",
-   "location": "Tampere",
-   "country": "Finland",
-   "contract": "Working student",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "Synthetic data",
-    "AI coding tools",
-    "Computer vision"
-   ],
-   "summary": "The intern will build and maintain synthetic data templates and datasets while testing their technical performance and quality. They will also improve Python-based tooling and integrate new AI features for dataset generation, validation, and evaluation.",
-   "startDate": "Unknown",
-   "durationMonths": 12,
-   "languages": [
-    "English (professional)"
-   ],
-   "remote": "On-site",
-   "url": "https://www.scandit.com/careers/job-description/?gh_jid=8405367",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-20T04:26:18-05:00"
-  },
-  {
-   "id": "ashby:wayflyer:0cf09ee7-ba97-42f3-baf0-bebd89400b37",
-   "company": "Wayflyer",
-   "title": "Credit Intern",
-   "city": "Charlotte",
-   "location": "Charlotte, North Carolina",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Finance & Legal",
-   "secondaryFamily": "Sales & Business Dev",
-   "skills": [
-    "Credit analysis",
-    "Financial analysis",
-    "Excel",
-    "Underwriting",
-    "Portfolio management"
-   ],
-   "summary": "The intern will evaluate credit risks for eCommerce businesses, support the underwriting team on live deals, and coordinate customer calls and relationships. They will also analyze loan portfolios and collaborate with sales and operations teams to manage funding decisions.",
-   "startDate": "Unknown",
-   "durationMonths": 2,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://jobs.ashbyhq.com/wayflyer/0cf09ee7-ba97-42f3-baf0-bebd89400b37",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-19T16:32:51.979+00:00"
-  },
-  {
    "id": "greenhouse:deliveroo:8398982",
    "company": "Deliveroo",
    "title": "Software Engineering Summer Internship 2027 (London)",
@@ -4918,33 +4808,6 @@
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8398982",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-11-19T14:19:18-05:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000162507329",
-   "company": "Delivery Hero",
-   "title": "Digital Marketing Intern",
-   "city": "Santa Cruz",
-   "location": "Santa Cruz, BO",
-   "country": "Bolivia",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "Digital marketing",
-    "KPI tracking",
-    "Data segmentation",
-    "Reporting"
-   ],
-   "summary": "The intern will assist in executing digital marketing and retail media strategies, planning online advertising campaigns, and managing client information. They will also validate digital content, prepare performance reports, support data segmentation for campaigns, and help with client billing processes.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (intermediate)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000162507329",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-19T12:46:06.074Z"
   },
   {
    "id": "greenhouse:isaraerospace:5041630101",
@@ -5004,62 +4867,6 @@
    "postedAt": "2026-11-19T11:26:00.072+00:00"
   },
   {
-   "id": "greenhouse:flix:8946825002",
-   "company": "FlixBus",
-   "title": "Business Development Intern",
-   "city": "Lisbon",
-   "location": "Lisbon",
-   "country": "Portugal",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Sales & Business Dev",
-   "skills": [
-    "Excel",
-    "Data analysis",
-    "Competitive benchmarking",
-    "Reporting"
-   ],
-   "summary": "The intern will support administrative and operational processes, including complaints management, database updates, and partner communication. They will also conduct business and marketing analyses for bus routes, including pricing reviews, capacity comparisons, and bus station operations support.",
-   "startDate": "Dec 2026",
-   "durationMonths": 6,
-   "languages": [
-    "Portuguese (native)",
-    "English (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://flix.careers/job/8946825002?gh_jid=8946825002",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-18T16:33:13-05:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000162312919",
-   "company": "Delivery Hero",
-   "title": "Category Management Intern",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Marketing & Growth",
-   "skills": [
-    "Data analysis",
-    "Excel",
-    "Category management",
-    "Operations"
-   ],
-   "summary": "The intern will assist in day-to-day category management operations, including product listings, pricing, and promotions. They will also analyze category performance and resolve invoice discrepancies with suppliers.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Spanish (fluent)",
-    "English (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000162312919",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-18T14:31:26.622Z"
-  },
-  {
    "id": "ashby:enpal:f0cdd84d-bbd8-4841-8e4a-2755181a1bf1",
    "company": "Enpal",
    "title": "Venture Development | AI Engineering - Internship",
@@ -5115,34 +4922,6 @@
    "postedAt": "2026-11-18T10:05:11-05:00"
   },
   {
-   "id": "smartrecruiters:nexthink:744000162081131",
-   "company": "Nexthink",
-   "title": "Credit Management & Cash Collection (Intern)",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Finance & Legal",
-   "secondaryFamily": null,
-   "skills": [
-    "Excel",
-    "Account reconciliation",
-    "Data analysis",
-    "Financial operations",
-    "Accounts receivable"
-   ],
-   "summary": "The intern will support day-to-day collection activities, customer account monitoring, and payment reconciliations to maintain healthy cash flow. They will also analyze aging data, manage customer master data, and collaborate cross-functionally to resolve payment discrepancies.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/nexthink/744000162081131",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-17T13:47:32.056Z"
-  },
-  {
    "id": "ashby:proxima-fusion:e64e8fb6-8c4a-462c-ac0d-c3423df6549a",
    "company": "Proxima Fusion",
    "title": "Strategic Finance Intern",
@@ -5196,31 +4975,6 @@
    "url": "https://job-boards.greenhouse.io/catawiki/jobs/8395157",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-11-17T04:55:42-05:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000161825759",
-   "company": "Delivery Hero",
-   "title": "Logistics Intern",
-   "city": "Guayaquil",
-   "location": "Guayaquil, EC",
-   "country": "Ecuador",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": null,
-   "skills": [
-    "Excel",
-    "Google Sheets",
-    "Logistics operations",
-    "Customer support"
-   ],
-   "summary": "The intern will support the logistics and operations team by assisting with rider onboarding, equipment delivery, and fleet support. They will also manage support tickets, track dispatch metrics, and help identify service improvement opportunities.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000161825759",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-16T14:34:52.850Z"
   },
   {
    "id": "smartrecruiters:deliveryhero:744000161454849",
@@ -5336,61 +5090,6 @@
    "postedAt": "2026-11-12T10:33:04-05:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000161139879",
-   "company": "Delivery Hero",
-   "title": "Account Manager Intern Groceries Spain",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "Account management",
-    "Data analysis",
-    "Reporting",
-    "Business acumen"
-   ],
-   "summary": "The intern will support the team in managing day-to-day operations with top grocery partners and track key account metrics. They will also collaborate cross-functionally and prepare reports and presentations for internal reviews and partner meetings.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English",
-    "Spanish"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000161139879",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-11T18:03:35.857Z"
-  },
-  {
-   "id": "greenhouse:scandit:8379482",
-   "company": "Scandit",
-   "title": "Software Engineering Internship - Tampere 2027",
-   "city": "Tampere",
-   "location": "Tampere",
-   "country": "Finland",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "TypeScript",
-    "PostgreSQL",
-    "Docker",
-    "React",
-    "AWS"
-   ],
-   "summary": "The intern will build and extend backend services, APIs, internal dashboards, and analytics tools while helping maintain data pipelines. They will also write tests, improve automation, and participate in sprint planning, code reviews, and retrospectives.",
-   "startDate": "2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://www.scandit.com/careers/job-description/?gh_jid=8379482",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-11T12:03:51-05:00"
-  },
-  {
    "id": "greenhouse:hellofresh:8371654",
    "company": "HelloFresh",
    "title": "Logistics Operational Excellence Intern",
@@ -5421,58 +5120,6 @@
    "postedAt": "2026-11-11T10:51:31-05:00"
   },
   {
-   "id": "ashby:enpal:e08c0610-9580-43dc-94d9-dccb8582d4c7",
-   "company": "Enpal",
-   "title": "Partnership Development Intern",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "Business development",
-    "Lead generation",
-    "Sales",
-    "CRM"
-   ],
-   "summary": "The intern will conduct market scouting to identify potential strategic partners and reach out to decision makers via cold calling, email, and LinkedIn. They will also manage the sales pipeline, handle initial objections, and support the team in turning business opportunities into active partnerships.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://jobs.ashbyhq.com/enpal/e08c0610-9580-43dc-94d9-dccb8582d4c7",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-11T07:52:17.698+00:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000160871880",
-   "company": "Delivery Hero",
-   "title": "Data Intern",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "Python",
-    "Data analysis",
-    "Machine learning",
-    "A/B testing",
-    "Statistics"
-   ],
-   "summary": "The intern will perform exploratory data analysis and build machine learning models to optimize the product user funnel. They will also design and evaluate A/B tests while communicating insights to stakeholders.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000160871880",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-10T13:40:12.688Z"
-  },
-  {
    "id": "greenhouse:catawiki:8358950",
    "company": "Catawiki",
    "title": "Communications Intern",
@@ -5500,34 +5147,6 @@
    "url": "https://job-boards.greenhouse.io/catawiki/jobs/8358950",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-11-10T03:55:32-05:00"
-  },
-  {
-   "id": "ashby:mollie:168dc355-a15e-4480-ad57-f731658e73ce",
-   "company": "Mollie",
-   "title": "Regional Marketing Intern - Italy (curricular internship)",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "Event management",
-    "Content creation",
-    "Email marketing",
-    "Account-Based Marketing"
-   ],
-   "summary": "The intern will manage regional events and execute localized marketing campaigns, content creation, and email initiatives for the Italian market. They will also coordinate cross-functional projects and support regional marketing operations.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Italian (fluent)",
-    "English (professional)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.ashbyhq.com/mollie/168dc355-a15e-4480-ad57-f731658e73ce",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-09T14:21:16.976+00:00"
   },
   {
    "id": "smartrecruiters:deliveryhero:744000160597029",
@@ -5612,34 +5231,6 @@
    "postedAt": "2026-11-09T05:21:14-05:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000160184049",
-   "company": "Delivery Hero",
-   "title": "Intern Account Management Integrations Global",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": "Strategy & Ops",
-   "skills": [
-    "Excel",
-    "Google Sheets",
-    "Workflow automation",
-    "Data analysis",
-    "APIs"
-   ],
-   "summary": "The intern will support the commercial team with technical operations by optimizing onboarding workflows, troubleshooting integration issues, and coordinating with cross-functional teams. They will also manage global trackers, monitor system performance, and handle API contract billing management.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000160184049",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-06T12:06:58.803Z"
-  },
-  {
    "id": "smartrecruiters:deliveryhero:744000159792689",
    "company": "Delivery Hero",
    "title": "Working Student, Corporate Tax",
@@ -5666,60 +5257,6 @@
    "url": "https://jobs.smartrecruiters.com/deliveryhero/744000159792689",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-11-05T07:09:50.845Z"
-  },
-  {
-   "id": "ashby:babbel:dd520fb8-ede6-4d9f-9423-111e2eb801ac",
-   "company": "Babbel",
-   "title": "Performance Marketing Intern",
-   "city": "New York",
-   "location": "New York",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "Performance marketing",
-    "Excel",
-    "Google Sheets",
-    "Data analysis"
-   ],
-   "summary": "The intern will help run and monitor paid advertising campaigns across multiple digital channels and build performance reports. They will also analyze campaign data, conduct competitor research, and assist with A/B testing on ad creatives and landing pages.",
-   "startDate": "November",
-   "durationMonths": 6,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/babbel/dd520fb8-ede6-4d9f-9423-111e2eb801ac",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-04T13:36:45.121+00:00"
-  },
-  {
-   "id": "smartrecruiters:nexthink:744000159632929",
-   "company": "Nexthink",
-   "title": "Software Engineer (Intern)",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Java",
-    "AI",
-    "Retrieval-Augmented Generation (RAG)",
-    "Kubernetes",
-    "Microservices",
-    "Kafka"
-   ],
-   "summary": "The intern will assist in developing, testing, and optimizing Java-based software solutions using AI techniques. They will participate in agile development processes, including code reviews, feature documentation, and software maintenance alongside senior engineers.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/nexthink/744000159632929",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-04T13:29:58.374Z"
   },
   {
    "id": "greenhouse:hellofresh:8352477",
@@ -5750,62 +5287,6 @@
    "postedAt": "2026-11-04T08:30:15-05:00"
   },
   {
-   "id": "smartrecruiters:nexthink:744000159392102",
-   "company": "Nexthink",
-   "title": "Java Software Engineer (Intern)",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Java",
-    "Microservices",
-    "Kubernetes",
-    "Distributed systems",
-    "SOLID principles"
-   ],
-   "summary": "The intern will assist in developing, testing, and maintaining Java-based software solutions within an agile engineering team. They will also collaborate with senior engineers on tasks, participate in code reviews, and contribute to feature documentation.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/nexthink/744000159392102",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-03T13:56:16.058Z"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000159376449",
-   "company": "Delivery Hero",
-   "title": "Intern, People Generalist",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "People & HR",
-   "secondaryFamily": null,
-   "skills": [
-    "HR administration",
-    "Excel",
-    "Google Sheets",
-    "Data management"
-   ],
-   "summary": "The intern will support day-to-day HR operations, including employee onboarding, offboarding, and benefits administration. They will also manage employee records, assist with payroll coordination, and ensure compliance with Spanish labor legislation.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (professional)",
-    "Spanish (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000159376449",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-03T12:43:37.716Z"
-  },
-  {
    "id": "greenhouse:hellofresh:8349401",
    "company": "HelloFresh",
    "title": "Intern Menu Planning & Ingredients (f/m/x)",
@@ -5833,35 +5314,6 @@
    "url": "https://careers.hellofresh.com/global/en/job/8349401?gh_jid=8349401",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-11-03T07:41:49-05:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000159186209",
-   "company": "Delivery Hero",
-   "title": "Operations Analyst Intern",
-   "city": "Milano",
-   "location": "Milano, IT",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Excel",
-    "SQL",
-    "Data analysis",
-    "Data visualization",
-    "Process optimization"
-   ],
-   "summary": "The intern will manage courier operations in an Italian macro-region by implementing process improvements and optimizing the platform experience. They will also analyze key performance indicators, track operational health, and build data reports to support strategic initiatives.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Italian (professional)",
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000159186209",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-11-02T16:00:34.830Z"
   },
   {
    "id": "ashby:proxima-fusion:9fd42d90-2c8b-4e5c-ac56-b77750329fb7",
@@ -6001,33 +5453,6 @@
    "postedAt": "2026-10-26T10:57:00.764+00:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000157083449",
-   "company": "Delivery Hero",
-   "title": "Intern - Bahrain",
-   "city": "Manama",
-   "location": "Manama, BH",
-   "country": "Bahrain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": null,
-   "skills": [
-    "Project management",
-    "Data analysis",
-    "Operations Management"
-   ],
-   "summary": "The intern will work on live projects across various tracks like operations, marketing, or commercial within a fast-paced global organization. They will collaborate cross-functionally and execute day-to-day tasks to support regional business ecosystems.",
-   "startDate": "Unknown",
-   "durationMonths": 2,
-   "languages": [
-    "English (fluent)",
-    "Arabic (plus)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000157083449",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-22T09:28:55.633Z"
-  },
-  {
    "id": "ashby:enpal:3fb5cf92-4293-4f8c-a605-53342248a791",
    "company": "Enpal",
    "title": "Intern Strategic Projects (w/m/d)",
@@ -6054,119 +5479,6 @@
    "url": "https://jobs.ashbyhq.com/enpal/3fb5cf92-4293-4f8c-a605-53342248a791",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-10-20T17:51:54.518+00:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000156554419",
-   "company": "Delivery Hero",
-   "title": "Intern Brands Ads Global HQ",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": "Marketing & Growth",
-   "skills": [
-    "Excel",
-    "Google Sheets",
-    "Data analysis",
-    "Campaign management",
-    "Lead generation"
-   ],
-   "summary": "The intern will support advertiser acquisition by driving a new inbound sales channel and tracking performance KPIs. They will also manage discount-based marketing campaigns and assist the Commercial Lead with pitch decks and data analysis for global partnerships.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156554419",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-20T13:03:44.756Z"
-  },
-  {
-   "id": "ashby:enpal:ac25e91c-5050-4f43-ac73-e2da942b1df0",
-   "company": "Enpal",
-   "title": "Sales Operations & Pricing Intern",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Finance & Legal",
-   "skills": [
-    "Excel",
-    "Data analysis",
-    "Financial modeling",
-    "Power BI",
-    "SQL",
-    "Python"
-   ],
-   "summary": "The intern will support the Sales Operations team by building and updating pricing models, analyzing margins, and running commercial simulations. They will also help develop go-to-market offers, monitor commercial KPIs, and contribute to cross-functional projects with sales and finance.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (professional)",
-    "Italian (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/enpal/ac25e91c-5050-4f43-ac73-e2da942b1df0",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-20T10:17:19.158+00:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000156490889",
-   "company": "Delivery Hero",
-   "title": "Specialties intern",
-   "city": "Milano",
-   "location": "Milano, IT",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "B2B sales",
-    "Negotiation",
-    "Sales strategy",
-    "Microsoft Office",
-    "Data analysis"
-   ],
-   "summary": "The intern will target and acquire new partners in the Specialties sector to expand Glovo's footprint in Italy. Key responsibilities include presenting solutions, negotiating agreements with decision-makers, and analyzing partner performance post-onboarding.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Italian (proficient)",
-    "English (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156490889",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-20T08:09:22.741Z"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000155970319",
-   "company": "Delivery Hero",
-   "title": "Intern Retail Global HQ",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": null,
-   "skills": [
-    "Data analysis",
-    "Process improvement",
-    "Project management",
-    "Excel",
-    "Performance tracking"
-   ],
-   "summary": "The intern will implement processes and playbooks to support local teams across multiple countries and track key performance metrics. They will also evaluate strategic opportunities through quantitative and qualitative analysis and coordinate cross-department projects.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000155970319",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-16T11:11:20.883Z"
   },
   {
    "id": "ashby:enpal:885f0961-2656-4fe6-9004-a1ee46a67d73",
@@ -6198,62 +5510,6 @@
    "postedAt": "2026-10-16T09:30:35.484+00:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000155809000",
-   "company": "Delivery Hero",
-   "title": "Intern, Marketing (Campaigns) - Academic Internship",
-   "city": "Taguig",
-   "location": "Taguig, PH",
-   "country": "Philippines",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "Campaign management",
-    "Content creation",
-    "Social media",
-    "Project management",
-    "Analytics dashboards"
-   ],
-   "summary": "The intern will support the end-to-end execution of marketing campaigns by managing campaign calendars, trackers, and performance dashboards. They will also coordinate cross-functionally to ensure smooth campaign launches, assist with creative asset QA, and help create short-form video content.",
-   "startDate": "October / November",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000155809000",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-15T16:39:37.257Z"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000154651959",
-   "company": "Delivery Hero",
-   "title": "Data Analyst Intern",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": "Marketing & Growth",
-   "skills": [
-    "SQL",
-    "Python",
-    "Excel",
-    "Looker",
-    "Data analysis"
-   ],
-   "summary": "The intern will analyze the full funnel landscape across paid and organic acquisition channels, while also managing creative assets and campaigns on major ad platforms. Additionally, they will track referral programs, automate reports, and build visualization tools to monitor lead generation performance.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000154651959",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-09T11:26:58.406Z"
-  },
-  {
    "id": "greenhouse:catawiki:8264441",
    "company": "Catawiki",
    "title": "IT Systems & Services Intern",
@@ -6280,34 +5536,6 @@
    "url": "https://job-boards.greenhouse.io/catawiki/jobs/8264441",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-10-08T10:38:25-04:00"
-  },
-  {
-   "id": "greenhouse:isaraerospace:5000652101",
-   "company": "Isar Aerospace",
-   "title": "12 months internship - Propulsion Test Engineer (m/f/d)",
-   "city": "Kiruna",
-   "location": "Kiruna, Norrbotten, Sweden",
-   "country": "Sweden",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Mechanical engineering",
-    "Fluid systems",
-    "Python",
-    "Matlab",
-    "Testing and verification"
-   ],
-   "summary": "The intern will plan and conduct rocket engine test campaigns while ensuring safe operations and maintaining test benches. They will also assist in designing and building test benches for propulsion testing.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "On-site",
-   "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/5000652101",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-08T08:24:28-04:00"
   },
   {
    "id": "greenhouse:traderepublicbank:8015727003",
@@ -6339,35 +5567,6 @@
    "postedAt": "2026-10-07T10:50:24-04:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000154066964",
-   "company": "Delivery Hero",
-   "title": "Intern Talent & Development Global HQ",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Make",
-    "Zapier",
-    "Python",
-    "SQL",
-    "Google Sheets",
-    "Data analysis"
-   ],
-   "summary": "The intern will build automated workflows, dashboards, and AI-powered tools using platforms like Claude and Make to streamline talent development and leadership programs. They will also manage automation projects from scoping to launch to optimize HR operations and internal communications.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000154066964",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-07T10:40:07.417Z"
-  },
-  {
    "id": "greenhouse:traderepublicbank:8014652003",
    "company": "Trade Republic",
    "title": "Talent Acquisition Working Student",
@@ -6394,65 +5593,6 @@
    "url": "https://traderepublic.com/en-de/about?jobId=8014652003&gh_jid=8014652003",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-10-07T05:40:03-04:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000153815878",
-   "company": "Delivery Hero",
-   "title": "Intern Regions Spain",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "Google Sheets",
-    "Excel",
-    "Data analysis",
-    "Account management",
-    "Digital marketing"
-   ],
-   "summary": "The intern will support the Account Management team by collaborating with Food Partners, preparing performance reports, and conducting outreach. They will also create operational dashboards, prepare business reviews, and monitor competitor trends.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)",
-    "Spanish (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000153815878",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-06T16:20:53.912Z"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000153719071",
-   "company": "Delivery Hero",
-   "title": "Intern Account Manager Top Accounts Spain",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": "Strategy & Ops",
-   "skills": [
-    "Data analysis",
-    "Excel",
-    "SQL",
-    "Business intelligence",
-    "Dashboards",
-    "Forecasting"
-   ],
-   "summary": "The intern will build and maintain analytical tools, dashboards, and trackers to support business performance reviews for the XL vertical. They will also monitor KPIs, investigate anomalies, and produce data-driven recommendations and forecasts for commercial leadership.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Spanish (native)",
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000153719071",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-10-06T10:14:54.079Z"
   },
   {
    "id": "ashby:enpal:957f224f-cef5-48cd-887c-0e2d2d822435",
@@ -6539,64 +5679,6 @@
    "postedAt": "2026-09-30T12:07:43.906+00:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000152638469",
-   "company": "Delivery Hero",
-   "title": "Catalog Operations Intern Q-Commerce",
-   "city": "Casablanca",
-   "location": "Casablanca, MA",
-   "country": "Morocco",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Google Sheets",
-    "Google Workspace",
-    "Data analysis",
-    "Category management",
-    "Process improvement"
-   ],
-   "summary": "The intern will enrich and maintain catalog information by managing large datasets in Excel and CSV files to support category management. They will also improve store menus and develop new processes to drive operational efficiency.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000152638469",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-09-30T09:30:44.341Z"
-  },
-  {
-   "id": "greenhouse:deliveroo:8236293",
-   "company": "Deliveroo",
-   "title": "Local Marketing Intern",
-   "city": "Brussels",
-   "location": "Brussels, Belgium",
-   "country": "Belgium",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "CRM",
-    "Localization",
-    "Campaign execution",
-    "Marketing operations",
-    "Google Sheets"
-   ],
-   "summary": "The intern will support the day-to-day execution and localization of marketing campaigns across multiple channels and languages for the Belgian market. They will also provide operational support for CRM campaigns, manage in-app messaging, and perform quality checks on campaign assets.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)",
-    "French (fluent)",
-    "Dutch (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8236293",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-09-29T16:02:34-04:00"
-  },
-  {
    "id": "greenhouse:raisin:4987560101",
    "company": "Raisin",
    "title": "Working Student Deposit Operations (m/f/d)",
@@ -6624,33 +5706,6 @@
    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4987560101",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-09-29T11:23:47-04:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000151793969",
-   "company": "Delivery Hero",
-   "title": "Category Management - Internship",
-   "city": "Milano",
-   "location": "Milano, IT",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Excel",
-    "Google Sheets",
-    "Data analysis",
-    "Category management"
-   ],
-   "summary": "The intern will maintain and enrich product information by managing large datasets in Excel and CSV files. They will also improve category trees and develop new processes to drive operational efficiency.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (professional)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000151793969",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-09-25T08:49:17.229Z"
   },
   {
    "id": "greenhouse:raisin:4953669101",
@@ -6737,35 +5792,6 @@
    "url": "https://jobs.ashbyhq.com/GetYourGuide/a6881808-615e-4e66-99a5-b51794b38785",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-09-17T10:04:36.072+00:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000149604315",
-   "company": "Delivery Hero",
-   "title": "Intern Demand Planning Global HQ",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Finance & Legal",
-   "skills": [
-    "Supply chain",
-    "Data analysis",
-    "Forecasting",
-    "Inventory optimization",
-    "Google Workspace"
-   ],
-   "summary": "The intern will support daily demand planning processes by forecasting product needs, creating purchase orders, and managing supplier replenishment for micro fulfillment centers. They will also monitor supply chain KPIs and prepare strategic analyses to optimize inventory and minimize waste.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Spanish (mandatory)",
-    "English (mandatory)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000149604315",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-09-15T13:33:45.991Z"
   },
   {
    "id": "greenhouse:isaraerospace:4977045101",
@@ -6939,146 +5965,6 @@
    "postedAt": "2026-08-19T05:28:47-04:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000140902719",
-   "company": "Delivery Hero",
-   "title": "Brands Ads Intern",
-   "city": "Milano",
-   "location": "Milano, IT",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Data analysis",
-    "Excel",
-    "Performance tracking",
-    "Process optimization"
-   ],
-   "summary": "The intern will support the Brands Ads team by executing operational tasks, setting up data cleaning processes, and optimizing performance analysis. They will also help categorize and sort product assortments to improve the user shopping experience.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000140902719",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-07-31T12:48:43.312Z"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000140854105",
-   "company": "Delivery Hero",
-   "title": "Intern Key Accounts Italy",
-   "city": "Milano",
-   "location": "Milano, IT",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": "Strategy & Ops",
-   "skills": [
-    "Excel",
-    "Google Sheets",
-    "Data analysis",
-    "Business development",
-    "Account management"
-   ],
-   "summary": "The intern will support the National Account Team in managing and growing top-tier partners by analyzing key metrics and building strong relationships. They will also collaborate with internal teams to drive local success and assist with strategic business development initiatives.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Italian (fluent)",
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000140854105",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-07-31T08:53:27.234Z"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000140708549",
-   "company": "Delivery Hero",
-   "title": "Category Management Intern - Q-Commerce",
-   "city": "Milano",
-   "location": "Milano, IT",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": "Strategy & Ops",
-   "skills": [
-    "Category management",
-    "Pricing analysis",
-    "Assortment optimization",
-    "Data analysis",
-    "Content management"
-   ],
-   "summary": "The intern will manage product categorization, assortment optimization, and dynamic pricing strategies to improve the user shopping experience. They will also define scalable content processes, execute promotions, and collaborate with regional teams.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)",
-    "Italian (fluent)",
-    "Spanish (plus)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000140708549",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-07-30T14:36:01.197Z"
-  },
-  {
-   "id": "greenhouse:helsing:4941957101",
-   "company": "Helsing",
-   "title": "AI Research Intern (PhD) – 3D Computer Vision",
-   "city": "Barcelona; Berlin; London; Munich; Paris",
-   "location": "Barcelona; Berlin; London; Munich; Paris",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "PyTorch",
-    "C++",
-    "Rust",
-    "Computer vision",
-    "Machine learning"
-   ],
-   "summary": "The intern will research, prototype, and evaluate advanced algorithms in spatial perception, localization, and 3D reconstruction for deployable systems. They will also survey state-of-the-art literature and summarize their findings in technical reports and presentations.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://helsing.ai/jobs/4941957101?gh_jid=4941957101",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-07-30T13:19:19-04:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000139910349",
-   "company": "Delivery Hero",
-   "title": "Intern, Talent Acquisition",
-   "city": "Yangon",
-   "location": "Yangon, MM",
-   "country": "Myanmar",
-   "contract": "Stage",
-   "family": "People & HR",
-   "secondaryFamily": null,
-   "skills": [
-    "Recruitment",
-    "Google Workspace",
-    "Onboarding",
-    "HR administration"
-   ],
-   "summary": "The intern will create job advertisements, schedule interviews, and communicate with candidates throughout the recruitment process. Additionally, they will maintain recruitment records using Google Sheets and assist with new hire onboarding.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000139910349",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-07-27T03:22:25.913Z"
-  },
-  {
    "id": "greenhouse:isaraerospace:4930992101",
    "company": "Isar Aerospace",
    "title": "Working Student, POQ (m/f/d)",
@@ -7105,35 +5991,6 @@
    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4930992101",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-07-17T11:13:41-04:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000136526272",
-   "company": "Delivery Hero",
-   "title": "3pl commercial intern Spain",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Data analysis",
-    "Excel",
-    "Dashboards",
-    "Process optimization",
-    "Project management"
-   ],
-   "summary": "The intern will support the Third-Party Logistics team by managing operational initiatives, building streamlined processes, and automating manual tasks. They will also analyze fleet performance data and maintain dashboards to track operational efficiency.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Spanish (native/fluent)",
-    "English (professional)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000136526272",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-07-08T16:50:43.740Z"
   },
   {
    "id": "greenhouse:catawiki:8041201",
@@ -7165,35 +6022,6 @@
    "postedAt": "2026-07-02T03:09:28-04:00"
   },
   {
-   "id": "smartrecruiters:deliveryhero:744000134187639",
-   "company": "Delivery Hero",
-   "title": "Intern",
-   "city": "Tunis",
-   "location": "Tunis, TN",
-   "country": "Tunisia",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "Account management",
-    "Data analysis",
-    "Google Sheets",
-    "SQL",
-    "Negotiation"
-   ],
-   "summary": "The intern will support the growth and management of top and SMB account partners by handling operational tasks, building automated reports, and defining long-term portfolio strategies. They will collaborate with internal departments to create tailored solutions and deliver data-driven insights to improve partner performance.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "French",
-    "English"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000134187639",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-06-25T07:17:03.131Z"
-  },
-  {
    "id": "ashby:enpal:01d697a0-6c0c-4e2e-8bd1-296c71e4494a",
    "company": "Enpal",
    "title": "Growth Intern (w/m/d)",
@@ -7222,63 +6050,6 @@
    "postedAt": "2026-06-24T08:07:18.495+00:00"
   },
   {
-   "id": "ashby:enpal:24ebfa69-5689-49f1-bf69-f7224d6b2ff4",
-   "company": "Enpal",
-   "title": "Automation & Software Developer Intern (f/m/x)",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "SQL",
-    "REST APIs",
-    "Generative AI",
-    "Git",
-    "Docker"
-   ],
-   "summary": "The intern will design and develop internal software tools, automation workflows, and data processing pipelines to optimize supply chain and operations. They will also integrate AI models and APIs, build performance dashboards, and collaborate with cross-functional business stakeholders.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "Italian (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.ashbyhq.com/enpal/24ebfa69-5689-49f1-bf69-f7224d6b2ff4",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-06-23T14:08:47.437+00:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000133574326",
-   "company": "Delivery Hero",
-   "title": "Data Analyst Intern",
-   "city": "Barcelona",
-   "location": "Barcelona, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "Python",
-    "Excel",
-    "Data analysis",
-    "A/B testing"
-   ],
-   "summary": "The intern will support the global logistics team in modeling and reviewing order payment structures using data analysis and experimentation. They will query large datasets, build analytical foundations, track KPIs, and present insights to stakeholders.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000133574326",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-06-23T12:02:55.643Z"
-  },
-  {
    "id": "greenhouse:traderepublicbank:7781222003",
    "company": "Trade Republic",
    "title": "Working Student - Corporate IT & Operations (London/Berlin)",
@@ -7304,61 +6075,6 @@
    "url": "https://traderepublic.com/en-de/about?jobId=7781222003&gh_jid=7781222003",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-06-23T07:40:45-04:00"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000132160454",
-   "company": "Delivery Hero",
-   "title": "Account Manager Intern Groceries Spain",
-   "city": "Madrid",
-   "location": "Madrid, ES",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "Account management",
-    "Data analysis",
-    "Excel",
-    "Reporting"
-   ],
-   "summary": "The intern will support the team in managing daily operations with top grocery partners and tracking key account metrics to identify trends. They will also collaborate cross-functionally and prepare reports and presentations for internal reviews and partner meetings.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "English",
-    "Spanish"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000132160454",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-06-15T10:04:28.383Z"
-  },
-  {
-   "id": "smartrecruiters:deliveryhero:744000126482377",
-   "company": "Delivery Hero",
-   "title": "Internship Program",
-   "city": "Kuala Lumpur",
-   "location": "Kuala Lumpur, MY",
-   "country": "Malaysia",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "SQL",
-    "Python",
-    "Data analysis",
-    "Project management"
-   ],
-   "summary": "The intern will lead an assigned project from inception to completion to solve a business challenge and optimize operations. They will work with high-volume data to influence market strategy and collaborate with cross-functional stakeholders.",
-   "startDate": "Unknown",
-   "durationMonths": 4,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Unknown",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000126482377",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-05-14T08:57:03.804Z"
   },
   {
    "id": "greenhouse:traderepublicbank:7728317003",
@@ -7417,58 +6133,6 @@
    "url": "https://traderepublic.com/en-de/about?jobId=7723561003&gh_jid=7723561003",
    "firstSeen": "2026-11-20T19:24:04+00:00",
    "postedAt": "2026-05-05T04:17:08-04:00"
-  },
-  {
-   "id": "ashby:enpal:dea17df6-a27c-4094-ad94-f6ee163b5ec7",
-   "company": "Enpal",
-   "title": "Inside Sales - Energia Rinnovabile (Stage 6 mesi) | Milano (f/m/x)",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [
-    "CRM",
-    "Sales",
-    "Lead generation"
-   ],
-   "summary": "The intern will present offers to inbound and outbound clients and manage the full sales process from first contact to contract signature. They will also update the company CRM and deepen their knowledge of renewable energy products.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://jobs.ashbyhq.com/enpal/dea17df6-a27c-4094-ad94-f6ee163b5ec7",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-04-08T07:19:49.667+00:00"
-  },
-  {
-   "id": "ashby:enpal:fefe77a4-03ca-4b32-b972-da9a7504c965",
-   "company": "Enpal",
-   "title": "Business Development Operations Intern",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Sales & Business Dev",
-   "skills": [
-    "Excel",
-    "CRM",
-    "Python",
-    "Data analysis",
-    "Process optimization"
-   ],
-   "summary": "The intern will create and optimize operational workflows, automate manual processes, and analyze data to support strategic decisions within the business development team. They will also manage internal and external stakeholder relationships and work on end-to-end automation projects.",
-   "startDate": "Unknown",
-   "durationMonths": 6,
-   "languages": [
-    "Italian (fluent)"
-   ],
-   "remote": "On-site",
-   "url": "https://jobs.ashbyhq.com/enpal/fefe77a4-03ca-4b32-b972-da9a7504c965",
-   "firstSeen": "2026-11-20T19:24:04+00:00",
-   "postedAt": "2026-04-08T07:16:48.349+00:00"
   },
   {
    "id": "greenhouse:hellofresh:7741137",
@@ -8268,57 +6932,6 @@
    "postedAt": "2026-11-17T15:26:08.206000+00:00"
   },
   {
-   "id": "ashby:sunday:fc993997-fb7f-4977-bdff-f09c51d96bf6",
-   "company": "Sunday",
-   "title": "Manufacturing Engineering Intern (Winter 2027)",
-   "city": "Redwood City",
-   "location": "Redwood City, CA",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "CAD",
-    "SolidWorks",
-    "OnShape",
-    "DFM/DFA",
-    "Prototyping",
-    "Manufacturing processes"
-   ],
-   "summary": "The intern will help design, build, and scale manufacturing systems for robots and data collection devices. They will work on mechanical jigs and fixtures, support DFM/DFA efforts, collaborate with vendors, and optimize manufacturing processes.",
-   "startDate": "January 2027",
-   "durationMonths": 4,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://jobs.ashbyhq.com/sunday/fc993997-fb7f-4977-bdff-f09c51d96bf6",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-11-16T19:45:41.110+00:00"
-  },
-  {
-   "id": "lever:heetch:a3f9bfe6-4460-4e07-945b-61708115b105",
-   "company": "Heetch",
-   "title": "Content Manager / Community Manager (Stage)",
-   "city": "Abidjan",
-   "location": "Abidjan",
-   "country": "Ivory Coast",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "Content creation",
-    "Community management",
-    "Social media"
-   ],
-   "summary": "The intern will manage content creation and oversee social media channels to engage the online community. They will also contribute to brand communication and marketing campaigns.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://jobs.lever.co/heetch/a3f9bfe6-4460-4e07-945b-61708115b105",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-11-12T09:42:16.094000+00:00"
-  },
-  {
    "id": "greenhouse:platformsh:8936004002",
    "company": "Platform.sh",
    "title": "Engineering Intern",
@@ -8343,84 +6956,6 @@
    "url": "https://platform.sh/company/careers/job?gh_jid=8936004002",
    "firstSeen": "2026-11-20T10:34:32+00:00",
    "postedAt": "2026-11-11T05:31:27-05:00"
-  },
-  {
-   "id": "ashby:notion:ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9",
-   "company": "Notion",
-   "title": "Product Design Intern (Summer 2027)",
-   "city": "New York",
-   "location": "New York, New York",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Design",
-   "secondaryFamily": null,
-   "skills": [
-    "Figma",
-    "Visual design",
-    "User research",
-    "HTML",
-    "CSS"
-   ],
-   "summary": "The intern will ship features to production, design product concepts, and help craft the details of new product features from initial ideas to visual design. They will also collaborate with engineering, product management, and marketing teams while contributing to the design system.",
-   "startDate": "Summer 2027",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://jobs.ashbyhq.com/notion/ea6f01b1-dda2-4b0f-b351-d3e7c5e9c9e9",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-11-10T19:08:59.709+00:00"
-  },
-  {
-   "id": "ashby:notion:43ffba97-b64a-4c6a-ac13-c803253c9413",
-   "company": "Notion",
-   "title": "Software Engineering Intern, Frontend (Summer 2027)",
-   "city": "New York",
-   "location": "New York, New York",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "React",
-    "TypeScript",
-    "Frontend development",
-    "Web development"
-   ],
-   "summary": "The intern will ship frontend features to real users on Notion’s web client and contribute to shared components and product primitives. They will also optimize web performance, ensure accessibility, and own a scoped project from design to launch.",
-   "startDate": "May 24 or June 14",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-11-06T18:42:11.019+00:00"
-  },
-  {
-   "id": "ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947",
-   "company": "Notion",
-   "title": "Software Engineering Intern, iOS (Summer 2027)",
-   "city": "New York",
-   "location": "New York, New York",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Swift",
-    "TypeScript",
-    "React",
-    "Python",
-    "iOS development",
-    "Rust"
-   ],
-   "summary": "The intern will own and ship a focused iOS platform project to production, improving architecture, testing, and CI/CD. They will work alongside mobile platform and engineering teams to make the iOS ecosystem faster and more efficient for developers.",
-   "startDate": "May 24 or June 14",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-11-06T18:41:27.009+00:00"
   },
   {
    "id": "ashby:voodoo:ec35f065-70a7-4205-83f7-98368adb9388",
@@ -8537,105 +7072,6 @@
    "url": "https://jobs.ashbyhq.com/qonto/92f42c49-04ae-460b-8c35-1654c950285d",
    "firstSeen": "2026-11-20T10:34:32+00:00",
    "postedAt": "2026-10-15T15:06:34.261+00:00"
-  },
-  {
-   "id": "lever:heetch:b8cbc164-a0aa-4f69-bc83-83383357563d",
-   "company": "Heetch",
-   "title": "Stagiaire Business Developer – Croissance Yango Partner",
-   "city": "Abidjan",
-   "location": "Abidjan",
-   "country": "Ivory Coast",
-   "contract": "Stage",
-   "family": "Sales & Business Dev",
-   "secondaryFamily": null,
-   "skills": [],
-   "summary": "The intern will focus on business development and growth for the Yango Partner operations at Heetch. Specific responsibilities and tasks are not further detailed in the offer text.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://jobs.lever.co/heetch/b8cbc164-a0aa-4f69-bc83-83383357563d",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-10-01T16:32:56.881000+00:00"
-  },
-  {
-   "id": "ashby:notion:2b587e66-deac-421a-a824-9415ba78b5a7",
-   "company": "Notion",
-   "title": "Software Engineer Intern, Mobile (Winter 2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, California",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Android SDK",
-    "iOS development",
-    "Kotlin",
-    "Swift",
-    "TypeScript",
-    "React"
-   ],
-   "summary": "The intern will write clean, tested, and documented code to develop innovative features for Android and iOS applications. They will collaborate with the team to enhance app performance, reliability, and optimization.",
-   "startDate": "January 25, 2027",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-09-24T19:58:11.492+00:00"
-  },
-  {
-   "id": "lever:heetch:9423fae2-b334-4bdd-9f53-3e45aa05dc5c",
-   "company": "Heetch",
-   "title": "Stagiaire Operation Agent - Gestionnaire de Flotte VTC (H/F)",
-   "city": "Abidjan",
-   "location": "Abidjan",
-   "country": "Ivory Coast",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": null,
-   "skills": [
-    "Excel",
-    "Logistics",
-    "Fleet management",
-    "Data analysis",
-    "CRM"
-   ],
-   "summary": "The intern will manage the operational and financial performance of a vehicle fleet by tracking rentals, handling collections, and maximizing vehicle availability. They will also coordinate technical maintenance, compliance checks, and driver onboarding to ensure optimal fleet profitability.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://jobs.lever.co/heetch/9423fae2-b334-4bdd-9f53-3e45aa05dc5c",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-09-02T14:13:47.628000+00:00"
-  },
-  {
-   "id": "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
-   "company": "Notion",
-   "title": "Software Engineer Intern (Summer 2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, California",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "TypeScript",
-    "Node.js",
-    "Python",
-    "React",
-    "Software engineering"
-   ],
-   "summary": "The intern will write clean, tested, and documented code across the full stack including web services, databases, and applications. They will design and enhance the Notion product with new AI-first capabilities.",
-   "startDate": "May 2027",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
-   "firstSeen": "2026-11-20T10:34:32+00:00",
-   "postedAt": "2026-08-14T19:07:13.459+00:00"
   },
   {
    "id": "lever:heetch:0496cb72-e0a2-4a74-b146-502d1c11a192",
@@ -8776,192 +7212,6 @@
    "postedAt": "2026-11-18T14:54:17.610+00:00"
   },
   {
-   "id": "greenhouse:shifttechnology:7984415003",
-   "company": "Shift Technology",
-   "title": "Data Science internship (english speaker)",
-   "city": "Brazil",
-   "location": "Brazil - Sao Paulo",
-   "country": "Brazil",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Machine learning",
-    "Applied Mathematics",
-    "Operations research",
-    "Coding"
-   ],
-   "summary": "The intern will create mathematical models and implement algorithms for fraud detection and claim automation while participating in client workshops to gather feedback. They will also continuously work on improving and optimizing the company's AI solutions.",
-   "startDate": "2027",
-   "durationMonths": null,
-   "languages": [
-    "Portuguese (native)",
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7984415003",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-18T11:56:15-05:00"
-  },
-  {
-   "id": "greenhouse:celonis:8198760003",
-   "company": "Celonis",
-   "title": "Summernaut Program - AI & Management Consulting (Value Engineering) Summer Intern",
-   "city": "Raleigh",
-   "location": "Raleigh, US, North Carolina",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "SQL",
-    "Data analysis",
-    "Business intelligence",
-    "Process mining",
-    "Management consulting"
-   ],
-   "summary": "The intern will support Value Engineering teams by analyzing business challenges, building basic analyses and reports using Celonis technology, and exploring process improvement opportunities. They will also assist with customer presentations, shadow technical discussions, and contribute to internal knowledge-sharing and documentation.",
-   "startDate": "June 1st",
-   "durationMonths": 3,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "On-site",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8198760003?gh_jid=8198760003",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-10T04:07:37-05:00"
-  },
-  {
-   "id": "greenhouse:stripe:8332683",
-   "company": "Stripe",
-   "title": "Product Design Intern",
-   "city": "Toronto",
-   "location": "Toronto",
-   "country": "Canada",
-   "contract": "Stage",
-   "family": "Design",
-   "secondaryFamily": null,
-   "skills": [
-    "Figma",
-    "UX/UI design",
-    "Prototyping",
-    "User research",
-    "User-centered design"
-   ],
-   "summary": "The intern will design and build experiences to be shipped to production by contributing to design iterations and prototyping visually polished experiences. They will also partner closely with engineering and cross-functional stakeholders to implement features and gather user feedback.",
-   "startDate": "May 2027",
-   "durationMonths": 4,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8332683",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-05T18:57:43-05:00"
-  },
-  {
-   "id": "greenhouse:stripe:8332681",
-   "company": "Stripe",
-   "title": "Product Design Intern",
-   "city": "San Francisco",
-   "location": "San Francisco, Seattle, New York City",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Design",
-   "secondaryFamily": "Product",
-   "skills": [
-    "UX/UI design",
-    "Figma",
-    "Prototyping",
-    "User-centered design",
-    "User research"
-   ],
-   "summary": "The intern will design and build experiences to be shipped in production, translating business ideas into user-facing product features. They will partner with engineering and product management to develop, prototype, and refine polished design solutions.",
-   "startDate": "May 2027",
-   "durationMonths": 4,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8332681",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-05T18:57:20-05:00"
-  },
-  {
-   "id": "greenhouse:celonis:8078124003",
-   "company": "Celonis",
-   "title": "Intern CCO Enablement & Programs",
-   "city": "Madrid",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": null,
-   "skills": [
-    "Project management",
-    "Program management",
-    "Stakeholder management",
-    "Data analysis",
-    "Process improvement"
-   ],
-   "summary": "The intern will coordinate workshops, enablement sessions, and training programs while managing communication channels and centralized resource hubs. They will also analyze program compliance and produce reports to help scale customer-facing team capabilities and support strategic learning initiatives.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8078124003?gh_jid=8078124003",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-05T10:16:16-05:00"
-  },
-  {
-   "id": "greenhouse:figma:6241542004",
-   "company": "Figma",
-   "title": "PhD Intern, Software Engineer - Interaction Design (2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software development",
-    "Human-computer interaction",
-    "Prototyping",
-    "Coding"
-   ],
-   "summary": "The intern will combine HCI research with hands-on engineering to define the next generation of interactive experience design tooling. They will drive projects applying research insights to product challenges, collaborating with cross-functional teams to develop prototypes and production-ready systems.",
-   "startDate": "Summer 2027",
-   "durationMonths": 4,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://boards.greenhouse.io/figma/jobs/6241542004?gh_jid=6241542004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-04T11:53:19-05:00"
-  },
-  {
-   "id": "greenhouse:celonis:8156996003",
-   "company": "Celonis",
-   "title": "Intern Strategic Program Management",
-   "city": "Madrid",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Project management",
-    "Data analysis",
-    "Financial modeling",
-    "Google Sheets"
-   ],
-   "summary": "The intern will design and conceptualize strategic programs while supporting and overseeing their execution from inception to completion. They will also enable data-driven decision-making and report program progress and outcomes to executive management.",
-   "startDate": "December / January 2026/2027",
-   "durationMonths": 5,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8156996003?gh_jid=8156996003",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-11-03T07:53:38-05:00"
-  },
-  {
    "id": "greenhouse:celonis:8156989003",
    "company": "Celonis",
    "title": "Intern Strategic Program Management",
@@ -8985,138 +7235,6 @@
    "url": "https://job-boards.greenhouse.io/celonis/jobs/8156989003?gh_jid=8156989003",
    "firstSeen": "2026-11-18T22:58:37+00:00",
    "postedAt": "2026-11-03T07:53:36-05:00"
-  },
-  {
-   "id": "greenhouse:stripe:8328662",
-   "company": "Stripe",
-   "title": "PhD Machine Learning Engineer, Intern",
-   "city": "San Francisco",
-   "location": "San Francisco, New York City, Seattle",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Scala",
-    "Spark",
-    "Pandas",
-    "Scikit-learn"
-   ],
-   "summary": "The intern will develop and deploy large-scale machine learning systems, managing the end-to-end process of designing, training, and launching production-scale ML models. They will also collaborate across teams to tackle complex challenges at the intersection of finance, technology, and data.",
-   "startDate": "Summer 2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8328662",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-30T12:19:28-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8333074",
-   "company": "Stripe",
-   "title": "Master's Machine Learning Engineer, Intern",
-   "city": "San Francisco",
-   "location": "San Francisco, New York City, Seattle",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Pandas",
-    "NumPy",
-    "Scikit-learn"
-   ],
-   "summary": "The intern will develop and deploy large-scale machine learning systems, participating in the end-to-end process of designing, training, improving, and launching models. They will write production-scale ML models and collaborate across teams to build financial infrastructure solutions.",
-   "startDate": "Summer 2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8333074",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-30T12:19:26-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8328664",
-   "company": "Stripe",
-   "title": "PhD Machine Learning Engineer, Intern",
-   "city": "Toronto",
-   "location": "Toronto",
-   "country": "Canada",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Scala",
-    "Spark",
-    "Pandas",
-    "NumPy"
-   ],
-   "summary": "The intern will develop and deploy large-scale machine learning systems, managing the end-to-end process of designing, training, and launching ML models. They will write production-scale ML models and collaborate across teams to enhance Stripe's financial infrastructure and products.",
-   "startDate": "Summer 2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8328664",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-30T12:19:24-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8333122",
-   "company": "Stripe",
-   "title": "Master's Machine Learning Engineer, Intern",
-   "city": "Toronto",
-   "location": "Toronto",
-   "country": "Canada",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "Machine learning",
-    "Pandas",
-    "NumPy",
-    "Scikit-learn"
-   ],
-   "summary": "The intern will develop and deploy large-scale machine learning systems, engaging in the end-to-end process of designing, training, improving, and launching ML models. They will write production-scale ML models and collaborate across teams to tackle complex challenges at the intersection of finance and technology.",
-   "startDate": "Summer 2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8333122",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-30T12:19:21-04:00"
-  },
-  {
-   "id": "greenhouse:figma:6238015004",
-   "company": "Figma",
-   "title": "PhD Intern, Security Engineer (2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Security engineering",
-    "Coding",
-    "Security assessments",
-    "Vulnerability analysis",
-    "Threat intelligence"
-   ],
-   "summary": "The intern will perform technical security assessments, code audits, and design reviews while developing solutions to prevent security vulnerabilities. They will also lead security investigations, build detection tooling, and translate threat intelligence into risk reduction actions.",
-   "startDate": "May or June 2027",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://boards.greenhouse.io/figma/jobs/6238015004?gh_jid=6238015004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-28T20:08:03-04:00"
   },
   {
    "id": "greenhouse:celonis:7925721003",
@@ -9148,33 +7266,6 @@
    "postedAt": "2026-10-21T10:25:03-04:00"
   },
   {
-   "id": "greenhouse:figma:6219995004",
-   "company": "Figma",
-   "title": "PhD Intern, Software Engineer - Graphics (2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "C++",
-    "Rust",
-    "OpenGL",
-    "WebGL",
-    "Computer graphics",
-    "Shaders"
-   ],
-   "summary": "The intern will take ownership of a high-impact graphics and rendering project, collaborating with cross-functional teams to develop, validate, and document solutions from prototypes to production-ready systems. They will contribute to domain areas such as optimizing shaders, improving anti-aliasing algorithms, and enhancing media processing capabilities.",
-   "startDate": "May or June 2027",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-13T12:17:57-04:00"
-  },
-  {
    "id": "greenhouse:mirakl:6219180004",
    "company": "Mirakl",
    "title": "Solution Consultant Intern",
@@ -9204,270 +7295,6 @@
    "postedAt": "2026-10-07T12:54:24-04:00"
   },
   {
-   "id": "greenhouse:figma:6207801004",
-   "company": "Figma",
-   "title": "PhD Intern, AI Applied Scientist (2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Machine learning",
-    "Python",
-    "PyTorch",
-    "TensorFlow",
-    "AI"
-   ],
-   "summary": "The intern will drive fundamental and applied research in Generative AI for Figma product use cases and implement new modeling approaches. They will also experiment with novel ideas and explore the boundaries of current technology to develop AI-powered features.",
-   "startDate": "Winter 2027 or Summer 2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://boards.greenhouse.io/figma/jobs/6207801004?gh_jid=6207801004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-05T13:58:07-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8194287",
-   "company": "Stripe",
-   "title": "Data Analyst, Intern",
-   "city": "Toronto",
-   "location": "Toronto",
-   "country": "Canada",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "Data analysis",
-    "A/B testing",
-    "Data visualization",
-    "Data pipelines"
-   ],
-   "summary": "The intern will analyze complex data, run experiments, and build metrics, dashboards, and data pipelines to support business decisions. They will also deliver actionable insights and recommendations through data storytelling to partner teams.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8194287",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-01T11:05:36-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8194285",
-   "company": "Stripe",
-   "title": "PhD Data Scientist, Intern",
-   "city": "Toronto",
-   "location": "Toronto",
-   "country": "Canada",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "R",
-    "SQL",
-    "Spark",
-    "Machine learning",
-    "Statistical modeling"
-   ],
-   "summary": "The intern will apply statistical inference, machine learning, and experimental design to build predictive models and analyze complex datasets. They will also extract actionable business insights, develop data pipelines, and deploy models into production.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8194285",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-01T11:05:33-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8194291",
-   "company": "Stripe",
-   "title": "Data Analyst, Intern",
-   "city": "New York",
-   "location": "New York, Seattle, South San Francisco HQ",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "Data analysis",
-    "A/B testing",
-    "Data visualization",
-    "Data pipelines"
-   ],
-   "summary": "The intern will analyze complex data, run experiments, and build dashboards, reports, and metrics to drive business decisions. They will also build data assets, extend the metrics semantic layer, and deliver actionable recommendations.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8194291",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-01T11:05:29-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8194283",
-   "company": "Stripe",
-   "title": "PhD Data Scientist, Intern",
-   "city": "New York",
-   "location": "New York, Seattle, South San Francisco HQ",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "R",
-    "SQL",
-    "Spark",
-    "Machine learning",
-    "Statistical modeling"
-   ],
-   "summary": "The intern will build and evaluate predictive models, machine learning systems, and data pipelines to detect fraud and manage risk. They will also design experiments, perform statistical analyses, and deliver actionable data-driven recommendations.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8194283",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-10-01T11:05:25-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8241260",
-   "company": "Stripe",
-   "title": "High School Internship, Software Engineering (Summer 2027)",
-   "city": "Seattle",
-   "location": "Seattle, San Francisco",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software development",
-    "Coding",
-    "Testing",
-    "Code review",
-    "Documentation"
-   ],
-   "summary": "The intern will own a scoped engineering project end-to-end, writing, testing, and documenting software for production use. They will also participate in technical design processes and give or receive feedback through code reviews.",
-   "startDate": "May 2027",
-   "durationMonths": 3,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://stripe.com/jobs/search?gh_jid=8241260",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-30T11:38:09-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8186442",
-   "company": "Stripe",
-   "title": "Financial Data Analyst Intern, Technical Operations",
-   "city": "Singapore",
-   "location": "Singapore",
-   "country": "Singapore",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": "Engineering",
-   "skills": [
-    "SQL",
-    "Python",
-    "Ruby",
-    "Data analysis",
-    "Relational databases",
-    "Git"
-   ],
-   "summary": "The intern will analyze financial data, reconciliation accuracy, and payment flows while building production-ready tooling and data quality checks. They will also collaborate with engineers, product managers, and finance stakeholders through code reviews and analysis walkthroughs.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8186442",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-24T17:24:36-04:00"
-  },
-  {
-   "id": "greenhouse:figma:6178851004",
-   "company": "Figma",
-   "title": "Data Engineer Intern (2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "SQL",
-    "Data pipelines",
-    "ETL",
-    "Data warehouse"
-   ],
-   "summary": "The intern will build, test, and document data pipelines and datasets to integrate product and business data into the company's data warehouse. They will also optimize pipeline performance, collaborate with cross-functional teams to deliver data solutions, and own a scoped data engineering project from start to finish.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "On-site",
-   "url": "https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-23T15:30:27-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8186367",
-   "company": "Stripe",
-   "title": "Integration Reliability Engineer Intern, Technical Operations",
-   "city": "Singapore",
-   "location": "Singapore",
-   "country": "Singapore",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "Python",
-    "Ruby",
-    "Go",
-    "Data analysis"
-   ],
-   "summary": "The intern will investigate system problems by examining code and writing SQL queries to understand system behavior and data pipelines. They will write production code for financial data automation and reconciliation tooling, collaborating closely with engineers and stakeholders.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8186367",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-22T15:33:06-04:00"
-  },
-  {
-   "id": "greenhouse:figma:6200626004",
-   "company": "Figma",
-   "title": "PhD Intern, Data Science (2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Python",
-    "R",
-    "SQL",
-    "Machine learning",
-    "Statistics",
-    "Causal inference"
-   ],
-   "summary": "The intern will partner with cross-functional teams to analyze user, product, and business data while designing and evaluating experiments and models. They will also own a focused data science project end-to-end, from problem framing and technical execution to final recommendations.",
-   "startDate": "2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://boards.greenhouse.io/figma/jobs/6200626004?gh_jid=6200626004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-21T13:47:10-04:00"
-  },
-  {
    "id": "greenhouse:figma:6152695004",
    "company": "Figma",
    "title": "Software Engineer Intern (London, United Kingdom) (Summer 2027)",
@@ -9495,192 +7322,6 @@
    "postedAt": "2026-09-14T13:36:24-04:00"
   },
   {
-   "id": "greenhouse:figma:6143238004",
-   "company": "Figma",
-   "title": "Software Engineer Intern (Summer 2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "C++",
-    "JavaScript",
-    "Python",
-    "Java",
-    "Data structures and algorithms"
-   ],
-   "summary": "The intern will be embedded in a collaborative engineering team to build, document, and maintain software features, tests, or infrastructure. They will collaborate with engineers, product managers, designers, and QA to plan timelines, ship projects, and participate in peer code reviews.",
-   "startDate": "Summer 2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-14T13:36:20-04:00"
-  },
-  {
-   "id": "greenhouse:figma:6180005004",
-   "company": "Figma",
-   "title": "Product Design Intern (2027)",
-   "city": "San Francisco",
-   "location": "San Francisco, CA • New York, NY",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Design",
-   "secondaryFamily": null,
-   "skills": [
-    "Visual design",
-    "Interaction design",
-    "Prototyping",
-    "UX research",
-    "Information architecture"
-   ],
-   "summary": "The intern will own end-to-end feature design from ideation to execution and collaborate with cross-functional teams including product and engineering. They will create user flows, prototypes, and high-fidelity visuals while participating in design critiques.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://boards.greenhouse.io/figma/jobs/6180005004?gh_jid=6180005004",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-14T13:36:15-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8130883",
-   "company": "Stripe",
-   "title": "Software Engineer, Intern",
-   "city": "Singapore",
-   "location": "Singapore",
-   "country": "Singapore",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software development",
-    "Computer science fundamentals",
-    "Code review",
-    "System architecture",
-    "Programming"
-   ],
-   "summary": "The intern will write and ship production software, collaborating with engineers and stakeholders on technical design and code reviews. They will own end-to-end projects across the stack, leveraging modern tools and AI to build financial infrastructure features.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8130883",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-07T01:44:20-04:00"
-  },
-  {
-   "id": "greenhouse:celonis:7977884003",
-   "company": "Celonis",
-   "title": "Field Marketing Intern",
-   "city": "New York",
-   "location": "New York, US, New York",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "Event management",
-    "Data analysis",
-    "Copywriting",
-    "Project management",
-    "Campaign reporting"
-   ],
-   "summary": "The intern will support the planning, creation, and execution of marketing activities, including industry events, direct mail campaigns, and webinars. They will also gather and analyze campaign performance data and assist with internal communications and digital copy creation.",
-   "startDate": "January/February 2027",
-   "durationMonths": 4,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7977884003?gh_jid=7977884003",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-02T07:33:28-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8131339",
-   "company": "Stripe",
-   "title": "Operations Associate, Apprenticeship",
-   "city": "Bengaluru",
-   "location": "Bengaluru",
-   "country": "India",
-   "contract": "Alternance",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Sales & Business Dev",
-   "skills": [
-    "Customer support",
-    "Troubleshooting",
-    "Internal tools",
-    "Data analysis",
-    "Research"
-   ],
-   "summary": "The intern will develop a foundational understanding of Stripe products to assist customers and respond to inquiries via email. They will also diagnose and troubleshoot customer issues while maintaining accurate records using internal tools.",
-   "startDate": "January 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "On-site",
-   "url": "https://stripe.com/jobs/search?gh_jid=8131339",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-09-01T00:50:45-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8130805",
-   "company": "Stripe",
-   "title": "Software Engineer, Intern (Summer)",
-   "city": "Toronto",
-   "location": "Toronto",
-   "country": "Canada",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software development",
-    "Ruby",
-    "Java",
-    "Go",
-    "JavaScript",
-    "Scala"
-   ],
-   "summary": "The intern will write production software, own technical projects end to end, and engage in the technical design and code review process. They will collaborate with engineers and cross-functional stakeholders to build solutions impacting Stripe's global users.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8130805",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-08-31T19:21:48-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8130807",
-   "company": "Stripe",
-   "title": "Software Engineer, Intern",
-   "city": "Bucharest",
-   "location": "Bucharest",
-   "country": "Romania",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Programming",
-    "Ruby",
-    "Java",
-    "JavaScript",
-    "Go",
-    "Scala"
-   ],
-   "summary": "The intern will write production software across the tech stack and engage in the technical design process and code reviews. They will own problems end to end and collaborate with engineers and cross-functional stakeholders to build solutions at scale.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8130807",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-08-31T18:56:01-04:00"
-  },
-  {
    "id": "greenhouse:stripe:8130867",
    "company": "Stripe",
    "title": "Software Engineer, Intern",
@@ -9705,32 +7346,6 @@
    "url": "https://stripe.com/jobs/search?gh_jid=8130867",
    "firstSeen": "2026-11-18T22:58:37+00:00",
    "postedAt": "2026-08-31T18:30:38-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8128745",
-   "company": "Stripe",
-   "title": "Software Engineer, Intern (Summer)",
-   "city": "San Francisco",
-   "location": "San Francisco, Seattle, New York City",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software engineering",
-    "Programming",
-    "Computer science",
-    "Code review",
-    "Technical design"
-   ],
-   "summary": "The intern will write production software and contribute to the company codebase across various tech stack domains. They will also participate in technical design processes, code reviews, and cross-functional team discussions.",
-   "startDate": "Summer",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8128745",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-08-31T18:20:45-04:00"
   },
   {
    "id": "greenhouse:celonis:7962340003",
@@ -9814,33 +7429,6 @@
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7813096003?gh_jid=7813096003",
    "firstSeen": "2026-11-18T22:58:37+00:00",
    "postedAt": "2026-07-27T10:44:17-04:00"
-  },
-  {
-   "id": "greenhouse:stripe:8031833",
-   "company": "Stripe",
-   "title": "Software Engineer, Intern",
-   "city": "Bengaluru",
-   "location": "Bengaluru",
-   "country": "India",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software development",
-    "Ruby",
-    "Java",
-    "JavaScript",
-    "Go",
-    "Scala"
-   ],
-   "summary": "The intern will write software used in production and own problems end to end by contributing to Stripe's codebase and working across the technical stack. They will also engage in team discussions, technical design processes, and code reviews.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Unknown",
-   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
-   "firstSeen": "2026-11-18T22:58:37+00:00",
-   "postedAt": "2026-07-10T01:33:52-04:00"
   },
   {
    "id": "greenhouse:celonis:7767090003",
@@ -10059,37 +7647,6 @@
    "postedAt": "2026-11-06T18:20:33.265+00:00"
   },
   {
-   "id": "ashby:backmarket:09ecb805-3072-4e44-a66b-17c4bdb738f5",
-   "company": "Back Market",
-   "title": "Software Engineer Intern",
-   "city": "Barcelona",
-   "location": "Barcelona",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Python",
-    "PostgreSQL",
-    "Git",
-    "SQLAlchemy",
-    "Vue.js",
-    "Docker"
-   ],
-   "summary": "The intern will assist with developing and improving features while writing clean, maintainable, and well-tested code in an agile engineering environment. They will also help investigate bugs, participate in testing and deployment activities, and collaborate with product, design, and data teams.",
-   "startDate": "March/April 2026",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)",
-    "French (plus)",
-    "Spanish (plus)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/backmarket/09ecb805-3072-4e44-a66b-17c4bdb738f5",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-11-06T17:01:22.973+00:00"
-  },
-  {
    "id": "ashby:backmarket:154e6aa0-dbeb-4521-8135-3304118c822b",
    "company": "Back Market",
    "title": "Software Engineer Intern",
@@ -10147,36 +7704,6 @@
    "url": "https://jobs.ashbyhq.com/hcompany/ad445b6c-9054-4d59-a9dd-a9bdde9333f3",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-11-05T14:53:43.118+00:00"
-  },
-  {
-   "id": "ashby:doctolib:0bff3a0b-33d3-4a49-923d-a732858dd3b6",
-   "company": "Doctolib",
-   "title": "Social Media & Creative Intern (x/f/m)",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Marketing & Growth",
-   "secondaryFamily": null,
-   "skills": [
-    "Copywriting",
-    "Social media management",
-    "Video editing",
-    "Graphic design",
-    "Content creation",
-    "Social media analytics"
-   ],
-   "summary": "The intern will support the planning, creation, and execution of social media content across platforms like Instagram, TikTok, and YouTube. They will also assist with community management, content calendar coordination, and performance data analysis.",
-   "startDate": "January",
-   "durationMonths": 6,
-   "languages": [
-    "Italian",
-    "English"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/0bff3a0b-33d3-4a49-923d-a732858dd3b6",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-11-05T10:48:34.083+00:00"
   },
   {
    "id": "ashby:backmarket:ae0b69b8-4051-4a31-a11f-f624be54b4e8",
@@ -10319,34 +7846,6 @@
    "url": "https://job-boards.greenhouse.io/mirakl/jobs/6247172004",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-11-04T08:21:58-05:00"
-  },
-  {
-   "id": "ashby:backmarket:fb5d65f8-3619-46fa-8397-43d9ec1450f6",
-   "company": "Back Market",
-   "title": "Data Analyst Intern",
-   "city": "Barcelona",
-   "location": "Barcelona",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Data",
-   "secondaryFamily": null,
-   "skills": [
-    "SQL",
-    "Data analysis",
-    "Data visualization",
-    "Data modeling",
-    "Omni"
-   ],
-   "summary": "The intern will conduct in-depth data analyses to improve process efficiency and customer satisfaction across operations, while maintaining and improving monitoring tools. They will also collaborate with business stakeholders to provide actionable recommendations and support their data needs.",
-   "startDate": "January 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/backmarket/fb5d65f8-3619-46fa-8397-43d9ec1450f6",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-11-03T14:45:06.890+00:00"
   },
   {
    "id": "ashby:ledger:8147f1f8-bbe5-4c63-b1b6-115eaf6efad2",
@@ -10516,32 +8015,6 @@
    "url": "https://jobs.ashbyhq.com/doctolib/3da5b5b1-3c9f-4463-bd12-addf11af8555",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-10-27T16:24:04.862+00:00"
-  },
-  {
-   "id": "ashby:doctolib:6f4d7079-56c3-4516-bf4b-be0e36030f89",
-   "company": "Doctolib",
-   "title": "Stage - Strategy & Operations (x/f/m) - mars 2027",
-   "city": "Paris",
-   "location": "Paris",
-   "country": "Unknown",
-   "contract": "Stage",
-   "family": "Strategy & Ops",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Data analysis",
-    "Market research",
-    "Quantitative analysis",
-    "Reporting",
-    "Process optimization"
-   ],
-   "summary": "The intern will conduct quantitative analyses, market studies, and internal reporting to support the prevention business. They will also help optimize internal processes and contribute to cross-functional coordination.",
-   "startDate": "March 2027",
-   "durationMonths": 6,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/6f4d7079-56c3-4516-bf4b-be0e36030f89",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-10-27T15:31:10.920+00:00"
   },
   {
    "id": "ashby:doctolib:1a05fc07-99a5-4148-8b34-2b644d9ed030",
@@ -10767,34 +8240,6 @@
    "url": "https://jobs.ashbyhq.com/doctolib/f3605428-4d4f-414c-88d1-787b55518e1c",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-10-12T09:11:57.696+00:00"
-  },
-  {
-   "id": "ashby:doctolib:19f389f4-1374-4c61-ae03-aae839f65bf4",
-   "company": "Doctolib",
-   "title": "Software Engineer Intern - Fullstack (x/f/m) - Milano",
-   "city": "Milan",
-   "location": "Milan",
-   "country": "Italy",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software engineering",
-    "Web development",
-    "TypeScript",
-    "Java",
-    "Python"
-   ],
-   "summary": "The intern will build and own features from design to testing alongside experienced engineers, collaborating with cross-functional teams to develop scalable healthcare tools. They will write clean code and explore new technologies including AI and distributed systems.",
-   "startDate": "March 2027",
-   "durationMonths": 6,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://jobs.ashbyhq.com/doctolib/19f389f4-1374-4c61-ae03-aae839f65bf4",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-10-12T08:41:03.173+00:00"
   },
   {
    "id": "ashby:doctolib:0ec84e52-5047-440c-9a67-e0d0898c9783",
@@ -11534,32 +8979,6 @@
    "postedAt": "2026-09-15T14:04:44.121+00:00"
   },
   {
-   "id": "greenhouse:datadog:8203657",
-   "company": "Datadog",
-   "title": "Research Science Intern (PhD)",
-   "city": "New York",
-   "location": "New York, New York, USA; Pittsburgh, Pennsylvania, USA",
-   "country": "United States",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Machine learning",
-    "Python",
-    "PyTorch",
-    "Data analysis",
-    "GPU computing"
-   ],
-   "summary": "The intern will independently own a research project from framing the question to running experiments and writing up findings. They will collaborate with mentors and faculty advisors to develop foundation models and machine learning systems.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-09-15T13:30:59-04:00"
-  },
-  {
    "id": "ashby:doctolib:379c40cf-24b2-4fdb-b0e1-6afeb91ef252",
    "company": "Doctolib",
    "title": "Stage - Sales Development Representative (x/f/m) - décembre 2026",
@@ -11640,33 +9059,6 @@
    "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-09-08T10:06:46-04:00"
-  },
-  {
-   "id": "greenhouse:datadog:8114161",
-   "company": "Datadog",
-   "title": "Software Engineering Intern",
-   "city": "Madrid",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": null,
-   "skills": [
-    "Software design",
-    "Data structures",
-    "Algorithms",
-    "Distributed systems",
-    "Kubernetes",
-    "Cloud-native infrastructure"
-   ],
-   "summary": "The intern will contribute to production systems and build distributed systems across backend infrastructure and cloud-native services in real time. They will own and deliver technical projects from design through deployment while solving performance and scalability challenges.",
-   "startDate": "February 2027",
-   "durationMonths": null,
-   "languages": [],
-   "remote": "Hybrid",
-   "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-09-08T10:04:29-04:00"
   },
   {
    "id": "greenhouse:datadog:8129799",
@@ -11753,34 +9145,6 @@
    "url": "https://jobs.ashbyhq.com/alan/d457e0f1-2418-4759-b4ed-e41fdff50bf0",
    "firstSeen": "2026-11-15T13:14:08+00:00",
    "postedAt": "2026-08-03T08:33:52.099+00:00"
-  },
-  {
-   "id": "greenhouse:shifttechnology:7794260003",
-   "company": "Shift Technology",
-   "title": "Data Scientist Intern (English Speaker)",
-   "city": "Brazil",
-   "location": "Brazil - Sao Paulo",
-   "country": "Brazil",
-   "contract": "Stage",
-   "family": "Engineering",
-   "secondaryFamily": "Data",
-   "skills": [
-    "Object-oriented programming",
-    "SQL",
-    "Machine learning",
-    "ETL",
-    "Data engineering"
-   ],
-   "summary": "The intern will support the deployment of AI-based fraud detection solutions and help maintain existing production environments for clients. They will also assist with data pipeline optimization, ETL configuration, and feature rollouts in collaboration with technical experts.",
-   "startDate": "Unknown",
-   "durationMonths": null,
-   "languages": [
-    "English (fluent)"
-   ],
-   "remote": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7794260003",
-   "firstSeen": "2026-11-15T13:14:08+00:00",
-   "postedAt": "2026-07-03T11:02:54-04:00"
   },
   {
    "id": "lever:pigment:d025a757-a3df-4ef7-8344-bcd0de83933f",

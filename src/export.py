@@ -12,6 +12,7 @@ proches utilisée par le matching. L'app web lit ce fichier, rien d'autre.
 """
 import json
 import os
+from collections import Counter
 from datetime import datetime, timezone
 
 from src.matching import ROLE_FAMILY_NAMES, SKILL_IMPLIES
@@ -19,6 +20,10 @@ from src.offers import load_prepared_offers
 from src.skills import SKILL_ALIASES, normalize_skill_lists
 
 OUT_PATH = os.path.join("web", "public", "data", "offers.json")
+
+# Pays couverts par l'app (ceux proposés dans les filtres). Les offres ailleurs
+# (Delivery Hero à Milan, Stripe à San Francisco...) sont écartées : hors cible, elles brouillent les stats.
+SUPPORTED_COUNTRIES = {"France", "Germany", "Netherlands", "Ireland", "United Kingdom", "Switzerland"}
 
 
 def clean(value):
@@ -61,6 +66,10 @@ def main():
             "postedAt": clean(r["posted_at"]),
         })
 
+    kept = [o for o in offers if o["country"] in SUPPORTED_COUNTRIES]
+    dropped = Counter(o["country"] or "Unknown" for o in offers if o["country"] not in SUPPORTED_COUNTRIES)
+    offers = kept
+
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "roleFamilies": ROLE_FAMILY_NAMES,
@@ -72,6 +81,8 @@ def main():
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
     print(f"✅ {len(offers)} offres exportées dans {OUT_PATH}")
+    if dropped:
+        print("   Écartées (hors pays couverts) : " + ", ".join(f"{c} {n}" for c, n in dropped.most_common()))
 
 
 if __name__ == "__main__":

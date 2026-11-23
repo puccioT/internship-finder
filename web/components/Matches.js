@@ -104,7 +104,7 @@ export default function Matches({ offers, skillImplies, roleFamilies, generatedA
         <dl className="stats" style={{ flex: "0 1 460px", minWidth: 300 }}>
           <div><dt>offers analysed</dt><dd>{ranked.length}</dd></div>
           <div><dt>strong matches (75+)</dt><dd style={{ color: "var(--accent)" }}>{strong}</dd></div>
-          <div><dt>#1 skill to learn</dt><dd style={{ fontSize: gaps[0]?.skill.length > 14 ? 20 : gaps[0]?.skill.length > 8 ? 24 : 40, overflowWrap: "break-word", lineHeight: 1.1 }}>{gaps[0]?.skill ?? "—"}</dd></div>
+          <div><dt>#1 skill to learn</dt><dd style={{ fontSize: gaps[0]?.skill.length > 14 ? 17 : gaps[0]?.skill.length > 8 ? 24 : 40, overflowWrap: "break-word", hyphens: "auto", lineHeight: 1.1 }}>{gaps[0]?.skill ?? "—"}</dd></div>
         </dl>
       </header>
 

@@ -55,9 +55,9 @@ export default function OfferDetail({ offer, pool, skillImplies }) {
             ))}
           </div>
         </div>
-        <div style={{ flex: "none", display: "flex", alignItems: "center", gap: 28, flexWrap: "wrap" }}>
+        <div style={{ flex: "1 1 auto", display: "flex", alignItems: "center", gap: 28, flexWrap: "wrap", minWidth: 0 }}>
           <ScoreRing score={r.score} size={136} thickness={10} background="var(--bg)" label="out of 100" />
-          <div style={{ display: "flex", flexDirection: "column", gap: 14, width: 210 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 14, flex: "1 1 180px", maxWidth: 240, minWidth: 0 }}>
             <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: 14 }}><span className="muted">Target role</span><b>{r.roleScore}/50</b></div>
               <Bar value={r.roleScore} max={50} />
