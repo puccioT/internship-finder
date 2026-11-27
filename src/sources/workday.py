@@ -77,22 +77,39 @@ def tidy_location(raw):
     return f"{m.group(2).strip()}, {m.group(1).strip()}" if m else raw
 
 
+class WorkdayBlocked(Exception):
+    """Workday refuse nos requêtes (429 persistant) ou le temps alloué est écoulé.
+    On lève une erreur plutôt que de renvoyer une liste incomplète : sinon la collecte
+    croirait que les offres manquantes ont disparu et les marquerait inactives."""
+
+
+_deadline = None   # heure limite pour l'ensemble des grands groupes (voir set_deadline)
+
+
+def set_deadline(seconds):
+    """Temps maximum accordé à Workday pendant une collecte (au-delà : on garde les offres de la veille)."""
+    global _deadline
+    _deadline = time.monotonic() + seconds
+
+
 def _request(client, method, url, **kwargs):
     """
-    Requête "polie" : une pause avant chaque appel, et si Workday répond 429
-    (trop de requêtes), on attend le délai qu'il demande (Retry-After) ou de plus en plus
-    longtemps (30 s, 60 s, 90 s...) avant de réessayer.
+    Requête "polie" : une pause avant chaque appel ; si Workday répond 429 (trop de requêtes),
+    on attend un peu (60 s max) et on réessaie 2 fois. Au-delà, on abandonne cette entreprise
+    pour aujourd'hui (WorkdayBlocked) : ses offres de la veille sont conservées.
     """
-    for attempt in range(5):
+    for attempt in range(3):
+        if _deadline and time.monotonic() > _deadline:
+            raise WorkdayBlocked("temps alloué à Workday écoulé")
         time.sleep(PAUSE_S)
         r = client.request(method, url, **kwargs)
         if r.status_code != 429:
             return r
         retry_after = r.headers.get("Retry-After", "")
-        wait = int(retry_after) if retry_after.isdigit() else 30 * (attempt + 1)
+        wait = min(int(retry_after) if retry_after.isdigit() else 30 * (attempt + 1), 60)
         print(f"    [Workday] trop de requêtes, pause de {wait} s...")
         time.sleep(wait)
-    return r
+    raise WorkdayBlocked("429 Too Many Requests persistant")
 
 
 def search_jobs(client, base, term):
@@ -138,8 +155,9 @@ def fetch_workday(client, slug, company):
 
             # 3. Détail de l'offre : description + lieux exacts
             r = _request(client, "GET", f"{base}{path}")
-            if r.status_code != 200:
-                continue
+            if r.status_code == 404:
+                continue          # offre retirée entre la recherche et le détail
+            r.raise_for_status()  # autre erreur : on abandonne l'entreprise (offres de la veille gardées)
             info = r.json().get("jobPostingInfo") or {}
             locations = [tidy_location(l) for l in [info.get("location") or where, *(info.get("additionalLocations") or [])] if l]
             # Les lieux dans les pays visés passent devant ("NYC / London" -> "London / NYC")

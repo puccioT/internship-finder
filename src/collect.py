@@ -8,10 +8,13 @@ Lancer depuis la racine du projet (à relancer quand tu veux rafraîchir les off
     python -m src.collect
 """
 import csv
+import random
 from concurrent.futures import ThreadPoolExecutor
 
 from src.sources.ats import fetch_company, is_internship
-from src.sources.workday import workday_rows
+import os
+
+from src.sources.workday import set_deadline, workday_rows
 from src.store import connect, now_iso, save_company_offers
 
 COMPANIES_CSV = "data/companies.csv"
@@ -44,9 +47,14 @@ def main():
     # bloquer (429). On les collecte donc un par un, à la fin.
     startups = [c for c in companies if c["ats"] != "workday"]
     big_groups = [c for c in companies if c["ats"] == "workday"]
+    random.shuffle(big_groups)   # si le temps manque, ce ne sont pas toujours les mêmes qui sautent
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(collect_one, startups))
-    print(f"Startups terminées. Grands groupes Workday ({len(big_groups)}), un par un...")
+    # Workday est lent (pauses obligatoires) : on lui accorde un temps maximum. Les entreprises
+    # non traitées à temps gardent leurs offres de la veille et passeront la nuit suivante.
+    budget_min = int(os.getenv("WORKDAY_BUDGET_MIN", "25"))
+    set_deadline(budget_min * 60)
+    print(f"Startups terminées. Grands groupes Workday ({len(big_groups)}), un par un, {budget_min} min max...")
     for row in big_groups:
         print(f"  ... {row['company']}")
         results.append(collect_one(row))

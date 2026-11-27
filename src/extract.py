@@ -14,6 +14,7 @@ Lancer après la collecte :
 Pour TOUT réanalyser (ex. après avoir amélioré le prompt) :
     python -m src.extract --all
 """
+import os
 import sys
 import time
 
@@ -41,10 +42,17 @@ def main():
         print("✅ Toutes les offres actives sont déjà analysées.")
         return
 
+    # Temps maximum (utile sur GitHub Actions) : le reste sera analysé au passage suivant
+    max_min = float(os.getenv("EXTRACT_MAX_MIN", "0")) or None
+    deadline = time.monotonic() + max_min * 60 if max_min else None
+
     print(f"Analyse de {len(todo)} offres par Gemini (~{len(todo) * PAUSE_S // 60 + 1} min)...\n")
     done, failed = 0, []
 
     for i, (source_id, title, company, description, location) in enumerate(todo, 1):
+        if deadline and time.monotonic() > deadline:
+            print(f"\n⏱ Temps écoulé ({max_min:.0f} min) : {len(todo) - i + 1} offres restantes, analysées au prochain passage.")
+            break
         for attempt in range(1, MAX_ATTEMPTS + 1):
             try:
                 info = extract_offer_info(title, company, description, location)
