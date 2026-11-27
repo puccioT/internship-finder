@@ -1,13 +1,13 @@
 # MISE À JOUR AUTOMATIQUE — chaque nuit, sur les serveurs de GitHub (gratuit pour un repo public)
-#   1. collecte les offres  2. les fait lire par Gemini  3. exporte offers.json
-#   4. pousse offers.json sur GitHub -> Vercel redéploie le site tout seul
+#   1. collecte  2. lecture par Gemini des nouvelles offres  3. export  4. publication -> Vercel redéploie
 # La base SQLite (data/offers.db) est gardée d'une nuit à l'autre dans le cache de GitHub Actions.
+# Chaque étape a un temps maximum : si la collecte ou l'IA traîne, on publie quand même ce qui est prêt.
 name: Daily refresh
 
 on:
   schedule:
-    - cron: "17 4 * * *"      # 4h17 UTC = 5h17 à Paris
-  workflow_dispatch:           # bouton "Run workflow"
+    - cron: "17 4 * * *"      # 4h17 UTC (GitHub peut décaler l'heure quand il est chargé)
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,7 +19,9 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 120       # la 1re fois, l'IA lit toutes les offres (~40 min) ; ensuite quelques minutes
+    timeout-minutes: 110
+    env:
+      PYTHONUNBUFFERED: "1"          # affiche les messages au fil de l'eau dans les journaux
     steps:
       - uses: actions/checkout@v4
 
@@ -39,15 +41,19 @@ jobs:
           restore-keys: offers-db-
 
       - name: Collecte
+        timeout-minutes: 40
+        continue-on-error: true
+        env:
+          WORKDAY_BUDGET_MIN: "25"
         run: python -m src.collect
 
       - name: Extraction IA (nouvelles offres seulement)
+        timeout-minutes: 50
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          EXTRACT_MAX_MIN: "40"
         run: python -m src.extract
-
-      - name: Export
-        run: python -m src.export
 
       - name: Sauvegarder la base pour la nuit suivante
         if: always()
@@ -56,8 +62,18 @@ jobs:
           path: data/offers.db
           key: offers-db-${{ github.run_id }}
 
+      - name: Export
+        run: python -m src.export
+
       - name: Publier les nouvelles données
         run: |
+          NEW=$(python -c "import json;print(len(json.load(open('web/public/data/offers.json'))['offers']))")
+          OLD=$(git show HEAD:web/public/data/offers.json | python -c "import json,sys;print(len(json.load(sys.stdin)['offers']))")
+          echo "Offres : $OLD -> $NEW"
+          if [ "$NEW" -lt $(( OLD * 7 / 10 )) ]; then
+            echo "Trop d'offres perdues, publication annulée (la base continue de se remplir pour demain)."
+            exit 0
+          fi
           git config user.name "internship-finder-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add web/public/data/offers.json
@@ -65,6 +81,6 @@ jobs:
             echo "Aucune nouvelle donnée."
             exit 0
           fi
-          git commit -m "Daily refresh: $(date -u +%Y-%m-%d)"
+          git commit -m "Daily refresh: $(date -u +%Y-%m-%d) ($NEW offres)"
           git pull --rebase
           git push
